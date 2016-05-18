@@ -48,6 +48,11 @@
     <SitecoreAssemblyPath>..\packages\Sitecore81Deploy.8.1.160302\lib</SitecoreAssemblyPath>
     <EnableValidations>False</EnableValidations>
     <ValidationSettingsFilePath>.\Elision.Fixtures_Debug.xml</ValidationSettingsFilePath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
     <NuGetGenerateNuGetPackage>True</NuGetGenerateNuGetPackage>
     <NuGetExePath>..\.nuget</NuGetExePath>
     <NuGetSummary />
@@ -67,11 +72,6 @@
     <NuGetLanguage />
     <NuGetRequireLicenseAcceptance>False</NuGetRequireLicenseAcceptance>
     <NuGetDependencies />
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-    <DebugSymbols>false</DebugSymbols>
-    <OutputPath>.\bin\Release\</OutputPath>
-    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
   </PropertyGroup>
   <ItemGroup>
     <AssemblyAttributes Include="AssemblyFileVersion">
