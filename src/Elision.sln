@@ -67,11 +67,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Themes", "Themes", "{9B701B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Themes", "Elision.Themes\Elision.Themes.csproj", "{0B5FDD45-E009-4EE7-8496-3C5E1F4A90AD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tds", ".tds", "{14D6D751-ED20-4ED2-BA0A-2F0793704F11}"
-	ProjectSection(SolutionItems) = preProject
-		.tds\TdsGlobal.config = .tds\TdsGlobal.config
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -88,6 +83,7 @@ Global
 		{5077E4FA-346F-4D64-BCF8-6A4C562F1CDD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FD027CAA-4B4D-4EF7-8BD8-30BFAEC11459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FD027CAA-4B4D-4EF7-8BD8-30BFAEC11459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD027CAA-4B4D-4EF7-8BD8-30BFAEC11459}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A74B7B03-5736-4767-906C-4AE78D284334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A74B7B03-5736-4767-906C-4AE78D284334}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A74B7B03-5736-4767-906C-4AE78D284334}.Release|Any CPU.ActiveCfg = Release|Any CPU

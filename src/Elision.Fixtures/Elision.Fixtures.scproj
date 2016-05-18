@@ -36,7 +36,7 @@
     <OutputPath>.\bin\Debug\</OutputPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
     <PackageName>Elision</PackageName>
-    <GeneratePackage>True</GeneratePackage>
+    <GeneratePackage>False</GeneratePackage>
     <SeperateFilesAndItems>False</SeperateFilesAndItems>
     <PackageExcludeCode>False</PackageExcludeCode>
     <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
@@ -72,6 +72,16 @@
     <NuGetLanguage />
     <NuGetRequireLicenseAcceptance>False</NuGetRequireLicenseAcceptance>
     <NuGetDependencies />
+    <PackageName>Elision</PackageName>
+    <PackageAuthor>Patrick Delancy</PackageAuthor>
+    <PackagePublisher>Patrick Delancy</PackagePublisher>
+    <PackageVersion>8.1.2</PackageVersion>
+    <PackageReadme />
+    <SitecoreAssemblyPath>..\packages\Sitecore81Deploy.8.1.160302\lib</SitecoreAssemblyPath>
+    <GeneratePackage>True</GeneratePackage>
+    <SeperateFilesAndItems>False</SeperateFilesAndItems>
+    <PackageExcludeCode>False</PackageExcludeCode>
+    <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
   </PropertyGroup>
   <ItemGroup>
     <AssemblyAttributes Include="AssemblyFileVersion">
