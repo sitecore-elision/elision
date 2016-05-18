@@ -1,0 +1,40 @@
+<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
+  <sitecore>
+    <!-- This patch file is no longer needed (as of Sitecore 8.1 Update 2), since the functionality has been added to the core system -->
+    <events>
+      
+      <event name="item:added">
+        <!-- Updates all references in the created tree to no longer point to the bucket items, but instead to point to the newly created copy. -->
+        <handler ref="Elision.UpdateReferences.AddFromTemplate, Elision.UpdateReferences" method="OnItemAdded"
+                   factory="ElisionObjectFactory" type="1" />
+      </event>
+      
+    </events>
+
+    <processors>
+      
+      <uiDuplicateItem>
+        <processor mode="on" ref="Elision.UpdateReferences.DuplicateItem, Elision.UpdateReferences" method="Execute"
+                   factory="ElisionObjectFactory" type="1"
+                   patch:instead="*[@type='Sitecore.Buckets.Pipelines.UI.ItemDuplicate, Sitecore.Buckets' and @method='Execute']" />
+      </uiDuplicateItem>
+
+      <uiCopyItems>
+        <processor mode="on" ref="Elision.UpdateReferences.CopyOrCloneItem, Elision.UpdateReferences" method="ProcessFieldValues" factory="ElisionObjectFactory" type="1" />
+      </uiCopyItems>
+
+      <uiCloneItems>
+        <processor mode="on" ref="Elision.UpdateReferences.CopyOrCloneItem, Elision.UpdateReferences" method="ProcessFieldValues" factory="ElisionObjectFactory" type="1" />
+      </uiCloneItems>
+
+    </processors>
+    
+    <settings>
+      
+      <setting name="ItemCloning.NonInheritedFields">
+        <patch:attribute name="value">__Renderings|__Final Renderings</patch:attribute>
+      </setting>
+      
+    </settings>
+  </sitecore>
+</configuration>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Sitecore81Mvc</id>
+    <version>8.1.160302</version>
+    <authors>PatrickDelancy</authors>
+    <owners>PatrickDelancy</owners>
+    <description>Sitecore (Mvc)</description>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.Mvc" version="5.2.3" />
+      <dependency id="Sitecore81Kernel" version="8.1.160302" />
+    </dependencies>
+  </metadata>
+  <files>
+	<file src="bin\Sitecore.*Mvc*.dll" target="lib\net45" />
+  </files>
+</package>

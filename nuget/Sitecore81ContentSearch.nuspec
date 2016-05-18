@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Sitecore81ContentSearch</id>
+    <version>8.1.160302</version>
+    <authors>PatrickDelancy</authors>
+    <owners>PatrickDelancy</owners>
+    <description>Sitecore (ContentSearch)</description>
+    <dependencies>
+      <dependency id="Sitecore81Kernel" version="8.1.160302" />
+    </dependencies>
+  </metadata>
+  <files>
+	<file src="..\bin\Lucene*.dll" target="lib\net45" />
+	<file src="..\bin\Sitecore*ContentSearch*.dll" target="lib\net45" />
+  </files>
+</package>

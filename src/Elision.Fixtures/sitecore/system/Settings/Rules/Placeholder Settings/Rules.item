@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {1D38B82B-6CFD-4F8F-8745-5364DA58107E}
+database: master
+path: /sitecore/system/Settings/Rules/Placeholder Settings/Rules
+parent: {5D73DC9C-0045-4A7A-B016-BE30C16F875E}
+name: Rules
+master: {BDC41FDD-A3AC-4B69-A0BA-471C425CB083}
+template: {8EA2CF67-4250-47A2-AECA-4F70FD200DC7}
+templatekey: Rules Folder
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: aa6cee1f-265e-4dc6-9a0d-92c4be93e7a1
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20150601T162147
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+aa6cee1f-265e-4dc6-9a0d-92c4be93e7a1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20150601T162147:635687725079091285
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

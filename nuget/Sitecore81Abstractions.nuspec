@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Sitecore81Abstractions</id>
+    <version>8.1.160302</version>
+    <authors>PatrickDelancy</authors>
+    <owners>PatrickDelancy</owners>
+    <description>Sitecore (Abstractions)</description>
+  </metadata>
+  <files>
+	<file src="..\bin\Sitecore.*Abstractions*.dll" target="lib\net45" />
+  </files>
+</package>

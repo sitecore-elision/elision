@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Sitecore81Client</id>
+    <version>8.1.160302</version>
+    <authors>PatrickDelancy</authors>
+    <owners>PatrickDelancy</owners>
+    <description>Sitecore (Client)</description>
+    <dependencies>
+      <dependency id="Sitecore81Kernel" version="8.1.160302" />
+    </dependencies>
+  </metadata>
+  <files>
+	<file src="..\bin\Sitecore.Buckets.dll" target="lib\net45" />
+	<file src="..\bin\Sitecore.Buckets.Client.dll" target="lib\net45" />
+	<file src="..\bin\Sitecore.Client.dll" target="lib\net45" />
+	<file src="..\bin\Sitecore.*ExperienceEditor*.dll" target="lib\net45" />
+	<file src="..\bin\Sitecore.*ExperienceExplorer*.dll" target="lib\net45" />
+  </files>
+</package>

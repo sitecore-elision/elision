@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Sitecore81Deploy</id>
+    <version>8.1.160302</version>
+    <authors>PatrickDelancy</authors>
+    <owners>PatrickDelancy</owners>
+    <description>Sitecore (Deploy)</description>
+  </metadata>
+  <files>
+	<file src="..\bin\Lucene.Net.dll" target="lib\net45" />
+	<file src="..\bin\Sitecore.Analytics.dll" target="lib\net45" />
+	<file src="..\bin\Sitecore.Kernel.dll" target="lib\net45" />
+	<file src="..\bin\Sitecore.Logging.dll" target="lib\net45" />
+	<file src="..\bin\Sitecore.nexus.dll" target="lib\net45" />
+	<file src="..\bin\Sitecore.Update.dll" target="lib\net45" />
+	<file src="..\bin\Sitecore.Zip.dll" target="lib\net45" />
+  </files>
+</package>

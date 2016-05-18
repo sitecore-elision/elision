@@ -1,0 +1,75 @@
+----item----
+version: 1
+id: {AADB951B-728C-463C-9409-62FD06768E0E}
+database: master
+path: /sitecore/system/Settings/Rules/Get Compatible Renderings/Rules/Compatible structure renderings
+parent: {47E07926-BF3A-4C60-A586-AD615023D62B}
+name: Compatible structure renderings
+master: {00000000-0000-0000-0000-000000000000}
+template: {D9BDF22F-6E17-47F3-AB64-49C717BA92DA}
+templatekey: Rule
+
+----field----
+field: {908EF45D-4940-4B6A-857D-3739BA4ACF8F}
+name: Rule
+key: rule
+content-length: 1550
+
+<ruleset>
+  <rule uid="{55EB6D0F-4354-4AE1-AEF1-E07B1F20BDF1}" name="Multi-Column Page Layouts">
+    <conditions>
+      <condition id="{AEED9B22-D34D-4CDA-9BE7-E18A89F90A58}" uid="D6CF897401EC4B149A6CFED00067D804" CompareRenderingItemIds="{EA7A7183-84E1-46DA-972F-ED53E11A98D1}|{9B37ED94-6A81-46DC-A155-92D8A4704806}|{C9C5FD33-A47F-40B0-8E52-582940CF7E79}|{C8E28128-2955-4C4B-B61C-6613EFAAAAFC}|{843B03C1-A206-4D32-AF88-CB47DA1E7BC7}|{93BF63F0-E2D4-45BD-8EA4-85DAA244D979}|{E2F7D6F6-F55E-4077-AF00-2CB2826D0E2F}" />
+    </conditions>
+    <actions>
+      <action id="{BA330818-1F5A-4F0C-AAC6-F8966BAEA2AE}" uid="B3E3DEA3EBE2476EA7E3F0D10F4158E1" RenderingIds="{EA7A7183-84E1-46DA-972F-ED53E11A98D1}|{9B37ED94-6A81-46DC-A155-92D8A4704806}|{C9C5FD33-A47F-40B0-8E52-582940CF7E79}|{C8E28128-2955-4C4B-B61C-6613EFAAAAFC}|{843B03C1-A206-4D32-AF88-CB47DA1E7BC7}|{93BF63F0-E2D4-45BD-8EA4-85DAA244D979}|{E2F7D6F6-F55E-4077-AF00-2CB2826D0E2F}" />
+    </actions>
+  </rule>
+  <rule uid="{A64CB7CC-A9C0-48FC-904C-788380B18E62}" name="Multi-Column Inner Layouts">
+    <conditions>
+      <condition id="{AEED9B22-D34D-4CDA-9BE7-E18A89F90A58}" uid="FF7964B4B3D24AC68189D14CD9FBD078" CompareRenderingItemIds="{6F46B839-097F-4943-96DC-A894A4752CBF}|{5875CF31-967A-4EBD-AA6F-60176D6C9C17}" />
+    </conditions>
+    <actions>
+      <action id="{BA330818-1F5A-4F0C-AAC6-F8966BAEA2AE}" uid="D13AFC519FF9491B8ADE0D28DB650AF0" RenderingIds="{6F46B839-097F-4943-96DC-A894A4752CBF}|{5875CF31-967A-4EBD-AA6F-60176D6C9C17}" />
+    </actions>
+  </rule>
+</ruleset>
+----version----
+language: en
+version: 1
+revision: 54a7ccd6-6d8a-416c-aa45-e4d98061892e
+
+----field----
+field: {45CF9130-802A-41BE-B3EB-C02F657DCC2E}
+name: Name
+key: name
+content-length: 31
+
+Compatible structure renderings
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20150529T151459
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+54a7ccd6-6d8a-416c-aa45-e4d98061892e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20150529T152416:635685098568895347
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

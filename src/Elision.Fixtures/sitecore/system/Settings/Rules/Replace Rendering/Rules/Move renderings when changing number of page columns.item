@@ -1,0 +1,129 @@
+----item----
+version: 1
+id: {838CFFC5-73BC-4D72-8A36-529698890828}
+database: master
+path: /sitecore/system/Settings/Rules/Replace Rendering/Rules/Move renderings when changing number of page columns
+parent: {7C5815EB-7E4C-47C4-8224-C68BBC543270}
+name: Move renderings when changing number of page columns
+master: {00000000-0000-0000-0000-000000000000}
+template: {D9BDF22F-6E17-47F3-AB64-49C717BA92DA}
+templatekey: Rule
+
+----field----
+field: {908EF45D-4940-4B6A-857D-3739BA4ACF8F}
+name: Rule
+key: rule
+content-length: 5467
+
+<ruleset>
+  <rule uid="{E8B39952-126D-4AE1-97E6-49FC29ED1E88}" name="Four Columns to Three Columns">
+    <conditions>
+      <and uid="32ED236E5F2D479BA98B8CABDF492921">
+        <condition id="{5FC10D07-85E0-4660-B2E4-B6C42BDDAE43}" uid="98F77558D6134E33AA3AD44D8B1148AC" CompareRenderingItemIds="{E2F7D6F6-F55E-4077-AF00-2CB2826D0E2F}" />
+        <condition id="{2E9204AC-4FDF-4918-826F-D2BF00EF087B}" uid="F2116C50B97341739A717C25A1E4A917" CompareRenderingItemIds="{843B03C1-A206-4D32-AF88-CB47DA1E7BC7}|{93BF63F0-E2D4-45BD-8EA4-85DAA244D979}" />
+      </and>
+    </conditions>
+    <actions>
+      <action id="{CBAEECB3-C462-454D-BA69-0C622BAFBC90}" uid="9D9C25A44B934DDFA19DE1B05D0F404D" SourcePlaceholderKey="secondarymain" TargetPlaceholderKey="main" />
+    </actions>
+  </rule>
+  <rule uid="{3128B7B1-F0A1-4E1B-B08E-BC3009A1005A}" name="Four Columns to Two Columns">
+    <conditions>
+      <and uid="63772351B7444CDB8F6EED1393A74B2F">
+        <condition id="{5FC10D07-85E0-4660-B2E4-B6C42BDDAE43}" uid="AC2EF95D9DEF4E9F82D32DD2769FB1BA" CompareRenderingItemIds="{E2F7D6F6-F55E-4077-AF00-2CB2826D0E2F}" />
+        <condition id="{2E9204AC-4FDF-4918-826F-D2BF00EF087B}" uid="9F0316409925408FBE96B9AEABEA6213" CompareRenderingItemIds="{9B37ED94-6A81-46DC-A155-92D8A4704806}|{C9C5FD33-A47F-40B0-8E52-582940CF7E79}|{C8E28128-2955-4C4B-B61C-6613EFAAAAFC}" />
+      </and>
+    </conditions>
+    <actions>
+      <action id="{CBAEECB3-C462-454D-BA69-0C622BAFBC90}" uid="D406BD9EFD4C481EB64A90A0D5640733" SourcePlaceholderKey="secondaryrail" TargetPlaceholderKey="rail" />
+      <action id="{CBAEECB3-C462-454D-BA69-0C622BAFBC90}" uid="FEDE856ACFBF4A5380F528727B708190" SourcePlaceholderKey="secondarymain" TargetPlaceholderKey="main" />
+    </actions>
+  </rule>
+  <rule uid="{C2A6C949-3CE9-474A-951A-13A4113D1EE9}" name="Four Columns to One Column">
+    <conditions>
+      <and uid="6577F2C94D454FE38B5F21097E961CC2">
+        <condition id="{5FC10D07-85E0-4660-B2E4-B6C42BDDAE43}" uid="F9B233FE780A4ECE94275310F7930BE7" CompareRenderingItemIds="{E2F7D6F6-F55E-4077-AF00-2CB2826D0E2F}" />
+        <condition id="{2E9204AC-4FDF-4918-826F-D2BF00EF087B}" uid="563C2020820D4EFB976206DFF9189386" CompareRenderingItemIds="{EA7A7183-84E1-46DA-972F-ED53E11A98D1}" />
+      </and>
+    </conditions>
+    <actions>
+      <action id="{CBAEECB3-C462-454D-BA69-0C622BAFBC90}" uid="6171143544EE466FA5C34A6E7F6945D6" SourcePlaceholderKey="rail" TargetPlaceholderKey="main" />
+      <action id="{CBAEECB3-C462-454D-BA69-0C622BAFBC90}" uid="4CBA5A752D664F58956EFD4316012A78" SourcePlaceholderKey="secondaryrail" TargetPlaceholderKey="main" />
+      <action id="{CBAEECB3-C462-454D-BA69-0C622BAFBC90}" uid="77549002E978434BB0596006ABB7F490" SourcePlaceholderKey="secondarymain" TargetPlaceholderKey="main" />
+    </actions>
+  </rule>
+  <rule uid="{EDDC54E4-397F-4DFE-935A-BA4D8007D7B7}" name="Three Columns to Two Columns">
+    <conditions>
+      <and uid="7040BBACBB9041D78BE4EF38EDB66520">
+        <condition id="{5FC10D07-85E0-4660-B2E4-B6C42BDDAE43}" uid="BEC2E9AFEEE34477A7EF1C771059CF54" CompareRenderingItemIds="{843B03C1-A206-4D32-AF88-CB47DA1E7BC7}|{93BF63F0-E2D4-45BD-8EA4-85DAA244D979}" />
+        <condition id="{2E9204AC-4FDF-4918-826F-D2BF00EF087B}" uid="FD5535AC059F40CB902D9405CF40CD9D" CompareRenderingItemIds="{9B37ED94-6A81-46DC-A155-92D8A4704806}|{C9C5FD33-A47F-40B0-8E52-582940CF7E79}|{C8E28128-2955-4C4B-B61C-6613EFAAAAFC}" />
+      </and>
+    </conditions>
+    <actions>
+      <action id="{CBAEECB3-C462-454D-BA69-0C622BAFBC90}" uid="AB1019DE8E2D4064A9D6A1D97EFDA058" SourcePlaceholderKey="secondaryrail" TargetPlaceholderKey="rail" />
+    </actions>
+  </rule>
+  <rule uid="{66EBA7B5-988C-4B34-9A92-78CAB82B4C7E}" name="Three Columns to One Column">
+    <conditions>
+      <and uid="295F07CC87894F22B628003401AD5CE0">
+        <condition id="{5FC10D07-85E0-4660-B2E4-B6C42BDDAE43}" uid="A8F739767893426DA5988797A20E8672" CompareRenderingItemIds="{843B03C1-A206-4D32-AF88-CB47DA1E7BC7}|{93BF63F0-E2D4-45BD-8EA4-85DAA244D979}" />
+        <condition id="{2E9204AC-4FDF-4918-826F-D2BF00EF087B}" uid="0F9FDB22E0254E4DBFF39C7C5EE2A47B" CompareRenderingItemIds="{EA7A7183-84E1-46DA-972F-ED53E11A98D1}" />
+      </and>
+    </conditions>
+    <actions>
+      <action id="{CBAEECB3-C462-454D-BA69-0C622BAFBC90}" uid="EBFE01B2FE204368A573A1652745D564" SourcePlaceholderKey="rail" TargetPlaceholderKey="main" />
+      <action id="{CBAEECB3-C462-454D-BA69-0C622BAFBC90}" uid="1C35F987DC144AB980C2F4E9C682E010" SourcePlaceholderKey="secondaryrail" TargetPlaceholderKey="main" />
+    </actions>
+  </rule>
+  <rule uid="{CCC0CE6F-7123-48EF-89C2-AA830F6D4625}" name="Two Columns to One Column">
+    <actions>
+      <action id="{CBAEECB3-C462-454D-BA69-0C622BAFBC90}" uid="4D5AABEBD0F1426699CBF4541DF2B708" SourcePlaceholderKey="rail" TargetPlaceholderKey="main" />
+    </actions>
+    <conditions>
+      <and uid="44AF255840C941A2B630D614093DC55C">
+        <condition id="{5FC10D07-85E0-4660-B2E4-B6C42BDDAE43}" uid="E3B4BB66CF244860BFDD28153D964A37" CompareRenderingItemIds="{9B37ED94-6A81-46DC-A155-92D8A4704806}|{C9C5FD33-A47F-40B0-8E52-582940CF7E79}|{C8E28128-2955-4C4B-B61C-6613EFAAAAFC}" />
+        <condition id="{2E9204AC-4FDF-4918-826F-D2BF00EF087B}" uid="1D2AF2C9164E491291A120808A386675" CompareRenderingItemIds="{EA7A7183-84E1-46DA-972F-ED53E11A98D1}" />
+      </and>
+    </conditions>
+  </rule>
+</ruleset>
+----version----
+language: en
+version: 1
+revision: 07390d82-9175-4a62-acdb-8ef142ad7462
+
+----field----
+field: {45CF9130-802A-41BE-B3EB-C02F657DCC2E}
+name: Name
+key: name
+content-length: 52
+
+Move renderings when changing number of page columns
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150303T060824Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+07390d82-9175-4a62-acdb-8ef142ad7462
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20150529T135348:635685044288780158
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

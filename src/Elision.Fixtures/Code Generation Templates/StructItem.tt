@@ -1,0 +1,69 @@
+<#@ template language="C#" #><#@
+	output encoding="utf-8"#><#@
+	include file="..\..\.tds\codegen\Helpers.tt" #><#@
+	include file="..\..\.tds\codegen\StringExtensions.tt" #><#@
+	include file="..\..\.tds\codegen\GeneralExtensions.tt" #><#@
+	include file="..\..\.tds\codegen\Inflector.tt" #><#@ 
+
+	assembly name="System.Core.dll" #><#@
+	import namespace="System" #><#@
+	import namespace="System.Text" #><#@
+	import namespace="System.Linq" #><#@
+	import namespace="System.Collections.Generic" #><#@
+	import namespace="HedgehogDevelopment.SitecoreProject.VSIP.CodeGeneration.Models" #><#@
+	parameter name="Model" type="HedgehogDevelopment.SitecoreProject.VSIP.CodeGeneration.Models.SitecoreItem" #><#@
+	parameter name="DefaultNamespace" type="System.String" #><#
+
+
+SitecoreTemplate template = Model as SitecoreTemplate;
+if (Model.TemplateName == "Controller rendering") { 
+#>
+namespace <#= GetNamespace(DefaultNamespace, Model) #>
+{
+    public partial struct Renderings {
+        public partial struct <#= AsClassName(Model.Parent.Name) #>
+        {
+            public static readonly ID <#= AsClassName(Model.Name) #> = new ID("<#= Model.ID.ToString("B").ToUpper() #>");
+        }
+    }
+}
+<#
+}
+else if (Model.TemplateName == "Edit Frame Button Folder") {
+#>
+namespace <#= GetNamespace(DefaultNamespace, Model) #>
+{
+    public partial struct EditFrameButtons {
+        public static readonly ID <#= AsClassName(Model.Name) #> = new ID("<#= Model.ID.ToString("B").ToUpper() #>");
+    }
+}
+<#
+}
+else if (template != null)
+{
+var templateFields = GetFieldsForTemplate(template, true);
+#>
+namespace <#= GetNamespace(DefaultNamespace, template) #> {
+	public partial struct Templates {
+	    public struct <#= AsClassName(template.Name) #>
+		{
+			public static readonly ID TemplateId = new ID("<#= template.ID.ToString("B").ToUpper() #>");
+			public const string Name = "<#= template.Name #>";
+<# if (templateFields.Any()) { #>
+            public struct FieldIds {<#
+        foreach(SitecoreField field in templateFields) { #>
+                public static readonly ID <#= GetPropertyName(field) #> = new ID("<#=field.ID.ToString("B").ToUpper()#>");<#
+        } #>
+			}
+
+			public struct FieldNames
+            {<#
+        foreach(SitecoreField field in templateFields) { #>
+                public const string <#= GetPropertyName(field) #> = "<#=field.Name#>";<#
+        } #>
+		    }
+<# } #>
+		}
+    }
+}<#
+} #>
