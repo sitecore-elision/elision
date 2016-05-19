@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package>
   <metadata>
-    <id>Elision</id>
+    <id>Sitecore.Elision</id>
     <version>$version$</version>
-    <title>Elision</title>
+    <title>Sitecore Elision</title>
     <authors>PatrickDelancy</authors>
     <owners>PatrickDelancy</owners>
     <projectUrl>https://github.com/sitecore-elision/elision</projectUrl>

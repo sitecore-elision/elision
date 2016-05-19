@@ -59,7 +59,7 @@
     <NuGetDescription>TDS Item Fixtures for Sitecore Development Accelerator Framework</NuGetDescription>
     <NuGetTitle>Elision TDS Fixtures</NuGetTitle>
     <NuGetVersion>1.0.0.0</NuGetVersion>
-    <NuGetPackageId>Elision.Fixtures</NuGetPackageId>
+    <NuGetPackageId>Sitecore.Elision.Fixtures</NuGetPackageId>
     <NuGetAuthors>PatrickDelancy</NuGetAuthors>
     <NuGetOwners>PatrickDelancy</NuGetOwners>
     <NuGetCopyright />
