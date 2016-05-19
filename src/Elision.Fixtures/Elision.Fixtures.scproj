@@ -57,9 +57,9 @@
     <NuGetExePath>..\.nuget</NuGetExePath>
     <NuGetSummary />
     <NuGetDescription>TDS Item Fixtures for Sitecore Development Accelerator Framework</NuGetDescription>
-    <NuGetTitle>Sitecore Elision TDS Fixtures</NuGetTitle>
+    <NuGetTitle>Elision TDS Fixtures</NuGetTitle>
     <NuGetVersion>1.0.0.0</NuGetVersion>
-    <NuGetPackageId>Sitecore.Elision.Fixtures</NuGetPackageId>
+    <NuGetPackageId>Elision.Fixtures</NuGetPackageId>
     <NuGetAuthors>PatrickDelancy</NuGetAuthors>
     <NuGetOwners>PatrickDelancy</NuGetOwners>
     <NuGetCopyright />
@@ -67,7 +67,7 @@
     </NuGetLicenseUrl>
     <NuGetIconUrl />
     <NuGetProjectUrl>https://github.com/sitecore-elision/elision</NuGetProjectUrl>
-    <NuGetTags>sitecore sitecore8 framework elision</NuGetTags>
+    <NuGetTags>sitecore elision</NuGetTags>
     <NuGetReleaseNotes />
     <NuGetLanguage />
     <NuGetRequireLicenseAcceptance>False</NuGetRequireLicenseAcceptance>
