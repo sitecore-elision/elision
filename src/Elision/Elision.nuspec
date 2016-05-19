@@ -8,7 +8,7 @@
     <owners>PatrickDelancy</owners>
     <projectUrl>https://github.com/sitecore-elision/elision</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description></description>
+    <description>$description$</description>
     <releaseNotes></releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>sitecore elision</tags>
