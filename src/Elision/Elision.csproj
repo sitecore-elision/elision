@@ -155,7 +155,7 @@
     <Content Include="Areas\Elision\Views\web.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Elision.dev.nuspec" />
+    <None Include="Elision.nuspec.dev" />
     <None Include="Elision.nuspec" />
     <None Include="packages.config" />
     <Content Include="Areas\Elision\Views\Resource\BodyBottom.cshtml" />
