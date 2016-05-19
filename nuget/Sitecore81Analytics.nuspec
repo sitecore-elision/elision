@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Sitecore81Analytics</id>
+    <version>8.1.160302</version>
+    <authors>PatrickDelancy</authors>
+    <owners>PatrickDelancy</owners>
+    <description>Sitecore (Analytics)</description>
+    <dependencies>
+      <dependency id="Sitecore81Kernel" version="8.1.160302" />
+    </dependencies>
+  </metadata>
+  <files>
+	<file src="..\bin\Sitecore.*Analytics*.dll" target="lib\net45" />
+  </files>
+</package>
