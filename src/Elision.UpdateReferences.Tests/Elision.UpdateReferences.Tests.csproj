@@ -167,7 +167,7 @@
       <HintPath>..\packages\Sitecore81Kernel.8.1.0\lib\net45\Sitecore.Kernel.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Sitecore.ListManagement.ContentSearch, Version=1.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Sitecore.ListManagement.ContentSearch, Version=1.1.3.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Sitecore81ContentSearch.8.1.0\lib\net45\Sitecore.ListManagement.ContentSearch.dll</HintPath>
       <Private>True</Private>
     </Reference>
@@ -179,7 +179,7 @@
       <HintPath>..\packages\Sitecore81Client.8.1.0\lib\net45\Sitecore.Mvc.ExperienceEditor.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="sitecore.nexus, Version=1.0.0.4404, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="sitecore.nexus, Version=1.0.0.4407, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Sitecore81Deploy.8.1.0\lib\net45\sitecore.nexus.dll</HintPath>
       <Private>True</Private>
     </Reference>

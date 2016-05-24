@@ -67,7 +67,7 @@
       <HintPath>..\packages\Sitecore81Deploy.8.1.0\lib\net45\Sitecore.Logging.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="sitecore.nexus, Version=1.0.0.4404, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="sitecore.nexus, Version=1.0.0.4407, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Sitecore81Deploy.8.1.0\lib\net45\sitecore.nexus.dll</HintPath>
       <Private>True</Private>
     </Reference>
