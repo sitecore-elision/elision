@@ -109,6 +109,7 @@ UpgradeLog*.htm
 # Hedgehog TDS cache and temporary files
 T4RenderCache/
 BuiltFiles_*.txt
+TdsGlobal.config
 
 # Sitecore files
 license.xml
