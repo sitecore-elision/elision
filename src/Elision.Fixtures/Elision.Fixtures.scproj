@@ -77,7 +77,7 @@
     <PackagePublisher>Patrick Delancy</PackagePublisher>
     <PackageVersion>8.1.2</PackageVersion>
     <PackageReadme />
-    <SitecoreAssemblyPath>..\packages\Sitecore81Deploy.8.1.160302\lib</SitecoreAssemblyPath>
+    <SitecoreAssemblyPath>..\packages\Sitecore81Deploy.8.1.0\lib\net45</SitecoreAssemblyPath>
     <GeneratePackage>True</GeneratePackage>
     <SeperateFilesAndItems>False</SeperateFilesAndItems>
     <PackageExcludeCode>False</PackageExcludeCode>

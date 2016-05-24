@@ -31,7 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Sitecore.Kernel, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Kernel.8.1.160302\lib\Sitecore.Kernel.dll</HintPath>
+      <HintPath>..\packages\Sitecore81Kernel.8.1.0\lib\net45\Sitecore.Kernel.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
