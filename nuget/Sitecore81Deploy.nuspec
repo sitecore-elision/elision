@@ -2,18 +2,18 @@
 <package>
   <metadata>
     <id>Sitecore81Deploy</id>
-    <version>8.1.160302</version>
+    <version>8.1</version>
     <authors>PatrickDelancy</authors>
     <owners>PatrickDelancy</owners>
     <description>Sitecore (Deploy)</description>
   </metadata>
   <files>
-	<file src="..\bin\Lucene.Net.dll" target="lib\net45" />
-	<file src="..\bin\Sitecore.Analytics.dll" target="lib\net45" />
-	<file src="..\bin\Sitecore.Kernel.dll" target="lib\net45" />
-	<file src="..\bin\Sitecore.Logging.dll" target="lib\net45" />
-	<file src="..\bin\Sitecore.nexus.dll" target="lib\net45" />
-	<file src="..\bin\Sitecore.Update.dll" target="lib\net45" />
-	<file src="..\bin\Sitecore.Zip.dll" target="lib\net45" />
+	<file src="..\sitecore\Lucene.Net.dll" target="lib\net45" />
+	<file src="..\sitecore\Sitecore.Analytics.dll" target="lib\net45" />
+	<file src="..\sitecore\Sitecore.Kernel.dll" target="lib\net45" />
+	<file src="..\sitecore\Sitecore.Logging.dll" target="lib\net45" />
+	<file src="..\sitecore\Sitecore.nexus.dll" target="lib\net45" />
+	<file src="..\sitecore\Sitecore.Update.dll" target="lib\net45" />
+	<file src="..\sitecore\Sitecore.Zip.dll" target="lib\net45" />
   </files>
 </package>

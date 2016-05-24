@@ -113,6 +113,9 @@ BuiltFiles_*.txt
 # Sitecore files
 license.xml
 *.sitecore
+sitecore/
+!sitecore/*.enc
+!sitecore/readme.txt
 
 # Windows Thumbs db and MacOS generated files
 Thumbs.db

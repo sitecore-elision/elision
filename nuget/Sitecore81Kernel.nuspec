@@ -2,12 +2,12 @@
 <package >
   <metadata>
     <id>Sitecore81Kernel</id>
-    <version>8.1.160302</version>
+    <version>8.1</version>
     <authors>PatrickDelancy</authors>
     <owners>PatrickDelancy</owners>
     <description>Sitecore (Kernel)</description>
   </metadata>
   <files>
-	<file src="..\bin\Sitecore.Kernel.dll" target="lib\net45" />
+	<file src="..\sitecore\Sitecore.Kernel.dll" target="lib\net45" />
   </files>
 </package>
