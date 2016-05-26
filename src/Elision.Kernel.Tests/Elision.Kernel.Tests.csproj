@@ -32,12 +32,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="FluentAssertions, Version=4.2.2.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a, processorArchitecture=MSIL">
-      <HintPath>..\packages\FluentAssertions.4.2.2\lib\net45\FluentAssertions.dll</HintPath>
+    <Reference Include="FluentAssertions, Version=4.6.3.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentAssertions.4.6.3\lib\net45\FluentAssertions.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="FluentAssertions.Core, Version=4.2.2.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a, processorArchitecture=MSIL">
-      <HintPath>..\packages\FluentAssertions.4.2.2\lib\net45\FluentAssertions.Core.dll</HintPath>
+    <Reference Include="FluentAssertions.Core, Version=4.6.3.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentAssertions.4.6.3\lib\net45\FluentAssertions.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Lucene.Net, Version=3.0.3.0, Culture=neutral, PublicKeyToken=85089178b9ac3181, processorArchitecture=MSIL">
@@ -58,8 +58,8 @@
       <HintPath>..\packages\Sitecore81Deploy.8.1.0\lib\net45\Sitecore.Analytics.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Sitecore.FakeDb, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.FakeDb.1.0.1\lib\net45\Sitecore.FakeDb.dll</HintPath>
+    <Reference Include="Sitecore.FakeDb, Version=1.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.FakeDb.1.1.1\lib\net45\Sitecore.FakeDb.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Kernel, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -188,6 +188,10 @@
     <ProjectReference Include="..\Elision.Rules\Elision.Rules.csproj">
       <Project>{104f9aef-a043-46c9-a4ee-05b3691390d2}</Project>
       <Name>Elision.Rules</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Seo\Elision.Seo.csproj">
+      <Project>{6c94a34f-ff7a-4331-9e5e-c6eab94bb20b}</Project>
+      <Name>Elision.Seo</Name>
     </ProjectReference>
     <ProjectReference Include="..\Elision.TabbedRenderingSelector\Elision.TabbedRenderingSelector.csproj">
       <Project>{d0f6210b-ff18-45c1-966a-d74c43a414d7}</Project>

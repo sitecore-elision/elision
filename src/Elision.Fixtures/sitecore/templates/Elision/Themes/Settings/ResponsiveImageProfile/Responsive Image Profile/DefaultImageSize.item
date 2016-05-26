@@ -8,6 +8,7 @@ name: DefaultImageSize
 master: {00000000-0000-0000-0000-000000000000}
 template: {455A3E98-A627-4B40-8035-E683A0331AC7}
 templatekey: Template field
+created: 20160524T191423:635997140636630000
 
 ----field----
 field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}

@@ -1,0 +1,28 @@
+﻿@using Elision
+@model Elision.Seo.Areas.Elision.Models.PageMetadataModel
+<title>@Model.BrowserTitle</title>
+<meta property="og:site_name" content="@Model.OgSiteName" />
+<meta property="og:type" content="@Model.OgType.Or("website")" />
+<meta property="og:title" content="@Model.OgTitle.Or(Model.BrowserTitle)" />
+<meta property="og:description" content="@Model.OgDescription.Or(Model.MetaDescription)" />
+@if (Model.OgImage != null)
+{
+    <meta property="og:image" content="@Model.OgImage.Url" />
+    <meta property="og:image:type" content="@Model.OgImage.MimeType" />
+    <meta property="og:image:width" content="@Model.OgImage.Width" />
+    <meta property="og:image:height" content="@Model.OgImage.Height" />
+}
+<meta property="og:url" content="@Model.CanonicalUrl.Or(Model.Url)" />
+@if (!string.IsNullOrWhiteSpace(Model.CanonicalUrl))
+{
+    <link rel="canonical" href="@Model.CanonicalUrl" />
+}
+<meta name="keywords" content="@Model.MetaKeywords" />
+<meta name="description" content="@Model.MetaDescription.Or(Model.OgDescription)" />
+<meta http-equiv="content-language" content="@Model.Language" />
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<meta http-equiv="last-modified" content="@Model.LastModified.ToUniversalTime().ToString("yyyy-MM-dd@HH:mm:ss Z")" />
+@if (!string.IsNullOrWhiteSpace(Model.RobotsMeta))
+{
+    <meta name="robots" content="@Model.RobotsMeta" />
+}

@@ -1,0 +1,34 @@
+<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
+  <sitecore>
+    
+    <pipelines>
+      
+      <httpRequestBegin>
+        <processor type="Elision.Seo.Pipelines.HttpRequestBegin.MissingItemExecuteRequest, Elision.Seo"
+                   patch:instead="processor[@type='Sitecore.Pipelines.HttpRequest.ExecuteRequest, Sitecore.Kernel']" />
+      </httpRequestBegin>
+      
+    </pipelines>
+    
+    <settings>
+      <setting name="Elision.ErrorPagesResponseCache" value="50MB" />
+      
+      
+      <!--<setting name="ErrorPage" value="/sitecore/service/error.aspx"/>-->
+      <setting name="ErrorPageManaged" value="/error"/>
+      <!--<setting name="ItemNotFoundUrl" value="/sitecore/service/notfound.aspx"/>-->
+      <setting name="ItemNotFoundUrlErrorCode" value="404"/>
+      <setting name="ItemNotFoundUrlManaged" value="/404"/>
+      <!--<setting name="LayoutNotFoundUrl" value="/sitecore/service/nolayout.aspx"/>-->
+      <setting name="LayoutNotFoundUrlErrorCode" value="500"/>
+      <setting name="LayoutNotFoundUrlManaged" value="/nolayout"/>
+      <!--<setting name="LinkItemNotFoundUrl" value="/sitecore/service/notfound.aspx"/>-->
+      <setting name="LinkItemNotFoundUrlErrorCode" value="404"/>
+      <setting name="LinkItemNotFoundUrlManaged" value="/404"/>
+      <!--<setting name="NoAccessUrl" value="/sitecore/service/noaccess.aspx"/>-->
+      <setting name="NoAccessUrlErrorCode" value="403"/>
+      <setting name="NoAccessUrlManaged" value="/noaccess"/>
+    </settings>
+
+  </sitecore>
+</configuration>

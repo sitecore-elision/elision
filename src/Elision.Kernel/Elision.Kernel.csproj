@@ -53,6 +53,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core.cs" />
     <Compile Include="Diagnostics\ProfileOperation.cs" />
     <Compile Include="Diagnostics\TraceOperation.cs" />
     <Compile Include="Extensions\DatasourceExtensions.cs" />

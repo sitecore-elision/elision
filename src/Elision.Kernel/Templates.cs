@@ -11,6 +11,19 @@ using Sitecore.Data;
 //------------------------------------------------------------------------------
 namespace Elision {
 	public partial struct Templates {
+	    public struct _TwitterCardsMeta
+		{
+			public static readonly ID TemplateId = new ID("{035D7D88-5A24-41D8-8D5F-CDDFF0397295}");
+			public const string Name = "_TwitterCardsMeta";
+            public struct FieldIds {                public static readonly ID TwitterCardContentCreator = new ID("{F4DED7B3-8B6F-46D8-902C-1C119BDA1699}");                public static readonly ID TwitterCardDescription = new ID("{5B3DD1A3-40F8-42BE-900E-53FA38195AF1}");                public static readonly ID TwitterCardImage = new ID("{BA3C147E-035B-478F-829B-FE233775648F}");                public static readonly ID TwitterCardSite = new ID("{BA005D3B-393D-4594-8508-70A503925DCD}");                public static readonly ID TwitterCardSiteId = new ID("{217988BC-4DDE-4B44-A688-DFB8F69C6061}");                public static readonly ID TwitterCardTitle = new ID("{0181FE49-A838-496D-8690-935282E599F3}");                public static readonly ID TwitterCardType = new ID("{579ED843-06B5-4E31-9B98-0D4B12E418AB}");			}
+
+			public struct FieldNames
+            {                public const string TwitterCardContentCreator = "TwitterCardContentCreator";                public const string TwitterCardDescription = "TwitterCardDescription";                public const string TwitterCardImage = "TwitterCardImage";                public const string TwitterCardSite = "TwitterCardSite";                public const string TwitterCardSiteId = "TwitterCardSiteId";                public const string TwitterCardTitle = "TwitterCardTitle";                public const string TwitterCardType = "TwitterCardType";		    }
+		}
+    }
+}
+namespace Elision {
+	public partial struct Templates {
 	    public struct ThemeEmbeddedResource
 		{
 			public static readonly ID TemplateId = new ID("{06234046-5BC2-4457-87C2-6B09EBB797D3}");
@@ -55,6 +68,28 @@ namespace Elision
 }
 namespace Elision {
 	public partial struct Templates {
+	    public struct _OpenGraphMeta
+		{
+			public static readonly ID TemplateId = new ID("{359D47A4-7DD7-465B-9060-04020CC90386}");
+			public const string Name = "_OpenGraphMeta";
+            public struct FieldIds {                public static readonly ID OgDescription = new ID("{475A8C93-A6CB-4D6B-A288-58FD09FB7A18}");                public static readonly ID OgImage = new ID("{F046BEA2-BB06-4CEB-B87D-2F1A28A6D101}");                public static readonly ID OgSiteName = new ID("{15D1129E-D78D-4EE4-A005-0CC1617A5F4D}");                public static readonly ID OgTitle = new ID("{9CE2BFC9-04C1-429C-B388-152506E97078}");                public static readonly ID OgType = new ID("{4E4F0C39-6B77-43F5-AB56-8AEFAA395819}");			}
+
+			public struct FieldNames
+            {                public const string OgDescription = "OgDescription";                public const string OgImage = "OgImage";                public const string OgSiteName = "OgSiteName";                public const string OgTitle = "OgTitle";                public const string OgType = "OgType";		    }
+		}
+    }
+}
+namespace Elision
+{
+    public partial struct Renderings {
+        public partial struct Seo
+        {
+            public static readonly ID TwitterCardMeta = new ID("{422BF485-564D-460D-8F7A-E708C4DA9118}");
+        }
+    }
+}
+namespace Elision {
+	public partial struct Templates {
 	    public struct Template_Field
 		{
 			public static readonly ID TemplateId = new ID("{455A3E98-A627-4B40-8035-E683A0331AC7}");
@@ -63,6 +98,28 @@ namespace Elision {
 
 			public struct FieldNames
             {                public const string HideWithStandardFields = "HideWithStandardFields";		    }
+		}
+    }
+}
+namespace Elision
+{
+    public partial struct Renderings {
+        public partial struct Seo
+        {
+            public static readonly ID PageMetadata = new ID("{459D9770-0CDE-4865-9E46-6A73836A9BB1}");
+        }
+    }
+}
+namespace Elision {
+	public partial struct Templates {
+	    public struct _PageMetaFields
+		{
+			public static readonly ID TemplateId = new ID("{6F0FABD4-47AB-461A-959E-B4D292EE01E5}");
+			public const string Name = "_PageMetaFields";
+            public struct FieldIds {                public static readonly ID BlockSearchEngineIndexing = new ID("{0ED18C8B-E06A-4F49-8F9E-8346F1A3294C}");                public static readonly ID BlockSearchEngineLinkFollowing = new ID("{7FB8D83D-C981-49D9-B352-953E5C6BE7CF}");                public static readonly ID BrowserTitle = new ID("{D6CB41B5-9467-4C42-95AC-B62584A1F5F0}");                public static readonly ID BrowserTitleSuffix = new ID("{8E87381A-CCA5-4EC4-98B4-CC39023C6503}");                public static readonly ID CanonicalUrl = new ID("{C0AD316F-EEC8-494D-A30A-356C10E8853E}");                public static readonly ID MetaDescription = new ID("{D62C4448-2E23-4393-939D-F489DCFB881E}");                public static readonly ID MetaKeywords = new ID("{DEAD7283-98C8-4AB8-924E-0DEB00858EFB}");			}
+
+			public struct FieldNames
+            {                public const string BlockSearchEngineIndexing = "BlockSearchEngineIndexing";                public const string BlockSearchEngineLinkFollowing = "BlockSearchEngineLinkFollowing";                public const string BrowserTitle = "BrowserTitle";                public const string BrowserTitleSuffix = "BrowserTitleSuffix";                public const string CanonicalUrl = "CanonicalUrl";                public const string MetaDescription = "MetaDescription";                public const string MetaKeywords = "MetaKeywords";		    }
 		}
     }
 }
@@ -155,6 +212,15 @@ namespace Elision
 }
 namespace Elision {
 	public partial struct Templates {
+	    public struct TwitterCardType
+		{
+			public static readonly ID TemplateId = new ID("{A42909C1-539E-46E4-9F1F-DB999603D6DE}");
+			public const string Name = "TwitterCardType";
+		}
+    }
+}
+namespace Elision {
+	public partial struct Templates {
 	    public struct RenderingFolderWithArea
 		{
 			public static readonly ID TemplateId = new ID("{ACC5FB47-950F-45FA-A6A7-15C1C681CBA7}");
@@ -220,10 +286,10 @@ namespace Elision {
 		{
 			public static readonly ID TemplateId = new ID("{D5950FBE-F4A5-45CB-BD88-6EE0B8BEEC54}");
 			public const string Name = "_ContentPage";
-            public struct FieldIds {                public static readonly ID PageBodyTopScript = new ID("{451F49E1-52E1-4622-B113-20970AAAABAC}");                public static readonly ID PageFootScript = new ID("{A3644CDE-C5EA-4521-82C6-0D85D1CFEA8C}");                public static readonly ID PageHeadScript = new ID("{C6D8E03E-B82B-4D2C-93C9-8170249F1E02}");			}
+            public struct FieldIds {                public static readonly ID PageBodyTopScript = new ID("{451F49E1-52E1-4622-B113-20970AAAABAC}");                public static readonly ID PageFootScript = new ID("{A3644CDE-C5EA-4521-82C6-0D85D1CFEA8C}");                public static readonly ID PageHeadScript = new ID("{C6D8E03E-B82B-4D2C-93C9-8170249F1E02}");                public static readonly ID BlockSearchEngineIndexing = new ID("{0ED18C8B-E06A-4F49-8F9E-8346F1A3294C}");                public static readonly ID BlockSearchEngineLinkFollowing = new ID("{7FB8D83D-C981-49D9-B352-953E5C6BE7CF}");                public static readonly ID BrowserTitle = new ID("{D6CB41B5-9467-4C42-95AC-B62584A1F5F0}");                public static readonly ID BrowserTitleSuffix = new ID("{8E87381A-CCA5-4EC4-98B4-CC39023C6503}");                public static readonly ID CanonicalUrl = new ID("{C0AD316F-EEC8-494D-A30A-356C10E8853E}");                public static readonly ID MetaDescription = new ID("{D62C4448-2E23-4393-939D-F489DCFB881E}");                public static readonly ID MetaKeywords = new ID("{DEAD7283-98C8-4AB8-924E-0DEB00858EFB}");                public static readonly ID TwitterCardContentCreator = new ID("{F4DED7B3-8B6F-46D8-902C-1C119BDA1699}");                public static readonly ID TwitterCardDescription = new ID("{5B3DD1A3-40F8-42BE-900E-53FA38195AF1}");                public static readonly ID TwitterCardImage = new ID("{BA3C147E-035B-478F-829B-FE233775648F}");                public static readonly ID TwitterCardSite = new ID("{BA005D3B-393D-4594-8508-70A503925DCD}");                public static readonly ID TwitterCardSiteId = new ID("{217988BC-4DDE-4B44-A688-DFB8F69C6061}");                public static readonly ID TwitterCardTitle = new ID("{0181FE49-A838-496D-8690-935282E599F3}");                public static readonly ID TwitterCardType = new ID("{579ED843-06B5-4E31-9B98-0D4B12E418AB}");			}
 
 			public struct FieldNames
-            {                public const string PageBodyTopScript = "PageBodyTopScript";                public const string PageFootScript = "PageFootScript";                public const string PageHeadScript = "PageHeadScript";		    }
+            {                public const string PageBodyTopScript = "PageBodyTopScript";                public const string PageFootScript = "PageFootScript";                public const string PageHeadScript = "PageHeadScript";                public const string BlockSearchEngineIndexing = "BlockSearchEngineIndexing";                public const string BlockSearchEngineLinkFollowing = "BlockSearchEngineLinkFollowing";                public const string BrowserTitle = "BrowserTitle";                public const string BrowserTitleSuffix = "BrowserTitleSuffix";                public const string CanonicalUrl = "CanonicalUrl";                public const string MetaDescription = "MetaDescription";                public const string MetaKeywords = "MetaKeywords";                public const string TwitterCardContentCreator = "TwitterCardContentCreator";                public const string TwitterCardDescription = "TwitterCardDescription";                public const string TwitterCardImage = "TwitterCardImage";                public const string TwitterCardSite = "TwitterCardSite";                public const string TwitterCardSiteId = "TwitterCardSiteId";                public const string TwitterCardTitle = "TwitterCardTitle";                public const string TwitterCardType = "TwitterCardType";		    }
 		}
     }
 }
@@ -259,10 +325,10 @@ namespace Elision {
 		{
 			public static readonly ID TemplateId = new ID("{E9B6FBA3-AF11-429B-9709-CEDD0087E57D}");
 			public const string Name = "_HomePage";
-            public struct FieldIds {                public static readonly ID PageBodyTopScript = new ID("{451F49E1-52E1-4622-B113-20970AAAABAC}");                public static readonly ID PageFootScript = new ID("{A3644CDE-C5EA-4521-82C6-0D85D1CFEA8C}");                public static readonly ID PageHeadScript = new ID("{C6D8E03E-B82B-4D2C-93C9-8170249F1E02}");                public static readonly ID SiteBodyTopScript = new ID("{F21C2621-329A-4D5A-AAC1-475DA8CE8954}");                public static readonly ID SiteFootScript = new ID("{52E994D5-E743-4DD6-9B86-60C7D170ED72}");                public static readonly ID SiteHeadScript = new ID("{332BEBEB-F4E8-4078-A9CE-F718E69EC974}");                public static readonly ID Theme = new ID("{F318342F-A549-47F7-BD88-25086B46B9D9}");			}
+            public struct FieldIds {                public static readonly ID PageBodyTopScript = new ID("{451F49E1-52E1-4622-B113-20970AAAABAC}");                public static readonly ID PageFootScript = new ID("{A3644CDE-C5EA-4521-82C6-0D85D1CFEA8C}");                public static readonly ID PageHeadScript = new ID("{C6D8E03E-B82B-4D2C-93C9-8170249F1E02}");                public static readonly ID BlockSearchEngineIndexing = new ID("{0ED18C8B-E06A-4F49-8F9E-8346F1A3294C}");                public static readonly ID BlockSearchEngineLinkFollowing = new ID("{7FB8D83D-C981-49D9-B352-953E5C6BE7CF}");                public static readonly ID BrowserTitle = new ID("{D6CB41B5-9467-4C42-95AC-B62584A1F5F0}");                public static readonly ID BrowserTitleSuffix = new ID("{8E87381A-CCA5-4EC4-98B4-CC39023C6503}");                public static readonly ID CanonicalUrl = new ID("{C0AD316F-EEC8-494D-A30A-356C10E8853E}");                public static readonly ID MetaDescription = new ID("{D62C4448-2E23-4393-939D-F489DCFB881E}");                public static readonly ID MetaKeywords = new ID("{DEAD7283-98C8-4AB8-924E-0DEB00858EFB}");                public static readonly ID TwitterCardContentCreator = new ID("{F4DED7B3-8B6F-46D8-902C-1C119BDA1699}");                public static readonly ID TwitterCardDescription = new ID("{5B3DD1A3-40F8-42BE-900E-53FA38195AF1}");                public static readonly ID TwitterCardImage = new ID("{BA3C147E-035B-478F-829B-FE233775648F}");                public static readonly ID TwitterCardSite = new ID("{BA005D3B-393D-4594-8508-70A503925DCD}");                public static readonly ID TwitterCardSiteId = new ID("{217988BC-4DDE-4B44-A688-DFB8F69C6061}");                public static readonly ID TwitterCardTitle = new ID("{0181FE49-A838-496D-8690-935282E599F3}");                public static readonly ID TwitterCardType = new ID("{579ED843-06B5-4E31-9B98-0D4B12E418AB}");                public static readonly ID SiteBodyTopScript = new ID("{F21C2621-329A-4D5A-AAC1-475DA8CE8954}");                public static readonly ID SiteFootScript = new ID("{52E994D5-E743-4DD6-9B86-60C7D170ED72}");                public static readonly ID SiteHeadScript = new ID("{332BEBEB-F4E8-4078-A9CE-F718E69EC974}");                public static readonly ID Theme = new ID("{F318342F-A549-47F7-BD88-25086B46B9D9}");			}
 
 			public struct FieldNames
-            {                public const string PageBodyTopScript = "PageBodyTopScript";                public const string PageFootScript = "PageFootScript";                public const string PageHeadScript = "PageHeadScript";                public const string SiteBodyTopScript = "SiteBodyTopScript";                public const string SiteFootScript = "SiteFootScript";                public const string SiteHeadScript = "SiteHeadScript";                public const string Theme = "Theme";		    }
+            {                public const string PageBodyTopScript = "PageBodyTopScript";                public const string PageFootScript = "PageFootScript";                public const string PageHeadScript = "PageHeadScript";                public const string BlockSearchEngineIndexing = "BlockSearchEngineIndexing";                public const string BlockSearchEngineLinkFollowing = "BlockSearchEngineLinkFollowing";                public const string BrowserTitle = "BrowserTitle";                public const string BrowserTitleSuffix = "BrowserTitleSuffix";                public const string CanonicalUrl = "CanonicalUrl";                public const string MetaDescription = "MetaDescription";                public const string MetaKeywords = "MetaKeywords";                public const string TwitterCardContentCreator = "TwitterCardContentCreator";                public const string TwitterCardDescription = "TwitterCardDescription";                public const string TwitterCardImage = "TwitterCardImage";                public const string TwitterCardSite = "TwitterCardSite";                public const string TwitterCardSiteId = "TwitterCardSiteId";                public const string TwitterCardTitle = "TwitterCardTitle";                public const string TwitterCardType = "TwitterCardType";                public const string SiteBodyTopScript = "SiteBodyTopScript";                public const string SiteFootScript = "SiteFootScript";                public const string SiteHeadScript = "SiteHeadScript";                public const string Theme = "Theme";		    }
 		}
     }
 }
