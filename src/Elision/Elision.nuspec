@@ -15,5 +15,6 @@
   </metadata>
   <files>
     <file src="bin\*\**\*.*" target="content" />
+    <file src="App_Config\**\*.example" target="content\App_Config" />
   </files>
 </package>

@@ -14,7 +14,6 @@
 	parameter name="Model" type="HedgehogDevelopment.SitecoreProject.VSIP.CodeGeneration.Models.SitecoreItem" #><#@
 	parameter name="DefaultNamespace" type="System.String" #><#
 
-
 SitecoreTemplate template = Model as SitecoreTemplate;
 if (Model.TemplateName == "Controller rendering") { 
 #>
@@ -25,6 +24,18 @@ namespace <#= GetNamespace(DefaultNamespace, Model) #>
     {
         public partial struct <#= AsClassName(Model.Parent.Name) #>
         {
+            /// <summary>
+<#          if (AsClassName(Model.Name) != Model.Name) { #>
+            /// The <#=Model.Name#> rendering.
+<#          } #>
+<#          if (!string.IsNullOrWhiteSpace(GetValue(Model.SitecoreFields, "__Short description"))) { #>
+            /// <para><#= GetValue(Model.SitecoreFields, "__Short description") #></para>
+<#          } #>
+            /// <list type="table">
+            ///     <item><term>Rendering ID:</term><description><#=Model.ID.ToString("B").ToUpper()#></description></item>
+            ///     <item><term>Path:</term><description><#=Model.Path#></description></item>
+            /// </list>
+            /// </summary>
             public static readonly ID <#= AsClassName(Model.Name) #> = new ID("<#= Model.ID.ToString("B").ToUpper() #>");
         }
     }
@@ -38,6 +49,18 @@ namespace <#= GetNamespace(DefaultNamespace, Model) #>
 {
     public partial struct EditFrameButtons
     {
+        /// <summary>
+<#      if (AsClassName(Model.Name) != Model.Name) { #>
+        /// The <#=Model.Name#> Edit frame button group.
+<#      } #>
+<#      if (!string.IsNullOrWhiteSpace(GetValue(Model.SitecoreFields, "__Short description"))) { #>
+        /// <para><#= GetValue(Model.SitecoreFields, "__Short description") #></para>
+<#      } #>
+        /// <list type="table">
+        ///     <item><term>ID:</term><description><#=Model.ID.ToString("B").ToUpper()#></description></item>
+        ///     <item><term>Path:</term><description><#=Model.Path#></description></item>
+        /// </list>
+        /// </summary>
         public static readonly ID <#= AsClassName(Model.Name) #> = new ID("<#= Model.ID.ToString("B").ToUpper() #>");
     }
 }
@@ -45,13 +68,25 @@ namespace <#= GetNamespace(DefaultNamespace, Model) #>
 }
 else if (template != null)
 {
-var templateFields = GetFieldsForTemplate(template, true);
+var templateFields = GetFieldsForTemplate(template, true).Distinct().OrderBy(x => x.Name).ToArray();
 #>
 
 namespace <#= GetNamespace(DefaultNamespace, template) #>
 {
 	public partial struct Templates
     {
+        /// <summary>
+<#      if (AsClassName(template.Name) != template.Name) { #>
+        /// The <#=template.Name#> template.
+<#      } #>
+<#      if (!string.IsNullOrWhiteSpace(GetValue(template.SitecoreFields, "__Short description"))) { #>
+        /// <para><#= GetValue(template.SitecoreFields, "__Short description") #></para>
+<#      } #>
+        /// <list type="table">
+        ///     <item><term>Template ID:</term><description><#=template.ID.ToString("B").ToUpper()#></description></item>
+        ///     <item><term>Path:</term><description><#=template.Path#></description></item>
+        /// </list>
+        /// </summary>
         public struct <#= AsClassName(template.Name) #>
         {
             public static readonly ID TemplateId = new ID("<#= template.ID.ToString("B").ToUpper() #>");
@@ -61,6 +96,25 @@ namespace <#= GetNamespace(DefaultNamespace, template) #>
             public struct FieldIds
             {
 <#              foreach(SitecoreField field in templateFields) { #>
+                /// <summary>
+<#              if (GetPropertyName(field) != field.Name) { #>
+                /// The <#=field.Name#> field.
+<#              } #>
+<#              if (!string.IsNullOrWhiteSpace(GetValue(field.SitecoreFields, "__Short description"))) { #>
+                /// <para><#= GetValue(field.SitecoreFields, "__Short description")#></para>
+<#              } #>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description><#=field.Type#></description></item>
+                ///     <item><term>Field ID:</term><description><#=field.ID.ToString("B").ToUpper()#></description></item>
+                ///     <item><term>Path:</term><description><#= field.Path #></description></item>
+                /// </list>
+<#              if (!template.Fields.Any(x => x.ID == field.ID)) { #>
+                /// <para>This is an inherited template field</para>
+<#              } #>
+<#              if (!string.IsNullOrWhiteSpace(field.Data)) { #>
+                /// <para>Custom Data: <#=field.Data#></para>
+<#              } #>
+                /// </summary>
                 public static readonly ID <#= GetPropertyName(field) #> = new ID("<#=field.ID.ToString("B").ToUpper()#>");
 <#
 				} #>
@@ -69,6 +123,25 @@ namespace <#= GetNamespace(DefaultNamespace, template) #>
             public struct FieldNames
             {
 <#              foreach(SitecoreField field in templateFields) { #>
+                /// <summary>
+<#              if (GetPropertyName(field) != field.Name) { #>
+                /// The <#=field.Name#> field.
+<#              } #>
+<#              if (!string.IsNullOrWhiteSpace(GetValue(field.SitecoreFields, "__Short description"))) { #>
+                /// <para><#= GetValue(field.SitecoreFields, "__Short description")#></para>
+<#              } #>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description><#=field.Type#></description></item>
+                ///     <item><term>Field ID:</term><description><#=field.ID.ToString("B").ToUpper()#></description></item>
+                ///     <item><term>Path:</term><description><#= field.Path #></description></item>
+                /// </list>
+<#              if (!template.Fields.Any(x => x.ID == field.ID)) { #>
+                /// <para>This is an inherited template field</para>
+<#              } #>
+<#              if (!string.IsNullOrWhiteSpace(field.Data)) { #>
+                /// <para>Custom Data: <#=field.Data#></para>
+<#              } #>
+                /// </summary>
                 public const string <#= GetPropertyName(field) #> = "<#=field.Name#>";
 <#
 				} #>

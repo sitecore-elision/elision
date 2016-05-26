@@ -15,6 +15,12 @@ namespace Elision
 {
 	public partial struct Templates
     {
+        /// <summary>
+        /// <list type="table">
+        ///     <item><term>Template ID:</term><description>{035D7D88-5A24-41D8-8D5F-CDDFF0397295}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta</description></item>
+        /// </list>
+        /// </summary>
         public struct _TwitterCardsMeta
         {
             public static readonly ID TemplateId = new ID("{035D7D88-5A24-41D8-8D5F-CDDFF0397295}");
@@ -22,23 +28,127 @@ namespace Elision
 
             public struct FieldIds
             {
+                /// <summary>
+                /// <para>@username of content creator</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{F4DED7B3-8B6F-46D8-902C-1C119BDA1699}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardContentCreator</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID TwitterCardContentCreator = new ID("{F4DED7B3-8B6F-46D8-902C-1C119BDA1699}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{5B3DD1A3-40F8-42BE-900E-53FA38195AF1}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardDescription</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID TwitterCardDescription = new ID("{5B3DD1A3-40F8-42BE-900E-53FA38195AF1}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Image</description></item>
+                ///     <item><term>Field ID:</term><description>{BA3C147E-035B-478F-829B-FE233775648F}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardImage</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID TwitterCardImage = new ID("{BA3C147E-035B-478F-829B-FE233775648F}");
+                /// <summary>
+                /// <para>The Twitter @username the card should be attributed to.</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{BA005D3B-393D-4594-8508-70A503925DCD}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardSite</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID TwitterCardSite = new ID("{BA005D3B-393D-4594-8508-70A503925DCD}");
+                /// <summary>
+                /// <para>Same as Site, but the user’s Twitter ID instead of the website's Twitter ID.</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{217988BC-4DDE-4B44-A688-DFB8F69C6061}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardSiteId</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID TwitterCardSiteId = new ID("{217988BC-4DDE-4B44-A688-DFB8F69C6061}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{0181FE49-A838-496D-8690-935282E599F3}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardTitle</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID TwitterCardTitle = new ID("{0181FE49-A838-496D-8690-935282E599F3}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Droplist</description></item>
+                ///     <item><term>Field ID:</term><description>{579ED843-06B5-4E31-9B98-0D4B12E418AB}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardType</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID TwitterCardType = new ID("{579ED843-06B5-4E31-9B98-0D4B12E418AB}");
             }
 
             public struct FieldNames
             {
+                /// <summary>
+                /// <para>@username of content creator</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{F4DED7B3-8B6F-46D8-902C-1C119BDA1699}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardContentCreator</description></item>
+                /// </list>
+                /// </summary>
                 public const string TwitterCardContentCreator = "TwitterCardContentCreator";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{5B3DD1A3-40F8-42BE-900E-53FA38195AF1}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardDescription</description></item>
+                /// </list>
+                /// </summary>
                 public const string TwitterCardDescription = "TwitterCardDescription";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Image</description></item>
+                ///     <item><term>Field ID:</term><description>{BA3C147E-035B-478F-829B-FE233775648F}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardImage</description></item>
+                /// </list>
+                /// </summary>
                 public const string TwitterCardImage = "TwitterCardImage";
+                /// <summary>
+                /// <para>The Twitter @username the card should be attributed to.</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{BA005D3B-393D-4594-8508-70A503925DCD}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardSite</description></item>
+                /// </list>
+                /// </summary>
                 public const string TwitterCardSite = "TwitterCardSite";
+                /// <summary>
+                /// <para>Same as Site, but the user’s Twitter ID instead of the website's Twitter ID.</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{217988BC-4DDE-4B44-A688-DFB8F69C6061}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardSiteId</description></item>
+                /// </list>
+                /// </summary>
                 public const string TwitterCardSiteId = "TwitterCardSiteId";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{0181FE49-A838-496D-8690-935282E599F3}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardTitle</description></item>
+                /// </list>
+                /// </summary>
                 public const string TwitterCardTitle = "TwitterCardTitle";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Droplist</description></item>
+                ///     <item><term>Field ID:</term><description>{579ED843-06B5-4E31-9B98-0D4B12E418AB}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardType</description></item>
+                /// </list>
+                /// </summary>
                 public const string TwitterCardType = "TwitterCardType";
             }
 		}
@@ -48,6 +158,12 @@ namespace Elision
 {
 	public partial struct Templates
     {
+        /// <summary>
+        /// <list type="table">
+        ///     <item><term>Template ID:</term><description>{06234046-5BC2-4457-87C2-6B09EBB797D3}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/ThemeEmbeddedResource</description></item>
+        /// </list>
+        /// </summary>
         public struct ThemeEmbeddedResource
         {
             public static readonly ID TemplateId = new ID("{06234046-5BC2-4457-87C2-6B09EBB797D3}");
@@ -55,17 +171,83 @@ namespace Elision
 
             public struct FieldIds
             {
-                public static readonly ID ResourceCode = new ID("{1E0ED541-79D4-43C7-930E-2BED12B23B63}");
+                /// <summary>
+                /// <para>leave blank for all page modes</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multilist</description></item>
+                ///     <item><term>Field ID:</term><description>{B7100C64-8316-44E7-926D-9F2FE164CD69}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/_ThemeResource/Resource/PageModes</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID PageModes = new ID("{B7100C64-8316-44E7-926D-9F2FE164CD69}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Script Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{1E0ED541-79D4-43C7-930E-2BED12B23B63}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/ThemeEmbeddedResource/Resource/ResourceCode</description></item>
+                /// </list>
+                /// </summary>
+                public static readonly ID ResourceCode = new ID("{1E0ED541-79D4-43C7-930E-2BED12B23B63}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Droplink</description></item>
+                ///     <item><term>Field ID:</term><description>{575073A1-3DEF-47E6-B62A-D5BD2F94D6A7}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/_ThemeResource/Resource/ResourceLocation</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID ResourceLocation = new ID("{575073A1-3DEF-47E6-B62A-D5BD2F94D6A7}");
+                /// <summary>
+                /// <para>leave blank for all devices</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multilist</description></item>
+                ///     <item><term>Field ID:</term><description>{70AA35E0-E88C-4504-A512-58BBB4D10AAA}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/_ThemeResource/Resource/SupportedDevices</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID SupportedDevices = new ID("{70AA35E0-E88C-4504-A512-58BBB4D10AAA}");
             }
 
             public struct FieldNames
             {
-                public const string ResourceCode = "ResourceCode";
+                /// <summary>
+                /// <para>leave blank for all page modes</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multilist</description></item>
+                ///     <item><term>Field ID:</term><description>{B7100C64-8316-44E7-926D-9F2FE164CD69}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/_ThemeResource/Resource/PageModes</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string PageModes = "PageModes";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Script Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{1E0ED541-79D4-43C7-930E-2BED12B23B63}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/ThemeEmbeddedResource/Resource/ResourceCode</description></item>
+                /// </list>
+                /// </summary>
+                public const string ResourceCode = "ResourceCode";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Droplink</description></item>
+                ///     <item><term>Field ID:</term><description>{575073A1-3DEF-47E6-B62A-D5BD2F94D6A7}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/_ThemeResource/Resource/ResourceLocation</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string ResourceLocation = "ResourceLocation";
+                /// <summary>
+                /// <para>leave blank for all devices</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multilist</description></item>
+                ///     <item><term>Field ID:</term><description>{70AA35E0-E88C-4504-A512-58BBB4D10AAA}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/_ThemeResource/Resource/SupportedDevices</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string SupportedDevices = "SupportedDevices";
             }
 		}
@@ -77,6 +259,12 @@ namespace Elision
     {
         public partial struct Themes
         {
+            /// <summary>
+            /// <list type="table">
+            ///     <item><term>Rendering ID:</term><description>{081E0D0C-D55F-42A1-A5D7-A9F3A975153C}</description></item>
+            ///     <item><term>Path:</term><description>/sitecore/layout/Renderings/Elision/Themes/BodyBottomResources</description></item>
+            /// </list>
+            /// </summary>
             public static readonly ID BodyBottomResources = new ID("{081E0D0C-D55F-42A1-A5D7-A9F3A975153C}");
         }
     }
@@ -85,6 +273,12 @@ namespace Elision
 {
 	public partial struct Templates
     {
+        /// <summary>
+        /// <list type="table">
+        ///     <item><term>Template ID:</term><description>{121B5A57-E9E8-4429-A41D-811CA98116E1}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/Theme</description></item>
+        /// </list>
+        /// </summary>
         public struct Theme
         {
             public static readonly ID TemplateId = new ID("{121B5A57-E9E8-4429-A41D-811CA98116E1}");
@@ -92,11 +286,25 @@ namespace Elision
 
             public struct FieldIds
             {
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{0BE49B84-3F8C-48D9-93A5-770604D78323}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/Theme/Data/MvcAreaName</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID MvcAreaName = new ID("{0BE49B84-3F8C-48D9-93A5-770604D78323}");
             }
 
             public struct FieldNames
             {
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{0BE49B84-3F8C-48D9-93A5-770604D78323}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/Theme/Data/MvcAreaName</description></item>
+                /// </list>
+                /// </summary>
                 public const string MvcAreaName = "MvcAreaName";
             }
 		}
@@ -108,6 +316,12 @@ namespace Elision
     {
         public partial struct Themes
         {
+            /// <summary>
+            /// <list type="table">
+            ///     <item><term>Rendering ID:</term><description>{176AC3B8-2AA5-4811-8BD3-FAA212881824}</description></item>
+            ///     <item><term>Path:</term><description>/sitecore/layout/Renderings/Elision/Themes/BodyTopResources</description></item>
+            /// </list>
+            /// </summary>
             public static readonly ID BodyTopResources = new ID("{176AC3B8-2AA5-4811-8BD3-FAA212881824}");
         }
     }
@@ -116,6 +330,12 @@ namespace Elision
 {
 	public partial struct Templates
     {
+        /// <summary>
+        /// <list type="table">
+        ///     <item><term>Template ID:</term><description>{359D47A4-7DD7-465B-9060-04020CC90386}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta</description></item>
+        /// </list>
+        /// </summary>
         public struct _OpenGraphMeta
         {
             public static readonly ID TemplateId = new ID("{359D47A4-7DD7-465B-9060-04020CC90386}");
@@ -123,19 +343,89 @@ namespace Elision
 
             public struct FieldIds
             {
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{475A8C93-A6CB-4D6B-A288-58FD09FB7A18}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta/Open Graph Data/OgDescription</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID OgDescription = new ID("{475A8C93-A6CB-4D6B-A288-58FD09FB7A18}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Image</description></item>
+                ///     <item><term>Field ID:</term><description>{F046BEA2-BB06-4CEB-B87D-2F1A28A6D101}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta/Open Graph Data/OgImage</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID OgImage = new ID("{F046BEA2-BB06-4CEB-B87D-2F1A28A6D101}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{15D1129E-D78D-4EE4-A005-0CC1617A5F4D}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta/Open Graph Data/OgSiteName</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID OgSiteName = new ID("{15D1129E-D78D-4EE4-A005-0CC1617A5F4D}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{9CE2BFC9-04C1-429C-B388-152506E97078}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta/Open Graph Data/OgTitle</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID OgTitle = new ID("{9CE2BFC9-04C1-429C-B388-152506E97078}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{4E4F0C39-6B77-43F5-AB56-8AEFAA395819}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta/Open Graph Data/OgType</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID OgType = new ID("{4E4F0C39-6B77-43F5-AB56-8AEFAA395819}");
             }
 
             public struct FieldNames
             {
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{475A8C93-A6CB-4D6B-A288-58FD09FB7A18}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta/Open Graph Data/OgDescription</description></item>
+                /// </list>
+                /// </summary>
                 public const string OgDescription = "OgDescription";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Image</description></item>
+                ///     <item><term>Field ID:</term><description>{F046BEA2-BB06-4CEB-B87D-2F1A28A6D101}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta/Open Graph Data/OgImage</description></item>
+                /// </list>
+                /// </summary>
                 public const string OgImage = "OgImage";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{15D1129E-D78D-4EE4-A005-0CC1617A5F4D}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta/Open Graph Data/OgSiteName</description></item>
+                /// </list>
+                /// </summary>
                 public const string OgSiteName = "OgSiteName";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{9CE2BFC9-04C1-429C-B388-152506E97078}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta/Open Graph Data/OgTitle</description></item>
+                /// </list>
+                /// </summary>
                 public const string OgTitle = "OgTitle";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{4E4F0C39-6B77-43F5-AB56-8AEFAA395819}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta/Open Graph Data/OgType</description></item>
+                /// </list>
+                /// </summary>
                 public const string OgType = "OgType";
             }
 		}
@@ -147,6 +437,12 @@ namespace Elision
     {
         public partial struct Seo
         {
+            /// <summary>
+            /// <list type="table">
+            ///     <item><term>Rendering ID:</term><description>{422BF485-564D-460D-8F7A-E708C4DA9118}</description></item>
+            ///     <item><term>Path:</term><description>/sitecore/layout/Renderings/Elision/Seo/TwitterCardMeta</description></item>
+            /// </list>
+            /// </summary>
             public static readonly ID TwitterCardMeta = new ID("{422BF485-564D-460D-8F7A-E708C4DA9118}");
         }
     }
@@ -155,6 +451,13 @@ namespace Elision
 {
 	public partial struct Templates
     {
+        /// <summary>
+        /// The Template field template.
+        /// <list type="table">
+        ///     <item><term>Template ID:</term><description>{455A3E98-A627-4B40-8035-E683A0331AC7}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/System/Templates/Template field</description></item>
+        /// </list>
+        /// </summary>
         public struct Template_Field
         {
             public static readonly ID TemplateId = new ID("{455A3E98-A627-4B40-8035-E683A0331AC7}");
@@ -162,11 +465,25 @@ namespace Elision
 
             public struct FieldIds
             {
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Checkbox</description></item>
+                ///     <item><term>Field ID:</term><description>{6EF51419-ECEA-452A-B5C6-7E0ED69DCC45}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/System/Templates/Template field/Data/HideWithStandardFields</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID HideWithStandardFields = new ID("{6EF51419-ECEA-452A-B5C6-7E0ED69DCC45}");
             }
 
             public struct FieldNames
             {
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Checkbox</description></item>
+                ///     <item><term>Field ID:</term><description>{6EF51419-ECEA-452A-B5C6-7E0ED69DCC45}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/System/Templates/Template field/Data/HideWithStandardFields</description></item>
+                /// </list>
+                /// </summary>
                 public const string HideWithStandardFields = "HideWithStandardFields";
             }
 		}
@@ -178,6 +495,12 @@ namespace Elision
     {
         public partial struct Seo
         {
+            /// <summary>
+            /// <list type="table">
+            ///     <item><term>Rendering ID:</term><description>{459D9770-0CDE-4865-9E46-6A73836A9BB1}</description></item>
+            ///     <item><term>Path:</term><description>/sitecore/layout/Renderings/Elision/Seo/PageMetadata</description></item>
+            /// </list>
+            /// </summary>
             public static readonly ID PageMetadata = new ID("{459D9770-0CDE-4865-9E46-6A73836A9BB1}");
         }
     }
@@ -186,6 +509,12 @@ namespace Elision
 {
 	public partial struct Templates
     {
+        /// <summary>
+        /// <list type="table">
+        ///     <item><term>Template ID:</term><description>{6F0FABD4-47AB-461A-959E-B4D292EE01E5}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields</description></item>
+        /// </list>
+        /// </summary>
         public struct _PageMetaFields
         {
             public static readonly ID TemplateId = new ID("{6F0FABD4-47AB-461A-959E-B4D292EE01E5}");
@@ -193,23 +522,123 @@ namespace Elision
 
             public struct FieldIds
             {
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Checkbox</description></item>
+                ///     <item><term>Field ID:</term><description>{0ED18C8B-E06A-4F49-8F9E-8346F1A3294C}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BlockSearchEngineIndexing</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID BlockSearchEngineIndexing = new ID("{0ED18C8B-E06A-4F49-8F9E-8346F1A3294C}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Checkbox</description></item>
+                ///     <item><term>Field ID:</term><description>{7FB8D83D-C981-49D9-B352-953E5C6BE7CF}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BlockSearchEngineLinkFollowing</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID BlockSearchEngineLinkFollowing = new ID("{7FB8D83D-C981-49D9-B352-953E5C6BE7CF}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{D6CB41B5-9467-4C42-95AC-B62584A1F5F0}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BrowserTitle</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID BrowserTitle = new ID("{D6CB41B5-9467-4C42-95AC-B62584A1F5F0}");
+                /// <summary>
+                /// <para>This value is appended to the browser title for every page on the site</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{8E87381A-CCA5-4EC4-98B4-CC39023C6503}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BrowserTitleSuffix</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID BrowserTitleSuffix = new ID("{8E87381A-CCA5-4EC4-98B4-CC39023C6503}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{C0AD316F-EEC8-494D-A30A-356C10E8853E}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/CanonicalUrl</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID CanonicalUrl = new ID("{C0AD316F-EEC8-494D-A30A-356C10E8853E}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{D62C4448-2E23-4393-939D-F489DCFB881E}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/MetaDescription</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID MetaDescription = new ID("{D62C4448-2E23-4393-939D-F489DCFB881E}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{DEAD7283-98C8-4AB8-924E-0DEB00858EFB}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/MetaKeywords</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID MetaKeywords = new ID("{DEAD7283-98C8-4AB8-924E-0DEB00858EFB}");
             }
 
             public struct FieldNames
             {
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Checkbox</description></item>
+                ///     <item><term>Field ID:</term><description>{0ED18C8B-E06A-4F49-8F9E-8346F1A3294C}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BlockSearchEngineIndexing</description></item>
+                /// </list>
+                /// </summary>
                 public const string BlockSearchEngineIndexing = "BlockSearchEngineIndexing";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Checkbox</description></item>
+                ///     <item><term>Field ID:</term><description>{7FB8D83D-C981-49D9-B352-953E5C6BE7CF}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BlockSearchEngineLinkFollowing</description></item>
+                /// </list>
+                /// </summary>
                 public const string BlockSearchEngineLinkFollowing = "BlockSearchEngineLinkFollowing";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{D6CB41B5-9467-4C42-95AC-B62584A1F5F0}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BrowserTitle</description></item>
+                /// </list>
+                /// </summary>
                 public const string BrowserTitle = "BrowserTitle";
+                /// <summary>
+                /// <para>This value is appended to the browser title for every page on the site</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{8E87381A-CCA5-4EC4-98B4-CC39023C6503}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BrowserTitleSuffix</description></item>
+                /// </list>
+                /// </summary>
                 public const string BrowserTitleSuffix = "BrowserTitleSuffix";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{C0AD316F-EEC8-494D-A30A-356C10E8853E}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/CanonicalUrl</description></item>
+                /// </list>
+                /// </summary>
                 public const string CanonicalUrl = "CanonicalUrl";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{D62C4448-2E23-4393-939D-F489DCFB881E}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/MetaDescription</description></item>
+                /// </list>
+                /// </summary>
                 public const string MetaDescription = "MetaDescription";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{DEAD7283-98C8-4AB8-924E-0DEB00858EFB}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/MetaKeywords</description></item>
+                /// </list>
+                /// </summary>
                 public const string MetaKeywords = "MetaKeywords";
             }
 		}
@@ -219,6 +648,12 @@ namespace Elision
 {
 	public partial struct Templates
     {
+        /// <summary>
+        /// <list type="table">
+        ///     <item><term>Template ID:</term><description>{782B9364-9641-4353-9AFE-BCF5E0E44B6C}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/ResponsiveImageProfile</description></item>
+        /// </list>
+        /// </summary>
         public struct ResponsiveImageProfile
         {
             public static readonly ID TemplateId = new ID("{782B9364-9641-4353-9AFE-BCF5E0E44B6C}");
@@ -226,11 +661,25 @@ namespace Elision
 
             public struct FieldIds
             {
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Droplink</description></item>
+                ///     <item><term>Field ID:</term><description>{964D48DE-984E-4108-B490-5942832DFBEA}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/ResponsiveImageProfile/Responsive Image Profile/DefaultImageSize</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID DefaultImageSize = new ID("{964D48DE-984E-4108-B490-5942832DFBEA}");
             }
 
             public struct FieldNames
             {
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Droplink</description></item>
+                ///     <item><term>Field ID:</term><description>{964D48DE-984E-4108-B490-5942832DFBEA}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/ResponsiveImageProfile/Responsive Image Profile/DefaultImageSize</description></item>
+                /// </list>
+                /// </summary>
                 public const string DefaultImageSize = "DefaultImageSize";
             }
 		}
@@ -240,6 +689,12 @@ namespace Elision
 {
 	public partial struct Templates
     {
+        /// <summary>
+        /// <list type="table">
+        ///     <item><term>Template ID:</term><description>{7CBBB87E-7EA0-4BF6-AE5D-EE0437722BF0}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_ColorScheme</description></item>
+        /// </list>
+        /// </summary>
         public struct _ColorScheme
         {
             public static readonly ID TemplateId = new ID("{7CBBB87E-7EA0-4BF6-AE5D-EE0437722BF0}");
@@ -247,11 +702,25 @@ namespace Elision
 
             public struct FieldIds
             {
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Droplink</description></item>
+                ///     <item><term>Field ID:</term><description>{35B7B14B-F1B2-4D06-95AD-B696917D26E5}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_ColorScheme/Color Scheme/ColorScheme</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID ColorScheme = new ID("{35B7B14B-F1B2-4D06-95AD-B696917D26E5}");
             }
 
             public struct FieldNames
             {
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Droplink</description></item>
+                ///     <item><term>Field ID:</term><description>{35B7B14B-F1B2-4D06-95AD-B696917D26E5}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_ColorScheme/Color Scheme/ColorScheme</description></item>
+                /// </list>
+                /// </summary>
                 public const string ColorScheme = "ColorScheme";
             }
 		}
@@ -261,6 +730,12 @@ namespace Elision
 {
 	public partial struct Templates
     {
+        /// <summary>
+        /// <list type="table">
+        ///     <item><term>Template ID:</term><description>{7D0DCCF0-891D-4A14-9B1D-2251DF4B0FB7}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_Themable</description></item>
+        /// </list>
+        /// </summary>
         public struct _Themable
         {
             public static readonly ID TemplateId = new ID("{7D0DCCF0-891D-4A14-9B1D-2251DF4B0FB7}");
@@ -268,11 +743,25 @@ namespace Elision
 
             public struct FieldIds
             {
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Droplink</description></item>
+                ///     <item><term>Field ID:</term><description>{F318342F-A549-47F7-BD88-25086B46B9D9}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_Themable/Theme/Theme</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID Theme = new ID("{F318342F-A549-47F7-BD88-25086B46B9D9}");
             }
 
             public struct FieldNames
             {
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Droplink</description></item>
+                ///     <item><term>Field ID:</term><description>{F318342F-A549-47F7-BD88-25086B46B9D9}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_Themable/Theme/Theme</description></item>
+                /// </list>
+                /// </summary>
                 public const string Theme = "Theme";
             }
 		}
@@ -282,6 +771,12 @@ namespace Elision
 {
 	public partial struct Templates
     {
+        /// <summary>
+        /// <list type="table">
+        ///     <item><term>Template ID:</term><description>{9D560638-C289-4C6F-ADF2-06760928ED55}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/ThemeLinkedResource</description></item>
+        /// </list>
+        /// </summary>
         public struct ThemeLinkedResource
         {
             public static readonly ID TemplateId = new ID("{9D560638-C289-4C6F-ADF2-06760928ED55}");
@@ -289,17 +784,83 @@ namespace Elision
 
             public struct FieldIds
             {
-                public static readonly ID ResourceLink = new ID("{11B3B1A5-59F9-4EC2-A0DA-A1A6DAF1B944}");
+                /// <summary>
+                /// <para>leave blank for all page modes</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multilist</description></item>
+                ///     <item><term>Field ID:</term><description>{B7100C64-8316-44E7-926D-9F2FE164CD69}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/_ThemeResource/Resource/PageModes</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID PageModes = new ID("{B7100C64-8316-44E7-926D-9F2FE164CD69}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>General Link</description></item>
+                ///     <item><term>Field ID:</term><description>{11B3B1A5-59F9-4EC2-A0DA-A1A6DAF1B944}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/ThemeLinkedResource/Resource/ResourceLink</description></item>
+                /// </list>
+                /// </summary>
+                public static readonly ID ResourceLink = new ID("{11B3B1A5-59F9-4EC2-A0DA-A1A6DAF1B944}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Droplink</description></item>
+                ///     <item><term>Field ID:</term><description>{575073A1-3DEF-47E6-B62A-D5BD2F94D6A7}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/_ThemeResource/Resource/ResourceLocation</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID ResourceLocation = new ID("{575073A1-3DEF-47E6-B62A-D5BD2F94D6A7}");
+                /// <summary>
+                /// <para>leave blank for all devices</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multilist</description></item>
+                ///     <item><term>Field ID:</term><description>{70AA35E0-E88C-4504-A512-58BBB4D10AAA}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/_ThemeResource/Resource/SupportedDevices</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID SupportedDevices = new ID("{70AA35E0-E88C-4504-A512-58BBB4D10AAA}");
             }
 
             public struct FieldNames
             {
-                public const string ResourceLink = "ResourceLink";
+                /// <summary>
+                /// <para>leave blank for all page modes</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multilist</description></item>
+                ///     <item><term>Field ID:</term><description>{B7100C64-8316-44E7-926D-9F2FE164CD69}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/_ThemeResource/Resource/PageModes</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string PageModes = "PageModes";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>General Link</description></item>
+                ///     <item><term>Field ID:</term><description>{11B3B1A5-59F9-4EC2-A0DA-A1A6DAF1B944}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/ThemeLinkedResource/Resource/ResourceLink</description></item>
+                /// </list>
+                /// </summary>
+                public const string ResourceLink = "ResourceLink";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Droplink</description></item>
+                ///     <item><term>Field ID:</term><description>{575073A1-3DEF-47E6-B62A-D5BD2F94D6A7}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/_ThemeResource/Resource/ResourceLocation</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string ResourceLocation = "ResourceLocation";
+                /// <summary>
+                /// <para>leave blank for all devices</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multilist</description></item>
+                ///     <item><term>Field ID:</term><description>{70AA35E0-E88C-4504-A512-58BBB4D10AAA}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/_ThemeResource/Resource/SupportedDevices</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string SupportedDevices = "SupportedDevices";
             }
 		}
@@ -309,6 +870,12 @@ namespace Elision
 {
 	public partial struct Templates
     {
+        /// <summary>
+        /// <list type="table">
+        ///     <item><term>Template ID:</term><description>{9F59984F-0638-4664-89D8-07B021D4D5A4}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/ColorScheme</description></item>
+        /// </list>
+        /// </summary>
         public struct ColorScheme
         {
             public static readonly ID TemplateId = new ID("{9F59984F-0638-4664-89D8-07B021D4D5A4}");
@@ -316,13 +883,45 @@ namespace Elision
 
             public struct FieldIds
             {
+                /// <summary>
+                /// <para>Ex: #60676b</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{503D6314-7B28-455B-AB54-E9D894479321}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/ColorScheme/Design/BackgroundColor</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID BackgroundColor = new ID("{503D6314-7B28-455B-AB54-E9D894479321}");
+                /// <summary>
+                /// <para>Ex: #60676b</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{91B68421-350B-4365-987B-AA2C45A902F6}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/ColorScheme/Design/ForegroundColor</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID ForegroundColor = new ID("{91B68421-350B-4365-987B-AA2C45A902F6}");
             }
 
             public struct FieldNames
             {
+                /// <summary>
+                /// <para>Ex: #60676b</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{503D6314-7B28-455B-AB54-E9D894479321}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/ColorScheme/Design/BackgroundColor</description></item>
+                /// </list>
+                /// </summary>
                 public const string BackgroundColor = "BackgroundColor";
+                /// <summary>
+                /// <para>Ex: #60676b</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{91B68421-350B-4365-987B-AA2C45A902F6}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/ColorScheme/Design/ForegroundColor</description></item>
+                /// </list>
+                /// </summary>
                 public const string ForegroundColor = "ForegroundColor";
             }
 		}
@@ -332,6 +931,12 @@ namespace Elision
 {
 	public partial struct Templates
     {
+        /// <summary>
+        /// <list type="table">
+        ///     <item><term>Template ID:</term><description>{A05913A9-FC8E-4E05-9741-61E480885E91}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_SiteScripts</description></item>
+        /// </list>
+        /// </summary>
         public struct _SiteScripts
         {
             public static readonly ID TemplateId = new ID("{A05913A9-FC8E-4E05-9741-61E480885E91}");
@@ -339,15 +944,57 @@ namespace Elision
 
             public struct FieldIds
             {
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{F21C2621-329A-4D5A-AAC1-475DA8CE8954}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_SiteScripts/Scripts/SiteBodyTopScript</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID SiteBodyTopScript = new ID("{F21C2621-329A-4D5A-AAC1-475DA8CE8954}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{52E994D5-E743-4DD6-9B86-60C7D170ED72}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_SiteScripts/Scripts/SiteFootScript</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID SiteFootScript = new ID("{52E994D5-E743-4DD6-9B86-60C7D170ED72}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{332BEBEB-F4E8-4078-A9CE-F718E69EC974}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_SiteScripts/Scripts/SiteHeadScript</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID SiteHeadScript = new ID("{332BEBEB-F4E8-4078-A9CE-F718E69EC974}");
             }
 
             public struct FieldNames
             {
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{F21C2621-329A-4D5A-AAC1-475DA8CE8954}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_SiteScripts/Scripts/SiteBodyTopScript</description></item>
+                /// </list>
+                /// </summary>
                 public const string SiteBodyTopScript = "SiteBodyTopScript";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{52E994D5-E743-4DD6-9B86-60C7D170ED72}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_SiteScripts/Scripts/SiteFootScript</description></item>
+                /// </list>
+                /// </summary>
                 public const string SiteFootScript = "SiteFootScript";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{332BEBEB-F4E8-4078-A9CE-F718E69EC974}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_SiteScripts/Scripts/SiteHeadScript</description></item>
+                /// </list>
+                /// </summary>
                 public const string SiteHeadScript = "SiteHeadScript";
             }
 		}
@@ -359,6 +1006,12 @@ namespace Elision
     {
         public partial struct Themes
         {
+            /// <summary>
+            /// <list type="table">
+            ///     <item><term>Rendering ID:</term><description>{A1F97BCC-0F5A-4A9B-AA67-0F22E23268AA}</description></item>
+            ///     <item><term>Path:</term><description>/sitecore/layout/Renderings/Elision/Themes/HeadResources</description></item>
+            /// </list>
+            /// </summary>
             public static readonly ID HeadResources = new ID("{A1F97BCC-0F5A-4A9B-AA67-0F22E23268AA}");
         }
     }
@@ -367,6 +1020,12 @@ namespace Elision
 {
 	public partial struct Templates
     {
+        /// <summary>
+        /// <list type="table">
+        ///     <item><term>Template ID:</term><description>{A42909C1-539E-46E4-9F1F-DB999603D6DE}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/Options/TwitterCardType</description></item>
+        /// </list>
+        /// </summary>
         public struct TwitterCardType
         {
             public static readonly ID TemplateId = new ID("{A42909C1-539E-46E4-9F1F-DB999603D6DE}");
@@ -379,6 +1038,12 @@ namespace Elision
 {
 	public partial struct Templates
     {
+        /// <summary>
+        /// <list type="table">
+        ///     <item><term>Template ID:</term><description>{ACC5FB47-950F-45FA-A6A7-15C1C681CBA7}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/System/Layout/RenderingFolderWithArea</description></item>
+        /// </list>
+        /// </summary>
         public struct RenderingFolderWithArea
         {
             public static readonly ID TemplateId = new ID("{ACC5FB47-950F-45FA-A6A7-15C1C681CBA7}");
@@ -386,11 +1051,27 @@ namespace Elision
 
             public struct FieldIds
             {
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{2E1C630C-AC9F-473C-ABCD-DB8CA1DE0ACB}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/System/Layout/MvcAreaName/Routing/AreaName</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID AreaName = new ID("{2E1C630C-AC9F-473C-ABCD-DB8CA1DE0ACB}");
             }
 
             public struct FieldNames
             {
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{2E1C630C-AC9F-473C-ABCD-DB8CA1DE0ACB}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/System/Layout/MvcAreaName/Routing/AreaName</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string AreaName = "AreaName";
             }
 		}
@@ -400,6 +1081,12 @@ namespace Elision
 {
 	public partial struct Templates
     {
+        /// <summary>
+        /// <list type="table">
+        ///     <item><term>Template ID:</term><description>{AF7849FC-069E-4EC1-82FF-065AC40C9DF3}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/ResponsiveImageSize</description></item>
+        /// </list>
+        /// </summary>
         public struct ResponsiveImageSize
         {
             public static readonly ID TemplateId = new ID("{AF7849FC-069E-4EC1-82FF-065AC40C9DF3}");
@@ -407,13 +1094,45 @@ namespace Elision
 
             public struct FieldIds
             {
+                /// <summary>
+                /// <para>in pixels, e.g. 300. Use 0 for uploaded image size</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Number</description></item>
+                ///     <item><term>Field ID:</term><description>{2D396085-0373-45E0-AD3F-10D5676D7367}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/ResponsiveImageSize/Responsive Image Size/ImageWidth</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID ImageWidth = new ID("{2D396085-0373-45E0-AD3F-10D5676D7367}");
+                /// <summary>
+                /// <para>must specify unit of measure, e.g. 500px</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{A0819F72-60D2-41B7-8F7D-E1955BEB22AF}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/ResponsiveImageSize/Responsive Image Size/WindowMinWidth</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID WindowMinWidth = new ID("{A0819F72-60D2-41B7-8F7D-E1955BEB22AF}");
             }
 
             public struct FieldNames
             {
+                /// <summary>
+                /// <para>in pixels, e.g. 300. Use 0 for uploaded image size</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Number</description></item>
+                ///     <item><term>Field ID:</term><description>{2D396085-0373-45E0-AD3F-10D5676D7367}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/ResponsiveImageSize/Responsive Image Size/ImageWidth</description></item>
+                /// </list>
+                /// </summary>
                 public const string ImageWidth = "ImageWidth";
+                /// <summary>
+                /// <para>must specify unit of measure, e.g. 500px</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{A0819F72-60D2-41B7-8F7D-E1955BEB22AF}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/ResponsiveImageSize/Responsive Image Size/WindowMinWidth</description></item>
+                /// </list>
+                /// </summary>
                 public const string WindowMinWidth = "WindowMinWidth";
             }
 		}
@@ -423,6 +1142,12 @@ namespace Elision
 {
 	public partial struct Templates
     {
+        /// <summary>
+        /// <list type="table">
+        ///     <item><term>Template ID:</term><description>{BA528F98-A18C-405D-A94C-DA68E4B433F8}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/ResourceLocation</description></item>
+        /// </list>
+        /// </summary>
         public struct ResourceLocation
         {
             public static readonly ID TemplateId = new ID("{BA528F98-A18C-405D-A94C-DA68E4B433F8}");
@@ -435,6 +1160,12 @@ namespace Elision
 {
 	public partial struct Templates
     {
+        /// <summary>
+        /// <list type="table">
+        ///     <item><term>Template ID:</term><description>{BD57D269-42CE-416C-8B18-C7E3733DA626}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/System/Layout/MvcAreaName</description></item>
+        /// </list>
+        /// </summary>
         public struct MvcAreaName
         {
             public static readonly ID TemplateId = new ID("{BD57D269-42CE-416C-8B18-C7E3733DA626}");
@@ -442,11 +1173,25 @@ namespace Elision
 
             public struct FieldIds
             {
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{2E1C630C-AC9F-473C-ABCD-DB8CA1DE0ACB}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/System/Layout/MvcAreaName/Routing/AreaName</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID AreaName = new ID("{2E1C630C-AC9F-473C-ABCD-DB8CA1DE0ACB}");
             }
 
             public struct FieldNames
             {
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{2E1C630C-AC9F-473C-ABCD-DB8CA1DE0ACB}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/System/Layout/MvcAreaName/Routing/AreaName</description></item>
+                /// </list>
+                /// </summary>
                 public const string AreaName = "AreaName";
             }
 		}
@@ -456,6 +1201,12 @@ namespace Elision
 {
 	public partial struct Templates
     {
+        /// <summary>
+        /// <list type="table">
+        ///     <item><term>Template ID:</term><description>{D522F52B-09DF-442D-84A9-17A497C00BCC}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/_ThemeResource</description></item>
+        /// </list>
+        /// </summary>
         public struct _ThemeResource
         {
             public static readonly ID TemplateId = new ID("{D522F52B-09DF-442D-84A9-17A497C00BCC}");
@@ -463,15 +1214,61 @@ namespace Elision
 
             public struct FieldIds
             {
+                /// <summary>
+                /// <para>leave blank for all page modes</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multilist</description></item>
+                ///     <item><term>Field ID:</term><description>{B7100C64-8316-44E7-926D-9F2FE164CD69}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/_ThemeResource/Resource/PageModes</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID PageModes = new ID("{B7100C64-8316-44E7-926D-9F2FE164CD69}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Droplink</description></item>
+                ///     <item><term>Field ID:</term><description>{575073A1-3DEF-47E6-B62A-D5BD2F94D6A7}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/_ThemeResource/Resource/ResourceLocation</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID ResourceLocation = new ID("{575073A1-3DEF-47E6-B62A-D5BD2F94D6A7}");
+                /// <summary>
+                /// <para>leave blank for all devices</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multilist</description></item>
+                ///     <item><term>Field ID:</term><description>{70AA35E0-E88C-4504-A512-58BBB4D10AAA}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/_ThemeResource/Resource/SupportedDevices</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID SupportedDevices = new ID("{70AA35E0-E88C-4504-A512-58BBB4D10AAA}");
             }
 
             public struct FieldNames
             {
+                /// <summary>
+                /// <para>leave blank for all page modes</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multilist</description></item>
+                ///     <item><term>Field ID:</term><description>{B7100C64-8316-44E7-926D-9F2FE164CD69}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/_ThemeResource/Resource/PageModes</description></item>
+                /// </list>
+                /// </summary>
                 public const string PageModes = "PageModes";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Droplink</description></item>
+                ///     <item><term>Field ID:</term><description>{575073A1-3DEF-47E6-B62A-D5BD2F94D6A7}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/_ThemeResource/Resource/ResourceLocation</description></item>
+                /// </list>
+                /// </summary>
                 public const string ResourceLocation = "ResourceLocation";
+                /// <summary>
+                /// <para>leave blank for all devices</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multilist</description></item>
+                ///     <item><term>Field ID:</term><description>{70AA35E0-E88C-4504-A512-58BBB4D10AAA}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/_ThemeResource/Resource/SupportedDevices</description></item>
+                /// </list>
+                /// </summary>
                 public const string SupportedDevices = "SupportedDevices";
             }
 		}
@@ -481,6 +1278,12 @@ namespace Elision
 {
 	public partial struct Templates
     {
+        /// <summary>
+        /// <list type="table">
+        ///     <item><term>Template ID:</term><description>{D5950FBE-F4A5-45CB-BD88-6EE0B8BEEC54}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Content/_ContentPage</description></item>
+        /// </list>
+        /// </summary>
         public struct _ContentPage
         {
             public static readonly ID TemplateId = new ID("{D5950FBE-F4A5-45CB-BD88-6EE0B8BEEC54}");
@@ -488,54 +1291,414 @@ namespace Elision
 
             public struct FieldIds
             {
-                public static readonly ID PageBodyTopScript = new ID("{451F49E1-52E1-4622-B113-20970AAAABAC}");
-                public static readonly ID PageFootScript = new ID("{A3644CDE-C5EA-4521-82C6-0D85D1CFEA8C}");
-                public static readonly ID PageHeadScript = new ID("{C6D8E03E-B82B-4D2C-93C9-8170249F1E02}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Checkbox</description></item>
+                ///     <item><term>Field ID:</term><description>{0ED18C8B-E06A-4F49-8F9E-8346F1A3294C}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BlockSearchEngineIndexing</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID BlockSearchEngineIndexing = new ID("{0ED18C8B-E06A-4F49-8F9E-8346F1A3294C}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Checkbox</description></item>
+                ///     <item><term>Field ID:</term><description>{7FB8D83D-C981-49D9-B352-953E5C6BE7CF}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BlockSearchEngineLinkFollowing</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID BlockSearchEngineLinkFollowing = new ID("{7FB8D83D-C981-49D9-B352-953E5C6BE7CF}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{D6CB41B5-9467-4C42-95AC-B62584A1F5F0}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BrowserTitle</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID BrowserTitle = new ID("{D6CB41B5-9467-4C42-95AC-B62584A1F5F0}");
+                /// <summary>
+                /// <para>This value is appended to the browser title for every page on the site</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{8E87381A-CCA5-4EC4-98B4-CC39023C6503}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BrowserTitleSuffix</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID BrowserTitleSuffix = new ID("{8E87381A-CCA5-4EC4-98B4-CC39023C6503}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{C0AD316F-EEC8-494D-A30A-356C10E8853E}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/CanonicalUrl</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID CanonicalUrl = new ID("{C0AD316F-EEC8-494D-A30A-356C10E8853E}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{D62C4448-2E23-4393-939D-F489DCFB881E}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/MetaDescription</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID MetaDescription = new ID("{D62C4448-2E23-4393-939D-F489DCFB881E}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{DEAD7283-98C8-4AB8-924E-0DEB00858EFB}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/MetaKeywords</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID MetaKeywords = new ID("{DEAD7283-98C8-4AB8-924E-0DEB00858EFB}");
-                public static readonly ID TwitterCardContentCreator = new ID("{F4DED7B3-8B6F-46D8-902C-1C119BDA1699}");
-                public static readonly ID TwitterCardDescription = new ID("{5B3DD1A3-40F8-42BE-900E-53FA38195AF1}");
-                public static readonly ID TwitterCardImage = new ID("{BA3C147E-035B-478F-829B-FE233775648F}");
-                public static readonly ID TwitterCardSite = new ID("{BA005D3B-393D-4594-8508-70A503925DCD}");
-                public static readonly ID TwitterCardSiteId = new ID("{217988BC-4DDE-4B44-A688-DFB8F69C6061}");
-                public static readonly ID TwitterCardTitle = new ID("{0181FE49-A838-496D-8690-935282E599F3}");
-                public static readonly ID TwitterCardType = new ID("{579ED843-06B5-4E31-9B98-0D4B12E418AB}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{475A8C93-A6CB-4D6B-A288-58FD09FB7A18}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta/Open Graph Data/OgDescription</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID OgDescription = new ID("{475A8C93-A6CB-4D6B-A288-58FD09FB7A18}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Image</description></item>
+                ///     <item><term>Field ID:</term><description>{F046BEA2-BB06-4CEB-B87D-2F1A28A6D101}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta/Open Graph Data/OgImage</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID OgImage = new ID("{F046BEA2-BB06-4CEB-B87D-2F1A28A6D101}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{15D1129E-D78D-4EE4-A005-0CC1617A5F4D}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta/Open Graph Data/OgSiteName</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID OgSiteName = new ID("{15D1129E-D78D-4EE4-A005-0CC1617A5F4D}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{9CE2BFC9-04C1-429C-B388-152506E97078}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta/Open Graph Data/OgTitle</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID OgTitle = new ID("{9CE2BFC9-04C1-429C-B388-152506E97078}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{4E4F0C39-6B77-43F5-AB56-8AEFAA395819}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta/Open Graph Data/OgType</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID OgType = new ID("{4E4F0C39-6B77-43F5-AB56-8AEFAA395819}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{451F49E1-52E1-4622-B113-20970AAAABAC}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_PageScripts/Scripts/PageBodyTopScript</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public static readonly ID PageBodyTopScript = new ID("{451F49E1-52E1-4622-B113-20970AAAABAC}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{A3644CDE-C5EA-4521-82C6-0D85D1CFEA8C}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_PageScripts/Scripts/PageFootScript</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public static readonly ID PageFootScript = new ID("{A3644CDE-C5EA-4521-82C6-0D85D1CFEA8C}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{C6D8E03E-B82B-4D2C-93C9-8170249F1E02}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_PageScripts/Scripts/PageHeadScript</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public static readonly ID PageHeadScript = new ID("{C6D8E03E-B82B-4D2C-93C9-8170249F1E02}");
+                /// <summary>
+                /// <para>@username of content creator</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{F4DED7B3-8B6F-46D8-902C-1C119BDA1699}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardContentCreator</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public static readonly ID TwitterCardContentCreator = new ID("{F4DED7B3-8B6F-46D8-902C-1C119BDA1699}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{5B3DD1A3-40F8-42BE-900E-53FA38195AF1}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardDescription</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public static readonly ID TwitterCardDescription = new ID("{5B3DD1A3-40F8-42BE-900E-53FA38195AF1}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Image</description></item>
+                ///     <item><term>Field ID:</term><description>{BA3C147E-035B-478F-829B-FE233775648F}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardImage</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public static readonly ID TwitterCardImage = new ID("{BA3C147E-035B-478F-829B-FE233775648F}");
+                /// <summary>
+                /// <para>The Twitter @username the card should be attributed to.</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{BA005D3B-393D-4594-8508-70A503925DCD}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardSite</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public static readonly ID TwitterCardSite = new ID("{BA005D3B-393D-4594-8508-70A503925DCD}");
+                /// <summary>
+                /// <para>Same as Site, but the user’s Twitter ID instead of the website's Twitter ID.</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{217988BC-4DDE-4B44-A688-DFB8F69C6061}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardSiteId</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public static readonly ID TwitterCardSiteId = new ID("{217988BC-4DDE-4B44-A688-DFB8F69C6061}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{0181FE49-A838-496D-8690-935282E599F3}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardTitle</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public static readonly ID TwitterCardTitle = new ID("{0181FE49-A838-496D-8690-935282E599F3}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Droplist</description></item>
+                ///     <item><term>Field ID:</term><description>{579ED843-06B5-4E31-9B98-0D4B12E418AB}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardType</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public static readonly ID TwitterCardType = new ID("{579ED843-06B5-4E31-9B98-0D4B12E418AB}");
             }
 
             public struct FieldNames
             {
-                public const string PageBodyTopScript = "PageBodyTopScript";
-                public const string PageFootScript = "PageFootScript";
-                public const string PageHeadScript = "PageHeadScript";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Checkbox</description></item>
+                ///     <item><term>Field ID:</term><description>{0ED18C8B-E06A-4F49-8F9E-8346F1A3294C}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BlockSearchEngineIndexing</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string BlockSearchEngineIndexing = "BlockSearchEngineIndexing";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Checkbox</description></item>
+                ///     <item><term>Field ID:</term><description>{7FB8D83D-C981-49D9-B352-953E5C6BE7CF}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BlockSearchEngineLinkFollowing</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string BlockSearchEngineLinkFollowing = "BlockSearchEngineLinkFollowing";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{D6CB41B5-9467-4C42-95AC-B62584A1F5F0}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BrowserTitle</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string BrowserTitle = "BrowserTitle";
+                /// <summary>
+                /// <para>This value is appended to the browser title for every page on the site</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{8E87381A-CCA5-4EC4-98B4-CC39023C6503}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BrowserTitleSuffix</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string BrowserTitleSuffix = "BrowserTitleSuffix";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{C0AD316F-EEC8-494D-A30A-356C10E8853E}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/CanonicalUrl</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string CanonicalUrl = "CanonicalUrl";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{D62C4448-2E23-4393-939D-F489DCFB881E}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/MetaDescription</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string MetaDescription = "MetaDescription";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{DEAD7283-98C8-4AB8-924E-0DEB00858EFB}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/MetaKeywords</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string MetaKeywords = "MetaKeywords";
-                public const string TwitterCardContentCreator = "TwitterCardContentCreator";
-                public const string TwitterCardDescription = "TwitterCardDescription";
-                public const string TwitterCardImage = "TwitterCardImage";
-                public const string TwitterCardSite = "TwitterCardSite";
-                public const string TwitterCardSiteId = "TwitterCardSiteId";
-                public const string TwitterCardTitle = "TwitterCardTitle";
-                public const string TwitterCardType = "TwitterCardType";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{475A8C93-A6CB-4D6B-A288-58FD09FB7A18}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta/Open Graph Data/OgDescription</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string OgDescription = "OgDescription";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Image</description></item>
+                ///     <item><term>Field ID:</term><description>{F046BEA2-BB06-4CEB-B87D-2F1A28A6D101}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta/Open Graph Data/OgImage</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string OgImage = "OgImage";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{15D1129E-D78D-4EE4-A005-0CC1617A5F4D}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta/Open Graph Data/OgSiteName</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string OgSiteName = "OgSiteName";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{9CE2BFC9-04C1-429C-B388-152506E97078}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta/Open Graph Data/OgTitle</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string OgTitle = "OgTitle";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{4E4F0C39-6B77-43F5-AB56-8AEFAA395819}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta/Open Graph Data/OgType</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string OgType = "OgType";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{451F49E1-52E1-4622-B113-20970AAAABAC}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_PageScripts/Scripts/PageBodyTopScript</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public const string PageBodyTopScript = "PageBodyTopScript";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{A3644CDE-C5EA-4521-82C6-0D85D1CFEA8C}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_PageScripts/Scripts/PageFootScript</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public const string PageFootScript = "PageFootScript";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{C6D8E03E-B82B-4D2C-93C9-8170249F1E02}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_PageScripts/Scripts/PageHeadScript</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public const string PageHeadScript = "PageHeadScript";
+                /// <summary>
+                /// <para>@username of content creator</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{F4DED7B3-8B6F-46D8-902C-1C119BDA1699}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardContentCreator</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public const string TwitterCardContentCreator = "TwitterCardContentCreator";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{5B3DD1A3-40F8-42BE-900E-53FA38195AF1}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardDescription</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public const string TwitterCardDescription = "TwitterCardDescription";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Image</description></item>
+                ///     <item><term>Field ID:</term><description>{BA3C147E-035B-478F-829B-FE233775648F}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardImage</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public const string TwitterCardImage = "TwitterCardImage";
+                /// <summary>
+                /// <para>The Twitter @username the card should be attributed to.</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{BA005D3B-393D-4594-8508-70A503925DCD}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardSite</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public const string TwitterCardSite = "TwitterCardSite";
+                /// <summary>
+                /// <para>Same as Site, but the user’s Twitter ID instead of the website's Twitter ID.</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{217988BC-4DDE-4B44-A688-DFB8F69C6061}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardSiteId</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public const string TwitterCardSiteId = "TwitterCardSiteId";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{0181FE49-A838-496D-8690-935282E599F3}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardTitle</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public const string TwitterCardTitle = "TwitterCardTitle";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Droplist</description></item>
+                ///     <item><term>Field ID:</term><description>{579ED843-06B5-4E31-9B98-0D4B12E418AB}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardType</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public const string TwitterCardType = "TwitterCardType";
             }
 		}
     }
@@ -544,6 +1707,12 @@ namespace Elision
 {
 	public partial struct Templates
     {
+        /// <summary>
+        /// <list type="table">
+        ///     <item><term>Template ID:</term><description>{DB1E7728-506A-4D2F-A9F7-9172692D4A71}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_PageScripts</description></item>
+        /// </list>
+        /// </summary>
         public struct _PageScripts
         {
             public static readonly ID TemplateId = new ID("{DB1E7728-506A-4D2F-A9F7-9172692D4A71}");
@@ -551,15 +1720,57 @@ namespace Elision
 
             public struct FieldIds
             {
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{451F49E1-52E1-4622-B113-20970AAAABAC}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_PageScripts/Scripts/PageBodyTopScript</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID PageBodyTopScript = new ID("{451F49E1-52E1-4622-B113-20970AAAABAC}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{A3644CDE-C5EA-4521-82C6-0D85D1CFEA8C}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_PageScripts/Scripts/PageFootScript</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID PageFootScript = new ID("{A3644CDE-C5EA-4521-82C6-0D85D1CFEA8C}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{C6D8E03E-B82B-4D2C-93C9-8170249F1E02}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_PageScripts/Scripts/PageHeadScript</description></item>
+                /// </list>
+                /// </summary>
                 public static readonly ID PageHeadScript = new ID("{C6D8E03E-B82B-4D2C-93C9-8170249F1E02}");
             }
 
             public struct FieldNames
             {
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{451F49E1-52E1-4622-B113-20970AAAABAC}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_PageScripts/Scripts/PageBodyTopScript</description></item>
+                /// </list>
+                /// </summary>
                 public const string PageBodyTopScript = "PageBodyTopScript";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{A3644CDE-C5EA-4521-82C6-0D85D1CFEA8C}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_PageScripts/Scripts/PageFootScript</description></item>
+                /// </list>
+                /// </summary>
                 public const string PageFootScript = "PageFootScript";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{C6D8E03E-B82B-4D2C-93C9-8170249F1E02}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_PageScripts/Scripts/PageHeadScript</description></item>
+                /// </list>
+                /// </summary>
                 public const string PageHeadScript = "PageHeadScript";
             }
 		}
@@ -569,6 +1780,12 @@ namespace Elision
 {
 	public partial struct Templates
     {
+        /// <summary>
+        /// <list type="table">
+        ///     <item><term>Template ID:</term><description>{E87C2B17-E271-4DD2-AAA7-6CDD3D39FD0A}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Content/Website</description></item>
+        /// </list>
+        /// </summary>
         public struct Website
         {
             public static readonly ID TemplateId = new ID("{E87C2B17-E271-4DD2-AAA7-6CDD3D39FD0A}");
@@ -576,11 +1793,27 @@ namespace Elision
 
             public struct FieldIds
             {
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Droplink</description></item>
+                ///     <item><term>Field ID:</term><description>{F318342F-A549-47F7-BD88-25086B46B9D9}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_Themable/Theme/Theme</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID Theme = new ID("{F318342F-A549-47F7-BD88-25086B46B9D9}");
             }
 
             public struct FieldNames
             {
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Droplink</description></item>
+                ///     <item><term>Field ID:</term><description>{F318342F-A549-47F7-BD88-25086B46B9D9}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_Themable/Theme/Theme</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string Theme = "Theme";
             }
 		}
@@ -590,6 +1823,12 @@ namespace Elision
 {
 	public partial struct Templates
     {
+        /// <summary>
+        /// <list type="table">
+        ///     <item><term>Template ID:</term><description>{E9B6FBA3-AF11-429B-9709-CEDD0087E57D}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Content/_HomePage</description></item>
+        /// </list>
+        /// </summary>
         public struct _HomePage
         {
             public static readonly ID TemplateId = new ID("{E9B6FBA3-AF11-429B-9709-CEDD0087E57D}");
@@ -597,62 +1836,486 @@ namespace Elision
 
             public struct FieldIds
             {
-                public static readonly ID PageBodyTopScript = new ID("{451F49E1-52E1-4622-B113-20970AAAABAC}");
-                public static readonly ID PageFootScript = new ID("{A3644CDE-C5EA-4521-82C6-0D85D1CFEA8C}");
-                public static readonly ID PageHeadScript = new ID("{C6D8E03E-B82B-4D2C-93C9-8170249F1E02}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Checkbox</description></item>
+                ///     <item><term>Field ID:</term><description>{0ED18C8B-E06A-4F49-8F9E-8346F1A3294C}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BlockSearchEngineIndexing</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID BlockSearchEngineIndexing = new ID("{0ED18C8B-E06A-4F49-8F9E-8346F1A3294C}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Checkbox</description></item>
+                ///     <item><term>Field ID:</term><description>{7FB8D83D-C981-49D9-B352-953E5C6BE7CF}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BlockSearchEngineLinkFollowing</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID BlockSearchEngineLinkFollowing = new ID("{7FB8D83D-C981-49D9-B352-953E5C6BE7CF}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{D6CB41B5-9467-4C42-95AC-B62584A1F5F0}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BrowserTitle</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID BrowserTitle = new ID("{D6CB41B5-9467-4C42-95AC-B62584A1F5F0}");
+                /// <summary>
+                /// <para>This value is appended to the browser title for every page on the site</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{8E87381A-CCA5-4EC4-98B4-CC39023C6503}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BrowserTitleSuffix</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID BrowserTitleSuffix = new ID("{8E87381A-CCA5-4EC4-98B4-CC39023C6503}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{C0AD316F-EEC8-494D-A30A-356C10E8853E}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/CanonicalUrl</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID CanonicalUrl = new ID("{C0AD316F-EEC8-494D-A30A-356C10E8853E}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{D62C4448-2E23-4393-939D-F489DCFB881E}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/MetaDescription</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID MetaDescription = new ID("{D62C4448-2E23-4393-939D-F489DCFB881E}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{DEAD7283-98C8-4AB8-924E-0DEB00858EFB}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/MetaKeywords</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID MetaKeywords = new ID("{DEAD7283-98C8-4AB8-924E-0DEB00858EFB}");
-                public static readonly ID TwitterCardContentCreator = new ID("{F4DED7B3-8B6F-46D8-902C-1C119BDA1699}");
-                public static readonly ID TwitterCardDescription = new ID("{5B3DD1A3-40F8-42BE-900E-53FA38195AF1}");
-                public static readonly ID TwitterCardImage = new ID("{BA3C147E-035B-478F-829B-FE233775648F}");
-                public static readonly ID TwitterCardSite = new ID("{BA005D3B-393D-4594-8508-70A503925DCD}");
-                public static readonly ID TwitterCardSiteId = new ID("{217988BC-4DDE-4B44-A688-DFB8F69C6061}");
-                public static readonly ID TwitterCardTitle = new ID("{0181FE49-A838-496D-8690-935282E599F3}");
-                public static readonly ID TwitterCardType = new ID("{579ED843-06B5-4E31-9B98-0D4B12E418AB}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{475A8C93-A6CB-4D6B-A288-58FD09FB7A18}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta/Open Graph Data/OgDescription</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID OgDescription = new ID("{475A8C93-A6CB-4D6B-A288-58FD09FB7A18}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Image</description></item>
+                ///     <item><term>Field ID:</term><description>{F046BEA2-BB06-4CEB-B87D-2F1A28A6D101}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta/Open Graph Data/OgImage</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID OgImage = new ID("{F046BEA2-BB06-4CEB-B87D-2F1A28A6D101}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{15D1129E-D78D-4EE4-A005-0CC1617A5F4D}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta/Open Graph Data/OgSiteName</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID OgSiteName = new ID("{15D1129E-D78D-4EE4-A005-0CC1617A5F4D}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{9CE2BFC9-04C1-429C-B388-152506E97078}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta/Open Graph Data/OgTitle</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID OgTitle = new ID("{9CE2BFC9-04C1-429C-B388-152506E97078}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{4E4F0C39-6B77-43F5-AB56-8AEFAA395819}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta/Open Graph Data/OgType</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID OgType = new ID("{4E4F0C39-6B77-43F5-AB56-8AEFAA395819}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{451F49E1-52E1-4622-B113-20970AAAABAC}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_PageScripts/Scripts/PageBodyTopScript</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public static readonly ID PageBodyTopScript = new ID("{451F49E1-52E1-4622-B113-20970AAAABAC}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{A3644CDE-C5EA-4521-82C6-0D85D1CFEA8C}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_PageScripts/Scripts/PageFootScript</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public static readonly ID PageFootScript = new ID("{A3644CDE-C5EA-4521-82C6-0D85D1CFEA8C}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{C6D8E03E-B82B-4D2C-93C9-8170249F1E02}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_PageScripts/Scripts/PageHeadScript</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public static readonly ID PageHeadScript = new ID("{C6D8E03E-B82B-4D2C-93C9-8170249F1E02}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{F21C2621-329A-4D5A-AAC1-475DA8CE8954}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_SiteScripts/Scripts/SiteBodyTopScript</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID SiteBodyTopScript = new ID("{F21C2621-329A-4D5A-AAC1-475DA8CE8954}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{52E994D5-E743-4DD6-9B86-60C7D170ED72}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_SiteScripts/Scripts/SiteFootScript</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID SiteFootScript = new ID("{52E994D5-E743-4DD6-9B86-60C7D170ED72}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{332BEBEB-F4E8-4078-A9CE-F718E69EC974}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_SiteScripts/Scripts/SiteHeadScript</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID SiteHeadScript = new ID("{332BEBEB-F4E8-4078-A9CE-F718E69EC974}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Droplink</description></item>
+                ///     <item><term>Field ID:</term><description>{F318342F-A549-47F7-BD88-25086B46B9D9}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_Themable/Theme/Theme</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public static readonly ID Theme = new ID("{F318342F-A549-47F7-BD88-25086B46B9D9}");
+                /// <summary>
+                /// <para>@username of content creator</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{F4DED7B3-8B6F-46D8-902C-1C119BDA1699}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardContentCreator</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public static readonly ID TwitterCardContentCreator = new ID("{F4DED7B3-8B6F-46D8-902C-1C119BDA1699}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{5B3DD1A3-40F8-42BE-900E-53FA38195AF1}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardDescription</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public static readonly ID TwitterCardDescription = new ID("{5B3DD1A3-40F8-42BE-900E-53FA38195AF1}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Image</description></item>
+                ///     <item><term>Field ID:</term><description>{BA3C147E-035B-478F-829B-FE233775648F}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardImage</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public static readonly ID TwitterCardImage = new ID("{BA3C147E-035B-478F-829B-FE233775648F}");
+                /// <summary>
+                /// <para>The Twitter @username the card should be attributed to.</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{BA005D3B-393D-4594-8508-70A503925DCD}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardSite</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public static readonly ID TwitterCardSite = new ID("{BA005D3B-393D-4594-8508-70A503925DCD}");
+                /// <summary>
+                /// <para>Same as Site, but the user’s Twitter ID instead of the website's Twitter ID.</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{217988BC-4DDE-4B44-A688-DFB8F69C6061}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardSiteId</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public static readonly ID TwitterCardSiteId = new ID("{217988BC-4DDE-4B44-A688-DFB8F69C6061}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{0181FE49-A838-496D-8690-935282E599F3}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardTitle</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public static readonly ID TwitterCardTitle = new ID("{0181FE49-A838-496D-8690-935282E599F3}");
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Droplist</description></item>
+                ///     <item><term>Field ID:</term><description>{579ED843-06B5-4E31-9B98-0D4B12E418AB}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardType</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public static readonly ID TwitterCardType = new ID("{579ED843-06B5-4E31-9B98-0D4B12E418AB}");
             }
 
             public struct FieldNames
             {
-                public const string PageBodyTopScript = "PageBodyTopScript";
-                public const string PageFootScript = "PageFootScript";
-                public const string PageHeadScript = "PageHeadScript";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Checkbox</description></item>
+                ///     <item><term>Field ID:</term><description>{0ED18C8B-E06A-4F49-8F9E-8346F1A3294C}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BlockSearchEngineIndexing</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string BlockSearchEngineIndexing = "BlockSearchEngineIndexing";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Checkbox</description></item>
+                ///     <item><term>Field ID:</term><description>{7FB8D83D-C981-49D9-B352-953E5C6BE7CF}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BlockSearchEngineLinkFollowing</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string BlockSearchEngineLinkFollowing = "BlockSearchEngineLinkFollowing";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{D6CB41B5-9467-4C42-95AC-B62584A1F5F0}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BrowserTitle</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string BrowserTitle = "BrowserTitle";
+                /// <summary>
+                /// <para>This value is appended to the browser title for every page on the site</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{8E87381A-CCA5-4EC4-98B4-CC39023C6503}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BrowserTitleSuffix</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string BrowserTitleSuffix = "BrowserTitleSuffix";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{C0AD316F-EEC8-494D-A30A-356C10E8853E}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/CanonicalUrl</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string CanonicalUrl = "CanonicalUrl";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{D62C4448-2E23-4393-939D-F489DCFB881E}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/MetaDescription</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string MetaDescription = "MetaDescription";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{DEAD7283-98C8-4AB8-924E-0DEB00858EFB}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/MetaKeywords</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string MetaKeywords = "MetaKeywords";
-                public const string TwitterCardContentCreator = "TwitterCardContentCreator";
-                public const string TwitterCardDescription = "TwitterCardDescription";
-                public const string TwitterCardImage = "TwitterCardImage";
-                public const string TwitterCardSite = "TwitterCardSite";
-                public const string TwitterCardSiteId = "TwitterCardSiteId";
-                public const string TwitterCardTitle = "TwitterCardTitle";
-                public const string TwitterCardType = "TwitterCardType";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{475A8C93-A6CB-4D6B-A288-58FD09FB7A18}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta/Open Graph Data/OgDescription</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string OgDescription = "OgDescription";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Image</description></item>
+                ///     <item><term>Field ID:</term><description>{F046BEA2-BB06-4CEB-B87D-2F1A28A6D101}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta/Open Graph Data/OgImage</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string OgImage = "OgImage";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{15D1129E-D78D-4EE4-A005-0CC1617A5F4D}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta/Open Graph Data/OgSiteName</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string OgSiteName = "OgSiteName";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{9CE2BFC9-04C1-429C-B388-152506E97078}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta/Open Graph Data/OgTitle</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string OgTitle = "OgTitle";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{4E4F0C39-6B77-43F5-AB56-8AEFAA395819}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_OpenGraphMeta/Open Graph Data/OgType</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string OgType = "OgType";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{451F49E1-52E1-4622-B113-20970AAAABAC}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_PageScripts/Scripts/PageBodyTopScript</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public const string PageBodyTopScript = "PageBodyTopScript";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{A3644CDE-C5EA-4521-82C6-0D85D1CFEA8C}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_PageScripts/Scripts/PageFootScript</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public const string PageFootScript = "PageFootScript";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{C6D8E03E-B82B-4D2C-93C9-8170249F1E02}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_PageScripts/Scripts/PageHeadScript</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public const string PageHeadScript = "PageHeadScript";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{F21C2621-329A-4D5A-AAC1-475DA8CE8954}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_SiteScripts/Scripts/SiteBodyTopScript</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string SiteBodyTopScript = "SiteBodyTopScript";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{52E994D5-E743-4DD6-9B86-60C7D170ED72}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_SiteScripts/Scripts/SiteFootScript</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string SiteFootScript = "SiteFootScript";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{332BEBEB-F4E8-4078-A9CE-F718E69EC974}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_SiteScripts/Scripts/SiteHeadScript</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string SiteHeadScript = "SiteHeadScript";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Droplink</description></item>
+                ///     <item><term>Field ID:</term><description>{F318342F-A549-47F7-BD88-25086B46B9D9}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/_Base/_Themable/Theme/Theme</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
                 public const string Theme = "Theme";
+                /// <summary>
+                /// <para>@username of content creator</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{F4DED7B3-8B6F-46D8-902C-1C119BDA1699}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardContentCreator</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public const string TwitterCardContentCreator = "TwitterCardContentCreator";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{5B3DD1A3-40F8-42BE-900E-53FA38195AF1}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardDescription</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public const string TwitterCardDescription = "TwitterCardDescription";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Image</description></item>
+                ///     <item><term>Field ID:</term><description>{BA3C147E-035B-478F-829B-FE233775648F}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardImage</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public const string TwitterCardImage = "TwitterCardImage";
+                /// <summary>
+                /// <para>The Twitter @username the card should be attributed to.</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{BA005D3B-393D-4594-8508-70A503925DCD}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardSite</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public const string TwitterCardSite = "TwitterCardSite";
+                /// <summary>
+                /// <para>Same as Site, but the user’s Twitter ID instead of the website's Twitter ID.</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{217988BC-4DDE-4B44-A688-DFB8F69C6061}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardSiteId</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public const string TwitterCardSiteId = "TwitterCardSiteId";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{0181FE49-A838-496D-8690-935282E599F3}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardTitle</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public const string TwitterCardTitle = "TwitterCardTitle";
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Droplist</description></item>
+                ///     <item><term>Field ID:</term><description>{579ED843-06B5-4E31-9B98-0D4B12E418AB}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_TwitterCardsMeta/Twitter Card/TwitterCardType</description></item>
+                /// </list>
+                /// <para>This is an inherited template field</para>
+                /// </summary>
+                public const string TwitterCardType = "TwitterCardType";
             }
 		}
     }
@@ -661,6 +2324,12 @@ namespace Elision
 {
 	public partial struct Templates
     {
+        /// <summary>
+        /// <list type="table">
+        ///     <item><term>Template ID:</term><description>{F2260259-BCEC-462A-BD5E-F9E5D66E1A9F}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/PageMode</description></item>
+        /// </list>
+        /// </summary>
         public struct PageMode
         {
             public static readonly ID TemplateId = new ID("{F2260259-BCEC-462A-BD5E-F9E5D66E1A9F}");
