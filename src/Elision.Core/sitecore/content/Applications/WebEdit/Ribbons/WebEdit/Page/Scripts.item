@@ -1,0 +1,91 @@
+----item----
+version: 1
+id: {0C6B1911-AE60-490B-88A7-35CF82874C70}
+database: core
+path: /sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page/Scripts
+parent: {63961766-6DDF-4F46-BA99-3212EEB47215}
+name: Scripts
+master: {00000000-0000-0000-0000-000000000000}
+template: {8F3D8F9B-2D76-4ACE-803F-35415D2B230A}
+templatekey: Chunk
+created: 20160525T024045:635997408453230000
+
+----field----
+field: {8BB9A5E3-CAE8-49C6-B830-258A51D970C9}
+name: ID
+key: id
+content-length: 19
+
+DegPageScriptsChunk
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 30
+
+SoftwareV2/16x16/code_edit.png
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 168
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{B8CC30CD-725A-4353-9EA6-CD9832CB3996}" uid="{4C87CC08-D49F-4EB6-A3D4-D7E996F7B2C2}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 0c94d85d-546f-4bd0-8561-429a559e12a1
+
+----field----
+field: {C95D21BD-66C3-444B-A37F-D346CBAF2B55}
+name: Header
+key: header
+content-length: 7
+
+Scripts
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150309T154322Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0c94d85d-546f-4bd0-8561-429a559e12a1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150309T190524:635615247240690355Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,19 @@
+<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
+  <sitecore>
+    <pipelines>
+
+      <!--<preprocessRequest>
+        <processor type="Sitecore.Pipelines.PreprocessRequest.FilterUrlExtensions, Sitecore.Kernel">
+          --><!-- added txt to allowed extensions so that our robots.txt processor can handle the request --><!--
+          <param desc="Allowed extensions (comma separated)">aspx, ashx, asmx, txt</param>
+        </processor>
+      </preprocessRequest>-->
+      
+      <!--<httpRequestBegin>
+        <processor type="Elision.Web.Pipelines.HttpRequestBegin.RobotsTxtProcessor, Elision.Web"
+                   patch:before="processor[@type='Sitecore.Pipelines.HttpRequest.UserResolver, Sitecore.Kernel']"/>
+      </httpRequestBegin>-->
+
+    </pipelines>
+  </sitecore>
+</configuration>

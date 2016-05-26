@@ -147,7 +147,29 @@
     <Content Include="App_Config\Include\Elision\Elision.FieldEditor.config" />
     <Content Include="App_Config\Include\Elision\Elision.Themes.config" />
     <Content Include="App_Config\Include\Elision\Elision.Themes.Areas.config" />
-    <None Include="App_Config\Include\Elision\Elision.UpdateReferences.config.example" />
+    <Content Include="App_Config\Include\Elision\Elision.Seo.CanonicalUrl.config" />
+    <None Include="App_Config\Include\Elision\Elision.Seo.ErrorPages.config.example" />
+    <None Include="App_Config\Include\Elision\Elision.Seo.RobotsTxt.config.example" />
+    <None Include="App_Config\Include\Elision\Elision.Seo.SitemapXml.config.example" />
+    <None Include="sitecore\shell\Themes\Standard\Elision\128x128\map-geolocation-marker.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision\128x128\map-geolocation-pin.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision\128x128\twitter.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision\16x16\map-geolocation-marker.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision\16x16\map-geolocation-pin.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision\16x16\twitter.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision\24x24\twitter.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision\256x256\map-geolocation-marker.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision\256x256\map-geolocation-pin.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision\32x32\map-geolocation-marker.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision\32x32\map-geolocation-pin.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision\32x32\twitter.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision\48x48\map-geolocation-marker.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision\48x48\map-geolocation-pin.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision\48x48\twitter.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision\64x64\map-geolocation-marker.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision\64x64\map-geolocation-pin.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision\64x64\twitter.png" />
+    <None Include="App_Config\Include\Elision\Elision.UpdateReferences.config" />
     <Content Include="App_Config\Include\Elision\Elision.WebEditState.config" />
     <Content Include="App_Config\Include\zElision\Elision.Publishing.config">
       <SubType>Designer</SubType>
@@ -155,22 +177,32 @@
     <Content Include="Areas\Elision\Views\web.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Areas\Elision\Views\Metadata\PageMetadata.cshtml" />
+    <Content Include="Areas\Elision\Views\Twitter\CardMeta.cshtml" />
     <None Include="Elision.nuspec.dev" />
     <None Include="Elision.nuspec" />
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
     <Content Include="Areas\Elision\Views\Resource\BodyBottom.cshtml" />
     <Content Include="Areas\Elision\Views\Resource\BodyTop.cshtml" />
     <Content Include="Areas\Elision\Views\Resource\Head.cshtml" />
-    <None Include="Properties\PublishProfiles\sc81rev160302.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\zElision\Readme.txt" />
+    <Content Include="sitecore\shell\Themes\Standard\Elision.zip" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Areas\Elision\Controllers\MetadataController.cs" />
     <Compile Include="Areas\Elision\Controllers\ResourceController.cs" />
+    <Compile Include="Areas\Elision\Controllers\TwitterController.cs" />
+    <Compile Include="Areas\Elision\Models\OgImageModel.cs" />
+    <Compile Include="Areas\Elision\Models\PageMetadataModel.cs" />
+    <Compile Include="Areas\Elision\Models\PageMetadataModelBuilder.cs" />
     <Compile Include="Areas\Elision\Models\SiteResourceModelBuilder.cs" />
     <Compile Include="Areas\Elision\Models\SiteResourceViewModel.cs" />
+    <Compile Include="Areas\Elision\Models\TwitterCardMetaViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -217,6 +249,10 @@
     <ProjectReference Include="..\Elision.Rules\Elision.Rules.csproj">
       <Project>{104f9aef-a043-46c9-a4ee-05b3691390d2}</Project>
       <Name>Elision.Rules</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Seo\Elision.Seo.csproj">
+      <Project>{6c94a34f-ff7a-4331-9e5e-c6eab94bb20b}</Project>
+      <Name>Elision.Seo</Name>
     </ProjectReference>
     <ProjectReference Include="..\Elision.TabbedRenderingSelector\Elision.TabbedRenderingSelector.csproj">
       <Project>{d0f6210b-ff18-45c1-966a-d74c43a414d7}</Project>

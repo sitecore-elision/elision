@@ -1,0 +1,91 @@
+----item----
+version: 1
+id: {63961766-6DDF-4F46-BA99-3212EEB47215}
+database: core
+path: /sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page
+parent: {570A52B6-6755-461A-8052-5B95EF766F74}
+name: Page
+master: {00000000-0000-0000-0000-000000000000}
+template: {EC6D62A5-5D00-4329-8958-8AC1AD100EBB}
+templatekey: Strip
+created: 20160524T203042:635997186427270000
+
+----field----
+field: {12C1CEB4-F549-472A-97ED-99BFF70EB84E}
+name: ID
+key: id
+content-length: 9
+
+PageStrip
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 187
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{2AA9FC5A-9F89-4508-A210-5282E9B58468}" par="Id=PageStrip" uid="{83FE18FB-0514-4B51-B71B-295758A8DF4E}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 72411247-70ba-43ce-b9ed-730f4288dcd4
+
+----field----
+field: {5453DC07-6A17-48BA-8D05-17DB90A2E795}
+name: Header
+key: header
+content-length: 4
+
+Page
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 78
+
+<r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20150922T134700
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+72411247-70ba-43ce-b9ed-730f4288dcd4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151109T182921Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

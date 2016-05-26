@@ -1,0 +1,29 @@
+@model Elision.Seo.Areas.Elision.Models.TwitterCardMetaViewModel
+@if (!string.IsNullOrWhiteSpace(Model.CardType))
+{
+    <meta name="twitter:card" content="@(Model.CardType)" />
+}
+@if (!string.IsNullOrWhiteSpace(Model.Site))
+{
+    <meta name="twitter:site" content="@Model.Site" />
+}
+@if (!string.IsNullOrWhiteSpace(Model.SiteId))
+{
+    <meta name="twitter:site:id" content="@Model.SiteId" />
+}
+@if (!string.IsNullOrWhiteSpace(Model.Title))
+{
+    <meta name="twitter:title" content="@Model.Title" />
+}
+@if (!string.IsNullOrWhiteSpace(Model.Description))
+{
+    <meta name="twitter:description" content="@Model.Description" />
+}
+@if(!string.IsNullOrWhiteSpace(Model.ImageUrl))
+{
+    <meta name="twitter:image" content="@Model.ImageUrl" />
+}
+@if(!string.IsNullOrWhiteSpace(Model.ContentCreator))
+{
+    <meta name="twitter:creator" content="@Model.ContentCreator">
+}

@@ -114,7 +114,7 @@ TdsGlobal.config
 # Sitecore files
 license.xml
 *.sitecore
-sitecore/
+/sitecore/
 !sitecore/*.enc
 !sitecore/readme.txt
 
