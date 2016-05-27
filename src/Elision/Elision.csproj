@@ -148,6 +148,7 @@
     <Content Include="App_Config\Include\Elision\Elision.Themes.config" />
     <Content Include="App_Config\Include\Elision\Elision.Themes.Areas.config" />
     <Content Include="App_Config\Include\Elision\Elision.Seo.CanonicalUrl.config" />
+    <Content Include="sitecore\sitecore modules\Elision\ExperienceEditor\Commands\LaunchFieldEditor.js" />
     <None Include="App_Config\Include\Elision\Elision.Seo.ErrorPages.config.example" />
     <None Include="App_Config\Include\Elision\Elision.Seo.RobotsTxt.config.example" />
     <None Include="App_Config\Include\Elision\Elision.Seo.SitemapXml.config.example" />
