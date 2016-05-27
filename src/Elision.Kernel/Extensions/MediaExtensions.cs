@@ -1,7 +1,6 @@
 ﻿using System;
 using Sitecore;
 using Sitecore.Data.Fields;
-using Sitecore.Data.Items;
 using Sitecore.Resources.Media;
 
 namespace Elision

@@ -78,14 +78,24 @@ namespace Elision
             return linkField?.TargetItem;
         }
 
-        public static string LinkFieldUrl(this Item item, ID linkFieldId)
+        public static string LinkFieldUrl(this Item item, ID fieldId)
         {
-            var field = item?.Fields?[linkFieldId];
+            var field = item?.Fields?[fieldId];
             if (field == null)
                 return string.Empty;
 
             var linkUrl = new LinkUrl();
-            return linkUrl.GetUrl(item, linkFieldId.ToString());
+            return linkUrl.GetUrl(item, fieldId.ToString());
+        }
+
+        public static string LinkFieldUrl(this Item item, string fieldName)
+        {
+            var field = item?.Fields?[fieldName];
+            if (field == null)
+                return string.Empty;
+
+            var linkUrl = new LinkUrl();
+            return linkUrl.GetUrl(item, fieldName.ToString());
         }
 
         public static string LinkFieldTarget(this Item item, ID fieldId)
@@ -94,10 +104,28 @@ namespace Elision
             return field?.GetAttribute("target");
         }
 
+        public static string LinkFieldTarget(this Item item, string fieldId)
+        {
+            XmlField field = item?.Fields?[fieldId];
+            return field?.GetAttribute("target");
+        }
+
+        public static string LinkFieldClass(this Item item, ID fieldId)
+        {
+            XmlField field = item?.Fields?[fieldId];
+            return field?.GetAttribute("class");
+        }
+
         public static string LinkFieldClass(this Item item, string fieldName)
         {
             XmlField field = item?.Fields?[fieldName];
             return field?.GetAttribute("class");
+        }
+
+        public static string LinkFieldDescription(this Item item, ID fieldId)
+        {
+            XmlField field = item?.Fields?[fieldId];
+            return field?.GetAttribute("description");
         }
 
         public static string LinkFieldDescription(this Item item, string fieldName)
