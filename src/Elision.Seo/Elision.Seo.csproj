@@ -51,15 +51,6 @@
   <ItemGroup>
     <Compile Include="Caching\ErrorPagesResponseCache.cs" />
     <Compile Include="CanonicalUrlExtensions.cs" />
-    <Compile Include="Pipelines\GenerateSitemapXml\AbortPipelineIfNoCacheKey.cs" />
-    <Compile Include="Pipelines\GenerateSitemapXml\BuildSitemapFiles.cs" />
-    <Compile Include="Pipelines\GenerateSitemapXml\GenerateSitemapArgs.cs" />
-    <Compile Include="Pipelines\GenerateSitemapXml\GenerateSitemapProcessor.cs" />
-    <Compile Include="Pipelines\GenerateSitemapXml\GetCacheKey.cs" />
-    <Compile Include="Pipelines\GenerateSitemapXml\GetPageItems.cs" />
-    <Compile Include="Pipelines\GenerateSitemapXml\GetSitemapRoot.cs" />
-    <Compile Include="Pipelines\GenerateSitemapXml\ReturnSitemapFromCache.cs" />
-    <Compile Include="Pipelines\GenerateSitemapXml\StoreSitemapsCache.cs" />
     <Compile Include="Pipelines\GetCanonicalUrl\GetCanonicalUrlArgs.cs" />
     <Compile Include="Pipelines\GetCanonicalUrl\GetCanonicalUrlForAlias.cs" />
     <Compile Include="Pipelines\GetCanonicalUrl\GetCanonicalUrlFromItemField.cs" />
@@ -67,7 +58,6 @@
     <Compile Include="Pipelines\GetCanonicalUrl\IGetCanonicalUrlProcessor.cs" />
     <Compile Include="Pipelines\HttpRequestBegin\MissingItemExecuteRequest.cs" />
     <Compile Include="Pipelines\HttpRequestBegin\RobotsTxtProcessor.cs" />
-    <Compile Include="Pipelines\HttpRequestBegin\SitemapXmlProcessor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
