@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using Sitecore.Data;
 using Sitecore.Data.Items;
 
@@ -10,7 +11,7 @@ namespace Elision
         public static Item ResolveDatasource(this Database db, string datasource, Item contextItem = null)
         {
             var items = ResolveDatasourceItems(db, datasource, contextItem);
-            return items.FirstOrDefault();
+            return items?.FirstOrDefault();
         }
 
         public static IEnumerable<Item> ResolveDatasourceItems(this Database db, string datasource, Item contextItem = null)
@@ -41,13 +42,26 @@ namespace Elision
             if (!string.IsNullOrWhiteSpace(datasource) && datasource.StartsWith("query:"))
                 query = datasource.Substring("query:".Length);
             else if (!string.IsNullOrWhiteSpace(datasource) && (datasource.StartsWith("/") || datasource.StartsWith("./") || datasource.StartsWith("../")))
-                query = datasource;
+                query = EscapeItemPathForQuery(datasource);
 
             if (!string.IsNullOrWhiteSpace(query))
-                return contextItem == null
-                           ? db.SelectItems(query)
-                           : contextItem.Axes.SelectItems(query);
+                return (contextItem == null
+                    ? db.SelectItems(query)
+                    : contextItem.Axes.SelectItems(query))
+                       ?? new Item[0];
             return new Item[0];
+        }
+
+        public static string EscapeItemPathForQuery(string itemPath, params string[] reservedStrings)
+        {
+            if (reservedStrings == null || !reservedStrings.Any())
+                reservedStrings = new[]
+                {
+                    "ancestor", "and", "child", "descendant", "div", "false", "following", "mod", "or", "parent",
+                    "preceding", "self", "true", "xor", "-"
+                };
+
+            return Regex.Replace(itemPath, @"(/)([^/#]*\b(?:" + string.Join("|", reservedStrings) + @")\b[^/#]*)(/|$)", "$1#$2#$3", RegexOptions.IgnoreCase);
         }
 
         public static IEnumerable<Item> GetLinkedItems(this Item item, string fieldName)
