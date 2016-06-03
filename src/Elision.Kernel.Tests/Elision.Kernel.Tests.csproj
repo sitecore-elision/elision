@@ -169,6 +169,10 @@
       <Project>{C2AD100D-A982-4029-87D9-91EB0AECED81}</Project>
       <Name>Elision.Kernel</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Elision.LayoutRenderings\Elision.LayoutRenderings.csproj">
+      <Project>{0f97d507-cecd-48c4-8141-fe5ca2552330}</Project>
+      <Name>Elision.LayoutRenderings</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Elision.LookupSourceItems\Elision.LookupSourceItems.csproj">
       <Project>{3d3a28bb-e9eb-4feb-b4f9-219d88ccede7}</Project>
       <Name>Elision.LookupSourceItems</Name>
