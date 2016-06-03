@@ -1,8 +1,8 @@
-using Elision.Seo.Areas.Elision.Models;
+using Elision.Areas.Elision.Models;
 using Sitecore.Mvc.Controllers;
 using Sitecore.Mvc.Presentation;
 
-namespace Elision.Seo.Areas.Elision.Controllers
+namespace Elision.Areas.Elision.Controllers
 {
     public class MetadataController : SitecoreController
     {

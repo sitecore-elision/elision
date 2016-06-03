@@ -271,6 +271,19 @@ namespace Elision
 }
 namespace Elision
 {
+    public partial struct RulesFolders
+    {
+        /// <summary>
+        /// <list type="table">
+        ///     <item><term>ID:</term><description>{0D0F86CC-EFE2-47D0-9605-54A38BC70729}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/system/Settings/Rules/Get Lookup Source Items/Rules</description></item>
+        /// </list>
+        /// </summary>
+        public static readonly ID Get_Lookup_Source_Items = new ID("{0D0F86CC-EFE2-47D0-9605-54A38BC70729}");
+    }
+}
+namespace Elision
+{
 	public partial struct Templates
     {
         /// <summary>
@@ -312,6 +325,24 @@ namespace Elision
 }
 namespace Elision
 {
+	public partial struct Templates
+    {
+        /// <summary>
+        /// <list type="table">
+        ///     <item><term>Template ID:</term><description>{122AE27A-D84F-4C5E-8367-0F42C764976E}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/System/Folders/ComponentsFolder</description></item>
+        /// </list>
+        /// </summary>
+        public struct ComponentsFolder
+        {
+            public static readonly ID TemplateId = new ID("{122AE27A-D84F-4C5E-8367-0F42C764976E}");
+            public const string Name = "ComponentsFolder";
+
+		}
+    }
+}
+namespace Elision
+{
     public partial struct Renderings
     {
         public partial struct Themes
@@ -324,6 +355,62 @@ namespace Elision
             /// </summary>
             public static readonly ID BodyTopResources = new ID("{176AC3B8-2AA5-4811-8BD3-FAA212881824}");
         }
+    }
+}
+namespace Elision
+{
+    public partial struct RulesFolders
+    {
+        /// <summary>
+        /// <list type="table">
+        ///     <item><term>ID:</term><description>{1D38B82B-6CFD-4F8F-8745-5364DA58107E}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/system/Settings/Rules/Placeholder Settings/Rules</description></item>
+        /// </list>
+        /// </summary>
+        public static readonly ID Placeholder_Settings = new ID("{1D38B82B-6CFD-4F8F-8745-5364DA58107E}");
+    }
+}
+namespace Elision
+{
+	public partial struct Templates
+    {
+        /// <summary>
+        /// <list type="table">
+        ///     <item><term>Template ID:</term><description>{27F032BB-8130-43B2-8E5D-7F63B000D2F6}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_SiteMetaFields</description></item>
+        /// </list>
+        /// </summary>
+        public struct _SiteMetaFields
+        {
+            public static readonly ID TemplateId = new ID("{27F032BB-8130-43B2-8E5D-7F63B000D2F6}");
+            public const string Name = "_SiteMetaFields";
+
+            public struct FieldIds
+            {
+                /// <summary>
+                /// <para>This value is appended to the browser title for every page on the site</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{8E87381A-CCA5-4EC4-98B4-CC39023C6503}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_SiteMetaFields/Metadata/BrowserTitleSuffix</description></item>
+                /// </list>
+                /// </summary>
+                public static readonly ID BrowserTitleSuffix = new ID("{8E87381A-CCA5-4EC4-98B4-CC39023C6503}");
+            }
+
+            public struct FieldNames
+            {
+                /// <summary>
+                /// <para>This value is appended to the browser title for every page on the site</para>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{8E87381A-CCA5-4EC4-98B4-CC39023C6503}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_SiteMetaFields/Metadata/BrowserTitleSuffix</description></item>
+                /// </list>
+                /// </summary>
+                public const string BrowserTitleSuffix = "BrowserTitleSuffix";
+            }
+		}
     }
 }
 namespace Elision
@@ -507,6 +594,19 @@ namespace Elision
 }
 namespace Elision
 {
+    public partial struct RulesFolders
+    {
+        /// <summary>
+        /// <list type="table">
+        ///     <item><term>ID:</term><description>{47E07926-BF3A-4C60-A586-AD615023D62B}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/system/Settings/Rules/Get Compatible Renderings/Rules</description></item>
+        /// </list>
+        /// </summary>
+        public static readonly ID Get_Compatible_Renderings = new ID("{47E07926-BF3A-4C60-A586-AD615023D62B}");
+    }
+}
+namespace Elision
+{
 	public partial struct Templates
     {
         /// <summary>
@@ -546,15 +646,6 @@ namespace Elision
                 /// </list>
                 /// </summary>
                 public static readonly ID BrowserTitle = new ID("{D6CB41B5-9467-4C42-95AC-B62584A1F5F0}");
-                /// <summary>
-                /// <para>This value is appended to the browser title for every page on the site</para>
-                /// <list type="table">
-                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
-                ///     <item><term>Field ID:</term><description>{8E87381A-CCA5-4EC4-98B4-CC39023C6503}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BrowserTitleSuffix</description></item>
-                /// </list>
-                /// </summary>
-                public static readonly ID BrowserTitleSuffix = new ID("{8E87381A-CCA5-4EC4-98B4-CC39023C6503}");
                 /// <summary>
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
@@ -608,15 +699,6 @@ namespace Elision
                 /// </summary>
                 public const string BrowserTitle = "BrowserTitle";
                 /// <summary>
-                /// <para>This value is appended to the browser title for every page on the site</para>
-                /// <list type="table">
-                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
-                ///     <item><term>Field ID:</term><description>{8E87381A-CCA5-4EC4-98B4-CC39023C6503}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BrowserTitleSuffix</description></item>
-                /// </list>
-                /// </summary>
-                public const string BrowserTitleSuffix = "BrowserTitleSuffix";
-                /// <summary>
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{C0AD316F-EEC8-494D-A30A-356C10E8853E}</description></item>
@@ -642,6 +724,19 @@ namespace Elision
                 public const string MetaKeywords = "MetaKeywords";
             }
 		}
+    }
+}
+namespace Elision
+{
+    public partial struct RulesFolders
+    {
+        /// <summary>
+        /// <list type="table">
+        ///     <item><term>ID:</term><description>{71FF2442-3688-481C-867E-47F940F0A6CE}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/system/Settings/Rules/Get Rendering Datasource/Rules</description></item>
+        /// </list>
+        /// </summary>
+        public static readonly ID Get_Rendering_Datasource = new ID("{71FF2442-3688-481C-867E-47F940F0A6CE}");
     }
 }
 namespace Elision
@@ -683,6 +778,19 @@ namespace Elision
                 public const string DefaultImageSize = "DefaultImageSize";
             }
 		}
+    }
+}
+namespace Elision
+{
+    public partial struct RulesFolders
+    {
+        /// <summary>
+        /// <list type="table">
+        ///     <item><term>ID:</term><description>{7C5815EB-7E4C-47C4-8224-C68BBC543270}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/system/Settings/Rules/Replace Rendering/Rules</description></item>
+        /// </list>
+        /// </summary>
+        public static readonly ID Replace_Rendering = new ID("{7C5815EB-7E4C-47C4-8224-C68BBC543270}");
     }
 }
 namespace Elision
@@ -1319,16 +1427,6 @@ namespace Elision
                 /// </summary>
                 public static readonly ID BrowserTitle = new ID("{D6CB41B5-9467-4C42-95AC-B62584A1F5F0}");
                 /// <summary>
-                /// <para>This value is appended to the browser title for every page on the site</para>
-                /// <list type="table">
-                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
-                ///     <item><term>Field ID:</term><description>{8E87381A-CCA5-4EC4-98B4-CC39023C6503}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BrowserTitleSuffix</description></item>
-                /// </list>
-                /// <para>This is an inherited template field</para>
-                /// </summary>
-                public static readonly ID BrowserTitleSuffix = new ID("{8E87381A-CCA5-4EC4-98B4-CC39023C6503}");
-                /// <summary>
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{C0AD316F-EEC8-494D-A30A-356C10E8853E}</description></item>
@@ -1524,16 +1622,6 @@ namespace Elision
                 /// <para>This is an inherited template field</para>
                 /// </summary>
                 public const string BrowserTitle = "BrowserTitle";
-                /// <summary>
-                /// <para>This value is appended to the browser title for every page on the site</para>
-                /// <list type="table">
-                ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
-                ///     <item><term>Field ID:</term><description>{8E87381A-CCA5-4EC4-98B4-CC39023C6503}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BrowserTitleSuffix</description></item>
-                /// </list>
-                /// <para>This is an inherited template field</para>
-                /// </summary>
-                public const string BrowserTitleSuffix = "BrowserTitleSuffix";
                 /// <summary>
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
@@ -1868,7 +1956,7 @@ namespace Elision
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{8E87381A-CCA5-4EC4-98B4-CC39023C6503}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BrowserTitleSuffix</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_SiteMetaFields/Metadata/BrowserTitleSuffix</description></item>
                 /// </list>
                 /// <para>This is an inherited template field</para>
                 /// </summary>
@@ -2110,7 +2198,7 @@ namespace Elision
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{8E87381A-CCA5-4EC4-98B4-CC39023C6503}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BrowserTitleSuffix</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Seo/_SiteMetaFields/Metadata/BrowserTitleSuffix</description></item>
                 /// </list>
                 /// <para>This is an inherited template field</para>
                 /// </summary>

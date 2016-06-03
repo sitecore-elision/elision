@@ -1,4 +1,4 @@
-namespace Elision.Seo.Areas.Elision.Models
+namespace Elision.Areas.Elision.Models
 {
     public class TwitterCardMetaViewModel
     {

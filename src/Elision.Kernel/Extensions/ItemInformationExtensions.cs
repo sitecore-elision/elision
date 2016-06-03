@@ -27,6 +27,18 @@ namespace Elision
                               .Any(x => x.InheritsFrom(templateId));
         }
 
+        public static Item GetAncestorOrSelfOfTemplate(this Item item, ID templateId)
+        {
+            var currentItem = item;
+            while (currentItem != null)
+            {
+                if (currentItem.InheritsFrom(templateId))
+                    return currentItem;
+                currentItem = currentItem.Parent;
+            }
+            return null;
+        }
+
         public static string GetValue(this FieldCollection fields, ID fieldId)
         {
             return fields[fieldId]?.Value;
@@ -57,11 +69,18 @@ namespace Elision
         public static SiteInfo GetSite(this Item item)
         {
             var siteInfoList = Sitecore.Sites.SiteContextFactory.Sites
-                                       .OrderByDescending(x => (x.RootPath + x.StartItem).Length);
+                .Where(site => !string.IsNullOrWhiteSpace(site.Database))
+                .Where(site =>
+                    item.Database.Name.Equals("core", StringComparison.CurrentCultureIgnoreCase) ||
+                    !site.Database.Equals("core", StringComparison.CurrentCultureIgnoreCase))
+                .Where(x => !(x.PhysicalFolder ?? "").StartsWith("/sitecore", StringComparison.CurrentCultureIgnoreCase))
+                .OrderByDescending(x => (x.RootPath + x.StartItem).Length);
 
             var itemPath = item.Paths.FullPath;
-            return siteInfoList
-                .FirstOrDefault(site => itemPath.StartsWith(site.RootPath + site.StartItem, StringComparison.InvariantCultureIgnoreCase));
+
+            return 
+                siteInfoList.FirstOrDefault(site => itemPath.StartsWith(site.RootPath + site.StartItem, StringComparison.InvariantCultureIgnoreCase)) 
+                ?? siteInfoList.FirstOrDefault(site => itemPath.StartsWith(site.RootPath, StringComparison.CurrentCultureIgnoreCase));
         }
 
         public static LayoutDefinition GetLayoutDefinition(this Item item)

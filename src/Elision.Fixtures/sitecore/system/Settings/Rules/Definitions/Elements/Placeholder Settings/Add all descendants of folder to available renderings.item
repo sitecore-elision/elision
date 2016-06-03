@@ -14,13 +14,13 @@ created: 20160524T191428:635997140683270000
 field: {FF55D5A7-6D4B-4CD1-83E0-BAC268073F66}
 name: Type
 key: type
-content-length: 84
+content-length: 118
 
-Elision.Rules.PlaceholderSettings.AddRenderingFolderDescendantsAction, Elision.Rules
+Elision.PlaceholderSettings.Rules.PlaceholderSettings.AddRenderingFolderDescendantsAction, Elision.PlaceholderSettings
 ----version----
 language: en
 version: 1
-revision: 1264932d-2104-4d85-8ea9-eea668ef3f9c
+revision: a828435e-2a71-4284-874b-37d6881cda2d
 
 ----field----
 field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
@@ -40,9 +40,9 @@ sitecore\admin
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
-content-length: 15
+content-length: 16
 
-20150602T094302
+20150602T144302Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -56,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1264932d-2104-4d85-8ea9-eea668ef3f9c
+a828435e-2a71-4284-874b-37d6881cda2d
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150827T194822Z
+20160603T030520Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

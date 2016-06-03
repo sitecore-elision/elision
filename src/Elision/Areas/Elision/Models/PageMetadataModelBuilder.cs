@@ -1,11 +1,12 @@
 using System.Collections.Generic;
 using System.Web;
+using Elision.Seo;
 using Sitecore.Data.Fields;
 using Sitecore.Data.Items;
 using Sitecore.Links;
 using Sitecore.Resources.Media;
 
-namespace Elision.Seo.Areas.Elision.Models
+namespace Elision.Areas.Elision.Models
 {
     public interface IPageMetadataModelBuilder
     {
@@ -48,7 +49,7 @@ namespace Elision.Seo.Areas.Elision.Models
         protected virtual string GetBrowserTitle(Item item)
         {
             var title = item.Fields.GetValue(Templates._PageMetaFields.FieldIds.BrowserTitle).Or(item.DisplayName).Or(item.Name);
-            return title + item.Fields.GetValue(Templates._PageMetaFields.FieldIds.BrowserTitleSuffix);
+            return title + item.GetInheritedFieldValue(Templates._SiteMetaFields.FieldNames.BrowserTitleSuffix, true);
         }
 
         protected virtual OgImageModel GetOgImage(Item item)

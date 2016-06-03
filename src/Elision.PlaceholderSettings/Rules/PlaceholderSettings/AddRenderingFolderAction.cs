@@ -17,7 +17,7 @@ namespace Elision.PlaceholderSettings.Rules.PlaceholderSettings
 
             var renderings = folder
                 .GetChildren()
-                .Where(x => x.Template.BaseTemplates.Any(t => t.ID.ToString() == "{D1592226-3898-4CE2-B190-090FD5F84A4C}"));
+                .Where(x => x.Template.BaseTemplates.Any(t => t.ID.ToString() == "{D1592226-3898-4CE2-B190-090FD5F84A4C}" /*/sitecore/templates/System/Layout/Sections/Rendering Options*/));
 
             foreach (var rendering in renderings.Where(r => ruleContext.Args.PlaceholderRenderings.All(x => x.ID != r.ID)))
             {

@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Sitecore.Data;
+using Sitecore.Data.Items;
 
 namespace Elision.Mvc.Pipelines.GetControllerRenderingValueParameters
 {
@@ -10,6 +11,21 @@ namespace Elision.Mvc.Pipelines.GetControllerRenderingValueParameters
         {
             var parameters = new Dictionary<string, object>();
             var renderingContext = args.RenderingContext;
+
+            var dsItems = new Item[0];
+            if (renderingContext.ContextItem != null)
+                dsItems = renderingContext.ContextItem.Database.ResolveDatasourceItems(renderingContext.Rendering.DataSource, renderingContext.PageContext.Item).ToArray();
+
+            parameters.Add("renderingDataSource", renderingContext.Rendering.DataSource);
+            parameters.Add("renderingDataSourceItems", dsItems);
+            parameters.Add("renderingDataSourceItem", dsItems.FirstOrDefault());
+
+            parameters.Add("rendering", renderingContext.Rendering);
+            parameters.Add("renderingUniqueId", new ID(renderingContext.Rendering.UniqueId));
+            parameters.Add("pageContext", renderingContext.PageContext);
+            parameters.Add("renderingContextItem", renderingContext.ContextItem);
+            parameters.Add("pageContextItem", renderingContext.PageContext.Item);
+
             foreach (var parameter in renderingContext.Rendering.Parameters)
             {
                 parameters.Add(parameter.Key, parameter.Value);
@@ -24,16 +40,9 @@ namespace Elision.Mvc.Pipelines.GetControllerRenderingValueParameters
                                     .ToArray();
                 if (!parameters.ContainsKey(parameter.Key + "Items"))
                     parameters.Add(parameter.Key + "Items", items);
-                if (items.Any() && !parameters.ContainsKey(parameter.Key + "Item"))
-                    parameters.Add(parameter.Key + "Item", items.First());
+                if (!parameters.ContainsKey(parameter.Key + "Item"))
+                    parameters.Add(parameter.Key + "Item", items.FirstOrDefault());
             }
-
-            parameters.Add("rendering", renderingContext.Rendering);
-            parameters.Add("renderingUniqueId", new ID(renderingContext.Rendering.UniqueId));
-            parameters.Add("pageContext", renderingContext.PageContext);
-            parameters.Add("renderingDataSource", renderingContext.Rendering.DataSource);
-            parameters.Add("renderingContextItem", renderingContext.ContextItem);
-            parameters.Add("pageContextItem", renderingContext.PageContext.Item);
 
             foreach (var parameter in parameters)
             {

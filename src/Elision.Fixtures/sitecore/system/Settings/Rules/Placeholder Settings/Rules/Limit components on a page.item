@@ -14,20 +14,12 @@ created: 20160524T191430:635997140708830000
 field: {908EF45D-4940-4B6A-857D-3739BA4ACF8F}
 name: Rule
 key: rule
-content-length: 1074
+content-length: 522
 
 <ruleset>
-  <rule uid="{25272DBF-2B6B-4080-B650-7AE1F902865C}" name="Only allow 1 breadcrumbs per page">
-    <conditions>
-      <condition id="{8692C25F-DBB8-4FA9-9AFD-93C280FEAF46}" uid="2A01FCF1F9944AC5B035A444F88608F4" RenderingItemId="{A0E20C17-B66E-415A-A990-ED75D189EF5F}" operatorid="{814EF7D0-1639-44FD-AEEF-735B5AC14425}" value="1" />
-    </conditions>
-    <actions>
-      <action id="{A4D3EDC9-80FA-4E7B-AC2C-E91667B223C1}" uid="0CA2B52C917244F0AD19C809D9283BD2" RenderingItemIds="{A0E20C17-B66E-415A-A990-ED75D189EF5F}" />
-    </actions>
-  </rule>
   <rule uid="{31FB6AEE-C6E4-4EAF-8878-1DAEA6649571}" name="Cannot add a fragment inside a fragment">
     <conditions>
-      <condition id="{2F62D9D4-CE38-4A6C-A921-56E394EBA71D}" uid="B776AC95E28F47A18B145E541F47854C" templateid="{231F2B92-0C3A-40D6-88CB-133A1DDAFD69}" />
+      <condition id="{CF68E54E-0884-44D9-842C-4B0E85F13803}" uid="31CFD364B4F0464E9C975336E034EFA4" RenderingItemId="{29CE8EA8-26B3-4638-B7E7-31A76E99DAE4}" />
     </conditions>
     <actions>
       <action id="{A4D3EDC9-80FA-4E7B-AC2C-E91667B223C1}" uid="F2D345C1B12A40A4B0D22BE4F127B2B7" RenderingItemIds="{29CE8EA8-26B3-4638-B7E7-31A76E99DAE4}" />
@@ -37,7 +29,7 @@ content-length: 1074
 ----version----
 language: en
 version: 1
-revision: 1f75afbb-b411-4506-b082-c9c273c02cd0
+revision: 6f953e88-1c31-4a36-94f0-a0b89277edad
 
 ----field----
 field: {45CF9130-802A-41BE-B3EB-C02F657DCC2E}
@@ -59,14 +51,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1f75afbb-b411-4506-b082-c9c273c02cd0
+6f953e88-1c31-4a36-94f0-a0b89277edad
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160129T211733Z
+20160603T030251Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

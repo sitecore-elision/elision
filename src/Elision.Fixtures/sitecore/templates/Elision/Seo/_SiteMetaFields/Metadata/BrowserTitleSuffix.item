@@ -2,8 +2,8 @@
 version: 1
 id: {8E87381A-CCA5-4EC4-98B4-CC39023C6503}
 database: master
-path: /sitecore/templates/Elision/Seo/_PageMetaFields/Metadata/BrowserTitleSuffix
-parent: {6383A6E1-B7F9-4180-AB13-B7B177AB5C7C}
+path: /sitecore/templates/Elision/Seo/_SiteMetaFields/Metadata/BrowserTitleSuffix
+parent: {E51C8CA0-B1FF-49BC-9D51-FB4228A20F6E}
 name: BrowserTitleSuffix
 master: {00000000-0000-0000-0000-000000000000}
 template: {455A3E98-A627-4B40-8035-E683A0331AC7}
@@ -27,7 +27,7 @@ content-length: 3
 ----version----
 language: en
 version: 1
-revision: a67bfef7-af28-47a3-a825-e8a402492867
+revision: 4c50cc83-dbc6-431e-b9ec-07c513bfffe4
 
 ----field----
 field: {19A69332-A23E-4E70-8D16-B2640CB24CC8}
@@ -56,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-a67bfef7-af28-47a3-a825-e8a402492867
+4c50cc83-dbc6-431e-b9ec-07c513bfffe4
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160330T191512Z
+20160601T025538Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

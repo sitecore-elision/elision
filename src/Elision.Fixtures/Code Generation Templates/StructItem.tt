@@ -66,6 +66,30 @@ namespace <#= GetNamespace(DefaultNamespace, Model) #>
 }
 <#
 }
+else if (Model.TemplateName == "Rules Folder" && Model.Parent.TemplateName == "Rules Context Folder") {
+#>
+
+namespace <#= GetNamespace(DefaultNamespace, Model) #>
+{
+    public partial struct RulesFolders
+    {
+        /// <summary>
+<#      if (AsClassName(Model.Name) != Model.Name) { #>
+        /// The <#=Model.Parent.Name#> Rules folder.
+<#      } #>
+<#      if (!string.IsNullOrWhiteSpace(GetValue(Model.Parent.SitecoreFields, "__Short description"))) { #>
+        /// <para><#= GetValue(Model.Parent.SitecoreFields, "__Short description") #></para>
+<#      } #>
+        /// <list type="table">
+        ///     <item><term>ID:</term><description><#=Model.ID.ToString("B").ToUpper()#></description></item>
+        ///     <item><term>Path:</term><description><#=Model.Path#></description></item>
+        /// </list>
+        /// </summary>
+        public static readonly ID <#= AsClassName(Model.Parent.Name) #> = new ID("<#= Model.ID.ToString("B").ToUpper() #>");
+    }
+}
+<#
+}
 else if (template != null)
 {
 var templateFields = GetFieldsForTemplate(template, true).Distinct().OrderBy(x => x.Name).ToArray();

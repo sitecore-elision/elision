@@ -22,7 +22,7 @@ namespace Elision
                 throw new ArgumentNullException(nameof(site));
 
             var database = Factory.GetDatabase(site.Database);
-            return database.GetItem(site.StartItem);
+            return database.GetItem(site.RootPath + site.StartItem);
         }
     }
 }

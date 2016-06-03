@@ -14,13 +14,13 @@ created: 20160524T191428:635997140685930000
 field: {AB51C8B2-F0E1-4471-9AAE-CC080D774923}
 name: Type
 key: type
-content-length: 81
+content-length: 115
 
-Elision.Rules.PlaceholderSettings.IsNestedWithinRenderingCondition, Elision.Rules
+Elision.PlaceholderSettings.Rules.PlaceholderSettings.IsNestedWithinRenderingCondition, Elision.PlaceholderSettings
 ----version----
 language: en
 version: 1
-revision: 95c6ceef-6535-4cbf-a6a8-8c75937f73c7
+revision: f8df024f-6ee6-4120-8c6d-90115a91df41
 
 ----field----
 field: {AF321234-4EB9-4EF5-9197-65903351939C}
@@ -40,9 +40,9 @@ sitecore\admin
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
-content-length: 15
+content-length: 16
 
-20150707T131928
+20150707T181928Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -56,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-95c6ceef-6535-4cbf-a6a8-8c75937f73c7
+f8df024f-6ee6-4120-8c6d-90115a91df41
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150827T194917Z
+20160603T030624Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
