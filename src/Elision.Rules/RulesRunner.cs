@@ -71,6 +71,7 @@ namespace Elision.Rules
             Assert.ArgumentNotNullOrEmpty(rulesFolderName, "rulesFolderName");
 
             var rulesFolder = db.GetItem(rulesFolderName)
+                              ?? db.GetItem($"/sitecore/system/settings/rules/{rulesFolderName}/Rules")
                               ?? db.GetItem($"/sitecore/system/rules/{rulesFolderName}/Rules");
             if (rulesFolder == null)
             {

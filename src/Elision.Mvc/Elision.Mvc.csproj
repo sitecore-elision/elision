@@ -89,6 +89,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SitecoreHelperExtensions.cs" />
     <Compile Include="EditFrame\EditFrame.cs" />
     <Compile Include="EditFrame\EditFrameExtensions.cs" />
     <Compile Include="Pipelines\GetAreaAndNamespaces\GetAreaByRenderingFolder.cs" />

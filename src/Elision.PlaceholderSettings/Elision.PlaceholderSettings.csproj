@@ -110,6 +110,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Elision.Kernel\Elision.Kernel.csproj">
+      <Project>{c2ad100d-a982-4029-87d9-91eb0aeced81}</Project>
+      <Name>Elision.Kernel</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Elision.Rules\Elision.Rules.csproj">
       <Project>{104f9aef-a043-46c9-a4ee-05b3691390d2}</Project>
       <Name>Elision.Rules</Name>

@@ -26,7 +26,7 @@ namespace Elision.PlaceholderSettings.Pipelines.GetPlaceholderRenderings
 
             var hasInitialRenderings = args.PlaceholderRenderings.Any();
 
-            _rulesRunner.RunGlobalRules("Placeholder Settings",
+            _rulesRunner.RunGlobalRules(RulesFolders.Placeholder_Settings,
                                         args.ContentDatabase,
                                         new PlaceholderSettingsRuleContext(args, GetContextItem(args)));
 
