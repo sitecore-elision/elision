@@ -110,18 +110,20 @@ namespace Elision.Ioc
             if (KnownTypes == null)
             {
                 var assemblies = AppDomain.CurrentDomain
-                                        .GetAssemblies()
-                                        .Where(x => !x.FullName.StartsWith("System.")
-                                                    && !x.FullName.StartsWith("Microsoft.")
-                                                    && !x.FullName.StartsWith("Sitecore."));
+                    .GetAssemblies()
+                    .Where(ConsiderTypesFromAssembly);
+
                 var types = new List<Type>();
                 foreach (var assembly in assemblies)
                 {
                     try
                     {
-                        types.AddRange(assembly.GetExportedTypes());
+                        types.AddRange(GetImplementationTypes(assembly));
                     }
-                    catch { }
+                    catch (Exception ex)
+                    {
+                        
+                    }
                 }
                 if (KnownTypes == null)
                     KnownTypes = types.ToArray();
@@ -129,6 +131,27 @@ namespace Elision.Ioc
             return KnownTypes
                 .Where(x => CanBeImplementationOfType(x, interfaceType))
                 .ToArray();
+        }
+
+        private static Type[] GetImplementationTypes(Assembly assembly)
+        {
+            return assembly.GetExportedTypes()
+                .Where(x => !x.IsInterface && !x.IsAbstract)
+                .ToArray();
+        }
+
+        private static bool ConsiderTypesFromAssembly(Assembly x)
+        {
+            if (!x.IsDynamic && x.GlobalAssemblyCache)
+                return false;
+
+            if (!x.IsDynamic && x.CodeBase.EndsWith("System.dll"))
+                return false;
+
+            if (x.FullName.StartsWith("System.") ||
+                x.FullName.StartsWith("Microsoft.") || x.FullName.StartsWith("Sitecore.") ||
+                x.FullName.StartsWith("mscorlib") || x.FullName.StartsWith("App_")) return false;
+            return true;
         }
 
         protected virtual bool CanBeImplementationOfType(Type x, Type interfaceType)
