@@ -122,7 +122,7 @@ namespace Elision.Ioc
                     }
                     catch (Exception ex)
                     {
-                        
+                        Log.Error("Error resolving IoC types from assembly " + assembly.FullName, ex, this);
                     }
                 }
                 if (KnownTypes == null)

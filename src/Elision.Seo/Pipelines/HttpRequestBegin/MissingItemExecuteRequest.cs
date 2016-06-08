@@ -1,6 +1,8 @@
 using System;
 using Elision.Seo.Caching;
+using Sitecore;
 using Sitecore.Configuration;
+using Sitecore.Sites;
 
 namespace Elision.Seo.Pipelines.HttpRequestBegin
 {
@@ -38,13 +40,19 @@ namespace Elision.Seo.Pipelines.HttpRequestBegin
                 () => base.RedirectOnSiteAccessDenied(url));
         }
 
-        private static void WriteResponse(string errorPageUrl, int statusCode, Action fallbackAction)
+        protected virtual void WriteResponse(string errorPageUrl, int statusCode, Action fallbackAction)
         {
             var context = System.Web.HttpContext.Current;
             try
             {
                 var domain = context.Request.Url.GetComponents(UriComponents.Scheme | UriComponents.Host, UriFormat.Unescaped);
                 var fullUrl = string.Concat(domain, errorPageUrl);
+
+                if (!ManagedErrorPageExists(fullUrl))
+                {
+                    fallbackAction();
+                    return;
+                }
 
                 var content = ErrorPagesResponseCache.Current.Get(fullUrl);
                 if (string.IsNullOrWhiteSpace(content))
@@ -61,6 +69,24 @@ namespace Elision.Seo.Pipelines.HttpRequestBegin
             {
                 fallbackAction();
             }
+        }
+
+        protected virtual bool ManagedErrorPageExists(string fullUrl)
+        {
+            var url = new Uri(fullUrl, UriKind.Absolute);
+
+            var siteContext = SiteContextFactory.GetSiteContext(url.Host, url.PathAndQuery, url.Port);
+
+            var homePath = siteContext.StartPath;
+            if (!homePath.EndsWith("/"))
+                homePath += "/";
+
+            var itemPath = MainUtil.DecodeName(url.AbsolutePath);
+            if (itemPath.StartsWith(siteContext.VirtualFolder))
+                itemPath = itemPath.Remove(0, siteContext.VirtualFolder.Length);
+
+            var fullPath = homePath + itemPath;
+            return siteContext.Database.GetItem(fullPath) != null;
         }
     }
 }
