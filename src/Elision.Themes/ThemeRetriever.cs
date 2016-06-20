@@ -70,7 +70,7 @@ namespace Elision.Themes
             var scriptsForOutputLocation = scriptsByDevice.Where(x => x[Templates._ThemeResource.FieldIds.ResourceLocation] == location);
 
             var scriptCodes = scriptsForOutputLocation
-                .Select(x => x.InheritsFrom(Templates._ThemeResource.TemplateId)
+                .Select(x => x.InheritsFrom(Templates.ThemeLinkedResource.TemplateId)
                                  ? string.Format(linkFormat, GetResourceUrl(x.Fields[Templates.ThemeLinkedResource.FieldIds.ResourceLink]))
                                  : x[Templates.ThemeEmbeddedResource.FieldIds.ResourceCode]
                 );

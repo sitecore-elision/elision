@@ -1,6 +1,5 @@
 using System.Web.Mvc;
 using Elision.Areas.Elision.Models;
-using Elision.Themes;
 using Sitecore.Data;
 using Sitecore.Data.Items;
 using Sitecore.Mvc.Controllers;
@@ -17,36 +16,21 @@ namespace Elision.Areas.Elision.Controllers
             _modelBuilder = modelBuilder;
         }
 
-        public ActionResult Head(Item renderingContextItem, PageContext pageContext)
+        public ActionResult Head(Item pageContextItem, PageContext pageContext)
         {
-            var model = _modelBuilder.Build(renderingContextItem,
-                Options.ResourceLocations.Head,
-                new ID(pageContext.Device.Id),
-                Templates._SiteScripts.FieldNames.SiteHeadScript,
-                Templates._PageScripts.FieldNames.PageHeadScript);
-
+            var model = _modelBuilder.Build(pageContextItem, OptionLists.ResourceLocations.Head, new ID(pageContext.Device.Id));
             return View(model);
         }
 
-        public ActionResult BodyTop(Item renderingContextItem, PageContext pageContext)
+        public ActionResult BodyTop(Item pageContextItem, PageContext pageContext)
         {
-            var model = _modelBuilder.Build(renderingContextItem,
-                Options.ResourceLocations.BodyTop,
-                new ID(pageContext.Device.Id),
-                Templates._SiteScripts.FieldNames.SiteBodyTopScript,
-                Templates._PageScripts.FieldNames.PageBodyTopScript);
-
+            var model = _modelBuilder.Build(pageContextItem, OptionLists.ResourceLocations.Body_Top, new ID(pageContext.Device.Id));
             return View(model);
         }
 
-        public ActionResult BodyBottom(Item renderingContextItem, PageContext pageContext)
+        public ActionResult BodyBottom(Item pageContextItem, PageContext pageContext)
         {
-            var model = _modelBuilder.Build(renderingContextItem,
-                                            Options.ResourceLocations.BodyBottom,
-                                            new ID(pageContext.Device.Id),
-                                            Templates._SiteScripts.FieldNames.SiteFootScript,
-                                            Templates._PageScripts.FieldNames.PageFootScript);
-
+            var model = _modelBuilder.Build(pageContextItem, OptionLists.ResourceLocations.Body_Bottom, new ID(pageContext.Device.Id));
             return View(model);
         }
     }

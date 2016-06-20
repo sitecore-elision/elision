@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0F97D507-CECD-48C4-8141-FE5CA2552330}</ProjectGuid>
+    <ProjectGuid>{D98DD28B-0FFA-4290-B125-56C654CC0328}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Elision.LayoutRenderings</RootNamespace>
-    <AssemblyName>Elision.LayoutRenderings</AssemblyName>
+    <RootNamespace>Elision.SiteResources</RootNamespace>
+    <AssemblyName>Elision.SiteResources</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -36,8 +36,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Data.Entity" />
-    <Reference Include="System.Data.Entity.Design" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,40 +45,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Pipelines\GetRenderingDatasource\AddDerivedTemplatesForSelection.cs" />
-    <Compile Include="Pipelines\GetRenderingDatasource\RunGetDatasourceLocationRules.cs" />
+    <Compile Include="Pipelines\GetSiteResources\GetRawSiteAndPageResources.cs" />
+    <Compile Include="Pipelines\GetSiteResources\GetSiteResourcesArgs.cs" />
+    <Compile Include="Pipelines\GetSiteResources\IGetSiteResourcesPipelineHandler.cs" />
+    <Compile Include="SiteResource.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rules\GetRenderingDatasource\AddDatasourceRootAction.cs" />
-    <Compile Include="Rules\GetRenderingDatasource\AddGlobalDatasourceRootAction.cs" />
-    <Compile Include="Rules\GetRenderingDatasource\AddLocalDatasourceRootAction.cs" />
-    <Compile Include="Rules\GetRenderingDatasource\AddContextItemAsDatasourceRootAction.cs" />
-    <Compile Include="Rules\GetRenderingDatasource\AddWebsiteDatasourceRootAction.cs" />
-    <Compile Include="Rules\GetRenderingDatasource\ClearDatasourceRootsAction.cs" />
-    <Compile Include="Rules\GetRenderingDatasource\ContextItemInheritsFromRenderingDatasourceTemplateCondition.cs" />
-    <Compile Include="Rules\GetRenderingDatasource\DatasourceRootsNotSetCondition.cs" />
-    <Compile Include="Rules\GetRenderingDatasource\GetRenderingDatasourceRuleContext.cs" />
-    <Compile Include="Rules\GetRenderingDatasource\HasDatasourceTemplateSetCondition.cs" />
-    <Compile Include="Rules\GetRenderingDatasource\RemoveDatasourceRootAction.cs" />
-    <Compile Include="Rules\GetRenderingDatasource\RemoveGlobalDatasourceRootAction.cs" />
-    <Compile Include="Rules\GetRenderingDatasource\RemoveLocalDatasourceRootAction.cs" />
-    <Compile Include="Rules\GetRenderingDatasource\RemoveWebsiteDatasourceRootAction.cs" />
-    <Compile Include="Rules\GetRenderingDatasource\RenderingCondition.cs" />
-    <Compile Include="Rules\GetRenderingDatasource\RenderingDatasourceRulesSettings.cs" />
-    <Compile Include="Rules\RenderingInformation\RenderingIsAnyOfCondition.cs" />
-    <Compile Include="Rules\RenderingInformation\RenderingRuleContext.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Elision.Kernel\Elision.Kernel.csproj">
       <Project>{c2ad100d-a982-4029-87d9-91eb0aeced81}</Project>
       <Name>Elision.Kernel</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Elision.Rules\Elision.Rules.csproj">
-      <Project>{104f9aef-a043-46c9-a4ee-05b3691390d2}</Project>
-      <Name>Elision.Rules</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,5 +1,7 @@
 @model Elision.Areas.Elision.Models.SiteResourceViewModel
-
-@Model.ThemeResources
-@Model.SiteResources
-@Model.PageResources
+@foreach (var resource in Model.Resources)
+{
+    <!-- Start @resource.Key -->
+    @resource.Value
+    <!-- End @resource.Key -->
+}

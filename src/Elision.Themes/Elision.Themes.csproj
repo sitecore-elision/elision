@@ -116,9 +116,9 @@
   <ItemGroup>
     <Compile Include="GetAreaAndNamespaces\GetAreaByTheme.cs" />
     <Compile Include="GetLookupSourceItems\ReplaceThemeLookupSourceQueryTokens.cs" />
+    <Compile Include="GetSiteResources\GetThemeResources.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rules\ItemThemeIsCondition.cs" />
-    <Compile Include="Options.cs" />
     <Compile Include="ThemeRetriever.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -129,6 +129,10 @@
     <ProjectReference Include="..\Elision.LookupSourceItems\Elision.LookupSourceItems.csproj">
       <Project>{3d3a28bb-e9eb-4feb-b4f9-219d88ccede7}</Project>
       <Name>Elision.LookupSourceItems</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.SiteResources\Elision.SiteResources.csproj">
+      <Project>{d98dd28b-0ffa-4290-b125-56c654cc0328}</Project>
+      <Name>Elision.SiteResources</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

@@ -151,11 +151,13 @@
     <Content Include="sitecore\shell\override\SelectRendering.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="sitecore\sitecore modules\Elision\ExperienceEditor\Commands\LaunchFieldEditor.js" />
+    <Content Include="sitecore modules\Elision\ExperienceEditor\Commands\LaunchFieldEditor.js" />
     <Content Include="App_Config\Include\Elision\Elision.LayoutRenderings.config" />
+    <Content Include="App_Config\Include\Elision\Elision.SiteResources.config" />
     <None Include="App_Config\Include\Elision\Elision.Seo.ErrorPages.config.example" />
     <None Include="App_Config\Include\Elision\Elision.Seo.RobotsTxt.config.example" />
     <None Include="App_Config\Include\Elision\Elision.Seo.SitemapXml.config.example" />
+    <None Include="Properties\PublishProfiles\folder.pubxml" />
     <None Include="sitecore\shell\Themes\Standard\Elision\128x128\map-geolocation-marker.png" />
     <None Include="sitecore\shell\Themes\Standard\Elision\128x128\map-geolocation-pin.png" />
     <None Include="sitecore\shell\Themes\Standard\Elision\128x128\twitter.png" />
@@ -262,6 +264,10 @@
     <ProjectReference Include="..\Elision.Seo\Elision.Seo.csproj">
       <Project>{6c94a34f-ff7a-4331-9e5e-c6eab94bb20b}</Project>
       <Name>Elision.Seo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.SiteResources\Elision.SiteResources.csproj">
+      <Project>{d98dd28b-0ffa-4290-b125-56c654cc0328}</Project>
+      <Name>Elision.SiteResources</Name>
     </ProjectReference>
     <ProjectReference Include="..\Elision.TabbedRenderingSelector\Elision.TabbedRenderingSelector.csproj">
       <Project>{d0f6210b-ff18-45c1-966a-d74c43a414d7}</Project>

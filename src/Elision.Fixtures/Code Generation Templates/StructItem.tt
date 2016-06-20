@@ -15,7 +15,61 @@
 	parameter name="DefaultNamespace" type="System.String" #><#
 
 SitecoreTemplate template = Model as SitecoreTemplate;
-if (Model.TemplateName == "Controller rendering") { 
+if (Model.Path.StartsWith("/sitecore/system/Settings/Elision/Option Lists") && Model.TemplateName != "Folder") {
+#>
+
+namespace <#= GetNamespace(DefaultNamespace, Model) #>
+{
+    public partial struct OptionLists
+    {
+        public partial struct <#= AsClassName(Model.Parent.Name) #>
+        {
+            /// <summary>
+<#          if (AsClassName(Model.Name) != Model.Name) { #>
+            /// The <#=Model.Name#> option.
+<#          } #>
+<#          if (!string.IsNullOrWhiteSpace(GetValue(Model.SitecoreFields, "__Short description"))) { #>
+            /// <para><#= GetValue(Model.SitecoreFields, "__Short description") #></para>
+<#          } #>
+            /// <list type="table">
+            ///     <item><term>ID:</term><description><#=Model.ID.ToString("B").ToUpper()#></description></item>
+            ///     <item><term>Path:</term><description><#=Model.Path#></description></item>
+            /// </list>
+            /// </summary>
+            public static readonly ID <#= AsClassName(Model.Name) #> = new ID("<#= Model.ID.ToString("B").ToUpper() #>");
+        }
+    }
+}
+<#
+}
+else if (Model.TemplateName == "Layout") { 
+#>
+
+namespace <#= GetNamespace(DefaultNamespace, Model) #>
+{
+    public partial struct Layouts
+    {
+        public partial struct <#= AsClassName(Model.Parent.Name) #>
+        {
+            /// <summary>
+<#          if (AsClassName(Model.Name) != Model.Name) { #>
+            /// The <#=Model.Name#> rendering.
+<#          } #>
+<#          if (!string.IsNullOrWhiteSpace(GetValue(Model.SitecoreFields, "__Short description"))) { #>
+            /// <para><#= GetValue(Model.SitecoreFields, "__Short description") #></para>
+<#          } #>
+            /// <list type="table">
+            ///     <item><term>Layout ID:</term><description><#=Model.ID.ToString("B").ToUpper()#></description></item>
+            ///     <item><term>Path:</term><description><#=Model.Path#></description></item>
+            /// </list>
+            /// </summary>
+            public static readonly ID <#= AsClassName(Model.Name) #> = new ID("<#= Model.ID.ToString("B").ToUpper() #>");
+        }
+    }
+}
+<#
+}
+else if (Model.TemplateName == "Controller rendering") { 
 #>
 
 namespace <#= GetNamespace(DefaultNamespace, Model) #>

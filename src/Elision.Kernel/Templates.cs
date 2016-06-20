@@ -271,6 +271,23 @@ namespace Elision
 }
 namespace Elision
 {
+    public partial struct OptionLists
+    {
+        public partial struct TwitterCardTypes
+        {
+            /// <summary>
+            /// The summary_large_image option.
+            /// <list type="table">
+            ///     <item><term>ID:</term><description>{0ACD0B65-185E-425B-83C0-DEDBBA5724E2}</description></item>
+            ///     <item><term>Path:</term><description>/sitecore/system/Settings/Elision/Option Lists/TwitterCardTypes/summary_large_image</description></item>
+            /// </list>
+            /// </summary>
+            public static readonly ID Summary_Large_Image = new ID("{0ACD0B65-185E-425B-83C0-DEDBBA5724E2}");
+        }
+    }
+}
+namespace Elision
+{
     public partial struct RulesFolders
     {
         /// <summary>
@@ -368,6 +385,23 @@ namespace Elision
         /// </list>
         /// </summary>
         public static readonly ID Placeholder_Settings = new ID("{1D38B82B-6CFD-4F8F-8745-5364DA58107E}");
+    }
+}
+namespace Elision
+{
+    public partial struct OptionLists
+    {
+        public partial struct ResourceLocations
+        {
+            /// <summary>
+            /// The Body Top option.
+            /// <list type="table">
+            ///     <item><term>ID:</term><description>{252C91F0-B1CA-4F31-ABD4-A9505C180983}</description></item>
+            ///     <item><term>Path:</term><description>/sitecore/system/Settings/Elision/Option Lists/ResourceLocations/Body Top</description></item>
+            /// </list>
+            /// </summary>
+            public static readonly ID Body_Top = new ID("{252C91F0-B1CA-4F31-ABD4-A9505C180983}");
+        }
     }
 }
 namespace Elision
@@ -1144,6 +1178,22 @@ namespace Elision
 }
 namespace Elision
 {
+    public partial struct OptionLists
+    {
+        public partial struct PageModes
+        {
+            /// <summary>
+            /// <list type="table">
+            ///     <item><term>ID:</term><description>{A870FE50-E507-43B1-AE62-09AFBE545990}</description></item>
+            ///     <item><term>Path:</term><description>/sitecore/system/Settings/Elision/Option Lists/PageModes/IsPreview</description></item>
+            /// </list>
+            /// </summary>
+            public static readonly ID IsPreview = new ID("{A870FE50-E507-43B1-AE62-09AFBE545990}");
+        }
+    }
+}
+namespace Elision
+{
 	public partial struct Templates
     {
         /// <summary>
@@ -1303,6 +1353,23 @@ namespace Elision
                 public const string AreaName = "AreaName";
             }
 		}
+    }
+}
+namespace Elision
+{
+    public partial struct OptionLists
+    {
+        public partial struct TwitterCardTypes
+        {
+            /// <summary>
+            /// The summary option.
+            /// <list type="table">
+            ///     <item><term>ID:</term><description>{C98CBF2F-91CC-4D9E-B2A7-5E51421F17E9}</description></item>
+            ///     <item><term>Path:</term><description>/sitecore/system/Settings/Elision/Option Lists/TwitterCardTypes/summary</description></item>
+            /// </list>
+            /// </summary>
+            public static readonly ID Summary = new ID("{C98CBF2F-91CC-4D9E-B2A7-5E51421F17E9}");
+        }
     }
 }
 namespace Elision
@@ -1789,6 +1856,22 @@ namespace Elision
                 public const string TwitterCardType = "TwitterCardType";
             }
 		}
+    }
+}
+namespace Elision
+{
+    public partial struct OptionLists
+    {
+        public partial struct ResourceLocations
+        {
+            /// <summary>
+            /// <list type="table">
+            ///     <item><term>ID:</term><description>{D5B9F2D9-A049-42A5-9B5E-9ED81C70CD7B}</description></item>
+            ///     <item><term>Path:</term><description>/sitecore/system/Settings/Elision/Option Lists/ResourceLocations/Head</description></item>
+            /// </list>
+            /// </summary>
+            public static readonly ID Head = new ID("{D5B9F2D9-A049-42A5-9B5E-9ED81C70CD7B}");
+        }
     }
 }
 namespace Elision
@@ -2424,5 +2507,54 @@ namespace Elision
             public const string Name = "PageMode";
 
 		}
+    }
+}
+namespace Elision
+{
+    public partial struct OptionLists
+    {
+        public partial struct PageModes
+        {
+            /// <summary>
+            /// <list type="table">
+            ///     <item><term>ID:</term><description>{F2BB4AC1-2466-4417-A31F-C7C9F2623468}</description></item>
+            ///     <item><term>Path:</term><description>/sitecore/system/Settings/Elision/Option Lists/PageModes/IsPageEditorEditing</description></item>
+            /// </list>
+            /// </summary>
+            public static readonly ID IsPageEditorEditing = new ID("{F2BB4AC1-2466-4417-A31F-C7C9F2623468}");
+        }
+    }
+}
+namespace Elision
+{
+    public partial struct OptionLists
+    {
+        public partial struct ResourceLocations
+        {
+            /// <summary>
+            /// The Body Bottom option.
+            /// <list type="table">
+            ///     <item><term>ID:</term><description>{FC8390D8-66F0-4C6F-AC76-B91D9FD8BAC3}</description></item>
+            ///     <item><term>Path:</term><description>/sitecore/system/Settings/Elision/Option Lists/ResourceLocations/Body Bottom</description></item>
+            /// </list>
+            /// </summary>
+            public static readonly ID Body_Bottom = new ID("{FC8390D8-66F0-4C6F-AC76-B91D9FD8BAC3}");
+        }
+    }
+}
+namespace Elision
+{
+    public partial struct OptionLists
+    {
+        public partial struct PageModes
+        {
+            /// <summary>
+            /// <list type="table">
+            ///     <item><term>ID:</term><description>{FF2D9DA6-EA47-4F7C-A826-F33E2409B30E}</description></item>
+            ///     <item><term>Path:</term><description>/sitecore/system/Settings/Elision/Option Lists/PageModes/IsNormal</description></item>
+            /// </list>
+            /// </summary>
+            public static readonly ID IsNormal = new ID("{FF2D9DA6-EA47-4F7C-A826-F33E2409B30E}");
+        }
     }
 }
