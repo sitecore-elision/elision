@@ -183,7 +183,7 @@ namespace Elision
                 public static readonly ID PageModes = new ID("{B7100C64-8316-44E7-926D-9F2FE164CD69}");
                 /// <summary>
                 /// <list type="table">
-                ///     <item><term>Field Type:</term><description>Script Multi-Line Text</description></item>
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{1E0ED541-79D4-43C7-930E-2BED12B23B63}</description></item>
                 ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/ThemeEmbeddedResource/Resource/ResourceCode</description></item>
                 /// </list>
@@ -224,7 +224,7 @@ namespace Elision
                 public const string PageModes = "PageModes";
                 /// <summary>
                 /// <list type="table">
-                ///     <item><term>Field Type:</term><description>Script Multi-Line Text</description></item>
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{1E0ED541-79D4-43C7-930E-2BED12B23B63}</description></item>
                 ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Themes/Settings/ThemeEmbeddedResource/Resource/ResourceCode</description></item>
                 /// </list>

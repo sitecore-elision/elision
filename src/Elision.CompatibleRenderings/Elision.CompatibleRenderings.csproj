@@ -135,6 +135,7 @@
     <Compile Include="Rules\CompatibleRenderings\RemoveCompatibleRenderingAction.cs" />
     <Compile Include="Rules\RenderingIsAnyOfCondition.cs" />
     <Compile Include="Rules\RenderingRuleContext.cs" />
+    <Compile Include="Rules\ReplaceRendering\TransformDirectChildRenderingsAction.cs" />
     <Compile Include="Rules\ReplaceRendering\MoveRenderingsToNewPlaceholderAction.cs" />
     <Compile Include="Rules\ReplaceRendering\ReplaceRenderingRuleContext.cs" />
     <Compile Include="Rules\ReplaceRendering\SourceRenderingIsAnyOfCondition.cs" />

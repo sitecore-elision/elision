@@ -14,13 +14,13 @@ created: 20160524T191429:635997140692530000
 field: {AB51C8B2-F0E1-4471-9AAE-CC080D774923}
 name: Type
 key: type
-content-length: 75
+content-length: 113
 
-DEG.SC.Rules.ReplaceRendering.SourceRenderingIsAnyOfCondition, DEG.SC.Rules
+Elision.CompatibleRenderings.Rules.ReplaceRendering.SourceRenderingIsAnyOfCondition, Elision.CompatibleRenderings
 ----version----
 language: en
 version: 1
-revision: c9696f3b-8b0d-456f-9f71-45f8ee8fdbb2
+revision: 4ec0e6c9-6a35-4246-9faa-86227953167a
 
 ----field----
 field: {AF321234-4EB9-4EF5-9197-65903351939C}
@@ -56,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c9696f3b-8b0d-456f-9f71-45f8ee8fdbb2
+4ec0e6c9-6a35-4246-9faa-86227953167a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150304T163928:635610839686171739Z
+20160623T152247Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

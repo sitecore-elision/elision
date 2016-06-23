@@ -14,13 +14,13 @@ created: 20160524T191427:635997140676100000
 field: {FF55D5A7-6D4B-4CD1-83E0-BAC268073F66}
 name: Type
 key: type
-content-length: 81
+content-length: 117
 
-Elision.Rules.CompatibleRenderings.RemoveCompatibleRenderingAction, Elision.Rules
+Elision.CompatibleRenderings.Rules.CompatibleRenderings.RemoveCompatibleRenderingAction, Elision.CompatibleRenderings
 ----version----
 language: en
 version: 1
-revision: dac15c94-5b52-4d2f-9135-243591415471
+revision: 038fa9ec-ed0f-46e3-86f1-86ce3610a1e4
 
 ----field----
 field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
@@ -56,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-dac15c94-5b52-4d2f-9135-243591415471
+038fa9ec-ed0f-46e3-86f1-86ce3610a1e4
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150827T194349Z
+20160616T210312Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
