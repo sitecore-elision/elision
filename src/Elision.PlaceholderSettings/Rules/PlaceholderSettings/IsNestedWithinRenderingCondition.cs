@@ -1,7 +1,7 @@
+using System;
 using System.Linq;
 using Sitecore.Data;
-using Sitecore.Mvc.Common;
-using Sitecore.Mvc.Presentation;
+using Sitecore.Layouts;
 using Sitecore.Rules;
 using Sitecore.Rules.Conditions;
 
@@ -16,9 +16,20 @@ namespace Elision.PlaceholderSettings.Rules.PlaceholderSettings
             if (string.IsNullOrWhiteSpace(RenderingItemId) || !ID.IsID(RenderingItemId))
                 return false;
 
-            var id = ID.Parse(RenderingItemId);
-            var isNested = ContextService.Get().GetInstances<RenderingContext>()
-                                         .Any(x => x.Rendering.RenderingItem.ID == id);
+            var enhancedContext = ruleContext as PlaceholderSettingsRuleContext;
+            if (enhancedContext == null) return false;
+
+            var layoutDefinition = LayoutDefinition.Parse(enhancedContext.Args.LayoutDefinition);
+
+            var renderings = layoutDefinition.Devices.Cast<DeviceDefinition>()
+                .Where(x => x != null)
+                .SelectMany(x => x.Renderings.Cast<RenderingDefinition>())
+                .ToArray();
+
+            if (!renderings.Any())
+                return false;
+
+            var isNested = renderings.Any(x => x.ItemID.Equals(RenderingItemId, StringComparison.InvariantCultureIgnoreCase) && enhancedContext.PlaceholderKeyPath.StartsWith(x.Placeholder));
             return isNested;
         }
     }
