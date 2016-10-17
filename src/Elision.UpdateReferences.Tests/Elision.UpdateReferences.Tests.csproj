@@ -111,6 +111,10 @@
       <HintPath>..\packages\Sitecore81Client.8.1.0\lib\net45\Sitecore.Client.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Sitecore.Cloud.ContentSearch, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore81ContentSearch.8.1.0\lib\net45\Sitecore.Cloud.ContentSearch.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Sitecore.ContentSearch, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Sitecore81ContentSearch.8.1.0\lib\net45\Sitecore.ContentSearch.dll</HintPath>
       <Private>True</Private>
