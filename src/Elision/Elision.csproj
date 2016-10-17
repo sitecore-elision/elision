@@ -221,6 +221,10 @@
       <Project>{d1767079-793d-4d3e-ab8a-bbe51ef9c22e}</Project>
       <Name>Elision.DynamicPlaceholders</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Elision.FieldEditor\Elision.FieldEditor.csproj">
+      <Project>{3fb8e9f9-5d4b-45e2-a5db-6cef0988db44}</Project>
+      <Name>Elision.FieldEditor</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Elision.FieldTokens\Elision.FieldTokens.csproj">
       <Project>{95a7196c-70d7-47fe-a2a6-d803bc7b49bd}</Project>
       <Name>Elision.FieldTokens</Name>

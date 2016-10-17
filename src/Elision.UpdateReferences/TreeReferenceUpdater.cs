@@ -116,10 +116,19 @@ namespace Elision.UpdateReferences
                 value.Replace(r.Source.Paths.ContentPath.ToLower(), r.Dest.Paths.ContentPath.ToLower(), true);
             }
 
-            if (field.ID == Sitecore.FieldIDs.LayoutField || field.ID == Sitecore.FieldIDs.FinalLayoutField)
-                LayoutField.SetFieldValue(field, value.ToString());
+            if (field.ID == FieldIDs.LayoutField || field.ID == FieldIDs.FinalLayoutField)
+            {
+                using (new Sitecore.Data.Events.EventDisabler())
+                using (new EditContext(field.Item, SecurityCheck.Disable))
+                {
+                    LayoutField.SetFieldValue(field, value.ToString());
+                }
+            }
+
             else
+            {
                 UpdateFieldValue(field, initialValue, value);
+            }                
         }
 
         protected void UpdateFieldValue(Field field, string initialValue, StringBuilder value)
