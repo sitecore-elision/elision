@@ -12,12 +12,13 @@ namespace Elision.Rules.Tests
         [Test]
         public void AbortsWhenToldToStopProcessingRuleset()
         {
-            var rules = new Rule<EnhancedRuleContext>[]
+            var rules = new[]
             {
                 new Rule<EnhancedRuleContext>(new TrueCondition<EnhancedRuleContext>(), new StopProcessingThisRulesetAction<EnhancedRuleContext>())
             };
             var list = new EnhancedRuleList<EnhancedRuleContext>(rules);
             var context = new EnhancedRuleContext();
+
             list.Run(context);
 
             context.IsAborted.Should().BeTrue();

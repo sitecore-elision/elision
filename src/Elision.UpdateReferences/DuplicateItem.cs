@@ -57,7 +57,7 @@ namespace Elision.UpdateReferences
                 else if (parent.Access.CanCreate())
                 {
                     Log.Audit(this, "Duplicate item: {0}", new string[1] { AuditFormatter.FormatItem(sourceItem) });
-                    var bucketItemOrSiteRoot = ItemExtensions.GetParentBucketItemOrSiteRoot(sourceItem);
+                    var bucketItemOrSiteRoot = sourceItem.GetParentBucketItemOrSiteRoot();
                     if (BucketManager.IsBucket(bucketItemOrSiteRoot) && BucketManager.IsBucketable(sourceItem))
                     {
                         if (!EventDisabler.IsActive)
@@ -109,7 +109,7 @@ namespace Elision.UpdateReferences
                     return item.Fields[Sitecore.Buckets.Util.Constants.BucketableField].Value.Equals("1");
                 if (item.Paths.FullPath.StartsWith("/sitecore/templates"))
                 {
-                    TemplateItem templateItem1 = item.Children[0] != null ? item.Children[0].Template : null;
+                    TemplateItem templateItem1 = item.Children[0]?.Template;
                     if (templateItem1 != null)
                     {
                         TemplateItem templateItem2 = new TemplateItem(templateItem1);

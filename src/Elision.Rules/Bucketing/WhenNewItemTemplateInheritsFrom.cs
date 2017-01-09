@@ -11,9 +11,7 @@ namespace Elision.Rules.Bucketing
             if (result) return true;
 
             var template = ruleContext.Database.GetTemplate(ruleContext.NewItemTemplateId);
-            if (template == null) return false;
-
-            return template.InheritsFrom(TemplateId);
+            return template != null && template.InheritsFrom(TemplateId);
         }
     }
 }

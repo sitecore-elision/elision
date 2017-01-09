@@ -1,6 +1,5 @@
 using System.Collections.Specialized;
 using FluentAssertions;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NUnit.Framework;
 using Sitecore.Data;
 using Sitecore.FakeDb;

@@ -32,25 +32,5 @@ namespace Elision.FieldEditor
             var contextItem = context.Items.First();
             return contextItem.Database.ResolveDatasource(datasourceString, contextItem);
         }
-
-        //public override CommandState QueryState(CommandContext context)
-        //{
-        //    var item = ResolveDatasource(context)
-        //        ?? context.Items.FirstOrDefault();
-
-        //    if (item == null)
-        //        return CommandState.Hidden;
-
-        //    var ribbonItem = Database.GetItem(context.RibbonSourceUri);
-            
-        //    var fieldNames = context.Parameters["fields"];
-        //    if (string.IsNullOrWhiteSpace(fieldNames))
-        //        return CommandState.Hidden;
-
-        //    if (new ListString(fieldNames).Any(x => item.Fields[x] != null))
-        //        return base.QueryState(context);
-
-        //    return CommandState.Hidden;
-        //}
     }
 }
