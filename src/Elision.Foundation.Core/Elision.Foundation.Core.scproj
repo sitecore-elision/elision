@@ -16,13 +16,13 @@
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <EnableUpdateable>true</EnableUpdateable>
     <UseMerge>true</UseMerge>
-    <SingleAssemblyName>Elision.Core</SingleAssemblyName>
+    <SingleAssemblyName>Elision.Foundation.Core</SingleAssemblyName>
     <UseWebConfigReplacement>false</UseWebConfigReplacement>
     <DeleteAppCodeCompiledFiles>true</DeleteAppCodeCompiledFiles>
     <LegacyFileReplacement>false</LegacyFileReplacement>
-    <AssemblyName>Elision.Core</AssemblyName>
+    <AssemblyName>Elision.Foundation.Core</AssemblyName>
     <Name>Elision.Foundation.Core</Name>
-    <RootNamespace>Elision.Core</RootNamespace>
+    <RootNamespace>Elision.Foundation.Core</RootNamespace>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <ManageRoles>False</ManageRoles>
@@ -40,7 +40,7 @@
     <OutputPath>.\bin\Debug\</OutputPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
     <EnableValidations>False</EnableValidations>
-    <ValidationSettingsFilePath>.\Elision.Core_Debug.xml</ValidationSettingsFilePath>
+    <ValidationSettingsFilePath>.\Elision.Foundation.Core_Debug.xml</ValidationSettingsFilePath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <DebugSymbols>false</DebugSymbols>

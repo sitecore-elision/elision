@@ -37,19 +37,19 @@
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>.\bin\Debug\</OutputPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
-    <PackageName>Elision</PackageName>
+    <PackageName>Elision.Foundation</PackageName>
     <GeneratePackage>False</GeneratePackage>
     <SeperateFilesAndItems>False</SeperateFilesAndItems>
     <PackageExcludeCode>False</PackageExcludeCode>
     <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
-    <PackageAuthor>Patrick Delancy</PackageAuthor>
-    <PackagePublisher>Patrick Delancy</PackagePublisher>
+    <PackageAuthor>Jeffrey Rondeau</PackageAuthor>
+    <PackagePublisher>Jeffrey Rondeau</PackagePublisher>
     <PackageReadme>
     </PackageReadme>
     <PackageVersion>8.1.2</PackageVersion>
     <SitecoreAssemblyPath>..\packages\Sitecore81Deploy.8.1.160302\lib</SitecoreAssemblyPath>
     <EnableValidations>False</EnableValidations>
-    <ValidationSettingsFilePath>.\Elision.Fixtures_Debug.xml</ValidationSettingsFilePath>
+    <ValidationSettingsFilePath>.\Elision.Foundation.Fixtures_Debug.xml</ValidationSettingsFilePath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <DebugSymbols>false</DebugSymbols>
@@ -79,7 +79,8 @@
     <PackagePublisher>Jeffrey Rondeau</PackagePublisher>
     <PackageVersion>0.0.1</PackageVersion>
     <PackageReadme />
-    <SitecoreAssemblyPath>..\packages\Sitecore81Deploy.8.1.0\lib\net45</SitecoreAssemblyPath>
+    <SitecoreAssemblyPath>
+    </SitecoreAssemblyPath>
     <GeneratePackage>True</GeneratePackage>
     <SeperateFilesAndItems>False</SeperateFilesAndItems>
     <PackageExcludeCode>False</PackageExcludeCode>
@@ -96,7 +97,7 @@
     </AssemblyAttributes>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Elision.Core\Elision.Core.scproj">
+    <ProjectReference Include="..\Elision.Foundation.Core\Elision.Foundation.Core.scproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="..\Elision.Foundation\Elision.Foundation.csproj">
@@ -104,11 +105,11 @@
       <Project>{92f04e4f-92c3-4e91-b619-405ed4800920}</Project>
       <Name>Elision.Foundation</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Elision\Elision.csproj">
+    <ProjectReference Include="..\Elision.Foundation\Elision.Foundation.csproj">
       <Project>{92f04e4f-92c3-4e91-b619-405ed4800920}</Project>
       <Name>Elision</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Elision\Elision.Foundation.csproj">
+    <ProjectReference Include="..\Elision.Foundation\Elision.Foundation.csproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <Project>{92f04e4f-92c3-4e91-b619-405ed4800920}</Project>
       <Name>Elision.Foundation</Name>
@@ -1120,7 +1121,7 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <BundledProject Include="..\Elision.Core\Elision.Core.scproj">
+    <BundledProject Include="..\Elision.Foundation.Core\Elision.Foundation.Core.scproj">
       <ProjectId>{c5e7387b-9c49-4e6d-9ddc-0bbe5fcdf5f4}</ProjectId>
     </BundledProject>
   </ItemGroup>
