@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D1767079-793D-4D3E-AB8A-BBE51EF9C22E}</ProjectGuid>
+    <ProjectGuid>{B26C2F5A-69F5-4167-97E7-0E02C4178E5A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Elision.DynamicPlaceholders</RootNamespace>
-    <AssemblyName>Elision.DynamicPlaceholders</AssemblyName>
+    <RootNamespace>Elision.Foundation.CompatibleRenderings</RootNamespace>
+    <AssemblyName>Elision.Foundation.CompatibleRenderings</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -61,6 +61,10 @@
     </Reference>
     <Reference Include="RazorGenerator.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
       <HintPath>..\packages\RazorGenerator.Mvc.2.4.2\lib\net40\RazorGenerator.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.ExperienceEditor, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.ExperienceEditor.NoReferences.8.2.161221\lib\NET452\Sitecore.ExperienceEditor.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Kernel, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -134,28 +138,36 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DynamicPlaceholderHelper.cs" />
-    <Compile Include="FixOrphanedRenderings.cs" />
-    <Compile Include="GetAllowedRenderingsResetPlaceholderKey.cs" />
-    <Compile Include="GetAllowedRenderingsSetPlaceholderKey.cs" />
-    <Compile Include="GetDynamicKeyAllowedRenderings.cs" />
-    <Compile Include="GetDynamicKeyPlaceholderChromeData.cs" />
+    <Compile Include="Pipelines\ExecutePageEditorAction\InsertRendering.cs" />
+    <Compile Include="Pipelines\ExecutePageEditorAction\ReplaceRendering.cs" />
+    <Compile Include="Pipelines\GetChromeData\RunCompatibleRenderingRules.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rules\CompatibleRenderings\AddCompatibleRenderingAction.cs" />
+    <Compile Include="Rules\CompatibleRenderings\ClearCompatibleRenderingsAction.cs" />
+    <Compile Include="Rules\CompatibleRenderings\CurrentRenderingIsAnyOfCondition.cs" />
+    <Compile Include="Rules\CompatibleRenderings\GetCompatibleRenderingsRuleContext.cs" />
+    <Compile Include="Rules\CompatibleRenderings\RemoveCompatibleRenderingAction.cs" />
+    <Compile Include="Rules\RenderingIsAnyOfCondition.cs" />
+    <Compile Include="Rules\RenderingRuleContext.cs" />
+    <Compile Include="Rules\ReplaceRendering\TransformDirectChildRenderingsAction.cs" />
+    <Compile Include="Rules\ReplaceRendering\MoveRenderingsToNewPlaceholderAction.cs" />
+    <Compile Include="Rules\ReplaceRendering\ReplaceRenderingRuleContext.cs" />
+    <Compile Include="Rules\ReplaceRendering\SourceRenderingIsAnyOfCondition.cs" />
+    <Compile Include="Rules\ReplaceRendering\TargetRenderingIsAnyOfCondition.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Elision.Foundation.Kernel\Elision.Foundation.Kernel.csproj">
-      <Project>{c2ad100d-a982-4029-87d9-91eb0aeced81}</Project>
-      <Name>Elision.Foundation.Kernel</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Elision.Foundation.WebEditState\Elision.Foundation.WebEditState.csproj">
-      <Project>{8a11eef3-1f17-4226-a685-5d1a3998c792}</Project>
-      <Name>Elision.Foundation.WebEditState</Name>
+    <ProjectReference Include="..\Elision.Foundation.Rules\Elision.Foundation.Rules.csproj">
+      <Project>{104f9aef-a043-46c9-a4ee-05b3691390d2}</Project>
+      <Name>Elision.Foundation.Rules</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

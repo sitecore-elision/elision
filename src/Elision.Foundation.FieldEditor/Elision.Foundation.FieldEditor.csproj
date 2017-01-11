@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D1767079-793D-4D3E-AB8A-BBE51EF9C22E}</ProjectGuid>
+    <ProjectGuid>{3FB8E9F9-5D4B-45E2-A5DB-6CEF0988DB44}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Elision.DynamicPlaceholders</RootNamespace>
-    <AssemblyName>Elision.DynamicPlaceholders</AssemblyName>
+    <RootNamespace>Elision.Foundation.FieldEditor</RootNamespace>
+    <AssemblyName>Elision.Foundation.FieldEditor</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -31,12 +31,20 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EcmaScript.NET, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\YUICompressor.NET.2.1.1.0\lib\NET20\EcmaScript.NET.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="HtmlAgilityPack, Version=1.4.6.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
       <HintPath>..\packages\HtmlAgilityPack.1.4.6\lib\Net45\HtmlAgilityPack.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
       <HintPath>..\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Iesi.Collections, Version=1.0.1.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\packages\YUICompressor.NET.2.1.1.0\lib\NET20\Iesi.Collections.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Lucene.Net, Version=3.0.3.0, Culture=neutral, PublicKeyToken=85089178b9ac3181, processorArchitecture=MSIL">
@@ -63,6 +71,42 @@
       <HintPath>..\packages\RazorGenerator.Mvc.2.4.2\lib\net40\RazorGenerator.Mvc.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Sitecore.Abstractions, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Abstractions.8.2.161221\lib\NET452\Sitecore.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Analytics, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Analytics.8.2.161221\lib\NET452\Sitecore.Analytics.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Analytics.Core, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Analytics.Core.8.2.161221\lib\NET452\Sitecore.Analytics.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Analytics.DataAccess, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Analytics.DataAccess.8.2.161221\lib\NET452\Sitecore.Analytics.DataAccess.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Analytics.Model, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Analytics.Model.8.2.161221\lib\NET452\Sitecore.Analytics.Model.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Analytics.Processing, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Analytics.Processing.8.2.161221\lib\NET452\Sitecore.Analytics.Processing.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Client, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Client.8.2.161221\lib\NET452\Sitecore.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.ExperienceEditor, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.ExperienceEditor.8.2.161221\lib\NET452\Sitecore.ExperienceEditor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.ExperienceEditor.Speak, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.ExperienceEditor.Speak.8.2.161221\lib\NET452\Sitecore.ExperienceEditor.Speak.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Sitecore.Kernel, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Sitecore.Kernel.8.2.161221\lib\NET452\Sitecore.Kernel.dll</HintPath>
       <Private>True</Private>
@@ -75,12 +119,36 @@
       <HintPath>..\packages\Sitecore.Logging.Client.8.2.161221\lib\NET452\Sitecore.Logging.Client.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Sitecore.Marketing, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Marketing.8.2.161221\lib\NET452\Sitecore.Marketing.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Marketing.Core, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Marketing.Core.8.2.161221\lib\NET452\Sitecore.Marketing.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Marketing.Taxonomy, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Marketing.Taxonomy.8.2.161221\lib\NET452\Sitecore.Marketing.Taxonomy.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Sitecore.Mvc, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Sitecore.Mvc.8.2.161221\lib\NET452\Sitecore.Mvc.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.NVelocity, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Sitecore.NVelocity.8.2.161221\lib\NET452\Sitecore.NVelocity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Speak.Client, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Speak.Client.8.2.161221\lib\NET452\Sitecore.Speak.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Xdb.Client, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Xdb.Client.8.2.161221\lib\NET452\Sitecore.Xdb.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Xdb.Configuration, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Xdb.Configuration.8.2.161221\lib\NET452\Sitecore.Xdb.Configuration.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Zip, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -132,14 +200,14 @@
       <HintPath>..\packages\WebActivatorEx.2.0.3\lib\net40\WebActivatorEx.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Yahoo.Yui.Compressor, Version=2.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\YUICompressor.NET.2.1.1.0\lib\NET20\Yahoo.Yui.Compressor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DynamicPlaceholderHelper.cs" />
-    <Compile Include="FixOrphanedRenderings.cs" />
-    <Compile Include="GetAllowedRenderingsResetPlaceholderKey.cs" />
-    <Compile Include="GetAllowedRenderingsSetPlaceholderKey.cs" />
-    <Compile Include="GetDynamicKeyAllowedRenderings.cs" />
-    <Compile Include="GetDynamicKeyPlaceholderChromeData.cs" />
+    <Compile Include="GenerateFieldEditorUrl.cs" />
+    <Compile Include="OtherFieldEditor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -150,10 +218,6 @@
     <ProjectReference Include="..\Elision.Foundation.Kernel\Elision.Foundation.Kernel.csproj">
       <Project>{c2ad100d-a982-4029-87d9-91eb0aeced81}</Project>
       <Name>Elision.Foundation.Kernel</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Elision.Foundation.WebEditState\Elision.Foundation.WebEditState.csproj">
-      <Project>{8a11eef3-1f17-4226-a685-5d1a3998c792}</Project>
-      <Name>Elision.Foundation.WebEditState</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

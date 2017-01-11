@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{92F04E4F-92C3-4E91-B619-405ED4800920}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Elision.Foundation</RootNamespace>
+    <AssemblyName>Elision.Foundation</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Kernel, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Kernel.NoReferences.8.2.161221\lib\NET452\Sitecore.Kernel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Mvc, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Mvc.NoReferences.8.2.161221\lib\NET452\Sitecore.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\Include\Elision.Foundation\~Elision.config" />
+    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.CompatibleRenderings.config" />
+    <Content Include="App_Config\Include\Elision.Foundation\Elision.DynamicPlaceholders.config" />
+    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.FieldTokens.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.FieldVisibility.config" />
+    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.Ioc.config" />
+    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.LookupSourceItems.config" />
+    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.Mvc.config" />
+    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.Mvc.ValueProvider.config" />
+    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.PlaceholderSettings.config" />
+    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.FieldEditor.config" />
+    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.Themes.config" />
+    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.Themes.Areas.config" />
+    <Content Include="App_Config\Include\Elision.Foundation\Elision.Seo.CanonicalUrl.config" />
+    <Content Include="sitecore\shell\override\SelectRendering.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="sitecore modules\Elision.Foundation\ExperienceEditor\Commands\LaunchFieldEditor.js" />
+    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.LayoutRenderings.config" />
+    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.SiteResources.config" />
+    <None Include="App_Config\Include\Elision.Foundation\Elision.Seo.ErrorPages.config.example" />
+    <None Include="App_Config\Include\Elision.Foundation\Elision.Seo.RobotsTxt.config.example" />
+    <None Include="App_Config\Include\Elision.Foundation\Elision.Seo.SitemapXml.config.example" />
+    <None Include="Properties\PublishProfiles\folder.pubxml" />
+    <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\128x128\map-geolocation-marker.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\128x128\map-geolocation-pin.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\128x128\twitter.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\16x16\map-geolocation-marker.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\16x16\map-geolocation-pin.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\16x16\twitter.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\24x24\twitter.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\256x256\map-geolocation-marker.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\256x256\map-geolocation-pin.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\32x32\map-geolocation-marker.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\32x32\map-geolocation-pin.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\32x32\twitter.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\48x48\map-geolocation-marker.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\48x48\map-geolocation-pin.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\48x48\twitter.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\64x64\map-geolocation-marker.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\64x64\map-geolocation-pin.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\64x64\twitter.png" />
+    <None Include="App_Config\Include\Elision.Foundation\Elision.Foundation.UpdateReferences.config" />
+    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.WebEditState.config" />
+    <Content Include="App_Config\Include\zElision.Foundation\Elision.Foundation.Publishing.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Areas\Elision\Views\web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Areas\Elision\Views\Metadata\PageMetadata.cshtml" />
+    <Content Include="Areas\Elision\Views\Twitter\CardMeta.cshtml" />
+    <None Include="Elision.Foundation.nuspec.dev" />
+    <None Include="Elision.Foundation.nuspec" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Areas\Elision\Views\Resource\BodyBottom.cshtml" />
+    <Content Include="Areas\Elision\Views\Resource\BodyTop.cshtml" />
+    <Content Include="Areas\Elision\Views\Resource\Head.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\Include\zElision.Foundation\Readme.txt" />
+    <Content Include="sitecore\shell\Themes\Standard\Elision.Foundation.zip" />
+    <None Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Areas\Elision\Controllers\MetadataController.cs" />
+    <Compile Include="Areas\Elision\Controllers\ResourceController.cs" />
+    <Compile Include="Areas\Elision\Controllers\TwitterController.cs" />
+    <Compile Include="Areas\Elision\Models\OgImageModel.cs" />
+    <Compile Include="Areas\Elision\Models\PageMetadataModel.cs" />
+    <Compile Include="Areas\Elision\Models\PageMetadataModelBuilder.cs" />
+    <Compile Include="Areas\Elision\Models\SiteResourceModelBuilder.cs" />
+    <Compile Include="Areas\Elision\Models\SiteResourceViewModel.cs" />
+    <Compile Include="Areas\Elision\Models\TwitterCardMetaViewModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Elision.Foundation.CompatibleRenderings\Elision.Foundation.CompatibleRenderings.csproj">
+      <Project>{b26c2f5a-69f5-4167-97e7-0e02c4178e5a}</Project>
+      <Name>Elision.Foundation.CompatibleRenderings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.DynamicPlaceholders\Elision.DynamicPlaceholders.csproj">
+      <Project>{d1767079-793d-4d3e-ab8a-bbe51ef9c22e}</Project>
+      <Name>Elision.DynamicPlaceholders</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.FieldEditor\Elision.Foundation.FieldEditor.csproj">
+      <Project>{3fb8e9f9-5d4b-45e2-a5db-6cef0988db44}</Project>
+      <Name>Elision.Foundation.FieldEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.FieldTokens\Elision.Foundation.FieldTokens.csproj">
+      <Project>{95a7196c-70d7-47fe-a2a6-d803bc7b49bd}</Project>
+      <Name>Elision.Foundation.FieldTokens</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.FieldVisibility\Elision.Foundation.FieldVisibility.csproj">
+      <Project>{460caf21-9886-4109-a5a5-1d8d4228b1d9}</Project>
+      <Name>Elision.Foundation.FieldVisibility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Forms\Elision.Forms.csproj">
+      <Project>{e37182c0-75ff-4307-86e5-befda679920e}</Project>
+      <Name>Elision.Forms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.Ioc\Elision.Foundation.Ioc.csproj">
+      <Project>{851b7da0-e315-48ac-a6e8-156e038ed7a8}</Project>
+      <Name>Elision.Foundation.Ioc</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.Kernel\Elision.Foundation.Kernel.csproj">
+      <Project>{c2ad100d-a982-4029-87d9-91eb0aeced81}</Project>
+      <Name>Elision.Foundation.Kernel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.LookupSourceItems\Elision.Foundation.LookupSourceItems.csproj">
+      <Project>{3d3a28bb-e9eb-4feb-b4f9-219d88ccede7}</Project>
+      <Name>Elision.Foundation.LookupSourceItems</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.Mvc\Elision.Foundation.Mvc.csproj">
+      <Project>{a74b7b03-5736-4767-906c-4ae78d284334}</Project>
+      <Name>Elision.Foundation.Mvc</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.PlaceholderSettings\Elision.Foundation.PlaceholderSettings.csproj">
+      <Project>{d2e69327-5f3a-4219-95b7-7bcc61d3c00b}</Project>
+      <Name>Elision.Foundation.PlaceholderSettings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.Publishing\Elision.Foundation.Publishing.csproj">
+      <Project>{ca14c57f-f221-4c36-a355-cb642179a570}</Project>
+      <Name>Elision.Foundation.Publishing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.LayoutRenderings\Elision.Foundation.LayoutRenderings.csproj">
+      <Project>{0f97d507-cecd-48c4-8141-fe5ca2552330}</Project>
+      <Name>Elision.Foundation.LayoutRenderings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.Rules\Elision.Foundation.Rules.csproj">
+      <Project>{104f9aef-a043-46c9-a4ee-05b3691390d2}</Project>
+      <Name>Elision.Foundation.Rules</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Seo\Elision.Seo.csproj">
+      <Project>{6c94a34f-ff7a-4331-9e5e-c6eab94bb20b}</Project>
+      <Name>Elision.Seo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.SiteResources\Elision.Foundation.SiteResources.csproj">
+      <Project>{d98dd28b-0ffa-4290-b125-56c654cc0328}</Project>
+      <Name>Elision.Foundation.SiteResources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.TabbedRenderingSelector\Elision.Foundation.TabbedRenderingSelector.csproj">
+      <Project>{d0f6210b-ff18-45c1-966a-d74c43a414d7}</Project>
+      <Name>Elision.Foundation.TabbedRenderingSelector</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.Themes\Elision.Foundation.Themes.csproj">
+      <Project>{0b5fdd45-e009-4ee7-8496-3c5e1f4a90ad}</Project>
+      <Name>Elision.Foundation.Themes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.UpdateReferences\Elision.Foundation.UpdateReferences.csproj">
+      <Project>{a8626a79-e6aa-4625-a8e1-1a0569604a7b}</Project>
+      <Name>Elision.Foundation.UpdateReferences</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.WebEditState\Elision.Foundation.WebEditState.csproj">
+      <Project>{8a11eef3-1f17-4226-a685-5d1a3998c792}</Project>
+      <Name>Elision.Foundation.WebEditState</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>17038</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:17038/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
