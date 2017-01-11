@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5077E4FA-346F-4D64-BCF8-6A4C562F1CDD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Elision.Foundation.Kernel.Tests</RootNamespace>
+    <AssemblyName>Elision.Foundation.Kernel.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FluentAssertions, Version=4.6.3.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentAssertions.4.6.3\lib\net45\FluentAssertions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FluentAssertions.Core, Version=4.6.3.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentAssertions.4.6.3\lib\net45\FluentAssertions.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.FakeDb, Version=1.3.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.FakeDb.1.3.1\lib\net45\Sitecore.FakeDb.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Kernel, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Kernel.NoReferences.8.2.161221\lib\NET452\Sitecore.Kernel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Mvc, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Mvc.NoReferences.8.2.161221\lib\NET452\Sitecore.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NugetDependenciesTests.cs" />
+    <Compile Include="ConfigReferencedTypes.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResolveDatasourceTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Elision.Foundation.CompatibleRenderings\Elision.Foundation.CompatibleRenderings.csproj">
+      <Project>{b26c2f5a-69f5-4167-97e7-0e02c4178e5a}</Project>
+      <Name>Elision.Foundation.CompatibleRenderings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.DynamicPlaceholders\Elision.DynamicPlaceholders.csproj">
+      <Project>{d1767079-793d-4d3e-ab8a-bbe51ef9c22e}</Project>
+      <Name>Elision.DynamicPlaceholders</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.FieldEditor\Elision.Foundation.FieldEditor.csproj">
+      <Project>{3fb8e9f9-5d4b-45e2-a5db-6cef0988db44}</Project>
+      <Name>Elision.Foundation.FieldEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.FieldTokens\Elision.Foundation.FieldTokens.csproj">
+      <Project>{95a7196c-70d7-47fe-a2a6-d803bc7b49bd}</Project>
+      <Name>Elision.Foundation.FieldTokens</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.FieldVisibility\Elision.Foundation.FieldVisibility.csproj">
+      <Project>{460caf21-9886-4109-a5a5-1d8d4228b1d9}</Project>
+      <Name>Elision.Foundation.FieldVisibility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.Ioc\Elision.Foundation.Ioc.csproj">
+      <Project>{851b7da0-e315-48ac-a6e8-156e038ed7a8}</Project>
+      <Name>Elision.Foundation.Ioc</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.Kernel\Elision.Foundation.Kernel.csproj">
+      <Project>{C2AD100D-A982-4029-87D9-91EB0AECED81}</Project>
+      <Name>Elision.Foundation.Kernel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.LayoutRenderings\Elision.Foundation.LayoutRenderings.csproj">
+      <Project>{0f97d507-cecd-48c4-8141-fe5ca2552330}</Project>
+      <Name>Elision.Foundation.LayoutRenderings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.LookupSourceItems\Elision.Foundation.LookupSourceItems.csproj">
+      <Project>{3d3a28bb-e9eb-4feb-b4f9-219d88ccede7}</Project>
+      <Name>Elision.Foundation.LookupSourceItems</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.Mvc\Elision.Foundation.Mvc.csproj">
+      <Project>{a74b7b03-5736-4767-906c-4ae78d284334}</Project>
+      <Name>Elision.Foundation.Mvc</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.PlaceholderSettings\Elision.Foundation.PlaceholderSettings.csproj">
+      <Project>{d2e69327-5f3a-4219-95b7-7bcc61d3c00b}</Project>
+      <Name>Elision.Foundation.PlaceholderSettings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.Publishing\Elision.Foundation.Publishing.csproj">
+      <Project>{ca14c57f-f221-4c36-a355-cb642179a570}</Project>
+      <Name>Elision.Foundation.Publishing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.Rules\Elision.Foundation.Rules.csproj">
+      <Project>{104f9aef-a043-46c9-a4ee-05b3691390d2}</Project>
+      <Name>Elision.Foundation.Rules</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Seo\Elision.Seo.csproj">
+      <Project>{6c94a34f-ff7a-4331-9e5e-c6eab94bb20b}</Project>
+      <Name>Elision.Seo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.TabbedRenderingSelector\Elision.Foundation.TabbedRenderingSelector.csproj">
+      <Project>{d0f6210b-ff18-45c1-966a-d74c43a414d7}</Project>
+      <Name>Elision.Foundation.TabbedRenderingSelector</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.Themes\Elision.Foundation.Themes.csproj">
+      <Project>{0b5fdd45-e009-4ee7-8496-3c5e1f4a90ad}</Project>
+      <Name>Elision.Foundation.Themes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.UpdateReferences\Elision.Foundation.UpdateReferences.csproj">
+      <Project>{a8626a79-e6aa-4625-a8e1-1a0569604a7b}</Project>
+      <Name>Elision.Foundation.UpdateReferences</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.WebEditState\Elision.Foundation.WebEditState.csproj">
+      <Project>{8a11eef3-1f17-4226-a685-5d1a3998c792}</Project>
+      <Name>Elision.Foundation.WebEditState</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
