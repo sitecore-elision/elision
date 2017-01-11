@@ -1,4 +1,4 @@
-using Elision.FieldTokens.Pipelines.ReplaceFieldValueTokens;
+using Elision.Foundation.FieldTokens.Pipelines.ReplaceFieldValueTokens;
 using Sitecore;
 using Sitecore.Data.Items;
 using Sitecore.Diagnostics;
@@ -7,7 +7,7 @@ using Sitecore.Pipelines.RenderField;
 using Sitecore.Sites;
 using Sitecore.Web;
 
-namespace Elision.FieldTokens.Pipelines.RenderField
+namespace Elision.Foundation.FieldTokens.Pipelines.RenderField
 {
     public class ReplaceTokens
     {

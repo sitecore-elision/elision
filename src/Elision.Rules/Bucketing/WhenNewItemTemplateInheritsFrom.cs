@@ -1,7 +1,8 @@
-﻿using Sitecore.Buckets.Rules.Bucketing;
+﻿using Elision.Foundation.Kernel;
+using Sitecore.Buckets.Rules.Bucketing;
 using Sitecore.Buckets.Rules.Bucketing.Conditions;
 
-namespace Elision.Rules.Bucketing
+namespace Elision.Foundation.Rules.Bucketing
 {
     public class WhenNewItemTemplateInheritsFrom<T> : WhenNewItemTemplateIs<T> where T : BucketingRuleContext
     {
@@ -11,9 +12,7 @@ namespace Elision.Rules.Bucketing
             if (result) return true;
 
             var template = ruleContext.Database.GetTemplate(ruleContext.NewItemTemplateId);
-            if (template == null) return false;
-
-            return template.InheritsFrom(TemplateId);
+            return template != null && template.InheritsFrom(TemplateId);
         }
     }
 }

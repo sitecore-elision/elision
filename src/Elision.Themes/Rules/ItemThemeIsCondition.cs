@@ -1,8 +1,9 @@
+using Elision.Foundation.Kernel;
 using Sitecore.Data;
 using Sitecore.Rules;
 using Sitecore.Rules.Conditions;
 
-namespace Elision.Themes.Rules
+namespace Elision.Foundation.Themes.Rules
 {
     public class ItemThemeIsCondition<T> : WhenCondition<T> where T : RuleContext
     {

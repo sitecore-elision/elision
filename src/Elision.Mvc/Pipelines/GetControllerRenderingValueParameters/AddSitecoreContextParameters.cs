@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Elision.Mvc.Pipelines.GetControllerRenderingValueParameters
+namespace Elision.Foundation.Mvc.Pipelines.GetControllerRenderingValueParameters
 {
     public class AddSitecoreContextParameters : IGetControllerRenderingValueParametersProcessor
     {

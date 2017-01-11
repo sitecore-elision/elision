@@ -11,7 +11,7 @@ using Sitecore.Data;
 //     the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
 	public partial struct Templates
     {
@@ -154,7 +154,7 @@ namespace Elision
 		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
 	public partial struct Templates
     {
@@ -253,7 +253,7 @@ namespace Elision
 		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct Renderings
     {
@@ -269,7 +269,7 @@ namespace Elision
         }
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct OptionLists
     {
@@ -286,7 +286,7 @@ namespace Elision
         }
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct RulesFolders
     {
@@ -299,7 +299,7 @@ namespace Elision
         public static readonly ID Get_Lookup_Source_Items = new ID("{0D0F86CC-EFE2-47D0-9605-54A38BC70729}");
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
 	public partial struct Templates
     {
@@ -340,7 +340,7 @@ namespace Elision
 		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
 	public partial struct Templates
     {
@@ -358,7 +358,7 @@ namespace Elision
 		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct Renderings
     {
@@ -374,7 +374,7 @@ namespace Elision
         }
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct RulesFolders
     {
@@ -387,7 +387,7 @@ namespace Elision
         public static readonly ID Placeholder_Settings = new ID("{1D38B82B-6CFD-4F8F-8745-5364DA58107E}");
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct OptionLists
     {
@@ -404,7 +404,7 @@ namespace Elision
         }
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
 	public partial struct Templates
     {
@@ -447,7 +447,7 @@ namespace Elision
 		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
 	public partial struct Templates
     {
@@ -552,7 +552,7 @@ namespace Elision
 		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct Renderings
     {
@@ -568,7 +568,7 @@ namespace Elision
         }
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
 	public partial struct Templates
     {
@@ -610,7 +610,7 @@ namespace Elision
 		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct Renderings
     {
@@ -626,7 +626,7 @@ namespace Elision
         }
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct RulesFolders
     {
@@ -639,7 +639,7 @@ namespace Elision
         public static readonly ID Get_Compatible_Renderings = new ID("{47E07926-BF3A-4C60-A586-AD615023D62B}");
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
 	public partial struct Templates
     {
@@ -760,7 +760,7 @@ namespace Elision
 		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct RulesFolders
     {
@@ -773,7 +773,7 @@ namespace Elision
         public static readonly ID Get_Rendering_Datasource = new ID("{71FF2442-3688-481C-867E-47F940F0A6CE}");
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
 	public partial struct Templates
     {
@@ -814,7 +814,7 @@ namespace Elision
 		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct RulesFolders
     {
@@ -827,7 +827,7 @@ namespace Elision
         public static readonly ID Replace_Rendering = new ID("{7C5815EB-7E4C-47C4-8224-C68BBC543270}");
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
 	public partial struct Templates
     {
@@ -868,7 +868,7 @@ namespace Elision
 		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
 	public partial struct Templates
     {
@@ -909,7 +909,7 @@ namespace Elision
 		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
 	public partial struct Templates
     {
@@ -1008,7 +1008,7 @@ namespace Elision
 		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
 	public partial struct Templates
     {
@@ -1069,7 +1069,7 @@ namespace Elision
 		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
 	public partial struct Templates
     {
@@ -1142,7 +1142,7 @@ namespace Elision
 		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct Renderings
     {
@@ -1158,7 +1158,7 @@ namespace Elision
         }
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
 	public partial struct Templates
     {
@@ -1176,7 +1176,7 @@ namespace Elision
 		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct OptionLists
     {
@@ -1192,7 +1192,7 @@ namespace Elision
         }
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
 	public partial struct Templates
     {
@@ -1235,7 +1235,7 @@ namespace Elision
 		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
 	public partial struct Templates
     {
@@ -1296,7 +1296,7 @@ namespace Elision
 		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
 	public partial struct Templates
     {
@@ -1314,7 +1314,7 @@ namespace Elision
 		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
 	public partial struct Templates
     {
@@ -1355,7 +1355,7 @@ namespace Elision
 		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct OptionLists
     {
@@ -1372,7 +1372,7 @@ namespace Elision
         }
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
 	public partial struct Templates
     {
@@ -1449,7 +1449,7 @@ namespace Elision
 		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
 	public partial struct Templates
     {
@@ -1858,7 +1858,7 @@ namespace Elision
 		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct OptionLists
     {
@@ -1874,7 +1874,7 @@ namespace Elision
         }
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
 	public partial struct Templates
     {
@@ -1947,7 +1947,7 @@ namespace Elision
 		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
 	public partial struct Templates
     {
@@ -1990,7 +1990,7 @@ namespace Elision
 		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
 	public partial struct Templates
     {
@@ -2491,7 +2491,7 @@ namespace Elision
 		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
 	public partial struct Templates
     {
@@ -2509,7 +2509,7 @@ namespace Elision
 		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct OptionLists
     {
@@ -2525,7 +2525,7 @@ namespace Elision
         }
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct OptionLists
     {
@@ -2542,7 +2542,7 @@ namespace Elision
         }
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct OptionLists
     {

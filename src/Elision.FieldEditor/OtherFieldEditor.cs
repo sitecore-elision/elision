@@ -1,11 +1,12 @@
 using System.Linq;
+using Elision.Foundation.Kernel;
 using Sitecore;
 using Sitecore.Data.Items;
 using Sitecore.Diagnostics;
 using Sitecore.Shell.Framework.Commands;
 using Sitecore.Web.UI.Sheer;
 
-namespace Elision.FieldEditor
+namespace Elision.Foundation.FieldEditor
 {
     public class OtherFieldEditor : Sitecore.Shell.Applications.WebEdit.Commands.FieldEditor
     {
@@ -32,25 +33,5 @@ namespace Elision.FieldEditor
             var contextItem = context.Items.First();
             return contextItem.Database.ResolveDatasource(datasourceString, contextItem);
         }
-
-        //public override CommandState QueryState(CommandContext context)
-        //{
-        //    var item = ResolveDatasource(context)
-        //        ?? context.Items.FirstOrDefault();
-
-        //    if (item == null)
-        //        return CommandState.Hidden;
-
-        //    var ribbonItem = Database.GetItem(context.RibbonSourceUri);
-            
-        //    var fieldNames = context.Parameters["fields"];
-        //    if (string.IsNullOrWhiteSpace(fieldNames))
-        //        return CommandState.Hidden;
-
-        //    if (new ListString(fieldNames).Any(x => item.Fields[x] != null))
-        //        return base.QueryState(context);
-
-        //    return CommandState.Hidden;
-        //}
     }
 }

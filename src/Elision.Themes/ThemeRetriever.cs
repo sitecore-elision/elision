@@ -1,10 +1,11 @@
 using System.Linq;
+using Elision.Foundation.Kernel;
 using Sitecore.Collections;
 using Sitecore.Data;
 using Sitecore.Data.Fields;
 using Sitecore.Data.Items;
 
-namespace Elision.Themes
+namespace Elision.Foundation.Themes
 {
     public interface IThemeRetriever
     {

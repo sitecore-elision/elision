@@ -1,7 +1,7 @@
 ﻿using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace Elision.Ioc
+namespace Elision.Foundation.Ioc
 {
     public class TestTypesForIocTesting
     {

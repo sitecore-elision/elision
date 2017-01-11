@@ -2,7 +2,7 @@ using System.Linq;
 using Sitecore.Data;
 using Sitecore.Rules.Actions;
 
-namespace Elision.CompatibleRenderings.Rules.CompatibleRenderings
+namespace Elision.Foundation.CompatibleRenderings.Rules.CompatibleRenderings
 {
     public class RemoveCompatibleRenderingAction<T> : RuleAction<T> where T : GetCompatibleRenderingsRuleContext
     {

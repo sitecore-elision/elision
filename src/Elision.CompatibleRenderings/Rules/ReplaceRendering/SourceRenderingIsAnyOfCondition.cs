@@ -1,6 +1,6 @@
 using Sitecore.Data;
 
-namespace Elision.CompatibleRenderings.Rules.ReplaceRendering
+namespace Elision.Foundation.CompatibleRenderings.Rules.ReplaceRendering
 {
     public class SourceRenderingIsAnyOfCondition<T> : RenderingIsAnyOfCondition<T> where T : ReplaceRenderingRuleContext
     {

@@ -1,6 +1,6 @@
 using Sitecore.Data.Items;
 
-namespace Elision.UpdateReferences
+namespace Elision.Foundation.UpdateReferences
 {
     class EqualItems
     {

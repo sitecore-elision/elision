@@ -3,7 +3,7 @@ using Sitecore.Layouts;
 using Sitecore.Pipelines;
 using Sitecore.Pipelines.ExecutePageEditorAction;
 
-namespace Elision.CompatibleRenderings.Pipelines.ExecutePageEditorAction
+namespace Elision.Foundation.CompatibleRenderings.Pipelines.ExecutePageEditorAction
 {
     public class InsertRendering : Sitecore.Pipelines.ExecutePageEditorAction.InsertRendering
     {

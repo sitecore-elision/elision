@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Elision.Rules;
+using Elision.Foundation.Rules;
 using Sitecore.Data.Items;
 using Sitecore.Diagnostics;
 using Sitecore.Layouts;
 using Sitecore.Pipelines.GetPlaceholderRenderings;
 
-namespace Elision.PlaceholderSettings.Rules.PlaceholderSettings
+namespace Elision.Foundation.PlaceholderSettings.Rules.PlaceholderSettings
 {
     public class PlaceholderSettingsRuleContext : EnhancedRuleContext
     {

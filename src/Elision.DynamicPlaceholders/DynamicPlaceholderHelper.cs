@@ -1,5 +1,5 @@
 using System.Web;
-using Elision.WebEditState;
+using Elision.Foundation.WebEditState;
 using Sitecore.Mvc.Helpers;
 using Sitecore.Mvc.Presentation;
 

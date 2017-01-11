@@ -1,14 +1,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using Elision.PlaceholderSettings.Rules.PlaceholderSettings;
-using Elision.Rules;
+using Elision.Foundation.Kernel;
+using Elision.Foundation.PlaceholderSettings.Rules.PlaceholderSettings;
+using Elision.Foundation.Rules;
 using Sitecore;
 using Sitecore.Data;
 using Sitecore.Data.Items;
 using Sitecore.Pipelines.GetPlaceholderRenderings;
 
-namespace Elision.PlaceholderSettings.Pipelines.GetPlaceholderRenderings
+namespace Elision.Foundation.PlaceholderSettings.Pipelines.GetPlaceholderRenderings
 {
     public class RunPlaceholderSettingsRules
     {

@@ -8,7 +8,7 @@ using Sitecore.Diagnostics;
 using Sitecore.Mvc.Diagnostics;
 using Sitecore.Mvc.Helpers;
 
-namespace Elision.Ioc.Mvc
+namespace Elision.Foundation.Ioc.Mvc
 {
     public class ElisionControllerFactory : DefaultControllerFactory
     {

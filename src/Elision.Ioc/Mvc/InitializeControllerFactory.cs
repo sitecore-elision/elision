@@ -1,7 +1,7 @@
 using System.Web.Mvc;
 using Sitecore.Pipelines;
 
-namespace Elision.Ioc.Mvc
+namespace Elision.Foundation.Ioc.Mvc
 {
     public class InitializeControllerFactory : Sitecore.Mvc.Pipelines.Loader.InitializeControllerFactory
     {

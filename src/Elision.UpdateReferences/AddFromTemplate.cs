@@ -4,7 +4,7 @@ using Sitecore.Data.Items;
 using Sitecore.Events;
 using Sitecore.SecurityModel;
 
-namespace Elision.UpdateReferences
+namespace Elision.Foundation.UpdateReferences
 {
     public class AddFromTemplate
     {

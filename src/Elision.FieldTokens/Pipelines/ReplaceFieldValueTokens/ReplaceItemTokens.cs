@@ -2,7 +2,7 @@ using System.Text.RegularExpressions;
 using Sitecore;
 using Sitecore.Data.Items;
 
-namespace Elision.FieldTokens.Pipelines.ReplaceFieldValueTokens
+namespace Elision.Foundation.FieldTokens.Pipelines.ReplaceFieldValueTokens
 {
     public class ReplaceItemTokens : ReplaceFieldValueTokensProcessorBase
     {

@@ -1,6 +1,7 @@
+using Elision.Foundation.Kernel;
 using Sitecore.Rules.Conditions;
 
-namespace Elision.LayoutRenderings.Rules.GetRenderingDatasource
+namespace Elision.Foundation.LayoutRenderings.Rules.GetRenderingDatasource
 {
     public class ContextItemInheritsFromRenderingDatasourceTemplateCondition<T> : WhenCondition<T> where T : GetRenderingDatasourceRuleContext
     {

@@ -9,7 +9,7 @@ using Sitecore.Globalization;
 using Sitecore.Layouts;
 using Sitecore.Web;
 
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public static class ItemInformationExtensions
     {

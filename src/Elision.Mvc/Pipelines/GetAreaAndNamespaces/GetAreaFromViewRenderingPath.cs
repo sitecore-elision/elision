@@ -1,7 +1,7 @@
 using System.Text.RegularExpressions;
 using Sitecore.Mvc.Pipelines.Response.RenderRendering;
 
-namespace Elision.Mvc.Pipelines.GetAreaAndNamespaces
+namespace Elision.Foundation.Mvc.Pipelines.GetAreaAndNamespaces
 {
     public class GetAreaFromViewRenderingPath : IAreaResolveStrategy
     {

@@ -1,10 +1,10 @@
-using Elision.LookupSourceItems.Rules;
+using Elision.Foundation.LookupSourceItems.Rules;
 using FluentAssertions;
 using NUnit.Framework;
 using Sitecore.FakeDb;
 using Sitecore.Pipelines.GetLookupSourceItems;
 
-namespace Elision.LookupSourceItems.Tests
+namespace Elision.Foundation.LookupSourceItems.Tests
 {
     [TestFixture]
     public class SetQueryContextItemActionTests

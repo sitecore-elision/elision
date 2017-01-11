@@ -1,8 +1,9 @@
 using System.Linq;
+using Elision.Foundation.Kernel;
 using Sitecore.Data;
 using Sitecore.Data.Items;
 
-namespace Elision.LayoutRenderings.Rules.GetRenderingDatasource
+namespace Elision.Foundation.LayoutRenderings.Rules.GetRenderingDatasource
 {
     public class AddWebsiteDatasourceRootAction<T> : AddDatasourceRootAction<T> where T : GetRenderingDatasourceRuleContext
     {

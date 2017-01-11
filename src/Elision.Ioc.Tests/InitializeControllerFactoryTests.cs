@@ -1,11 +1,11 @@
 ﻿using System.Web.Mvc;
-using Elision.Ioc.Mvc;
+using Elision.Foundation.Ioc.Mvc;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NUnit.Framework;
 using Sitecore.Pipelines;
 
-namespace Elision.Ioc.Tests
+namespace Elision.Foundation.Ioc.Tests
 {
     [TestFixture]
     public class InitializeControllerFactoryTests

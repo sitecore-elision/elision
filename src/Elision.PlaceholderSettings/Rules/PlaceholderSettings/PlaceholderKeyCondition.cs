@@ -1,6 +1,6 @@
 using Sitecore.Rules.Conditions;
 
-namespace Elision.PlaceholderSettings.Rules.PlaceholderSettings
+namespace Elision.Foundation.PlaceholderSettings.Rules.PlaceholderSettings
 {
     public class PlaceholderKeyCondition<T> : StringOperatorCondition<T> where T : PlaceholderSettingsRuleContext
     {

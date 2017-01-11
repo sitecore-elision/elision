@@ -1,4 +1,4 @@
-namespace Elision.WebEditState
+namespace Elision.Foundation.WebEditState
 {
     public class AddRenderingWrapper : Sitecore.Mvc.ExperienceEditor.Pipelines.Response.RenderRendering.AddWrapper
     {

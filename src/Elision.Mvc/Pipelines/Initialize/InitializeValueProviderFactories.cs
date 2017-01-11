@@ -2,10 +2,11 @@
 using System.Linq;
 using System.Reflection;
 using System.Web.Mvc;
+using Elision.Foundation.Ioc;
 using Sitecore.Diagnostics;
 using Sitecore.Pipelines;
 
-namespace Elision.Mvc.Pipelines.Initialize
+namespace Elision.Foundation.Mvc.Pipelines.Initialize
 {
     public class InitializeValueProviderFactories
     {
@@ -19,7 +20,7 @@ namespace Elision.Mvc.Pipelines.Initialize
                 try
                 {
                     Log.Info("Registering ValueProvider " + valueProviderFactoryType.AssemblyQualifiedName, this);
-                    var instance = Elision.Ioc.OnDemandResolver.Current.Resolve(valueProviderFactoryType) as ValueProviderFactory;
+                    var instance = OnDemandResolver.Current.Resolve(valueProviderFactoryType) as ValueProviderFactory;
                     if (instance != null)
                         ValueProviderFactories.Factories.Add(instance);
                     else

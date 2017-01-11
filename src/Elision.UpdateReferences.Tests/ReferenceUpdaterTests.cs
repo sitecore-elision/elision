@@ -1,11 +1,10 @@
-using System.Collections.Generic;
 using System.Linq;
 using FluentAssertions;
 using NUnit.Framework;
 using Sitecore.Data;
 using Sitecore.FakeDb;
 
-namespace Elision.UpdateReferences.Tests
+namespace Elision.Foundation.UpdateReferences.Tests
 {
     [TestFixture]
     public class ReferenceUpdaterTests

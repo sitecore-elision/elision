@@ -1,4 +1,4 @@
-namespace Elision.Mvc.Pipelines.GetControllerRenderingValueParameters
+namespace Elision.Foundation.Mvc.Pipelines.GetControllerRenderingValueParameters
 {
     public interface IGetControllerRenderingValueParametersProcessor
     {

@@ -1,4 +1,4 @@
-﻿namespace Elision.SiteResources.Pipelines.GetSiteResources
+﻿namespace Elision.Foundation.SiteResources.Pipelines.GetSiteResources
 {
     public interface IGetSiteResourcesPipelineHandler
     {

@@ -4,7 +4,7 @@ using Sitecore.Data.Items;
 using Sitecore.Sites;
 using Sitecore.Web;
 
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public  static class SiteExtensions
     {

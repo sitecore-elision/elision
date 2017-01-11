@@ -2,7 +2,7 @@ using System;
 using Sitecore.Mvc.Helpers;
 using Sitecore.Reflection;
 
-namespace Elision.Ioc
+namespace Elision.Foundation.Ioc
 {
     public class ElisionObjectFactory : IFactory
     {

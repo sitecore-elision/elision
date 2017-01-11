@@ -1,10 +1,10 @@
-using Elision.CompatibleRenderings.Rules.ReplaceRendering;
-using Elision.Rules;
+using Elision.Foundation.CompatibleRenderings.Rules.ReplaceRendering;
+using Elision.Foundation.Rules;
 using Sitecore.Data.Items;
 using Sitecore.Diagnostics;
 using Sitecore.Layouts;
 
-namespace Elision.CompatibleRenderings.Pipelines.ExecutePageEditorAction
+namespace Elision.Foundation.CompatibleRenderings.Pipelines.ExecutePageEditorAction
 {
     public class ReplaceRendering : Sitecore.Pipelines.ExecutePageEditorAction.ReplaceRendering
     {

@@ -1,15 +1,15 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Elision.CompatibleRenderings.Rules.CompatibleRenderings;
-using Elision.Rules;
+using Elision.Foundation.CompatibleRenderings.Rules.CompatibleRenderings;
+using Elision.Foundation.Rules;
 using Newtonsoft.Json;
 using Sitecore.Data;
 using Sitecore.Data.Fields;
 using Sitecore.Layouts;
 using Sitecore.Pipelines.GetChromeData;
 
-namespace Elision.CompatibleRenderings.Pipelines.GetChromeData
+namespace Elision.Foundation.CompatibleRenderings.Pipelines.GetChromeData
 {
     public class RunCompatibleRenderingRules : GetChromeDataProcessor
     {

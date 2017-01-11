@@ -10,7 +10,7 @@ using Sitecore.Shell.Applications.Dialogs.ItemLister;
 using Sitecore.Web.UI.HtmlControls;
 using Sitecore.Web.UI.WebControls;
 
-namespace Elision.TabbedRenderingSelector
+namespace Elision.Foundation.TabbedRenderingSelector
 {
     public class TabbedSelectRenderingForm : Sitecore.Shell.Applications.Dialogs.SelectRendering.SelectRenderingForm
     {

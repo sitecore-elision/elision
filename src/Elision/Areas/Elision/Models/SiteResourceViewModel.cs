@@ -1,8 +1,7 @@
 using System.Collections.Generic;
-using System.Web;
-using Elision.SiteResources;
+using Elision.Foundation.SiteResources;
 
-namespace Elision.Areas.Elision.Models
+namespace Elision.Foundation.Areas.Elision.Models
 {
     public class SiteResourceViewModel
     {

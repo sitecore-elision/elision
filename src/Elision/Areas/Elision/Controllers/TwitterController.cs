@@ -1,9 +1,10 @@
 using System.Web.Mvc;
-using Elision.Areas.Elision.Models;
+using Elision.Foundation.Areas.Elision.Models;
+using Elision.Foundation.Kernel;
 using Sitecore.Data.Items;
 using Sitecore.Mvc.Controllers;
 
-namespace Elision.Areas.Elision.Controllers
+namespace Elision.Foundation.Areas.Elision.Controllers
 {
     public class TwitterController : SitecoreController
     {

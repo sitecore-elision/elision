@@ -1,7 +1,7 @@
 ﻿using Sitecore.Data.Items;
 using Sitecore.Pipelines;
 
-namespace Elision.LookupSourceItems.Pipelines.ReplaceLookupSourceQueryTokens
+namespace Elision.Foundation.LookupSourceItems.Pipelines.ReplaceLookupSourceQueryTokens
 {
     public class ReplaceLookupSourceQueryTokensArgs : PipelineArgs
     {

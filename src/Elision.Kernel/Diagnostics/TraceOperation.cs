@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Elision.Diagnostics
+namespace Elision.Foundation.Kernel.Diagnostics
 {
     public class TraceOperation : IDisposable
     {

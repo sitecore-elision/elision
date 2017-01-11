@@ -1,10 +1,10 @@
 using System;
-using Elision.LookupSourceItems.Rules;
-using Elision.Rules;
+using Elision.Foundation.LookupSourceItems.Rules;
+using Elision.Foundation.Rules;
 using Sitecore.Diagnostics;
 using Sitecore.Pipelines.GetLookupSourceItems;
 
-namespace Elision.LookupSourceItems.Pipelines.GetLookupSourceItems
+namespace Elision.Foundation.LookupSourceItems.Pipelines.GetLookupSourceItems
 {
     public class RunGetLookupSourceItemsRules
     {

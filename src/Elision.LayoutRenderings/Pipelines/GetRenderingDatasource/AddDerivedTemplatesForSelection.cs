@@ -1,9 +1,9 @@
 using System.Linq;
-using Elision.Diagnostics;
+using Elision.Foundation.Kernel.Diagnostics;
 using Sitecore.Data.Managers;
 using Sitecore.Pipelines.GetRenderingDatasource;
 
-namespace Elision.LayoutRenderings.Pipelines.GetRenderingDatasource
+namespace Elision.Foundation.LayoutRenderings.Pipelines.GetRenderingDatasource
 {
     public class AddDerivedTemplatesForSelection
     {

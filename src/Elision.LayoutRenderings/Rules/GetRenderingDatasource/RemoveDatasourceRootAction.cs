@@ -7,7 +7,7 @@ using Sitecore.Rules.Actions;
 using Sitecore.Sites;
 using Sitecore.Web;
 
-namespace Elision.LayoutRenderings.Rules.GetRenderingDatasource
+namespace Elision.Foundation.LayoutRenderings.Rules.GetRenderingDatasource
 {
     public class RemoveDatasourceRootAction<T> : RuleAction<T> where T : GetRenderingDatasourceRuleContext
     {

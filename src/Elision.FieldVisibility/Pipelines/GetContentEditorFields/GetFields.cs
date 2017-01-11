@@ -1,7 +1,8 @@
+using Elision.Foundation.Kernel;
 using Sitecore.Data.Fields;
 using Sitecore.Data.Templates;
 
-namespace Elision.FieldVisibility.Pipelines.GetContentEditorFields
+namespace Elision.Foundation.FieldVisibility.Pipelines.GetContentEditorFields
 {
     public class GetFields : Sitecore.Shell.Applications.ContentEditor.Pipelines.GetContentEditorFields.GetFields
     {

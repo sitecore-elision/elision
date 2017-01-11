@@ -1,4 +1,4 @@
-namespace Elision.CompatibleRenderings.Rules.CompatibleRenderings
+namespace Elision.Foundation.CompatibleRenderings.Rules.CompatibleRenderings
 {
     public class CurrentRenderingIsAnyOfCondition<T> : RenderingIsAnyOfCondition<T> where T : GetCompatibleRenderingsRuleContext
     {

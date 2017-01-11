@@ -1,7 +1,7 @@
-﻿using Elision.SiteResources;
-using Elision.SiteResources.Pipelines.GetSiteResources;
+﻿using Elision.Foundation.SiteResources;
+using Elision.Foundation.SiteResources.Pipelines.GetSiteResources;
 
-namespace Elision.Themes.GetSiteResources
+namespace Elision.Foundation.Themes.GetSiteResources
 {
     public class GetThemeResources : IGetSiteResourcesPipelineHandler
     {

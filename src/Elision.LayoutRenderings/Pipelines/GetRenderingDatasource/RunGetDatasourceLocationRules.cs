@@ -1,9 +1,10 @@
-using Elision.Diagnostics;
-using Elision.LayoutRenderings.Rules.GetRenderingDatasource;
-using Elision.Rules;
+using Elision.Foundation.Kernel;
+using Elision.Foundation.Kernel.Diagnostics;
+using Elision.Foundation.LayoutRenderings.Rules.GetRenderingDatasource;
+using Elision.Foundation.Rules;
 using Sitecore.Pipelines.GetRenderingDatasource;
 
-namespace Elision.LayoutRenderings.Pipelines.GetRenderingDatasource
+namespace Elision.Foundation.LayoutRenderings.Pipelines.GetRenderingDatasource
 {
     public class RunGetDatasourceLocationRules
     {        

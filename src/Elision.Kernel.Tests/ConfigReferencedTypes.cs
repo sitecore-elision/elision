@@ -9,7 +9,7 @@ using System.Xml;
 using NUnit.Framework;
 using Sitecore.Mvc.Helpers;
 
-namespace Elision.Kernel.Tests
+namespace Elision.Foundation.Kernel.Tests
 {
     [TestFixture]
     public class ConfigReferencedTypes

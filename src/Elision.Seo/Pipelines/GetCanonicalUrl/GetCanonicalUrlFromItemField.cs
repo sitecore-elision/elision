@@ -1,3 +1,5 @@
+using Elision.Foundation.Kernel;
+
 namespace Elision.Seo.Pipelines.GetCanonicalUrl
 {
     public class GetCanonicalUrlFromItemField : IGetCanonicalUrlProcessor

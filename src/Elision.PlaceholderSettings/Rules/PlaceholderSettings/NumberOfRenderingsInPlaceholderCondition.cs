@@ -3,19 +3,12 @@ using System.Linq;
 using Sitecore.Diagnostics;
 using Sitecore.Rules.Conditions;
 
-namespace Elision.PlaceholderSettings.Rules.PlaceholderSettings
+namespace Elision.Foundation.PlaceholderSettings.Rules.PlaceholderSettings
 {
     public class NumberOfRenderingsInPlaceholderCondition<T> : IntegerComparisonCondition<T> where T : PlaceholderSettingsRuleContext
     {
         protected override bool Execute(T ruleContext)
         {
-            //var keyRegex = new System.Text.RegularExpressions.Regex(@"\b" + PlaceholderKey + @"(_|$)", RegexOptions.IgnoreCase);
-
-            //if (!keyRegex.IsMatch(ruleContext.FullUniquePlaceholderKey))
-            //    return false;
-
-            //return Compare(ruleContext.Args.PlaceholderRenderings.Count);
-
             var renderings = ruleContext.GetRenderings().ToArray();
 
             var renderingCount = renderings

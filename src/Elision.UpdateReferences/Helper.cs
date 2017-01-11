@@ -2,7 +2,7 @@ using System;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace Elision.UpdateReferences
+namespace Elision.Foundation.UpdateReferences
 {
     internal static class Helper
     {

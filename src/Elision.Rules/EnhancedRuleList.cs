@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using Sitecore.Rules;
 using Sitecore.Rules.Actions;
 
-namespace Elision.Rules
+namespace Elision.Foundation.Rules
 {
     public class EnhancedRuleList<T> : RuleList<T> where T : EnhancedRuleContext
     {

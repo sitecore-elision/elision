@@ -1,7 +1,7 @@
 using Sitecore.Data;
 using Sitecore.Rules.Actions;
 
-namespace Elision.LookupSourceItems.Rules
+namespace Elision.Foundation.LookupSourceItems.Rules
 {
     public class SetQueryContextItemAction<T> : RuleAction<T> where T : GetLookupsourceItemsRuleContext
     {

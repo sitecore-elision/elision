@@ -3,7 +3,7 @@ using Sitecore.Data;
 using Sitecore.Data.Items;
 using Sitecore.Pipelines;
 
-namespace Elision.SiteResources.Pipelines.GetSiteResources
+namespace Elision.Foundation.SiteResources.Pipelines.GetSiteResources
 {
     public class GetSiteResourcesArgs : PipelineArgs
     {

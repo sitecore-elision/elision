@@ -1,7 +1,7 @@
 using Sitecore.Data;
 using Sitecore.Rules.Actions;
 
-namespace Elision.PlaceholderSettings.Rules.PlaceholderSettings
+namespace Elision.Foundation.PlaceholderSettings.Rules.PlaceholderSettings
 {
     public class RemoveRenderingFolderAction<T> : RuleAction<T> where T : PlaceholderSettingsRuleContext
     {

@@ -1,7 +1,7 @@
-using Elision.Rules;
+using Elision.Foundation.Rules;
 using Sitecore.Data;
 
-namespace Elision.CompatibleRenderings.Rules
+namespace Elision.Foundation.CompatibleRenderings.Rules
 {
     public class RenderingRuleContext : EnhancedRuleContext
     {

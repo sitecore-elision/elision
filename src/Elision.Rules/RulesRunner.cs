@@ -4,7 +4,7 @@ using Sitecore.Data.Items;
 using Sitecore.Diagnostics;
 using Sitecore.Rules;
 
-namespace Elision.Rules
+namespace Elision.Foundation.Rules
 {
     public interface IRulesRunner
     {

@@ -12,9 +12,9 @@ using Sitecore.Events;
 using Sitecore.Publishing;
 using Sitecore.Sites;
 
-namespace Elision.Publishing
+namespace Elision.Foundation.Publishing
 {
-    public class PublishOptimizedHtmlCacheClearer : Sitecore.Publishing.HtmlCacheClearer
+    public class PublishOptimizedHtmlCacheClearer : HtmlCacheClearer
     {
         public new void ClearCache(object sender, EventArgs args)
         {

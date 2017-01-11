@@ -1,7 +1,7 @@
 using Sitecore.Diagnostics;
 using Sitecore.Security.Accounts;
 
-namespace Elision.Publishing
+namespace Elision.Foundation.Publishing
 {
     public class PublishAgentWithImpersonation : Sitecore.Tasks.PublishAgent
     {

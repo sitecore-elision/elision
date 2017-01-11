@@ -1,6 +1,6 @@
 using Sitecore.Rules.Conditions;
 
-namespace Elision.LookupSourceItems.Rules
+namespace Elision.Foundation.LookupSourceItems.Rules
 {
     public class QueryContainsTokenCondition<T> : WhenCondition<T> where T : GetLookupsourceItemsRuleContext
     {

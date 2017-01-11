@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Web.Mvc;
 
-namespace Elision.Mvc.ValueProviders
+namespace Elision.Foundation.Mvc.ValueProviders
 {
     public class PipelineValueProvider : DictionaryValueProvider<object>
     {

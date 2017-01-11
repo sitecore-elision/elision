@@ -1,4 +1,4 @@
-﻿namespace Elision
+﻿namespace Elision.Foundation.Kernel
 {
     public static class StringExtensions
     {

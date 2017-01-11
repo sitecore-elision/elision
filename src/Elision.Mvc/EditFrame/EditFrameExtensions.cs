@@ -2,7 +2,7 @@ using System.Web.Mvc;
 using System.Web.UI;
 using Sitecore.Data;
 
-namespace Elision.Mvc
+namespace Elision.Foundation.Mvc
 {
     public static class EditFrameExtensions
     {

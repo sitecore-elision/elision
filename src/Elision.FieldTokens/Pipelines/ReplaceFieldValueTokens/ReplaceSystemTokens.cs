@@ -1,6 +1,6 @@
 using System;
 
-namespace Elision.FieldTokens.Pipelines.ReplaceFieldValueTokens
+namespace Elision.Foundation.FieldTokens.Pipelines.ReplaceFieldValueTokens
 {
     public class ReplaceSystemTokens : ReplaceFieldValueTokensProcessorBase
     {

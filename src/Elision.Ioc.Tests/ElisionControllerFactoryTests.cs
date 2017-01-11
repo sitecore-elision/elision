@@ -2,12 +2,12 @@
 using System.Web.Routing;
 using System.Xml;
 using System.Xml.Linq;
-using Elision.Ioc.Mvc;
+using Elision.Foundation.Ioc.Mvc;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NUnit.Framework;
 
-namespace Elision.Ioc.Tests
+namespace Elision.Foundation.Ioc.Tests
 {
     [TestFixture]
     public class ElisionControllerFactoryTests

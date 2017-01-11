@@ -1,4 +1,6 @@
-﻿namespace Elision.LayoutRenderings.Rules.GetRenderingDatasource
+﻿using Elision.Foundation.Kernel;
+
+namespace Elision.Foundation.LayoutRenderings.Rules.GetRenderingDatasource
 {
     public class RenderingDatasourceRulesSettings
     {
@@ -37,13 +39,5 @@
         public bool GlobalDatasourceFolderNesting => Sitecore.Configuration.Settings.GetBoolSetting(
             "Elision.GlobalDatasourceFolderNesting", 
             true);
-
-        //public string QueryTokenPrefix => Sitecore.Configuration.Settings.GetSetting(
-        //    "Elision.QueryTokenPrefix", 
-        //    "{");
-
-        //public string QueryTokenSuffix => Sitecore.Configuration.Settings.GetSetting(
-        //    "Elision.QueryTokenSufix", 
-        //    "}");
     }
 }

@@ -9,7 +9,7 @@ using Sitecore.Diagnostics;
 using Sitecore.Mvc.Common;
 using Sitecore.SecurityModel;
 
-namespace Elision.UpdateReferences
+namespace Elision.Foundation.UpdateReferences
 {
     public interface ITreeReferenceUpdater
     {
