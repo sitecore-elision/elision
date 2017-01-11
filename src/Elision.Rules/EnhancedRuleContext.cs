@@ -1,6 +1,6 @@
 using Sitecore.Rules;
 
-namespace Elision.Rules
+namespace Elision.Foundation.Rules
 {
     public class EnhancedRuleContext : RuleContext
     {

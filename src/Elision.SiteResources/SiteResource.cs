@@ -1,6 +1,6 @@
 ﻿using System.Web;
 
-namespace Elision.SiteResources
+namespace Elision.Foundation.SiteResources
 {
     public class SiteResource
     {

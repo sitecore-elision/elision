@@ -147,13 +147,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Elision.Kernel\Elision.Kernel.csproj">
+    <ProjectReference Include="..\Elision.Kernel\Elision.Foundation.Kernel.csproj">
       <Project>{c2ad100d-a982-4029-87d9-91eb0aeced81}</Project>
-      <Name>Elision.Kernel</Name>
+      <Name>Elision.Foundation.Kernel</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Elision.WebEditState\Elision.WebEditState.csproj">
+    <ProjectReference Include="..\Elision.WebEditState\Elision.Foundation.WebEditState.csproj">
       <Project>{8a11eef3-1f17-4226-a685-5d1a3998c792}</Project>
-      <Name>Elision.WebEditState</Name>
+      <Name>Elision.Foundation.WebEditState</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

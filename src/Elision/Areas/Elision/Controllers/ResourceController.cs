@@ -1,11 +1,12 @@
 using System.Web.Mvc;
-using Elision.Areas.Elision.Models;
+using Elision.Foundation.Areas.Elision.Models;
+using Elision.Foundation.Kernel;
 using Sitecore.Data;
 using Sitecore.Data.Items;
 using Sitecore.Mvc.Controllers;
 using Sitecore.Mvc.Presentation;
 
-namespace Elision.Areas.Elision.Controllers
+namespace Elision.Foundation.Areas.Elision.Controllers
 {
     public class ResourceController : SitecoreController
     {

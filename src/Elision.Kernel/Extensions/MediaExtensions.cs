@@ -3,7 +3,7 @@ using Sitecore;
 using Sitecore.Data.Fields;
 using Sitecore.Resources.Media;
 
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public static class MediaExtensions
     {

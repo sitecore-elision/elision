@@ -4,7 +4,7 @@ using System.Linq;
 using System.Reflection;
 using Sitecore.Diagnostics;
 
-namespace Elision.Ioc
+namespace Elision.Foundation.Ioc
 {
     public class OnDemandResolver
     {

@@ -2,7 +2,7 @@ using System.Web;
 using System.Web.Mvc;
 using Sitecore.Mvc.Presentation;
 
-namespace Elision.Mvc.ValueProviders
+namespace Elision.Foundation.Mvc.ValueProviders
 {
     public abstract class RenderingValueProviderFactoryBase : ValueProviderFactory
     {

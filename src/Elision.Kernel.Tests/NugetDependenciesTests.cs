@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 using System.Xml;
 using NUnit.Framework;
 
-namespace Elision.Kernel.Tests
+namespace Elision.Foundation.Kernel.Tests
 {
     [TestFixture]
     public class NugetDependenciesTests

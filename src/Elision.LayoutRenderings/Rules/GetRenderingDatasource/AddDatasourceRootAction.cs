@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using Elision.Foundation.Kernel;
 using Sitecore.Collections;
 using Sitecore.Data.Items;
 using Sitecore.Rules.Actions;
@@ -9,7 +10,7 @@ using Sitecore.SecurityModel;
 using Sitecore.Sites;
 using Sitecore.Web;
 
-namespace Elision.LayoutRenderings.Rules.GetRenderingDatasource
+namespace Elision.Foundation.LayoutRenderings.Rules.GetRenderingDatasource
 {
     public class AddDatasourceRootAction<T> : RuleAction<T> where T : GetRenderingDatasourceRuleContext
     {

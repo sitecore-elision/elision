@@ -2,7 +2,7 @@ using System.Linq;
 using Sitecore.Data;
 using Sitecore.Rules.Conditions;
 
-namespace Elision.LayoutRenderings.Rules.RenderingInformation
+namespace Elision.Foundation.LayoutRenderings.Rules.RenderingInformation
 {
     public class RenderingIsAnyOfCondition<T> : WhenCondition<T> where T : RenderingRuleContext
     {

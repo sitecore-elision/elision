@@ -1,6 +1,6 @@
 using Sitecore.Data;
 
-namespace Elision.LayoutRenderings.Rules.GetRenderingDatasource
+namespace Elision.Foundation.LayoutRenderings.Rules.GetRenderingDatasource
 {
     public class AddLocalDatasourceRootAction<T> : AddDatasourceRootAction<T> where T : GetRenderingDatasourceRuleContext
     {

@@ -1,4 +1,4 @@
-namespace Elision.LayoutRenderings.Rules.GetRenderingDatasource
+namespace Elision.Foundation.LayoutRenderings.Rules.GetRenderingDatasource
 {
     public class AddContextItemAsDatasourceRootAction<T> : AddDatasourceRootAction<T> where T : GetRenderingDatasourceRuleContext
     {

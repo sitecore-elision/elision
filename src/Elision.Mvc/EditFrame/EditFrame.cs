@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Web.UI;
 
-namespace Elision.Mvc
+namespace Elision.Foundation.Mvc
 {
     public class EditFrame : IDisposable
     {

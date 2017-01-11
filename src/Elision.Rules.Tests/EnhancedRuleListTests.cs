@@ -1,10 +1,10 @@
-﻿using Elision.Rules.RuleProcessing;
+﻿using Elision.Foundation.Rules.RuleProcessing;
 using FluentAssertions;
 using NUnit.Framework;
 using Sitecore.Rules;
 using Sitecore.Rules.Conditions;
 
-namespace Elision.Rules.Tests
+namespace Elision.Foundation.Rules.Tests
 {
     [TestFixture]
     public class EnhancedRuleListTests

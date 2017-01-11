@@ -1,11 +1,12 @@
 using System;
+using Elision.Foundation.Kernel;
 using Sitecore.Data;
 using Sitecore.Pipelines.GetLookupSourceItems;
 using Sitecore.Shell.Applications.ContentManager;
 using Sitecore.Text;
 using Sitecore.Web;
 
-namespace Elision.LookupSourceItems.Pipelines.GetLookupSourceItems
+namespace Elision.Foundation.LookupSourceItems.Pipelines.GetLookupSourceItems
 {
     public class FixQueryRootForRenderingParameterTemplates
     {

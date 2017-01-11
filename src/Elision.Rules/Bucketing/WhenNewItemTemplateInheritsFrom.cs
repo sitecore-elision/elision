@@ -1,7 +1,8 @@
-﻿using Sitecore.Buckets.Rules.Bucketing;
+﻿using Elision.Foundation.Kernel;
+using Sitecore.Buckets.Rules.Bucketing;
 using Sitecore.Buckets.Rules.Bucketing.Conditions;
 
-namespace Elision.Rules.Bucketing
+namespace Elision.Foundation.Rules.Bucketing
 {
     public class WhenNewItemTemplateInheritsFrom<T> : WhenNewItemTemplateIs<T> where T : BucketingRuleContext
     {

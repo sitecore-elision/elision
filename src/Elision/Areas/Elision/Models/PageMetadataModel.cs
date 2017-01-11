@@ -1,7 +1,7 @@
 using System;
 using Sitecore.Data.Items;
 
-namespace Elision.Areas.Elision.Models
+namespace Elision.Foundation.Areas.Elision.Models
 {
     public class PageMetadataModel
     {

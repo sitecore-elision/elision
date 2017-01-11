@@ -1,4 +1,4 @@
-namespace Elision.CompatibleRenderings.Rules.ReplaceRendering
+namespace Elision.Foundation.CompatibleRenderings.Rules.ReplaceRendering
 {
     public class TargetRenderingIsAnyOfCondition<T> : RenderingIsAnyOfCondition<T> where T : ReplaceRenderingRuleContext
     {

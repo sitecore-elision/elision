@@ -1,8 +1,8 @@
-using Elision.LookupSourceItems.Pipelines.GetLookupSourceItems;
+using Elision.Foundation.LookupSourceItems.Pipelines.GetLookupSourceItems;
 using Sitecore.Data.Items;
 using Sitecore.Pipelines.GetLookupSourceItems;
 
-namespace Elision.Themes.GetLookupSourceItems
+namespace Elision.Foundation.Themes.GetLookupSourceItems
 {
     public class ReplpaceThemeItemToken : ReplaceLookupSourceQueryTokens
     {

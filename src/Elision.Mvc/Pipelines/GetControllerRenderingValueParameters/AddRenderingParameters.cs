@@ -1,9 +1,10 @@
 using System.Collections.Generic;
 using System.Linq;
+using Elision.Foundation.Kernel;
 using Sitecore.Data;
 using Sitecore.Data.Items;
 
-namespace Elision.Mvc.Pipelines.GetControllerRenderingValueParameters
+namespace Elision.Foundation.Mvc.Pipelines.GetControllerRenderingValueParameters
 {
     public class AddRenderingParameters : IGetControllerRenderingValueParametersProcessor
     {

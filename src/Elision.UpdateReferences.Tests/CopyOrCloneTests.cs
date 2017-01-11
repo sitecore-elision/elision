@@ -5,7 +5,7 @@ using Sitecore.Data;
 using Sitecore.FakeDb;
 using Sitecore.Shell.Framework.Pipelines;
 
-namespace Elision.UpdateReferences.Tests
+namespace Elision.Foundation.UpdateReferences.Tests
 {
     [TestFixture]
     public class CopyOrCloneTests

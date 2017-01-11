@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using NUnit.Framework;
 
-namespace Elision.Ioc.Tests
+namespace Elision.Foundation.Ioc.Tests
 {
     [TestFixture]
     public class ElisionObjectFactoryTests

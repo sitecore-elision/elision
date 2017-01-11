@@ -1,6 +1,6 @@
 using System.Text.RegularExpressions;
 
-namespace Elision.FieldTokens.Pipelines.ReplaceFieldValueTokens
+namespace Elision.Foundation.FieldTokens.Pipelines.ReplaceFieldValueTokens
 {
     public interface IReplaceFieldValueTokensProcessor
     {

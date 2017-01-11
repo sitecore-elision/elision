@@ -1,7 +1,7 @@
-using Elision.Rules;
+using Elision.Foundation.Rules;
 using Sitecore.Pipelines.GetLookupSourceItems;
 
-namespace Elision.LookupSourceItems.Rules
+namespace Elision.Foundation.LookupSourceItems.Rules
 {
     public class GetLookupsourceItemsRuleContext : EnhancedRuleContext
     {

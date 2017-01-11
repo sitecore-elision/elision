@@ -1,4 +1,4 @@
-namespace Elision.WebEditState
+namespace Elision.Foundation.WebEditState
 {
     public class AddPlaceholderWrapper : Sitecore.Mvc.ExperienceEditor.Pipelines.Response.RenderPlaceholder.AddWrapper
     {

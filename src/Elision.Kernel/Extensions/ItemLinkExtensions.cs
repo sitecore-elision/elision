@@ -1,12 +1,11 @@
-﻿using System;
-using Sitecore.Data;
+﻿using Sitecore.Data;
 using Sitecore.Data.Fields;
 using Sitecore.Data.Items;
 using Sitecore.Links;
 using Sitecore.Resources.Media;
 using Sitecore.Xml.Xsl;
 
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public static class ItemLinkExtensions
     {

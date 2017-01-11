@@ -2,7 +2,7 @@
 using Sitecore;
 using Sitecore.Mvc.Helpers;
 
-namespace Elision.Mvc
+namespace Elision.Foundation.Mvc
 {
     public static class SitecoreHelperExtensions
     {

@@ -5,7 +5,7 @@ using Sitecore.Layouts;
 using Sitecore.Rules;
 using Sitecore.Rules.Conditions;
 
-namespace Elision.PlaceholderSettings.Rules.PlaceholderSettings
+namespace Elision.Foundation.PlaceholderSettings.Rules.PlaceholderSettings
 {
     public class IsNestedWithinRenderingCondition<T> : WhenCondition<T> where T : RuleContext
     {

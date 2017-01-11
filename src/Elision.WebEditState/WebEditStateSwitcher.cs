@@ -1,6 +1,6 @@
 using Sitecore.Common;
 
-namespace Elision.WebEditState
+namespace Elision.Foundation.WebEditState
 {
     public class WebEditDisabler : WebEditStateSwitcher
     {

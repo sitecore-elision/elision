@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 using Sitecore.Data;
 using Sitecore.Data.Items;
 
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public static class DatasourceExtensions
     {

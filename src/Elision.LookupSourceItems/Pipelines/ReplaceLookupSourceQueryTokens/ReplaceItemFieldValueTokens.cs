@@ -1,7 +1,7 @@
-﻿using Sitecore.Data.Items;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
+using Sitecore.Data.Items;
 
-namespace Elision.LookupSourceItems.Pipelines.ReplaceLookupSourceQueryTokens
+namespace Elision.Foundation.LookupSourceItems.Pipelines.ReplaceLookupSourceQueryTokens
 {
     public class ReplaceItemFieldValueTokens : IReplaceLookupSourceQueryTokens
     {

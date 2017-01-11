@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Elision.Mvc.Pipelines.GetControllerRenderingValueParameters;
+using Elision.Foundation.Mvc.Pipelines.GetControllerRenderingValueParameters;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NUnit.Framework;
@@ -10,7 +10,7 @@ using Sitecore.Data.Items;
 using Sitecore.FakeDb;
 using Sitecore.Mvc.Presentation;
 
-namespace Elision.Mvc.Tests
+namespace Elision.Foundation.Mvc.Tests
 {
     [TestFixture]
     public class AddRenderingParametersTests

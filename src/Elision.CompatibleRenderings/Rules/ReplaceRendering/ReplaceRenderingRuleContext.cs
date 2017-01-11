@@ -2,7 +2,7 @@ using Sitecore.Data;
 using Sitecore.Data.Items;
 using Sitecore.Layouts;
 
-namespace Elision.CompatibleRenderings.Rules.ReplaceRendering
+namespace Elision.Foundation.CompatibleRenderings.Rules.ReplaceRendering
 {
     public class ReplaceRenderingRuleContext : RenderingRuleContext
     {

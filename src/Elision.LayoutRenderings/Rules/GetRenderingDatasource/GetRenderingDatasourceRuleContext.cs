@@ -1,7 +1,7 @@
-using Elision.LayoutRenderings.Rules.RenderingInformation;
+using Elision.Foundation.LayoutRenderings.Rules.RenderingInformation;
 using Sitecore.Pipelines.GetRenderingDatasource;
 
-namespace Elision.LayoutRenderings.Rules.GetRenderingDatasource
+namespace Elision.Foundation.LayoutRenderings.Rules.GetRenderingDatasource
 {
     public class GetRenderingDatasourceRuleContext : RenderingRuleContext
     {

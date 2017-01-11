@@ -6,7 +6,7 @@ using Sitecore.Mvc.Common;
 using Sitecore.Mvc.Pipelines.Response.RenderRendering;
 using Sitecore.Mvc.Presentation;
 
-namespace Elision.Mvc.Pipelines.GetAreaAndNamespaces
+namespace Elision.Foundation.Mvc.Pipelines.GetAreaAndNamespaces
 {
     public class InferNamespacesByArea : RenderRenderingProcessor
     {

@@ -1,6 +1,6 @@
 ﻿using Sitecore.Data;
 
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public class SitecoreIds
     {

@@ -1,11 +1,12 @@
 using System.Linq;
+using Elision.Foundation.Kernel;
 using Sitecore;
 using Sitecore.Data.Items;
 using Sitecore.Diagnostics;
 using Sitecore.Shell.Framework.Commands;
 using Sitecore.Web.UI.Sheer;
 
-namespace Elision.FieldEditor
+namespace Elision.Foundation.FieldEditor
 {
     public class OtherFieldEditor : Sitecore.Shell.Applications.WebEdit.Commands.FieldEditor
     {

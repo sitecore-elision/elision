@@ -1,12 +1,12 @@
 ﻿using System;
-using Elision.FieldTokens.Pipelines.ReplaceFieldValueTokens;
+using Elision.Foundation.FieldTokens.Pipelines.ReplaceFieldValueTokens;
 using FluentAssertions;
 using NUnit.Framework;
 using Sitecore;
 using Sitecore.Data;
 using Sitecore.FakeDb;
 
-namespace Elision.FieldTokens.Tests
+namespace Elision.Foundation.FieldTokens.Tests
 {
     [TestFixture]
     public class ReplaceItemTokensTests

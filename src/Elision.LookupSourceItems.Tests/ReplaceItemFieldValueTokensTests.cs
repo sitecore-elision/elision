@@ -1,8 +1,8 @@
-﻿using Elision.LookupSourceItems.Pipelines.ReplaceLookupSourceQueryTokens;
+﻿using Elision.Foundation.LookupSourceItems.Pipelines.ReplaceLookupSourceQueryTokens;
 using NUnit.Framework;
 using Sitecore.FakeDb;
 
-namespace Elision.LookupSourceItems.Tests
+namespace Elision.Foundation.LookupSourceItems.Tests
 {
     [TestFixture]
     public class ReplaceItemFieldValueTokensTests

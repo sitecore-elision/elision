@@ -2,7 +2,7 @@ using System.Linq;
 using Sitecore.Data;
 using Sitecore.Rules.Conditions;
 
-namespace Elision.PlaceholderSettings.Rules.PlaceholderSettings
+namespace Elision.Foundation.PlaceholderSettings.Rules.PlaceholderSettings
 {
     public class NumberOfSpecificRenderingOnPageCondition<T> : IntegerComparisonCondition<T> where T : PlaceholderSettingsRuleContext
     {

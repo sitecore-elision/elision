@@ -3,7 +3,7 @@ using Sitecore.Data;
 using Sitecore.Data.Items;
 using Sitecore.Layouts;
 
-namespace Elision.CompatibleRenderings.Rules.CompatibleRenderings
+namespace Elision.Foundation.CompatibleRenderings.Rules.CompatibleRenderings
 {
     public class GetCompatibleRenderingsRuleContext : RenderingRuleContext
     {

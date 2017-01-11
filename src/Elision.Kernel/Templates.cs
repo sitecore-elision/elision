@@ -11,9 +11,9 @@ using Sitecore.Data;
 //     the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
-    public partial struct Templates
+	public partial struct Templates
     {
         /// <summary>
         /// <list type="table">
@@ -151,12 +151,12 @@ namespace Elision
                 /// </summary>
                 public const string TwitterCardType = "TwitterCardType";
             }
-        }
+		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
-    public partial struct Templates
+	public partial struct Templates
     {
         /// <summary>
         /// <list type="table">
@@ -250,10 +250,10 @@ namespace Elision
                 /// </summary>
                 public const string SupportedDevices = "SupportedDevices";
             }
-        }
+		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct Renderings
     {
@@ -269,7 +269,7 @@ namespace Elision
         }
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct OptionLists
     {
@@ -286,7 +286,7 @@ namespace Elision
         }
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct RulesFolders
     {
@@ -299,9 +299,9 @@ namespace Elision
         public static readonly ID Get_Lookup_Source_Items = new ID("{0D0F86CC-EFE2-47D0-9605-54A38BC70729}");
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
-    public partial struct Templates
+	public partial struct Templates
     {
         /// <summary>
         /// <list type="table">
@@ -337,12 +337,12 @@ namespace Elision
                 /// </summary>
                 public const string MvcAreaName = "MvcAreaName";
             }
-        }
+		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
-    public partial struct Templates
+	public partial struct Templates
     {
         /// <summary>
         /// <list type="table">
@@ -355,10 +355,10 @@ namespace Elision
             public static readonly ID TemplateId = new ID("{122AE27A-D84F-4C5E-8367-0F42C764976E}");
             public const string Name = "ComponentsFolder";
 
-        }
+		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct Renderings
     {
@@ -374,7 +374,7 @@ namespace Elision
         }
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct RulesFolders
     {
@@ -387,7 +387,7 @@ namespace Elision
         public static readonly ID Placeholder_Settings = new ID("{1D38B82B-6CFD-4F8F-8745-5364DA58107E}");
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct OptionLists
     {
@@ -404,9 +404,9 @@ namespace Elision
         }
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
-    public partial struct Templates
+	public partial struct Templates
     {
         /// <summary>
         /// <list type="table">
@@ -444,12 +444,12 @@ namespace Elision
                 /// </summary>
                 public const string BrowserTitleSuffix = "BrowserTitleSuffix";
             }
-        }
+		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
-    public partial struct Templates
+	public partial struct Templates
     {
         /// <summary>
         /// <list type="table">
@@ -549,10 +549,10 @@ namespace Elision
                 /// </summary>
                 public const string OgType = "OgType";
             }
-        }
+		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct Renderings
     {
@@ -568,9 +568,9 @@ namespace Elision
         }
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
-    public partial struct Templates
+	public partial struct Templates
     {
         /// <summary>
         /// The Template field template.
@@ -607,10 +607,10 @@ namespace Elision
                 /// </summary>
                 public const string HideWithStandardFields = "HideWithStandardFields";
             }
-        }
+		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct Renderings
     {
@@ -626,7 +626,7 @@ namespace Elision
         }
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct RulesFolders
     {
@@ -639,9 +639,9 @@ namespace Elision
         public static readonly ID Get_Compatible_Renderings = new ID("{47E07926-BF3A-4C60-A586-AD615023D62B}");
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
-    public partial struct Templates
+	public partial struct Templates
     {
         /// <summary>
         /// <list type="table">
@@ -757,10 +757,10 @@ namespace Elision
                 /// </summary>
                 public const string MetaKeywords = "MetaKeywords";
             }
-        }
+		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct RulesFolders
     {
@@ -773,9 +773,9 @@ namespace Elision
         public static readonly ID Get_Rendering_Datasource = new ID("{71FF2442-3688-481C-867E-47F940F0A6CE}");
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
-    public partial struct Templates
+	public partial struct Templates
     {
         /// <summary>
         /// <list type="table">
@@ -811,10 +811,10 @@ namespace Elision
                 /// </summary>
                 public const string DefaultImageSize = "DefaultImageSize";
             }
-        }
+		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct RulesFolders
     {
@@ -827,9 +827,9 @@ namespace Elision
         public static readonly ID Replace_Rendering = new ID("{7C5815EB-7E4C-47C4-8224-C68BBC543270}");
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
-    public partial struct Templates
+	public partial struct Templates
     {
         /// <summary>
         /// <list type="table">
@@ -865,12 +865,12 @@ namespace Elision
                 /// </summary>
                 public const string ColorScheme = "ColorScheme";
             }
-        }
+		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
-    public partial struct Templates
+	public partial struct Templates
     {
         /// <summary>
         /// <list type="table">
@@ -906,12 +906,12 @@ namespace Elision
                 /// </summary>
                 public const string Theme = "Theme";
             }
-        }
+		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
-    public partial struct Templates
+	public partial struct Templates
     {
         /// <summary>
         /// <list type="table">
@@ -1005,12 +1005,12 @@ namespace Elision
                 /// </summary>
                 public const string SupportedDevices = "SupportedDevices";
             }
-        }
+		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
-    public partial struct Templates
+	public partial struct Templates
     {
         /// <summary>
         /// <list type="table">
@@ -1066,12 +1066,12 @@ namespace Elision
                 /// </summary>
                 public const string ForegroundColor = "ForegroundColor";
             }
-        }
+		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
-    public partial struct Templates
+	public partial struct Templates
     {
         /// <summary>
         /// <list type="table">
@@ -1139,10 +1139,10 @@ namespace Elision
                 /// </summary>
                 public const string SiteHeadScript = "SiteHeadScript";
             }
-        }
+		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct Renderings
     {
@@ -1158,9 +1158,9 @@ namespace Elision
         }
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
-    public partial struct Templates
+	public partial struct Templates
     {
         /// <summary>
         /// <list type="table">
@@ -1173,10 +1173,10 @@ namespace Elision
             public static readonly ID TemplateId = new ID("{A42909C1-539E-46E4-9F1F-DB999603D6DE}");
             public const string Name = "TwitterCardType";
 
-        }
+		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct OptionLists
     {
@@ -1192,9 +1192,9 @@ namespace Elision
         }
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
-    public partial struct Templates
+	public partial struct Templates
     {
         /// <summary>
         /// <list type="table">
@@ -1232,12 +1232,12 @@ namespace Elision
                 /// </summary>
                 public const string AreaName = "AreaName";
             }
-        }
+		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
-    public partial struct Templates
+	public partial struct Templates
     {
         /// <summary>
         /// <list type="table">
@@ -1293,12 +1293,12 @@ namespace Elision
                 /// </summary>
                 public const string WindowMinWidth = "WindowMinWidth";
             }
-        }
+		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
-    public partial struct Templates
+	public partial struct Templates
     {
         /// <summary>
         /// <list type="table">
@@ -1311,12 +1311,12 @@ namespace Elision
             public static readonly ID TemplateId = new ID("{BA528F98-A18C-405D-A94C-DA68E4B433F8}");
             public const string Name = "ResourceLocation";
 
-        }
+		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
-    public partial struct Templates
+	public partial struct Templates
     {
         /// <summary>
         /// <list type="table">
@@ -1352,10 +1352,10 @@ namespace Elision
                 /// </summary>
                 public const string AreaName = "AreaName";
             }
-        }
+		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct OptionLists
     {
@@ -1372,9 +1372,9 @@ namespace Elision
         }
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
-    public partial struct Templates
+	public partial struct Templates
     {
         /// <summary>
         /// <list type="table">
@@ -1446,12 +1446,12 @@ namespace Elision
                 /// </summary>
                 public const string SupportedDevices = "SupportedDevices";
             }
-        }
+		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
-    public partial struct Templates
+	public partial struct Templates
     {
         /// <summary>
         /// <list type="table">
@@ -1855,10 +1855,10 @@ namespace Elision
                 /// </summary>
                 public const string TwitterCardType = "TwitterCardType";
             }
-        }
+		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct OptionLists
     {
@@ -1874,9 +1874,9 @@ namespace Elision
         }
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
-    public partial struct Templates
+	public partial struct Templates
     {
         /// <summary>
         /// <list type="table">
@@ -1944,12 +1944,12 @@ namespace Elision
                 /// </summary>
                 public const string PageHeadScript = "PageHeadScript";
             }
-        }
+		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
-    public partial struct Templates
+	public partial struct Templates
     {
         /// <summary>
         /// <list type="table">
@@ -1987,12 +1987,12 @@ namespace Elision
                 /// </summary>
                 public const string Theme = "Theme";
             }
-        }
+		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
-    public partial struct Templates
+	public partial struct Templates
     {
         /// <summary>
         /// <list type="table">
@@ -2488,12 +2488,12 @@ namespace Elision
                 /// </summary>
                 public const string TwitterCardType = "TwitterCardType";
             }
-        }
+		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
-    public partial struct Templates
+	public partial struct Templates
     {
         /// <summary>
         /// <list type="table">
@@ -2506,10 +2506,10 @@ namespace Elision
             public static readonly ID TemplateId = new ID("{F2260259-BCEC-462A-BD5E-F9E5D66E1A9F}");
             public const string Name = "PageMode";
 
-        }
+		}
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct OptionLists
     {
@@ -2525,7 +2525,7 @@ namespace Elision
         }
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct OptionLists
     {
@@ -2542,7 +2542,7 @@ namespace Elision
         }
     }
 }
-namespace Elision
+namespace Elision.Foundation.Kernel
 {
     public partial struct OptionLists
     {

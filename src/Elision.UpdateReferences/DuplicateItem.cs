@@ -13,7 +13,7 @@ using Sitecore.Events;
 using Sitecore.Globalization;
 using Sitecore.Web.UI.Sheer;
 
-namespace Elision.UpdateReferences
+namespace Elision.Foundation.UpdateReferences
 {
     public class DuplicateItem : ItemDuplicate
     {

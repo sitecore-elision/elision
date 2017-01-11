@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Elision.Foundation.Kernel;
 using Sitecore.Configuration;
 using Sitecore.Data;
 using Sitecore.ExperienceEditor.Speak.Server.Contexts;
@@ -10,7 +11,7 @@ using Sitecore.Shell.Applications.ContentEditor;
 using Sitecore.Text;
 using Sitecore.Web;
 
-namespace Elision.FieldEditor
+namespace Elision.Foundation.FieldEditor
 {
     public class GenerateFieldEditorUrl : PipelineProcessorRequest<ItemContext>
     {

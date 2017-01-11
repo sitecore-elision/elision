@@ -1,4 +1,6 @@
-﻿namespace Elision.SiteResources.Pipelines.GetSiteResources
+﻿using Elision.Foundation.Kernel;
+
+namespace Elision.Foundation.SiteResources.Pipelines.GetSiteResources
 {
     public class GetRawSiteAndPageResources : IGetSiteResourcesPipelineHandler
     {

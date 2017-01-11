@@ -4,7 +4,7 @@
     <FormDialog ID="Dialog" Icon="Core/32x32/open_document.png" Header="Open Item" 
       Text="Select the item that you wish to open. Then click the Open button." OKButton="Open">
       <Stylesheet Src="SelectItemWithThumbnails.css" DeviceDependant="true" />
-      <CodeBeside Type="Elision.TabbedRenderingSelector.TabbedSelectRenderingForm, Elision.TabbedRenderingSelector"/>
+      <CodeBeside Type="Elision.Foundation.TabbedRenderingSelector.TabbedSelectRenderingForm, Elision.Foundation.TabbedRenderingSelector"/>
       
       <DataContext ID="DataContext" Root="/"/>
 

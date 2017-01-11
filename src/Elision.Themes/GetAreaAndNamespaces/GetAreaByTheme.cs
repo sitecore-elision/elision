@@ -1,6 +1,7 @@
+using Elision.Foundation.Kernel;
 using Sitecore.Mvc.Pipelines.Response.RenderRendering;
 
-namespace Elision.Themes.GetAreaAndNamespaces
+namespace Elision.Foundation.Themes.GetAreaAndNamespaces
 {
     public class GetAreaByTheme : IAreaResolveStrategy
     {

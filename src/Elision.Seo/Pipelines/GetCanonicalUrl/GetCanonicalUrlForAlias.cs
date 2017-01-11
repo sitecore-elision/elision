@@ -1,5 +1,5 @@
 using System.Web;
-using Elision.Diagnostics;
+using Elision.Foundation.Kernel.Diagnostics;
 using Sitecore.Links;
 
 namespace Elision.Seo.Pipelines.GetCanonicalUrl

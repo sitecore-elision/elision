@@ -1,7 +1,7 @@
 using Sitecore.Diagnostics;
 using Sitecore.Pipelines.RenderField;
 
-namespace Elision.WebEditState
+namespace Elision.Foundation.WebEditState
 {
     public class CheckFieldWebEdit
     {

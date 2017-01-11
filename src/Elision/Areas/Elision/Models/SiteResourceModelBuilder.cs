@@ -1,10 +1,10 @@
-using Elision.SiteResources.Pipelines.GetSiteResources;
-using Elision.Themes;
+using Elision.Foundation.SiteResources.Pipelines.GetSiteResources;
+using Elision.Foundation.Themes;
 using Sitecore.Data;
 using Sitecore.Data.Items;
 using Sitecore.Pipelines;
 
-namespace Elision.Areas.Elision.Models
+namespace Elision.Foundation.Areas.Elision.Models
 {
     public interface ISiteResourceModelBuilder
     {

@@ -5,7 +5,7 @@ using NUnit.Framework;
 using Sitecore.Data;
 using Sitecore.FakeDb;
 
-namespace Elision.Kernel.Tests
+namespace Elision.Foundation.Kernel.Tests
 {
     [TestFixture]
     public class ResolveDatasourceTests

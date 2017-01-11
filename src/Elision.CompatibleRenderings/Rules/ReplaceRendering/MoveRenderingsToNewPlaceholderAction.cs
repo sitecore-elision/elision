@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 using Sitecore.Layouts;
 using Sitecore.Rules.Actions;
 
-namespace Elision.CompatibleRenderings.Rules.ReplaceRendering
+namespace Elision.Foundation.CompatibleRenderings.Rules.ReplaceRendering
 {
     public class MoveRenderingsToNewPlaceholderAction<T> : RuleAction<T> where T : ReplaceRenderingRuleContext
     {

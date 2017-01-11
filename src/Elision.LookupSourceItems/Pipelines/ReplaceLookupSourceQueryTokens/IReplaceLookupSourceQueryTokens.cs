@@ -1,4 +1,4 @@
-﻿namespace Elision.LookupSourceItems.Pipelines.ReplaceLookupSourceQueryTokens
+﻿namespace Elision.Foundation.LookupSourceItems.Pipelines.ReplaceLookupSourceQueryTokens
 {
     public interface IReplaceLookupSourceQueryTokens
     {

@@ -2,7 +2,7 @@ using Sitecore;
 using Sitecore.Data;
 using Sitecore.Diagnostics;
 
-namespace Elision.LayoutRenderings.Rules.GetRenderingDatasource
+namespace Elision.Foundation.LayoutRenderings.Rules.GetRenderingDatasource
 {
     public class RemoveGlobalDatasourceRootAction<T> : RemoveDatasourceRootAction<T> where T : GetRenderingDatasourceRuleContext
     {

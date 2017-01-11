@@ -2,7 +2,7 @@ using System.Linq;
 using Sitecore.Diagnostics;
 using Sitecore.Shell.Framework.Pipelines;
 
-namespace Elision.UpdateReferences
+namespace Elision.Foundation.UpdateReferences
 {
     public class CopyOrCloneItem : Sitecore.Shell.Framework.Pipelines.CopyItems
     {

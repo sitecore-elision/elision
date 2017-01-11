@@ -2,7 +2,7 @@ using System.Linq;
 using Sitecore.Data;
 using Sitecore.Rules.Actions;
 
-namespace Elision.PlaceholderSettings.Rules.PlaceholderSettings
+namespace Elision.Foundation.PlaceholderSettings.Rules.PlaceholderSettings
 {
     public class AddRenderingFolderAction<T> : RuleAction<T> where T : PlaceholderSettingsRuleContext
     {
