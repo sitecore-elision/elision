@@ -100,7 +100,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Elision.Foundation\~Elision.config" />
+    <Content Include="App_Config\Include\Elision.Foundation\~Elision.Foundation.config" />
     <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.CompatibleRenderings.config" />
     <Content Include="App_Config\Include\Elision.Foundation\Elision.DynamicPlaceholders.config" />
     <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.FieldTokens.config">
