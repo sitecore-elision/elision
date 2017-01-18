@@ -4,8 +4,8 @@
     <id>Elision.Foundation</id>
     <version>$version$</version>
     <title>Elsion Foundation for Sitecore</title>
-    <authors>JeffreyRondeau</authors>
-    <owners>JeffreyRondeau</owners>
+    <authors>jrondeau,PatrickDelancy</authors>
+    <owners>jrondeau</owners>
     <projectUrl>https://github.com/sitecore-elision/elision</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>

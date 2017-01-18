@@ -155,7 +155,6 @@
     </Content>
     <Content Include="Areas\Elision\Views\Metadata\PageMetadata.cshtml" />
     <Content Include="Areas\Elision\Views\Twitter\CardMeta.cshtml" />
-    <None Include="Elision.Foundation.dev.nuspec" />
     <None Include="Elision.Foundation.nuspec" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
