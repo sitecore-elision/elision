@@ -125,6 +125,7 @@
     <None Include="App_Config\Include\Elision.Foundation\Elision.Seo.ErrorPages.config.example" />
     <None Include="App_Config\Include\Elision.Foundation\Elision.Seo.RobotsTxt.config.example" />
     <None Include="App_Config\Include\Elision.Foundation\Elision.Seo.SitemapXml.config.example" />
+    <None Include="Elision.Foundation.beta.nuspec" />
     <None Include="Properties\PublishProfiles\folder.pubxml" />
     <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\128x128\map-geolocation-marker.png" />
     <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\128x128\map-geolocation-pin.png" />
@@ -154,7 +155,7 @@
     </Content>
     <Content Include="Areas\Elision\Views\Metadata\PageMetadata.cshtml" />
     <Content Include="Areas\Elision\Views\Twitter\CardMeta.cshtml" />
-    <None Include="Elision.Foundation.nuspec.dev" />
+    <None Include="Elision.Foundation.dev.nuspec" />
     <None Include="Elision.Foundation.nuspec" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
