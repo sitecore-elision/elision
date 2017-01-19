@@ -1,16 +1,3 @@
-next-version: 1.0
 assembly-versioning-scheme: MajorMinorPatch
-mode: ContinuousDelivery
-branches:
-  release:
-    mode: ContinuousDelivery
-    is-release-branch: true
-  develop:
-    increment: Patch
-    track-merge-target: true
-    tracks-release-branches: true
-    prevent-increment-of-merged-branch-version: false
-    mode: ContinuousDeployment
-    is-release-branch: false
-ignore:
-  sha: []
+mode: ContinuousDeployment
+branches: {}
