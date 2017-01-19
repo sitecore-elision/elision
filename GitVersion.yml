@@ -1,0 +1,9 @@
+next-version: 1.0
+assembly-versioning-scheme: MajorMinorPatch
+mode: ContinuousDelivery
+branches:
+  releases?[/-]:
+    mode: ContinuousDelivery
+	is-release-branch: true
+ignore:
+  sha: []
