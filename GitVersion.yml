@@ -4,6 +4,6 @@ mode: ContinuousDelivery
 branches:
   releases?[/-]:
     mode: ContinuousDelivery
-	is-release-branch: true
+    is-release-branch: true
 ignore:
   sha: []
