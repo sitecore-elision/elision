@@ -1,0 +1,69 @@
+version: 0.0.{build}
+branches:
+  only:
+  - develop
+skip_tags: true
+configuration: Release
+platform: Any CPU
+assembly_info:
+  patch: true
+  file: '**\AssemblyInfo.*'
+  assembly_version: '{version}'
+  assembly_file_version: '{version}'
+  assembly_informational_version: '{version}'
+environment:
+  SECURE_FILE_KEY:
+    secure: wKYAwOYktXoE2lixj5tLCA3duxUoeJzNx9x8+9D6Axg=
+  VERSION_SUFFIX: -dev
+  TDS_Owner:
+    secure: hKfHi0z48nstGDd6MakKTw==
+  TDS_Key:
+    secure: TC3Veu6H47rNTl2FwboXuvHz8HWTDuTOBeZU6u3s3ko=
+  NUGET_API_KEY:
+    secure: RFT8NpNr9gfG/V6YHwErPNZ96L2y7yATNs9aVmV3AGVtPLYzes5hzg4ng4HMVe7K
+install:
+- cmd: nuget sources add -Name SitecoreOffical -Source https://sitecore.myget.org/F/sc-packages/api/v3/index.json
+- choco install gitversion.portable -pre -y
+nuget:
+  account_feed: true
+  project_feed: true
+before_build:
+- ps: >-
+    Push-Location ".\src"
+
+    Invoke-Expression "nuget restore Elision.Foundation.sln"
+
+    Pop-Location
+	
+	gitversion /l console /output buildserver /updateAssemblyInfo
+	
+build_script:
+  - cmd: msbuild src\Elision.Foundation.sln /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll" /verbosity:normal /p:PackageVersion=%GitVersion_SemVer%
+after_build:
+- cmd: >-
+    move src\Elision.Foundation.Fixtures\bin\Package_Release\Elision.Foundation.update src\Elision.Foundation.Fixtures\bin\Package_Release\Elision.Foundation.%APPVEYOR_BUILD_VERSION%%VERSION_SUFFIX%.update
+
+
+    nuget pack "src\Elision.Foundation\Elision.Foundation.csproj" -Properties "Configuration=%CONFIGURATION%;Platform=AnyCPU" -IncludeReferencedProjects -Version %APPVEYOR_BUILD_VERSION%%VERSION_SUFFIX% -OutputDirectory "%APPVEYOR_BUILD_FOLDER%"
+
+    move src\Elision.Foundation\Elision.Foundation.nuspec src\Elision.Foundation\Elision.Foundation.nuspec.install
+
+    move src\Elision.Foundation\Elision.Foundation.nuspec.dev src\Elision.Foundation\Elision.Foundation.nuspec
+
+    nuget pack "src\Elision.Foundation\Elision.Foundation.csproj" -Properties "Configuration=%CONFIGURATION%;Platform=AnyCPU" -IncludeReferencedProjects -Version %APPVEYOR_BUILD_VERSION%%VERSION_SUFFIX% -OutputDirectory "%APPVEYOR_BUILD_FOLDER%" -Exclude App_Config\**\*.* -Exclude sitecore\**\*.* -Exclude Areas\**\*.*
+before_test:
+- cmd: >-
+    nuget install secure-file -ExcludeVersion
+
+    secure-file\tools\secure-file -decrypt sitecore\license.xml.enc -secret %SECURE_FILE_KEY%
+test:
+  assemblies: '**\*.Tests.dll'
+artifacts:
+- path: src\Elision.Foundation.Fixtures\bin\Package_Release\*.update
+  name: SC_Update_Package
+- path: src\Elision.Foundation.Fixtures\bin\NuGet_Release\*.nupkg
+  name: SC_Fixtures_Nuget
+- path: .\*.nupkg
+  name: Nuget_Package
+- path: src\Elision.Foundation.Core\bin\NuGet_Release\*.nupkg
+  name: SC_Core_Nuget
