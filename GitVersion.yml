@@ -1,3 +1,8 @@
 assembly-versioning-scheme: MajorMinorPatch
 mode: ContinuousDeployment
-branches: {}
+branches:
+  develop:
+    regex: dev(elop)?(ment)?$
+    mode: ContinuousDeployment
+    tag: dev
+    increment: Minor
