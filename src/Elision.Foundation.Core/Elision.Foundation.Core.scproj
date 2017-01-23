@@ -49,7 +49,7 @@
     <NuGetGenerateNuGetPackage>True</NuGetGenerateNuGetPackage>
     <NuGetExePath>..\.nuget</NuGetExePath>
     <NuGetSummary />
-    <NuGetDescription>TDS Foundation Layer Item Fixtures for Sitecore Development Accelerator Framework.  Compatible with Sitecore 8.2 Update 2.</NuGetDescription>
+    <NuGetDescription>TDS Foundation Layer Core for Sitecore Development Accelerator Framework.  Compatible with Sitecore 8.2 Update 2.</NuGetDescription>
     <NuGetTitle>Elision Foundation TDS Core</NuGetTitle>
     <NuGetVersion>0.0.1</NuGetVersion>
     <NuGetPackageId>Sitecore.Elision.Foundation.Core</NuGetPackageId>
