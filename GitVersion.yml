@@ -3,7 +3,7 @@ mode: ContinuousDelivery
 commit-message-incrementing: MergeMessageOnly
 branches:
   develop:
-    tag: dev
+    tag: ''
     mode: ContinuousDeployment
     increment: Patch
   release:
