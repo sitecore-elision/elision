@@ -1,6 +1,7 @@
 assembly-versioning-scheme: MajorMinorPatch
-mode: ContinuousDeployment
+mode: ContinuousDelivery
 branches:
   develop:
     tag: dev
+    mode: ContinuousDeployment
     increment: Minor
