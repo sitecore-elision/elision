@@ -53,8 +53,8 @@
     <NuGetTitle>Elision Foundation TDS Core</NuGetTitle>
     <NuGetVersion>0.0.1</NuGetVersion>
     <NuGetPackageId>Sitecore.Elision.Foundation.Core</NuGetPackageId>
-    <NuGetAuthors>JeffreyRondeau</NuGetAuthors>
-    <NuGetOwners>JeffreyRondeau</NuGetOwners>
+    <NuGetAuthors>jrondeau</NuGetAuthors>
+    <NuGetOwners>jrondeau</NuGetOwners>
     <NuGetCopyright />
     <NuGetLicenseUrl />
     <NuGetIconUrl />

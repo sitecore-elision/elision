@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>Elision.Foundation</id>
+    <id>Elision.Foundation-redist</id>
     <version>$version$</version>
     <title>Elsion Foundation for Sitecore</title>
     <authors>jrondeau,PatrickDelancy</authors>
     <owners>jrondeau</owners>
     <projectUrl>https://github.com/sitecore-elision/elision</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>$description$</description>
+    <description>This is the elision foundation package to reference if you are building a module or other code that just needs to reference the elision foundation. If you need to install Elision's foundation layer, use the Elision.Foundation package instead.</description>
     <releaseNotes></releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>sitecore elision foundation</tags>
