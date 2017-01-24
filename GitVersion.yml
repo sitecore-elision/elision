@@ -1,11 +1,7 @@
 assembly-versioning-scheme: MajorMinorPatch
-mode: ContinuousDelivery
-commit-message-incrementing: MergeMessageOnly
+mode: ContinuousDeployment
 branches:
   develop:
-    tag: ''
-    mode: ContinuousDeployment
-    increment: Patch
+    tag: dev
   release:
-    tag: pre
-    increment: Patch
+    tag: pre    
