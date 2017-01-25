@@ -1,10 +1,11 @@
+using Elision.Seo;
 using FluentAssertions;
 using NUnit.Framework;
 using Sitecore.Data;
 using Sitecore.Data.Items;
 using Sitecore.FakeDb;
 
-namespace Elision.Seo.Tests
+namespace Elision.Feature.Library.Seo.Tests
 {
     [TestFixture]
     public class CanonicalUrlTests

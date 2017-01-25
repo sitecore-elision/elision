@@ -243,10 +243,6 @@
       <Project>{104f9aef-a043-46c9-a4ee-05b3691390d2}</Project>
       <Name>Elision.Foundation.Rules</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Elision.Seo\Elision.Seo.csproj">
-      <Project>{6c94a34f-ff7a-4331-9e5e-c6eab94bb20b}</Project>
-      <Name>Elision.Seo</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Elision.Foundation.TabbedRenderingSelector\Elision.Foundation.TabbedRenderingSelector.csproj">
       <Project>{d0f6210b-ff18-45c1-966a-d74c43a414d7}</Project>
       <Name>Elision.Foundation.TabbedRenderingSelector</Name>
