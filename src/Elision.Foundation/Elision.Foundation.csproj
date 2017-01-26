@@ -183,10 +183,6 @@
       <Project>{460caf21-9886-4109-a5a5-1d8d4228b1d9}</Project>
       <Name>Elision.Foundation.FieldVisibility</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Elision.Forms\Elision.Forms.csproj">
-      <Project>{e37182c0-75ff-4307-86e5-befda679920e}</Project>
-      <Name>Elision.Forms</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Elision.Foundation.Ioc\Elision.Foundation.Ioc.csproj">
       <Project>{851b7da0-e315-48ac-a6e8-156e038ed7a8}</Project>
       <Name>Elision.Foundation.Ioc</Name>

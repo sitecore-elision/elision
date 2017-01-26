@@ -73,8 +73,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Foundation.LayoutRe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Foundation.SiteResources", "Elision.Foundation.SiteResources\Elision.Foundation.SiteResources.csproj", "{D98DD28B-0FFA-4290-B125-56C654CC0328}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Forms", "Elision.Forms\Elision.Forms.csproj", "{E37182C0-75FF-4307-86E5-BEFDA679920E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -192,10 +190,6 @@ Global
 		{D98DD28B-0FFA-4290-B125-56C654CC0328}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D98DD28B-0FFA-4290-B125-56C654CC0328}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D98DD28B-0FFA-4290-B125-56C654CC0328}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E37182C0-75FF-4307-86E5-BEFDA679920E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E37182C0-75FF-4307-86E5-BEFDA679920E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E37182C0-75FF-4307-86E5-BEFDA679920E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E37182C0-75FF-4307-86E5-BEFDA679920E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -226,6 +220,5 @@ Global
 		{0B5FDD45-E009-4EE7-8496-3C5E1F4A90AD} = {9B701BF3-480E-4A32-9D7A-A19D0537C542}
 		{0F97D507-CECD-48C4-8141-FE5CA2552330} = {736EC4B5-3AF9-4FD2-88DA-CB8179920175}
 		{D98DD28B-0FFA-4290-B125-56C654CC0328} = {918887CB-9795-4238-A95D-878AE41CD6E1}
-		{E37182C0-75FF-4307-86E5-BEFDA679920E} = {918887CB-9795-4238-A95D-878AE41CD6E1}
 	EndGlobalSection
 EndGlobal
