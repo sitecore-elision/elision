@@ -7,7 +7,7 @@ using Sitecore.Data.Events;
 using Sitecore.Data.Items;
 using Sitecore.Events;
 
-namespace Elision.DynamicPlaceholders
+namespace Elision.Foundation.DynamicPlaceholders
 {
     public class FixOrphanedRenderings
     {

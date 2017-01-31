@@ -49,7 +49,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Foundation.TabbedRe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Foundation.WebEditState", "Elision.Foundation.WebEditState\Elision.Foundation.WebEditState.csproj", "{8A11EEF3-1F17-4226-A685-5D1A3998C792}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.DynamicPlaceholders", "Elision.DynamicPlaceholders\Elision.DynamicPlaceholders.csproj", "{D1767079-793D-4D3E-AB8A-BBE51EF9C22E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Foundation.DynamicPlaceholders", "Elision.Foundation.DynamicPlaceholders\Elision.Foundation.DynamicPlaceholders.csproj", "{D1767079-793D-4D3E-AB8A-BBE51EF9C22E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Foundation.CompatibleRenderings", "Elision.Foundation.CompatibleRenderings\Elision.Foundation.CompatibleRenderings.csproj", "{B26C2F5A-69F5-4167-97E7-0E02C4178E5A}"
 EndProject
