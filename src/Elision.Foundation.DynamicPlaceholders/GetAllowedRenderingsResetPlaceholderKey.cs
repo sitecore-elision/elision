@@ -1,6 +1,6 @@
 using Sitecore.Pipelines.GetPlaceholderRenderings;
 
-namespace Elision.DynamicPlaceholders
+namespace Elision.Foundation.DynamicPlaceholders
 {
     public class GetAllowedRenderingsResetPlaceholderKey : GetAllowedRenderings
     {

@@ -3,7 +3,7 @@ using Elision.Foundation.WebEditState;
 using Sitecore.Mvc.Helpers;
 using Sitecore.Mvc.Presentation;
 
-namespace Elision.DynamicPlaceholders
+namespace Elision.Foundation.DynamicPlaceholders
 {
     public static class DynamicPlaceholderHelper
     {

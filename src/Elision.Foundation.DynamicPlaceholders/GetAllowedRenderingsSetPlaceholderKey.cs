@@ -1,7 +1,7 @@
 using System.Text.RegularExpressions;
 using Sitecore.Pipelines.GetPlaceholderRenderings;
 
-namespace Elision.DynamicPlaceholders
+namespace Elision.Foundation.DynamicPlaceholders
 {
     public class GetAllowedRenderingsSetPlaceholderKey : GetAllowedRenderings
     {

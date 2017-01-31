@@ -5,7 +5,7 @@ using Sitecore.Data;
 using Sitecore.Data.Items;
 using Sitecore.Pipelines.GetPlaceholderRenderings;
 
-namespace Elision.DynamicPlaceholders
+namespace Elision.Foundation.DynamicPlaceholders
 {
     public class GetDynamicKeyAllowedRenderings : GetAllowedRenderings
     {

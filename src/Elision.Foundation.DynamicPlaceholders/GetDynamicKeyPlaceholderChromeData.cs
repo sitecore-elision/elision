@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 using Sitecore.Diagnostics;
 using Sitecore.Pipelines.GetChromeData;
 
-namespace Elision.DynamicPlaceholders
+namespace Elision.Foundation.DynamicPlaceholders
 {
     public class GetDynamicKeyPlaceholderChromeData : GetPlaceholderChromeData
     {

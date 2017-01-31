@@ -7,8 +7,8 @@
     <ProjectGuid>{D1767079-793D-4D3E-AB8A-BBE51EF9C22E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Elision.DynamicPlaceholders</RootNamespace>
-    <AssemblyName>Elision.DynamicPlaceholders</AssemblyName>
+    <RootNamespace>Elision.Foundation.DynamicPlaceholders</RootNamespace>
+    <AssemblyName>Elision.Foundation.DynamicPlaceholders</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
