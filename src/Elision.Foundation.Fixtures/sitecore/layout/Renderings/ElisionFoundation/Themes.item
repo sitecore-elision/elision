@@ -2,13 +2,13 @@
 version: 1
 id: {3FD76932-45A5-4652-BAA2-C4786A294F0D}
 database: master
-path: /sitecore/layout/Renderings/Elision/Themes
+path: /sitecore/layout/Renderings/ElisionFoundation/Themes
 parent: {B73BF536-07C0-465E-B7FF-6AB00EF36715}
 name: Themes
 master: {00000000-0000-0000-0000-000000000000}
 template: {7EE0975B-0698-493E-B3A2-0B2EF33D0522}
 templatekey: Rendering Folder
-created: 20160524T191413:635997140535000000
+created: 20160525T001413Z
 
 ----version----
 language: en

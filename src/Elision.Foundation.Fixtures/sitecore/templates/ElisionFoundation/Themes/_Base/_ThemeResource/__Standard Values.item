@@ -2,7 +2,7 @@
 version: 1
 id: {BBB6E9EA-8319-46B3-B308-94D364EC995A}
 database: master
-path: /sitecore/templates/ElisionFoundation/Themes/Settings/_ThemeResource/__Standard Values
+path: /sitecore/templates/ElisionFoundation/Themes/_Base/_ThemeResource/__Standard Values
 parent: {D522F52B-09DF-442D-84A9-17A497C00BCC}
 name: __Standard Values
 master: {00000000-0000-0000-0000-000000000000}

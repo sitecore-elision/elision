@@ -33,7 +33,7 @@ namespace Elision.Foundation.Kernel
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Multilist</description></item>
                 ///     <item><term>Field ID:</term><description>{B7100C64-8316-44E7-926D-9F2FE164CD69}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/Settings/_ThemeResource/Resource/PageModes</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/_Base/_ThemeResource/Resource/PageModes</description></item>
                 /// </list>
                 /// <para>This is an inherited template field</para>
                 /// </summary>
@@ -50,7 +50,7 @@ namespace Elision.Foundation.Kernel
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Droplink</description></item>
                 ///     <item><term>Field ID:</term><description>{575073A1-3DEF-47E6-B62A-D5BD2F94D6A7}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/Settings/_ThemeResource/Resource/ResourceLocation</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/_Base/_ThemeResource/Resource/ResourceLocation</description></item>
                 /// </list>
                 /// <para>This is an inherited template field</para>
                 /// </summary>
@@ -60,7 +60,7 @@ namespace Elision.Foundation.Kernel
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Multilist</description></item>
                 ///     <item><term>Field ID:</term><description>{70AA35E0-E88C-4504-A512-58BBB4D10AAA}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/Settings/_ThemeResource/Resource/SupportedDevices</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/_Base/_ThemeResource/Resource/SupportedDevices</description></item>
                 /// </list>
                 /// <para>This is an inherited template field</para>
                 /// </summary>
@@ -74,7 +74,7 @@ namespace Elision.Foundation.Kernel
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Multilist</description></item>
                 ///     <item><term>Field ID:</term><description>{B7100C64-8316-44E7-926D-9F2FE164CD69}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/Settings/_ThemeResource/Resource/PageModes</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/_Base/_ThemeResource/Resource/PageModes</description></item>
                 /// </list>
                 /// <para>This is an inherited template field</para>
                 /// </summary>
@@ -91,7 +91,7 @@ namespace Elision.Foundation.Kernel
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Droplink</description></item>
                 ///     <item><term>Field ID:</term><description>{575073A1-3DEF-47E6-B62A-D5BD2F94D6A7}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/Settings/_ThemeResource/Resource/ResourceLocation</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/_Base/_ThemeResource/Resource/ResourceLocation</description></item>
                 /// </list>
                 /// <para>This is an inherited template field</para>
                 /// </summary>
@@ -101,7 +101,7 @@ namespace Elision.Foundation.Kernel
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Multilist</description></item>
                 ///     <item><term>Field ID:</term><description>{70AA35E0-E88C-4504-A512-58BBB4D10AAA}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/Settings/_ThemeResource/Resource/SupportedDevices</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/_Base/_ThemeResource/Resource/SupportedDevices</description></item>
                 /// </list>
                 /// <para>This is an inherited template field</para>
                 /// </summary>
@@ -119,7 +119,7 @@ namespace Elision.Foundation.Kernel
             /// <summary>
             /// <list type="table">
             ///     <item><term>Rendering ID:</term><description>{081E0D0C-D55F-42A1-A5D7-A9F3A975153C}</description></item>
-            ///     <item><term>Path:</term><description>/sitecore/layout/Renderings/Elision/Themes/BodyBottomResources</description></item>
+            ///     <item><term>Path:</term><description>/sitecore/layout/Renderings/ElisionFoundation/Themes/BodyBottomResources</description></item>
             /// </list>
             /// </summary>
             public static readonly ID BodyBottomResources = new ID("{081E0D0C-D55F-42A1-A5D7-A9F3A975153C}");
@@ -207,7 +207,7 @@ namespace Elision.Foundation.Kernel
             /// <summary>
             /// <list type="table">
             ///     <item><term>Rendering ID:</term><description>{176AC3B8-2AA5-4811-8BD3-FAA212881824}</description></item>
-            ///     <item><term>Path:</term><description>/sitecore/layout/Renderings/Elision/Themes/BodyTopResources</description></item>
+            ///     <item><term>Path:</term><description>/sitecore/layout/Renderings/ElisionFoundation/Themes/BodyTopResources</description></item>
             /// </list>
             /// </summary>
             public static readonly ID BodyTopResources = new ID("{176AC3B8-2AA5-4811-8BD3-FAA212881824}");
@@ -470,7 +470,7 @@ namespace Elision.Foundation.Kernel
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Multilist</description></item>
                 ///     <item><term>Field ID:</term><description>{B7100C64-8316-44E7-926D-9F2FE164CD69}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/Settings/_ThemeResource/Resource/PageModes</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/_Base/_ThemeResource/Resource/PageModes</description></item>
                 /// </list>
                 /// <para>This is an inherited template field</para>
                 /// </summary>
@@ -487,7 +487,7 @@ namespace Elision.Foundation.Kernel
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Droplink</description></item>
                 ///     <item><term>Field ID:</term><description>{575073A1-3DEF-47E6-B62A-D5BD2F94D6A7}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/Settings/_ThemeResource/Resource/ResourceLocation</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/_Base/_ThemeResource/Resource/ResourceLocation</description></item>
                 /// </list>
                 /// <para>This is an inherited template field</para>
                 /// </summary>
@@ -497,7 +497,7 @@ namespace Elision.Foundation.Kernel
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Multilist</description></item>
                 ///     <item><term>Field ID:</term><description>{70AA35E0-E88C-4504-A512-58BBB4D10AAA}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/Settings/_ThemeResource/Resource/SupportedDevices</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/_Base/_ThemeResource/Resource/SupportedDevices</description></item>
                 /// </list>
                 /// <para>This is an inherited template field</para>
                 /// </summary>
@@ -511,7 +511,7 @@ namespace Elision.Foundation.Kernel
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Multilist</description></item>
                 ///     <item><term>Field ID:</term><description>{B7100C64-8316-44E7-926D-9F2FE164CD69}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/Settings/_ThemeResource/Resource/PageModes</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/_Base/_ThemeResource/Resource/PageModes</description></item>
                 /// </list>
                 /// <para>This is an inherited template field</para>
                 /// </summary>
@@ -528,7 +528,7 @@ namespace Elision.Foundation.Kernel
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Droplink</description></item>
                 ///     <item><term>Field ID:</term><description>{575073A1-3DEF-47E6-B62A-D5BD2F94D6A7}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/Settings/_ThemeResource/Resource/ResourceLocation</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/_Base/_ThemeResource/Resource/ResourceLocation</description></item>
                 /// </list>
                 /// <para>This is an inherited template field</para>
                 /// </summary>
@@ -538,7 +538,7 @@ namespace Elision.Foundation.Kernel
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Multilist</description></item>
                 ///     <item><term>Field ID:</term><description>{70AA35E0-E88C-4504-A512-58BBB4D10AAA}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/Settings/_ThemeResource/Resource/SupportedDevices</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/_Base/_ThemeResource/Resource/SupportedDevices</description></item>
                 /// </list>
                 /// <para>This is an inherited template field</para>
                 /// </summary>
@@ -690,7 +690,7 @@ namespace Elision.Foundation.Kernel
             /// <summary>
             /// <list type="table">
             ///     <item><term>Rendering ID:</term><description>{A1F97BCC-0F5A-4A9B-AA67-0F22E23268AA}</description></item>
-            ///     <item><term>Path:</term><description>/sitecore/layout/Renderings/Elision/Themes/HeadResources</description></item>
+            ///     <item><term>Path:</term><description>/sitecore/layout/Renderings/ElisionFoundation/Themes/HeadResources</description></item>
             /// </list>
             /// </summary>
             public static readonly ID HeadResources = new ID("{A1F97BCC-0F5A-4A9B-AA67-0F22E23268AA}");
@@ -883,7 +883,7 @@ namespace Elision.Foundation.Kernel
         /// <summary>
         /// <list type="table">
         ///     <item><term>Template ID:</term><description>{D522F52B-09DF-442D-84A9-17A497C00BCC}</description></item>
-        ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/Settings/_ThemeResource</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/_Base/_ThemeResource</description></item>
         /// </list>
         /// </summary>
         public struct _ThemeResource
@@ -898,7 +898,7 @@ namespace Elision.Foundation.Kernel
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Multilist</description></item>
                 ///     <item><term>Field ID:</term><description>{B7100C64-8316-44E7-926D-9F2FE164CD69}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/Settings/_ThemeResource/Resource/PageModes</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/_Base/_ThemeResource/Resource/PageModes</description></item>
                 /// </list>
                 /// </summary>
                 public static readonly ID PageModes = new ID("{B7100C64-8316-44E7-926D-9F2FE164CD69}");
@@ -906,7 +906,7 @@ namespace Elision.Foundation.Kernel
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Droplink</description></item>
                 ///     <item><term>Field ID:</term><description>{575073A1-3DEF-47E6-B62A-D5BD2F94D6A7}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/Settings/_ThemeResource/Resource/ResourceLocation</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/_Base/_ThemeResource/Resource/ResourceLocation</description></item>
                 /// </list>
                 /// </summary>
                 public static readonly ID ResourceLocation = new ID("{575073A1-3DEF-47E6-B62A-D5BD2F94D6A7}");
@@ -915,7 +915,7 @@ namespace Elision.Foundation.Kernel
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Multilist</description></item>
                 ///     <item><term>Field ID:</term><description>{70AA35E0-E88C-4504-A512-58BBB4D10AAA}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/Settings/_ThemeResource/Resource/SupportedDevices</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/_Base/_ThemeResource/Resource/SupportedDevices</description></item>
                 /// </list>
                 /// </summary>
                 public static readonly ID SupportedDevices = new ID("{70AA35E0-E88C-4504-A512-58BBB4D10AAA}");
@@ -928,7 +928,7 @@ namespace Elision.Foundation.Kernel
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Multilist</description></item>
                 ///     <item><term>Field ID:</term><description>{B7100C64-8316-44E7-926D-9F2FE164CD69}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/Settings/_ThemeResource/Resource/PageModes</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/_Base/_ThemeResource/Resource/PageModes</description></item>
                 /// </list>
                 /// </summary>
                 public const string PageModes = "PageModes";
@@ -936,7 +936,7 @@ namespace Elision.Foundation.Kernel
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Droplink</description></item>
                 ///     <item><term>Field ID:</term><description>{575073A1-3DEF-47E6-B62A-D5BD2F94D6A7}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/Settings/_ThemeResource/Resource/ResourceLocation</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/_Base/_ThemeResource/Resource/ResourceLocation</description></item>
                 /// </list>
                 /// </summary>
                 public const string ResourceLocation = "ResourceLocation";
@@ -945,7 +945,7 @@ namespace Elision.Foundation.Kernel
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Multilist</description></item>
                 ///     <item><term>Field ID:</term><description>{70AA35E0-E88C-4504-A512-58BBB4D10AAA}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/Settings/_ThemeResource/Resource/SupportedDevices</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFoundation/Themes/_Base/_ThemeResource/Resource/SupportedDevices</description></item>
                 /// </list>
                 /// </summary>
                 public const string SupportedDevices = "SupportedDevices";

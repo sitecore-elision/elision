@@ -2,7 +2,7 @@
 version: 1
 id: {BFEFA279-665C-495D-A984-988151529830}
 database: master
-path: /sitecore/templates/ElisionFoundation/Themes/Settings/_ThemeResource/Resource
+path: /sitecore/templates/ElisionFoundation/Themes/_Base/_ThemeResource/Resource
 parent: {D522F52B-09DF-442D-84A9-17A497C00BCC}
 name: Resource
 master: {00000000-0000-0000-0000-000000000000}

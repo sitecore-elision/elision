@@ -2,13 +2,13 @@
 version: 1
 id: {081E0D0C-D55F-42A1-A5D7-A9F3A975153C}
 database: master
-path: /sitecore/layout/Renderings/Elision/Themes/BodyBottomResources
+path: /sitecore/layout/Renderings/ElisionFoundation/Themes/BodyBottomResources
 parent: {3FD76932-45A5-4652-BAA2-C4786A294F0D}
 name: BodyBottomResources
 master: {00000000-0000-0000-0000-000000000000}
 template: {2A3E91A0-7987-44B5-AB34-35C2D9DE83B9}
 templatekey: Controller rendering
-created: 20160524T191413:635997140535530000
+created: 20160525T001413Z
 
 ----field----
 field: {E64AD073-DFCC-4D20-8C0B-FE5AA6226CD7}

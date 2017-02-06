@@ -14,9 +14,9 @@ created: 20160525T001420Z
 field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
 name: __Base template
 key: __base template
-content-length: 155
+content-length: 116
 
-{D5950FBE-F4A5-45CB-BD88-6EE0B8BEEC54}|{A05913A9-FC8E-4E05-9741-61E480885E91}|{7D0DCCF0-891D-4A14-9B1D-2251DF4B0FB7}|{27F032BB-8130-43B2-8E5D-7F63B000D2F6}
+{D5950FBE-F4A5-45CB-BD88-6EE0B8BEEC54}|{A05913A9-FC8E-4E05-9741-61E480885E91}|{7D0DCCF0-891D-4A14-9B1D-2251DF4B0FB7}
 ----field----
 field: {F7D48A55-2158-4F02-9356-756654404F73}
 name: __Standard values
@@ -34,7 +34,7 @@ Core3/32x32/home_green.png
 ----version----
 language: en
 version: 1
-revision: 76ebbf35-b75c-4718-a217-aeb3252bf16a
+revision: fcf9cd2f-f044-4739-aab5-c37794216345
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -56,18 +56,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-76ebbf35-b75c-4718-a217-aeb3252bf16a
+fcf9cd2f-f044-4739-aab5-c37794216345
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160601T025432Z
+20170206T195151Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin
