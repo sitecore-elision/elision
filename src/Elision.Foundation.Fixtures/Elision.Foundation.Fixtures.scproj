@@ -128,23 +128,23 @@
       <ItemDeployment>DeployOnce</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Renderings\Elision.item">
+    <SitecoreItem Include="sitecore\layout\Renderings\ElisionFoundation.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Renderings\Elision\Themes.item">
+    <SitecoreItem Include="sitecore\layout\Renderings\ElisionFoundation\Themes.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Renderings\Elision\Themes\BodyBottomResources.item">
+    <SitecoreItem Include="sitecore\layout\Renderings\ElisionFoundation\Themes\BodyBottomResources.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Renderings\Elision\Themes\BodyTopResources.item">
+    <SitecoreItem Include="sitecore\layout\Renderings\ElisionFoundation\Themes\BodyTopResources.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Renderings\Elision\Themes\HeadResources.item">
+    <SitecoreItem Include="sitecore\layout\Renderings\ElisionFoundation\Themes\HeadResources.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
@@ -160,43 +160,43 @@
       <ItemDeployment>DeployOnce</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Settings\Elision.item">
+    <SitecoreItem Include="sitecore\system\Settings\ElisionFoundation.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Settings\Elision\Option Lists.item">
+    <SitecoreItem Include="sitecore\system\Settings\ElisionFoundation\Option Lists.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Settings\Elision\Option Lists\PageModes.item">
+    <SitecoreItem Include="sitecore\system\Settings\ElisionFoundation\Option Lists\PageModes.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Settings\Elision\Option Lists\PageModes\IsNormal.item">
+    <SitecoreItem Include="sitecore\system\Settings\ElisionFoundation\Option Lists\PageModes\IsNormal.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Settings\Elision\Option Lists\PageModes\IsPageEditorEditing.item">
+    <SitecoreItem Include="sitecore\system\Settings\ElisionFoundation\Option Lists\PageModes\IsPageEditorEditing.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Settings\Elision\Option Lists\PageModes\IsPreview.item">
+    <SitecoreItem Include="sitecore\system\Settings\ElisionFoundation\Option Lists\PageModes\IsPreview.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Settings\Elision\Option Lists\ResourceLocations.item">
+    <SitecoreItem Include="sitecore\system\Settings\ElisionFoundation\Option Lists\ResourceLocations.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Settings\Elision\Option Lists\ResourceLocations\Body Bottom.item">
+    <SitecoreItem Include="sitecore\system\Settings\ElisionFoundation\Option Lists\ResourceLocations\Body Bottom.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Settings\Elision\Option Lists\ResourceLocations\Body Top.item">
+    <SitecoreItem Include="sitecore\system\Settings\ElisionFoundation\Option Lists\ResourceLocations\Body Top.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Settings\Elision\Option Lists\ResourceLocations\Head.item">
+    <SitecoreItem Include="sitecore\system\Settings\ElisionFoundation\Option Lists\ResourceLocations\Head.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
@@ -696,259 +696,259 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\System.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\System.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\System\Folders.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\System\Folders.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\System\Folders\ComponentsFolder.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\System\Folders\ComponentsFolder.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\System\Folders\ComponentsFolder\__Standard Values.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\System\Folders\ComponentsFolder\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\System\Layout.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\System\Layout.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\System\Layout\MvcAreaName.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\System\Layout\MvcAreaName.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\System\Layout\MvcAreaName\Routing.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\System\Layout\MvcAreaName\Routing.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\System\Layout\MvcAreaName\Routing\AreaName.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\System\Layout\MvcAreaName\Routing\AreaName.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\System\Layout\RenderingFolderWithArea.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\System\Layout\RenderingFolderWithArea.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\_Base.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\_Base.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\_Base\_ColorScheme.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\_Base\_ColorScheme.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\_Base\_ColorScheme\Color Scheme.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\_Base\_ColorScheme\Color Scheme.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\_Base\_ColorScheme\Color Scheme\ColorScheme.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\_Base\_ColorScheme\Color Scheme\ColorScheme.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\_Base\_PageScripts.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\_Base\_PageScripts.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\_Base\_PageScripts\Scripts.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\_Base\_PageScripts\Scripts.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\_Base\_PageScripts\Scripts\PageBodyTopScript.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\_Base\_PageScripts\Scripts\PageBodyTopScript.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\_Base\_PageScripts\Scripts\PageFootScript.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\_Base\_PageScripts\Scripts\PageFootScript.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\_Base\_PageScripts\Scripts\PageHeadScript.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\_Base\_PageScripts\Scripts\PageHeadScript.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\_Base\_SiteScripts.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\_Base\_SiteScripts.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\_Base\_SiteScripts\Scripts.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\_Base\_SiteScripts\Scripts.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\_Base\_SiteScripts\Scripts\SiteBodyTopScript.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\_Base\_SiteScripts\Scripts\SiteBodyTopScript.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\_Base\_SiteScripts\Scripts\SiteFootScript.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\_Base\_SiteScripts\Scripts\SiteFootScript.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\_Base\_SiteScripts\Scripts\SiteHeadScript.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\_Base\_SiteScripts\Scripts\SiteHeadScript.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\_Base\_Themable.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\_Base\_Themable.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\_Base\_Themable\Theme.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\_Base\_Themable\Theme.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\_Base\_Themable\Theme\Theme.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\_Base\_Themable\Theme\Theme.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Content.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\_Base\_ThemeResource.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Content\_ContentPage.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\_Base\_ThemeResource\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Content\_HomePage.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\_Base\_ThemeResource\Resource.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Content\Website.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\_Base\_ThemeResource\Resource\PageModes.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Content\Website\__Standard Values.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\_Base\_ThemeResource\Resource\ResourceLocation.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\_Base\_ThemeResource\Resource\SupportedDevices.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings\_ThemeResource.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\Content.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings\_ThemeResource\__Standard Values.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\Content\_ContentPage.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings\_ThemeResource\Resource.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\Content\_HomePage.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings\_ThemeResource\Resource\PageModes.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\Content\Website.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings\_ThemeResource\Resource\ResourceLocation.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\Content\Website\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings\_ThemeResource\Resource\SupportedDevices.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\Settings.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings\ColorScheme.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\Settings\ColorScheme.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings\ColorScheme\__Standard Values.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\Settings\ColorScheme\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings\ColorScheme\Design.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\Settings\ColorScheme\Design.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings\ColorScheme\Design\BackgroundColor.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\Settings\ColorScheme\Design\BackgroundColor.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings\ColorScheme\Design\ForegroundColor.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\Settings\ColorScheme\Design\ForegroundColor.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings\PageMode.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\Settings\PageMode.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings\ResourceLocation.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\Settings\ResourceLocation.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings\ResponsiveImageProfile.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\Settings\ResponsiveImageProfile.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings\ResponsiveImageProfile\__Standard Values.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\Settings\ResponsiveImageProfile\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings\ResponsiveImageProfile\Responsive Image Profile.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\Settings\ResponsiveImageProfile\Responsive Image Profile.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings\ResponsiveImageProfile\Responsive Image Profile\DefaultImageSize.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\Settings\ResponsiveImageProfile\Responsive Image Profile\DefaultImageSize.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings\ResponsiveImageSize.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\Settings\ResponsiveImageSize.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings\ResponsiveImageSize\Responsive Image Size.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\Settings\ResponsiveImageSize\Responsive Image Size.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings\ResponsiveImageSize\Responsive Image Size\ImageWidth.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\Settings\ResponsiveImageSize\Responsive Image Size\ImageWidth.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings\ResponsiveImageSize\Responsive Image Size\WindowMinWidth.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\Settings\ResponsiveImageSize\Responsive Image Size\WindowMinWidth.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings\Theme.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\Settings\Theme.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings\Theme\Data.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\Settings\Theme\Data.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings\Theme\Data\MvcAreaName.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\Settings\Theme\Data\MvcAreaName.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings\ThemeEmbeddedResource.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\Settings\ThemeEmbeddedResource.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings\ThemeEmbeddedResource\Resource.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\Settings\ThemeEmbeddedResource\Resource.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings\ThemeEmbeddedResource\Resource\ResourceCode.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\Settings\ThemeEmbeddedResource\Resource\ResourceCode.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings\ThemeLinkedResource.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\Settings\ThemeLinkedResource.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings\ThemeLinkedResource\Resource.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\Settings\ThemeLinkedResource\Resource.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Elision\Themes\Settings\ThemeLinkedResource\Resource\ResourceLink.item">
+    <SitecoreItem Include="sitecore\templates\ElisionFoundation\Themes\Settings\ThemeLinkedResource\Resource\ResourceLink.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>

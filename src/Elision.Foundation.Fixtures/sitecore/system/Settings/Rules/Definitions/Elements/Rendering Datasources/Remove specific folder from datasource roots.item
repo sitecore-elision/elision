@@ -8,19 +8,19 @@ name: Remove specific folder from datasource roots
 master: {00000000-0000-0000-0000-000000000000}
 template: {F90052A5-B4E6-4E6D-9812-1E1B88A6FCEA}
 templatekey: Action
-created: 20160601T051039:636003546393530000
+created: 20160601T101039Z
 
 ----field----
 field: {FF55D5A7-6D4B-4CD1-83E0-BAC268073F66}
 name: Type
 key: type
-content-length: 106
+content-length: 128
 
-Elision.LayoutRenderings.Rules.GetRenderingDatasource.RemoveDatasourceRootAction, Elision.LayoutRenderings
+Elision.Foundation.LayoutRenderings.Rules.GetRenderingDatasource.RemoveDatasourceRootAction, Elision.Foundation.LayoutRenderings
 ----version----
 language: en
 version: 1
-revision: 99996543-d88f-4efb-9773-fcac98611e95
+revision: 8ab8d54b-19cb-49c8-bf07-93e440a3e406
 
 ----field----
 field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
@@ -56,18 +56,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-99996543-d88f-4efb-9773-fcac98611e95
+8ab8d54b-19cb-49c8-bf07-93e440a3e406
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160602T051634Z
+20170206T150131Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin

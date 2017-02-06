@@ -8,19 +8,19 @@ name: Set Query Context Item
 master: {00000000-0000-0000-0000-000000000000}
 template: {F90052A5-B4E6-4E6D-9812-1E1B88A6FCEA}
 templatekey: Action
-created: 20160524T191428:635997140680670000
+created: 20160525T001428Z
 
 ----field----
 field: {FF55D5A7-6D4B-4CD1-83E0-BAC268073F66}
 name: Type
 key: type
-content-length: 84
+content-length: 106
 
-Elision.LookupSourceItems.Rules.SetQueryContextItemAction, Elision.LookupSourceItems
+Elision.Foundation.LookupSourceItems.Rules.SetQueryContextItemAction, Elision.Foundation.LookupSourceItems
 ----version----
 language: en
 version: 1
-revision: 8f9706ae-7a54-4492-a29d-2d7467565802
+revision: 11bc6a02-1d6b-4517-ad0d-35259b986671
 
 ----field----
 field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
@@ -56,18 +56,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8f9706ae-7a54-4492-a29d-2d7467565802
+11bc6a02-1d6b-4517-ad0d-35259b986671
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160323T175126Z
+20170206T145805Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin

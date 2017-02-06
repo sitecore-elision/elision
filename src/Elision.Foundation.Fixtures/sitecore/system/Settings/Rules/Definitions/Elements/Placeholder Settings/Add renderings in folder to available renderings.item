@@ -8,19 +8,19 @@ name: Add renderings in folder to available renderings
 master: {00000000-0000-0000-0000-000000000000}
 template: {F90052A5-B4E6-4E6D-9812-1E1B88A6FCEA}
 templatekey: Action
-created: 20160524T191428:635997140684930000
+created: 20160525T001428Z
 
 ----field----
 field: {FF55D5A7-6D4B-4CD1-83E0-BAC268073F66}
 name: Type
 key: type
-content-length: 107
+content-length: 129
 
-Elision.PlaceholderSettings.Rules.PlaceholderSettings.AddRenderingFolderAction, Elision.PlaceholderSettings
+Elision.Foundation.PlaceholderSettings.Rules.PlaceholderSettings.AddRenderingFolderAction, Elision.Foundation.PlaceholderSettings
 ----version----
 language: en
 version: 1
-revision: cca50e5c-fe87-47ac-8337-48729c9cc0da
+revision: 50ab0715-f4c0-45d2-8b70-96dc3352cac9
 
 ----field----
 field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
@@ -56,18 +56,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-cca50e5c-fe87-47ac-8337-48729c9cc0da
+50ab0715-f4c0-45d2-8b70-96dc3352cac9
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160603T030601Z
+20170206T145850Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin

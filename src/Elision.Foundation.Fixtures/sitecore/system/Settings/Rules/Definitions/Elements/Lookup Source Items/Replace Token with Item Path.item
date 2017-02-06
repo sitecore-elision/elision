@@ -8,19 +8,19 @@ name: Replace Token with Item Path
 master: {00000000-0000-0000-0000-000000000000}
 template: {F90052A5-B4E6-4E6D-9812-1E1B88A6FCEA}
 templatekey: Action
-created: 20160524T191428:635997140680200000
+created: 20160525T001428Z
 
 ----field----
 field: {FF55D5A7-6D4B-4CD1-83E0-BAC268073F66}
 name: Type
 key: type
-content-length: 89
+content-length: 111
 
-Elision.LookupSourceItems.Rules.ReplaceTokenWithItemPathAction, Elision.LookupSourceItems
+Elision.Foundation.LookupSourceItems.Rules.ReplaceTokenWithItemPathAction, Elision.Foundation.LookupSourceItems
 ----version----
 language: en
 version: 1
-revision: 5fbf2f73-6b18-4858-be5e-df75e08f7fbd
+revision: 6f0ae812-ac2a-4e3d-9ee4-8313533727fb
 
 ----field----
 field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
@@ -56,18 +56,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-5fbf2f73-6b18-4858-be5e-df75e08f7fbd
+6f0ae812-ac2a-4e3d-9ee4-8313533727fb
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160323T175112Z
+20170206T145728Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin

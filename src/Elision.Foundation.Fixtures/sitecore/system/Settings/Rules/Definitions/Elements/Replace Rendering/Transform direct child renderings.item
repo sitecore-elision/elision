@@ -8,19 +8,19 @@ name: Transform direct child renderings
 master: {00000000-0000-0000-0000-000000000000}
 template: {F90052A5-B4E6-4E6D-9812-1E1B88A6FCEA}
 templatekey: Action
-created: 20160623T152318:636022921981000000
+created: 20160623T202318Z
 
 ----field----
 field: {FF55D5A7-6D4B-4CD1-83E0-BAC268073F66}
 name: Type
 key: type
-content-length: 118
+content-length: 140
 
-Elision.CompatibleRenderings.Rules.ReplaceRendering.TransformDirectChildRenderingsAction, Elision.CompatibleRenderings
+Elision.Foundation.CompatibleRenderings.Rules.ReplaceRendering.TransformDirectChildRenderingsAction, Elision.Foundation.CompatibleRenderings
 ----version----
 language: en
 version: 1
-revision: 194c0378-a421-4616-8259-69600b6c25ea
+revision: ab51ad2a-7924-4a87-b9bd-e0b04b2864f4
 
 ----field----
 field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
@@ -56,18 +56,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-194c0378-a421-4616-8259-69600b6c25ea
+ab51ad2a-7924-4a87-b9bd-e0b04b2864f4
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160623T152615Z
+20170206T150244Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin

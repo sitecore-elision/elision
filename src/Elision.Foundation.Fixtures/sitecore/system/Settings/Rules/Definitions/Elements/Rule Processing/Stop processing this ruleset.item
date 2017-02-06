@@ -8,19 +8,19 @@ name: Stop processing this ruleset
 master: {00000000-0000-0000-0000-000000000000}
 template: {F90052A5-B4E6-4E6D-9812-1E1B88A6FCEA}
 templatekey: Action
-created: 20160524T191429:635997140695930000
+created: 20160525T001429Z
 
 ----field----
 field: {FF55D5A7-6D4B-4CD1-83E0-BAC268073F66}
 name: Type
 key: type
-content-length: 75
+content-length: 97
 
-Elision.Rules.RuleProcessing.StopProcessingThisRulesetAction, Elision.Rules
+Elision.Foundation.Rules.RuleProcessing.StopProcessingThisRulesetAction, Elision.Foundation.Rules
 ----version----
 language: en
 version: 1
-revision: c07fa1ce-c45f-42cb-bd41-aa4fbce7c3df
+revision: 28831bd1-da53-4c81-b78f-59c4ea5fc01a
 
 ----field----
 field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
@@ -56,18 +56,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c07fa1ce-c45f-42cb-bd41-aa4fbce7c3df
+28831bd1-da53-4c81-b78f-59c4ea5fc01a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150827T195524Z
+20170206T150306Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin

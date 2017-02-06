@@ -8,19 +8,19 @@ name: Item Theme Is
 master: {00000000-0000-0000-0000-000000000000}
 template: {F0D16EEE-3A05-4E43-A082-795A32B873C0}
 templatekey: Condition
-created: 20160524T191427:635997140678130000
+created: 20160525T001427Z
 
 ----field----
 field: {AB51C8B2-F0E1-4471-9AAE-CC080D774923}
 name: Type
 key: type
-content-length: 65
+content-length: 79
 
-Elision.Rules.ItemInformation.ItemThemeIsCondition, Elision.Rules
+Elision.Foundation.Themes.Rules.ItemThemeIsCondition, Elision.Foundation.Themes
 ----version----
 language: en
 version: 1
-revision: 90e1763a-8efd-4057-82b9-f17151a75aaa
+revision: 33282bfc-9d08-4176-a393-8fe4b3eb6959
 
 ----field----
 field: {AF321234-4EB9-4EF5-9197-65903351939C}
@@ -56,18 +56,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-90e1763a-8efd-4057-82b9-f17151a75aaa
+33282bfc-9d08-4176-a393-8fe4b3eb6959
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151203T212430Z
+20170206T145427Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin

@@ -8,19 +8,19 @@ name: Clear available renderings list
 master: {00000000-0000-0000-0000-000000000000}
 template: {F90052A5-B4E6-4E6D-9812-1E1B88A6FCEA}
 templatekey: Action
-created: 20160524T191428:635997140685500000
+created: 20160525T001428Z
 
 ----field----
 field: {FF55D5A7-6D4B-4CD1-83E0-BAC268073F66}
 name: Type
 key: type
-content-length: 104
+content-length: 126
 
-Elision.PlaceholderSettings.Rules.PlaceholderSettings.ClearRenderingsAction, Elision.PlaceholderSettings
+Elision.Foundation.PlaceholderSettings.Rules.PlaceholderSettings.ClearRenderingsAction, Elision.Foundation.PlaceholderSettings
 ----version----
 language: en
 version: 1
-revision: 816ffd48-cafd-4477-af7c-b4996e7969ee
+revision: fec728a9-20f2-410e-ab06-c1039fc50b8b
 
 ----field----
 field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
@@ -56,18 +56,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-816ffd48-cafd-4477-af7c-b4996e7969ee
+fec728a9-20f2-410e-ab06-c1039fc50b8b
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160603T030611Z
+20170206T145858Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin

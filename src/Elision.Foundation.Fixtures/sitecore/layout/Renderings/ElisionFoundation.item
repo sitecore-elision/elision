@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {B73BF536-07C0-465E-B7FF-6AB00EF36715}
+database: master
+path: /sitecore/layout/Renderings/ElisionFoundation
+parent: {32566F0E-7686-45F1-A12F-D7260BD78BC3}
+name: ElisionFoundation
+master: {00000000-0000-0000-0000-000000000000}
+template: {ACC5FB47-950F-45FA-A6A7-15C1C681CBA7}
+templatekey: RenderingFolderWithArea
+created: 20160608T094411Z
+
+----version----
+language: en
+version: 1
+revision: 8f473a52-0549-448c-bd63-fae712994335
+
+----field----
+field: {2E1C630C-AC9F-473C-ABCD-DB8CA1DE0ACB}
+name: AreaName
+key: areaname
+content-length: 7
+
+Elision
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+Elision.Foundation
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150127T054148Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8f473a52-0549-448c-bd63-fae712994335
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170206T151126Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

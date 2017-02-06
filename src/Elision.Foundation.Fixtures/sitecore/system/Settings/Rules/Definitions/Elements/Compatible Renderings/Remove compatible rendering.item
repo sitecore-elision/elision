@@ -8,19 +8,19 @@ name: Remove compatible rendering
 master: {00000000-0000-0000-0000-000000000000}
 template: {F90052A5-B4E6-4E6D-9812-1E1B88A6FCEA}
 templatekey: Action
-created: 20160524T191427:635997140676100000
+created: 20160525T001427Z
 
 ----field----
 field: {FF55D5A7-6D4B-4CD1-83E0-BAC268073F66}
 name: Type
 key: type
-content-length: 117
+content-length: 139
 
-Elision.CompatibleRenderings.Rules.CompatibleRenderings.RemoveCompatibleRenderingAction, Elision.CompatibleRenderings
+Elision.Foundation.CompatibleRenderings.Rules.CompatibleRenderings.RemoveCompatibleRenderingAction, Elision.Foundation.CompatibleRenderings
 ----version----
 language: en
 version: 1
-revision: 038fa9ec-ed0f-46e3-86f1-86ce3610a1e4
+revision: f1ff3398-29d8-4f9c-9564-da149e7bea79
 
 ----field----
 field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
@@ -56,18 +56,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-038fa9ec-ed0f-46e3-86f1-86ce3610a1e4
+f1ff3398-29d8-4f9c-9564-da149e7bea79
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160616T210312Z
+20170206T145200Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin

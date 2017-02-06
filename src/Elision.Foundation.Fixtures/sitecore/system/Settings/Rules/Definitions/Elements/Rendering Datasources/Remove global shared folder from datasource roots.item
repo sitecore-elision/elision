@@ -8,19 +8,19 @@ name: Remove global shared folder from datasource roots
 master: {00000000-0000-0000-0000-000000000000}
 template: {F90052A5-B4E6-4E6D-9812-1E1B88A6FCEA}
 templatekey: Action
-created: 20160601T051039:636003546392800000
+created: 20160601T101039Z
 
 ----field----
 field: {FF55D5A7-6D4B-4CD1-83E0-BAC268073F66}
 name: Type
 key: type
-content-length: 112
+content-length: 134
 
-Elision.LayoutRenderings.Rules.GetRenderingDatasource.RemoveGlobalDatasourceRootAction, Elision.LayoutRenderings
+Elision.Foundation.LayoutRenderings.Rules.GetRenderingDatasource.RemoveGlobalDatasourceRootAction, Elision.Foundation.LayoutRenderings
 ----version----
 language: en
 version: 1
-revision: dd0bd689-ed14-44e9-9c55-33251ca4d744
+revision: 6b09fda3-c63d-4a5f-85b7-a903f2bac461
 
 ----field----
 field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
@@ -56,18 +56,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-dd0bd689-ed14-44e9-9c55-33251ca4d744
+6b09fda3-c63d-4a5f-85b7-a903f2bac461
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160602T051633Z
+20170206T150117Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin

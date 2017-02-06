@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {2E1C630C-AC9F-473C-ABCD-DB8CA1DE0ACB}
+database: master
+path: /sitecore/templates/ElisionFoundation/System/Layout/MvcAreaName/Routing/AreaName
+parent: {65EC292B-385A-4114-BC7B-BD71C9475162}
+name: AreaName
+master: {00000000-0000-0000-0000-000000000000}
+template: {455A3E98-A627-4B40-8035-E683A0331AC7}
+templatekey: Template field
+created: 20160525T001417Z
+
+----field----
+field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
+name: Type
+key: type
+content-length: 16
+
+Single-Line Text
+----version----
+language: en
+version: 1
+revision: 80490d74-30dd-4aa8-aaa8-be4df939f667
+
+----field----
+field: {19A69332-A23E-4E70-8D16-B2640CB24CC8}
+name: Title
+key: title
+content-length: 9
+
+Area name
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20150624T124110
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+80490d74-30dd-4aa8-aaa8-be4df939f667
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160328T205021Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
