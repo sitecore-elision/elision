@@ -8,19 +8,19 @@ name: Placeholder key path condition
 master: {00000000-0000-0000-0000-000000000000}
 template: {F0D16EEE-3A05-4E43-A082-795A32B873C0}
 templatekey: Condition
-created: 20160524T191428:635997140688070000
+created: 20160525T001428Z
 
 ----field----
 field: {AB51C8B2-F0E1-4471-9AAE-CC080D774923}
 name: Type
 key: type
-content-length: 110
+content-length: 132
 
-Elision.PlaceholderSettings.Rules.PlaceholderSettings.PlaceholderKeyPathCondition, Elision.PlaceholderSettings
+Elision.Foundation.PlaceholderSettings.Rules.PlaceholderSettings.PlaceholderKeyPathCondition, Elision.Foundation.PlaceholderSettings
 ----version----
 language: en
 version: 1
-revision: a9234121-e812-4a8a-9ec1-e0e76fc17f7e
+revision: cab522db-9316-4656-9dc8-4d489f0390da
 
 ----field----
 field: {AF321234-4EB9-4EF5-9197-65903351939C}
@@ -56,18 +56,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-a9234121-e812-4a8a-9ec1-e0e76fc17f7e
+cab522db-9316-4656-9dc8-4d489f0390da
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160603T030707Z
+20170206T145932Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin

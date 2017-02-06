@@ -8,19 +8,19 @@ name: Remove renderings in folder from available renderings
 master: {00000000-0000-0000-0000-000000000000}
 template: {F90052A5-B4E6-4E6D-9812-1E1B88A6FCEA}
 templatekey: Action
-created: 20160524T191428:635997140689330000
+created: 20160525T001428Z
 
 ----field----
 field: {FF55D5A7-6D4B-4CD1-83E0-BAC268073F66}
 name: Type
 key: type
-content-length: 110
+content-length: 132
 
-Elision.PlaceholderSettings.Rules.PlaceholderSettings.RemoveRenderingFolderAction, Elision.PlaceholderSettings
+Elision.Foundation.PlaceholderSettings.Rules.PlaceholderSettings.RemoveRenderingFolderAction, Elision.Foundation.PlaceholderSettings
 ----version----
 language: en
 version: 1
-revision: b6d296a2-7d2c-4876-864a-1bca009f9370
+revision: 59f397ae-75c1-4b30-836a-e81e36d579a0
 
 ----field----
 field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
@@ -56,18 +56,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b6d296a2-7d2c-4876-864a-1bca009f9370
+59f397ae-75c1-4b30-836a-e81e36d579a0
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160603T030729Z
+20170206T145946Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin

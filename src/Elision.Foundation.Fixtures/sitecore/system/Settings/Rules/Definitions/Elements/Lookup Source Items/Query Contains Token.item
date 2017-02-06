@@ -8,19 +8,19 @@ name: Query Contains Token
 master: {00000000-0000-0000-0000-000000000000}
 template: {F0D16EEE-3A05-4E43-A082-795A32B873C0}
 templatekey: Condition
-created: 20160524T191427:635997140679730000
+created: 20160525T001427Z
 
 ----field----
 field: {AB51C8B2-F0E1-4471-9AAE-CC080D774923}
 name: Type
 key: type
-content-length: 86
+content-length: 108
 
-Elision.LookupSourceItems.Rules.QueryContainsTokenCondition, Elision.LookupSourceItems
+Elision.Foundation.LookupSourceItems.Rules.QueryContainsTokenCondition, Elision.Foundation.LookupSourceItems
 ----version----
 language: en
 version: 1
-revision: c9673c73-7973-442f-b62d-4f58b2aee8fd
+revision: 79e0df7e-ebc0-440c-9e68-9d680a864fb3
 
 ----field----
 field: {AF321234-4EB9-4EF5-9197-65903351939C}
@@ -56,18 +56,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c9673c73-7973-442f-b62d-4f58b2aee8fd
+79e0df7e-ebc0-440c-9e68-9d680a864fb3
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160323T175101Z
+20170206T145717Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin

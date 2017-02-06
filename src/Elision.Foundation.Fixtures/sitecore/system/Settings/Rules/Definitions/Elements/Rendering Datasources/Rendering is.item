@@ -8,19 +8,19 @@ name: Rendering is
 master: {00000000-0000-0000-0000-000000000000}
 template: {F0D16EEE-3A05-4E43-A082-795A32B873C0}
 templatekey: Condition
-created: 20160601T051039:636003546394300000
+created: 20160601T101039Z
 
 ----field----
 field: {AB51C8B2-F0E1-4471-9AAE-CC080D774923}
 name: Type
 key: type
-content-length: 98
+content-length: 120
 
-Elision.LayoutRenderings.Rules.GetRenderingDatasource.RenderingCondition, Elision.LayoutRenderings
+Elision.Foundation.LayoutRenderings.Rules.GetRenderingDatasource.RenderingCondition, Elision.Foundation.LayoutRenderings
 ----version----
 language: en
 version: 1
-revision: b8e231b5-8d2d-4535-b2db-67b0dcd50500
+revision: 83c42e69-a6d4-4551-b38e-76fdcc9d0d69
 
 ----field----
 field: {AF321234-4EB9-4EF5-9197-65903351939C}
@@ -56,18 +56,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b8e231b5-8d2d-4535-b2db-67b0dcd50500
+83c42e69-a6d4-4551-b38e-76fdcc9d0d69
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160602T051633Z
+20170206T150148Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin
