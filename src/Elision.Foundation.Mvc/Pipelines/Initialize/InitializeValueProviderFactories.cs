@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Reflection;
 using System.Web.Mvc;
-using Elision.Foundation.Ioc;
+using Sitecore.DependencyInjection;
 using Sitecore.Diagnostics;
 using Sitecore.Pipelines;
 
@@ -20,7 +20,7 @@ namespace Elision.Foundation.Mvc.Pipelines.Initialize
                 try
                 {
                     Log.Info("Registering ValueProvider " + valueProviderFactoryType.AssemblyQualifiedName, this);
-                    var instance = OnDemandResolver.Current.Resolve(valueProviderFactoryType) as ValueProviderFactory;
+                    var instance = ServiceLocator.ServiceProvider.GetService(valueProviderFactoryType) as ValueProviderFactory;
                     if (instance != null)
                         ValueProviderFactories.Factories.Add(instance);
                     else
