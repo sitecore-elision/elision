@@ -43,6 +43,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Extensions.DependencyInjection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.1.0.0\lib\netstandard1.1\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.1.0.0\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
       <Private>True</Private>
@@ -114,7 +122,9 @@
     <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.PlaceholderSettings.config" />
     <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.FieldEditor.config" />
     <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.Themes.config" />
-    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.Themes.Areas.config" />
+    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.Themes.Areas.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="sitecore\shell\override\SelectRendering.xml">
       <SubType>Designer</SubType>
     </Content>
@@ -123,6 +133,7 @@
     <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.SiteResources.config" />
     <None Include="Elision.Foundation.nuspec.beta" />
     <None Include="Properties\PublishProfiles\folder.pubxml" />
+    <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\128x128\map-geolocation-marker.png" />
     <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\128x128\map-geolocation-pin.png" />
     <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\16x16\map-geolocation-marker.png" />
@@ -157,6 +168,7 @@
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\RegisterDependencies.cs" />
     <Compile Include="Areas\Elision\Controllers\ResourceController.cs" />
     <Compile Include="Areas\Elision\Models\SiteResourceModelBuilder.cs" />
     <Compile Include="Areas\Elision\Models\SiteResourceViewModel.cs" />

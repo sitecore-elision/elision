@@ -20,7 +20,12 @@ namespace Elision.Foundation.Mvc.Pipelines.Initialize
                 try
                 {
                     Log.Info("Registering ValueProvider " + valueProviderFactoryType.AssemblyQualifiedName, this);
+
                     var instance = ServiceLocator.ServiceProvider.GetService(valueProviderFactoryType) as ValueProviderFactory;
+
+                    if (instance == null && !valueProviderFactoryType.IsInterface)
+                        instance = Activator.CreateInstance(valueProviderFactoryType) as ValueProviderFactory;
+
                     if (instance != null)
                         ValueProviderFactories.Factories.Add(instance);
                     else

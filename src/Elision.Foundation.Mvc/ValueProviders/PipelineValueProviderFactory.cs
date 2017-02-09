@@ -8,14 +8,14 @@ using Sitecore.Mvc.Presentation;
 
 namespace Elision.Foundation.Mvc.ValueProviders
 {
-    public class PipelineValueProviderFactory : RenderingValueProviderFactoryBase
+    public class PipelineValueProviderFactory : ValueProviderFactory
     {
-        protected override IValueProvider GetValueProvider(HttpContextBase httpContext, RenderingContext renderingContext)
+        public override IValueProvider GetValueProvider(ControllerContext controllerContext)
         {
-            if (renderingContext.Rendering.Parameters == null)
+            if (RenderingContext.CurrentOrNull?.Rendering?.Parameters == null)
                 return null;
 
-            var args = new GetControllerRenderingValueParametersArgs(httpContext, renderingContext);
+            var args = new GetControllerRenderingValueParametersArgs(HttpContext.Current, RenderingContext.Current);
 
             var parameters = PipelineService.Get().RunPipeline("elision.getControllerRenderingValueParameters",
                                                                args,

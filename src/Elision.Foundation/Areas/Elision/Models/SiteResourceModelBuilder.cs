@@ -1,5 +1,4 @@
 using Elision.Foundation.SiteResources.Pipelines.GetSiteResources;
-using Elision.Foundation.Themes;
 using Sitecore.Data;
 using Sitecore.Data.Items;
 using Sitecore.Pipelines;
@@ -13,13 +12,6 @@ namespace Elision.Foundation.Areas.Elision.Models
 
     public class SiteResourceModelBuilder : ISiteResourceModelBuilder
     {
-        private readonly IThemeRetriever _themeRetriever;
-
-        public SiteResourceModelBuilder(IThemeRetriever themeRetriever)
-        {
-            _themeRetriever = themeRetriever;
-        }
-
         public virtual SiteResourceViewModel Build(Item renderingContextItem, ID resourceLocationId, ID deviceId)
         {
             var model = new SiteResourceViewModel();
