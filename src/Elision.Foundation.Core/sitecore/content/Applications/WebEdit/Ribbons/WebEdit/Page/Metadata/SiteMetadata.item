@@ -8,7 +8,7 @@ name: SiteMetadata
 master: {00000000-0000-0000-0000-000000000000}
 template: {9F62EBD5-2280-4A35-BE51-A210D831D687}
 templatekey: Small Button
-created: 20160601T030117:636003468778600000
+created: 20160601T080117Z
 
 ----field----
 field: {8E40AB40-8C83-4FF7-9D33-38ED9458DE1E}
@@ -49,17 +49,13 @@ content-length: 1
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 610
+content-length: 613
 
-<r>
-  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
-    <r id="{6E177CB2-BBC1-486E-90E9-8C5E579A090B}" par="Id=DegSiteScriptsButtonRendering&amp;Click=trigger%3abutton%3aclick&amp;Command=LaunchFieldEditor&amp;Tooltip=fieldnames%3dSiteHeadScript%7cSiteFootScript%252526datasource%3dquery%3aancestor-or-self%3a%3a*%5b%40%40TemplateId%3d%22%7bE87C2B17-E271-4DD2-AAA7-6CDD3D39FD0A%7d%22%5d%2fhome%252526dialogtitle%3dManage+Page+Scripts&amp;PageCodeScriptFileName=%2fsitecore+modules%2fElision%2fExperienceEditor%2fCommands%2fLaunchFieldEditor.js" uid="{A5035961-6DFB-4301-834A-467DB71439D5}" />
-  </d>
-</r>
+<r>  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">    <r id="{6E177CB2-BBC1-486E-90E9-8C5E579A090B}" par="Id=DegSiteScriptsButtonRendering&amp;Click=trigger%3abutton%3aclick&amp;Command=LaunchFieldEditor&amp;Tooltip=fieldnames%3dSiteHeadScript%7cSiteFootScript%252526datasource%3dquery%3aancestor-or-self%3a%3a*%5b%40%40TemplateId%3d%22%7bE87C2B17-E271-4DD2-AAA7-6CDD3D39FD0A%7d%22%5d%2fhome%252526dialogtitle%3dManage+Page+Scripts&amp;PageCodeScriptFileName=%2fsitecore+modules%2fElision.Foundation%2fExperienceEditor%2fCommands%2fLaunchFieldEditor.js" uid="{A5035961-6DFB-4301-834A-467DB71439D5}" />  </d></r>
 ----version----
 language: en
 version: 1
-revision: 4a662fa4-a015-454f-9cc8-e4a33d35addd
+revision: 54e4eeec-2513-4c1f-901c-436eb5ff97cf
 
 ----field----
 field: {C184F18B-B452-44D6-8376-FACD6CEF8A42}
@@ -102,18 +98,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-4a662fa4-a015-454f-9cc8-e4a33d35addd
+54e4eeec-2513-4c1f-901c-436eb5ff97cf
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160601T030311Z
+20170209T192210Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin

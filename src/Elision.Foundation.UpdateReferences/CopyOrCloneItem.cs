@@ -4,7 +4,7 @@ using Sitecore.Shell.Framework.Pipelines;
 
 namespace Elision.Foundation.UpdateReferences
 {
-    public class CopyOrCloneItem : Sitecore.Shell.Framework.Pipelines.CopyItems
+    public class CopyOrCloneItem : CopyItems
     {
         private readonly ITreeReferenceUpdater _referenceUpdater;
 

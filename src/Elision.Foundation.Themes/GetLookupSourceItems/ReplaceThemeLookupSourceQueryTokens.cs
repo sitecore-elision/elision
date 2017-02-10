@@ -4,21 +4,21 @@ using Sitecore.Pipelines.GetLookupSourceItems;
 
 namespace Elision.Foundation.Themes.GetLookupSourceItems
 {
-    public class ReplpaceThemeItemToken : ReplaceLookupSourceQueryTokens
+    public class ReplaceThemeItemToken : ReplaceLookupSourceQueryTokens
     {
         private readonly IThemeRetriever _themeRetriever;
 
-        public ReplpaceThemeItemToken(IThemeRetriever themeRetriever)
+        public ReplaceThemeItemToken(IThemeRetriever themeRetriever)
         {
             _themeRetriever = themeRetriever;
         }
 
         public override void Process(GetLookupSourceItemsArgs args)
         {
-            args.Source = ReplaceThemeItemToken(args.Source, args.Item);
+            args.Source = ReplaceThemeToken(args.Source, args.Item);
         }
 
-        protected virtual string ReplaceThemeItemToken(string query, Item contextItem)
+        protected virtual string ReplaceThemeToken(string query, Item contextItem)
         {
             var token = "{Theme}";
             if (!query.Contains(token)) return query;

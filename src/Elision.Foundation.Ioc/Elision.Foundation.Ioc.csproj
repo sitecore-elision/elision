@@ -31,6 +31,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Extensions.DependencyInjection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.1.0.0\lib\netstandard1.1\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.1.0.0\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
       <Private>True</Private>
@@ -78,15 +86,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ElisionObjectFactory.cs" />
-    <Compile Include="Mvc\ElisionControllerFactory.cs" />
-    <Compile Include="Mvc\InitializeControllerFactory.cs" />
-    <Compile Include="OnDemandResolver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestTypesForIocTesting.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Elision.Foundation.Kernel\Elision.Foundation.Kernel.csproj">
+      <Project>{C2AD100D-A982-4029-87D9-91EB0AECED81}</Project>
+      <Name>Elision.Foundation.Kernel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.Rules\Elision.Foundation.Rules.csproj">
+      <Project>{104f9aef-a043-46c9-a4ee-05b3691390d2}</Project>
+      <Name>Elision.Foundation.Rules</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.Themes\Elision.Foundation.Themes.csproj">
+      <Project>{0b5fdd45-e009-4ee7-8496-3c5e1f4a90ad}</Project>
+      <Name>Elision.Foundation.Themes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.UpdateReferences\Elision.Foundation.UpdateReferences.csproj">
+      <Project>{a8626a79-e6aa-4625-a8e1-1a0569604a7b}</Project>
+      <Name>Elision.Foundation.UpdateReferences</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
