@@ -59,62 +59,7 @@ namespace Elision.Foundation.Kernel.Tests
             if (issues.Any(x => x.Value.Any()))
                 Assert.Fail("Failed to find the type definitions for these types. Make sure the test project references (CopyLocal=True) all necessary Sitecore Dlls that contain all base types used.\r\n\r\n"
                             + string.Join("\r\n\r\n", issues.Where(x => x.Value.Any()).Select(x => x.Key + "\r\n\r\n" + string.Join("\r\n", x.Value))));
-        }
-
-        [Test]
-        public void AllReferencedTypesWithoutDefaultCtorUseFactory()
-        {
-            var issues = new Dictionary<string, List<string>>();
-
-            var files = GetAllConfigFiles();
-            foreach (var file in files)
-            {
-                issues.Add(file, new List<string>());
-
-                var nodesWithTypes = GetNodesToCheckForTypeRefs(file);
-                if (nodesWithTypes == null || nodesWithTypes.Count == 0)
-                {
-                    Console.WriteLine("WARNING: No type references found in {0}", file);
-                    continue;
-                }
-
-                foreach (var node in nodesWithTypes.Cast<XmlNode>())
-                {
-                    if (node.SelectNodes("./param").Count > 0)
-                        continue;
-
-                    var typeName = GetTypeRefFromNode(node);
-                    if (string.IsNullOrWhiteSpace(typeName))
-                        continue;
-
-                    try
-                    {
-                        var typeInfo = Type.GetType(typeName);
-                        if (typeInfo == null)
-                        {
-                            issues[file].Add(node.OuterXml);
-                        }
-                        else
-                        {
-                            if (Debugger.IsAttached)
-                                Console.WriteLine("INFO: Type resolved \"{0}\"", typeInfo.AssemblyQualifiedName);
-
-                            var ctors = typeInfo.GetConstructors(BindingFlags.Instance | BindingFlags.Public);
-                            if (ctors.All(x => x.GetParameters().Any()) && (node?.Attributes?["factory"] == null || node.Attributes["factory"].Value != "ElisionObjectFactory"))
-                                issues[file].Add(node.OuterXml + "\r\nERROR: Referenced type does not have a default constructor, so it must be initialized by a factory, and it is not.");
-                        }
-                    }
-                    catch (Exception ex)
-                    {
-                        issues[file].Add(node.OuterXml + "\r\nERROR: " + ex.Message);
-                    }
-                }
-            }
-
-            if (issues.Any(x => x.Value.Any()))
-                Assert.Fail("Failed to find the type definitions for these types. Make sure the test project references (CopyLocal=True) all necessary Sitecore Dlls that contain all base types used.\r\n\r\n"
-                            + string.Join("\r\n\r\n", issues.Where(x => x.Value.Any()).Select(x => x.Key + "\r\n\r\n" + string.Join("\r\n", x.Value))));
-        }
+        }        
 
         private static string GetTypeRefFromNode(XmlNode node)
         {

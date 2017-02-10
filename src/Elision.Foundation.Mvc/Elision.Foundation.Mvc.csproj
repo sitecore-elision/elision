@@ -99,10 +99,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Elision.Foundation.Ioc\Elision.Foundation.Ioc.csproj">
-      <Project>{851b7da0-e315-48ac-a6e8-156e038ed7a8}</Project>
-      <Name>Elision.Foundation.Ioc</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Elision.Foundation.Kernel\Elision.Foundation.Kernel.csproj">
       <Project>{c2ad100d-a982-4029-87d9-91eb0aeced81}</Project>
       <Name>Elision.Foundation.Kernel</Name>

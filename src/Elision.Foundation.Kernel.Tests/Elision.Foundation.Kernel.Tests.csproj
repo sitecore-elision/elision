@@ -211,10 +211,6 @@
       <Project>{460caf21-9886-4109-a5a5-1d8d4228b1d9}</Project>
       <Name>Elision.Foundation.FieldVisibility</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Elision.Foundation.Ioc\Elision.Foundation.Ioc.csproj">
-      <Project>{851b7da0-e315-48ac-a6e8-156e038ed7a8}</Project>
-      <Name>Elision.Foundation.Ioc</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Elision.Foundation.Kernel\Elision.Foundation.Kernel.csproj">
       <Project>{C2AD100D-A982-4029-87D9-91EB0AECED81}</Project>
       <Name>Elision.Foundation.Kernel</Name>
@@ -258,6 +254,10 @@
     <ProjectReference Include="..\Elision.Foundation.WebEditState\Elision.Foundation.WebEditState.csproj">
       <Project>{8a11eef3-1f17-4226-a685-5d1a3998c792}</Project>
       <Name>Elision.Foundation.WebEditState</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation\Elision.Foundation.csproj">
+      <Project>{92f04e4f-92c3-4e91-b619-405ed4800920}</Project>
+      <Name>Elision.Foundation</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
