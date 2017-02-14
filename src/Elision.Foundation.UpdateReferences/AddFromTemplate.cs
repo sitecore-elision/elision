@@ -23,17 +23,20 @@ namespace Elision.Foundation.UpdateReferences
 
             var sourceItem = targetItem.Branch.InnerItem.Children[0];
 
-            var cache = Sitecore.Caching.CacheManager.FindCacheByName("master[items]");
-            cache.RemovePrefix(sourceItem.ID.ToString());
-            cache.RemovePrefix(targetItem.ID.ToString());
+            var cache = Sitecore.Caching.CacheManager.GetItemCache(Sitecore.Configuration.Factory.GetDatabase("master"));
+            if (cache == null)
+                return;
+
+            cache.RemoveItem(sourceItem.ID);
+            cache.RemoveItem(targetItem.ID);
 
             EnsureLayoutIsCopied(targetItem.Branch.InnerItem.Children[0], targetItem);
 
-            cache.RemovePrefix(targetItem.ID.ToString());
+            cache.RemoveItem(targetItem.ID);
 
             _referenceUpdater.UpdateReferences(sourceItem, targetItem);
 
-            cache.RemovePrefix(targetItem.ID.ToString());
+            cache.RemoveItem(targetItem.ID);
         }
         private void EnsureLayoutIsCopied(Item sourceItem, Item targetItem)
         {

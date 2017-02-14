@@ -1,22 +1,22 @@
 ----item----
 version: 1
-id: {9B38E513-624A-40DB-B194-FE0BFC04D3C5}
+id: {49E26BA2-82B9-4200-A59D-C88982DB9F41}
 database: master
-path: /sitecore/templates/Branches/Elision/Theme/$name/Color Schemes
+path: /sitecore/templates/Branches/ElisionFoundation/Theme/$name/Scripts
 parent: {E5170085-875C-45CD-8044-C9B9A414533B}
-name: Color Schemes
+name: Scripts
 master: {00000000-0000-0000-0000-000000000000}
 template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
 templatekey: Folder
-created: 20160524T191426:635997140666000000
+created: 20160525T001426Z
 
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
 key: __icon
-content-length: 27
+content-length: 29
 
-People/32x32/colorwheel.png
+Applications/32x32/scroll.png
 ----field----
 field: {9C6106EA-7A5A-48E2-8CAD-F0F693B1E2D4}
 name: __Read Only
@@ -28,21 +28,21 @@ content-length: 1
 field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
 name: __Masters
 key: __masters
-content-length: 38
+content-length: 77
 
-{9F59984F-0638-4664-89D8-07B021D4D5A4}
+{9D560638-C289-4C6F-ADF2-06760928ED55}|{06234046-5BC2-4457-87C2-6B09EBB797D3}
 ----version----
 language: en
 version: 1
-revision: 346357ec-59fc-47ac-b9da-35a2862c2688
+revision: f4b09cc8-5bfe-4eef-8301-da0c2adf7ffe
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
-content-length: 15
+content-length: 16
 
-20150714T135513
+20150819T030045Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -56,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-346357ec-59fc-47ac-b9da-35a2862c2688
+f4b09cc8-5bfe-4eef-8301-da0c2adf7ffe
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150908T185008Z
+20150908T185026Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

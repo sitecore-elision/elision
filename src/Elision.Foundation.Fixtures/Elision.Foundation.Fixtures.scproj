@@ -668,31 +668,31 @@
       <ItemDeployment>DeployOnce</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Branches\Elision.item">
+    <SitecoreItem Include="sitecore\templates\Branches\ElisionFoundation.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Branches\Elision\Theme.item">
+    <SitecoreItem Include="sitecore\templates\Branches\ElisionFoundation\Theme.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Branches\Elision\Theme\%2524name.item">
+    <SitecoreItem Include="sitecore\templates\Branches\ElisionFoundation\Theme\%2524name.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Branches\Elision\Theme\%2524name\Color Schemes.item">
+    <SitecoreItem Include="sitecore\templates\Branches\ElisionFoundation\Theme\%2524name\Color Schemes.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Branches\Elision\Theme\%2524name\Responsive Image Profiles.item">
+    <SitecoreItem Include="sitecore\templates\Branches\ElisionFoundation\Theme\%2524name\Responsive Image Profiles.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Branches\Elision\Theme\%2524name\Scripts.item">
+    <SitecoreItem Include="sitecore\templates\Branches\ElisionFoundation\Theme\%2524name\Scripts.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Branches\Elision\Theme\%2524name\Stylesheets.item">
+    <SitecoreItem Include="sitecore\templates\Branches\ElisionFoundation\Theme\%2524name\Stylesheets.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>

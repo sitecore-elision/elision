@@ -105,22 +105,6 @@
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Applications\WebEdit\Ribbons\WebEdit\Page\Metadata.item">
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Applications\WebEdit\Ribbons\WebEdit\Page\Metadata\PageMetadata.item">
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Applications\WebEdit\Ribbons\WebEdit\Page\Metadata\SiteMetadata.item">
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\content\Applications\WebEdit\Ribbons\WebEdit\Page\Metadata\TwitterCard.item">
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
     <SitecoreItem Include="sitecore\content\Applications\WebEdit\Ribbons\WebEdit\Page\Scripts.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>

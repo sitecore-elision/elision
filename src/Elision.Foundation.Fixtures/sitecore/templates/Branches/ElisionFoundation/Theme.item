@@ -2,13 +2,13 @@
 version: 1
 id: {D048D107-D3F6-4B80-8263-50806B062350}
 database: master
-path: /sitecore/templates/Branches/Elision/Theme
+path: /sitecore/templates/Branches/ElisionFoundation/Theme
 parent: {02AB7CAD-1DFE-420D-8CC7-345941C5E850}
 name: Theme
 master: {00000000-0000-0000-0000-000000000000}
 template: {35E75C72-4985-4E09-88C3-0EAC6CD1E64F}
 templatekey: Branch
-created: 20160524T191414:635997140540670000
+created: 20160525T001414Z
 
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
