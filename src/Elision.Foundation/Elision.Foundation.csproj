@@ -131,6 +131,7 @@
     <Content Include="sitecore modules\Elision.Foundation\ExperienceEditor\Commands\LaunchFieldEditor.js" />
     <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.LayoutRenderings.config" />
     <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.SiteResources.config" />
+    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.Search.config" />
     <None Include="Elision.Foundation.nuspec.beta" />
     <None Include="Properties\PublishProfiles\folder.pubxml" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
@@ -222,6 +223,10 @@
     <ProjectReference Include="..\Elision.Foundation.Rules\Elision.Foundation.Rules.csproj">
       <Project>{104f9aef-a043-46c9-a4ee-05b3691390d2}</Project>
       <Name>Elision.Foundation.Rules</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.Search\Elision.Foundation.Search.csproj">
+      <Project>{f1befdf3-9b49-4f31-8792-74e578171d23}</Project>
+      <Name>Elision.Foundation.Search</Name>
     </ProjectReference>
     <ProjectReference Include="..\Elision.Foundation.SiteResources\Elision.Foundation.SiteResources.csproj">
       <Project>{d98dd28b-0ffa-4290-b125-56c654cc0328}</Project>
