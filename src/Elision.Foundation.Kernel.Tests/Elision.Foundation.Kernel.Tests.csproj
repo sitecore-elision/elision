@@ -239,6 +239,10 @@
       <Project>{104f9aef-a043-46c9-a4ee-05b3691390d2}</Project>
       <Name>Elision.Foundation.Rules</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.Search\Elision.Foundation.Search.csproj">
+      <Project>{f1befdf3-9b49-4f31-8792-74e578171d23}</Project>
+      <Name>Elision.Foundation.Search</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Elision.Foundation.TabbedRenderingSelector\Elision.Foundation.TabbedRenderingSelector.csproj">
       <Project>{d0f6210b-ff18-45c1-966a-d74c43a414d7}</Project>
       <Name>Elision.Foundation.TabbedRenderingSelector</Name>
