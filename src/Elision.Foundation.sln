@@ -69,6 +69,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Foundation.SiteReso
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{D202D125-A3CE-4732-8E64-C3C56E5D61C4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Search", "Search", "{F1F60532-EEF6-4834-9E75-2D62F45E5946}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Foundation.Search", "Elision.Foundation.Search\Elision.Foundation.Search.csproj", "{F1BEFDF3-9B49-4F31-8792-74E578171D23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -178,6 +182,10 @@ Global
 		{D98DD28B-0FFA-4290-B125-56C654CC0328}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D98DD28B-0FFA-4290-B125-56C654CC0328}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D98DD28B-0FFA-4290-B125-56C654CC0328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1BEFDF3-9B49-4F31-8792-74E578171D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1BEFDF3-9B49-4F31-8792-74E578171D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1BEFDF3-9B49-4F31-8792-74E578171D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1BEFDF3-9B49-4F31-8792-74E578171D23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -208,5 +216,6 @@ Global
 		{C5E7387B-9C49-4E6D-9DDC-0BBE5FCDF5F4} = {D202D125-A3CE-4732-8E64-C3C56E5D61C4}
 		{0F97D507-CECD-48C4-8141-FE5CA2552330} = {736EC4B5-3AF9-4FD2-88DA-CB8179920175}
 		{D98DD28B-0FFA-4290-B125-56C654CC0328} = {918887CB-9795-4238-A95D-878AE41CD6E1}
+		{F1BEFDF3-9B49-4F31-8792-74E578171D23} = {F1F60532-EEF6-4834-9E75-2D62F45E5946}
 	EndGlobalSection
 EndGlobal
