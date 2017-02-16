@@ -133,7 +133,6 @@
     <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.SiteResources.config" />
     <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.Search.config" />
     <None Include="Elision.Foundation.nuspec.beta" />
-    <None Include="Properties\PublishProfiles\folder.pubxml" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\128x128\map-geolocation-marker.png" />
     <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\128x128\map-geolocation-pin.png" />
