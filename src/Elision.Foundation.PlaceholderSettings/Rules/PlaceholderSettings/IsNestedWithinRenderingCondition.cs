@@ -29,7 +29,7 @@ namespace Elision.Foundation.PlaceholderSettings.Rules.PlaceholderSettings
             if (!renderings.Any())
                 return false;
 
-            var isNested = renderings.Any(x => x.ItemID.Equals(RenderingItemId, StringComparison.InvariantCultureIgnoreCase) && enhancedContext.PlaceholderKeyPath.StartsWith(x.Placeholder));
+            var isNested = renderings.Any(x => x.ItemID.Equals(RenderingItemId, StringComparison.InvariantCultureIgnoreCase) && enhancedContext.PlaceholderKeyPath.TrimStart('/').StartsWith(x.Placeholder.TrimStart('/')));
             return isNested;
         }
     }
