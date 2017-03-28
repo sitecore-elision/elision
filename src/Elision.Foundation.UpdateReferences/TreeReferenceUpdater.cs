@@ -13,22 +13,26 @@ namespace Elision.Foundation.UpdateReferences
 {
     public interface ITreeReferenceUpdater
     {
-        void UpdateReferences(Item sourceRootItem, Item targetRootItem);
+        void UpdateReferences(Item sourceRootItem, Item targetRootItem, Item createdRootItem = null);
     }
 
     public class TreeReferenceUpdater : ITreeReferenceUpdater
     {
-        public void UpdateReferences(Item sourceRootItem, Item targetRootItem)
+        public void UpdateReferences(Item sourceRootItem, Item targetRootItem, Item createdRootItem = null)
         {
             Assert.ArgumentNotNull(sourceRootItem, "sourceRootItem");
             Assert.ArgumentNotNull(targetRootItem, "targetRootItem");
 
-            var itemMap = BuildMatchingItemMap(sourceRootItem, sourceRootItem, targetRootItem)
-                .Concat(new[] {new EqualItems {Source = sourceRootItem, Dest = targetRootItem}})
+            foreach (var child in targetRootItem.Axes.GetDescendants().Where(x => x?.Visualization.Layout != null).Concat(new [] { targetRootItem }))
+            {
+                var itemMap = BuildMatchingItemMap(createdRootItem ?? sourceRootItem, sourceRootItem, child)
+                .Concat(new[] { new EqualItems { Source = sourceRootItem, Dest = child } })
                 .Distinct(new GenericEqualityComparer<EqualItems>((a, b) => a.Source.Equals(b.Source) && a.Dest.Equals(b.Dest), x => x.GetHashCode()))
                 .ToArray();
 
-            FixReferences(targetRootItem, itemMap);
+
+                FixReferences(child, itemMap);
+            }
         }
 
         private IEnumerable<EqualItems> BuildMatchingItemMap(Item item, Item sourceRootItem, Item targetRootItem)
@@ -44,7 +48,7 @@ namespace Elision.Foundation.UpdateReferences
                 if (matchingTargetItem == null)
                     continue;
 
-                yield return new EqualItems() { Source = child, Dest = matchingTargetItem };
+                yield return new EqualItems { Source = child, Dest = matchingTargetItem };
 
                 foreach (var childMatchingItem in BuildMatchingItemMap(child, sourceRootItem, targetRootItem))
                 {
