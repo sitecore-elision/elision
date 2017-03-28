@@ -1,8 +1,12 @@
+using System;
 using System.Linq;
 using FluentAssertions;
 using NUnit.Framework;
+using Sitecore;
 using Sitecore.Data;
+using Sitecore.Data.Items;
 using Sitecore.FakeDb;
+using Sitecore.Globalization;
 
 namespace Elision.Foundation.UpdateReferences.Tests
 {
@@ -15,6 +19,7 @@ namespace Elision.Foundation.UpdateReferences.Tests
             using (GetFakeDb())
             {
                 var db = Sitecore.Context.Database;
+                SetupContextDevice(db);
                 var page1 = db.GetItem("/sitecore/content/home/page1");
                 var page2 = db.GetItem("/sitecore/content/home/page2");
 
@@ -32,7 +37,8 @@ namespace Elision.Foundation.UpdateReferences.Tests
         {
             using (GetFakeDb())
             {
-                var db = Sitecore.Context.Database;
+                var db = Context.Database;
+                SetupContextDevice(db);
                 var page1 = db.GetItem("/sitecore/content/home/page1");
                 var page2 = db.GetItem("/sitecore/content/home/page2");
 
@@ -50,6 +56,12 @@ namespace Elision.Foundation.UpdateReferences.Tests
             }
         }
 
+        private static void SetupContextDevice(Database db)
+        {
+            var device = db.GetItem("/sitecore/content/home/device");
+            Context.Device = new DeviceItem(device);
+        }
+
         private static Db GetFakeDb()
         {
             var childPage1 = new DbItem("child");
@@ -63,14 +75,20 @@ namespace Elision.Foundation.UpdateReferences.Tests
                                 {
                                     new DbField("Link") {Value = childPage1.ID.ToString()},
                                     new DbField("MultiLink"){Value = homeId + "|" + childPage1.ID},
+                                    new DbField(ID.Parse("{E18F4BC6-46A2-4842-898B-B6613733F06F}")) {Value = ""},
+                                    new DbField(DeviceFieldIDs.Default) {Value = ""},
                                     childPage1
                                 },
                             new DbItem("page2")
                                 {
                                     new DbField("Link") {Value = childPage1.ID.ToString()},
                                     new DbField("MultiLink"){Value = homeId + "|" + childPage1.ID},
+                                    new DbField(ID.Parse("{E18F4BC6-46A2-4842-898B-B6613733F06F}")) {Value = ""},
+                                    new DbField(DeviceFieldIDs.Default) {Value = ""},
                                     childPage2
-                                }
+                                },
+
+                            new DbItem("device", ID.NewID, TemplateIDs.Device)
                         }
                 };
         }

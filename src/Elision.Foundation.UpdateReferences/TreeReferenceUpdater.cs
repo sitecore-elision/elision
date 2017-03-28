@@ -23,7 +23,7 @@ namespace Elision.Foundation.UpdateReferences
             Assert.ArgumentNotNull(sourceRootItem, "sourceRootItem");
             Assert.ArgumentNotNull(targetRootItem, "targetRootItem");
 
-            foreach (var child in targetRootItem.Axes.GetDescendants().Where(x => x?.Visualization.Layout != null).Concat(new [] { targetRootItem }))
+            foreach (var child in targetRootItem.Axes.GetDescendants().Where(x => x?.Visualization?.Layout != null).Concat(new [] { targetRootItem }))
             {
                 var itemMap = BuildMatchingItemMap(createdRootItem ?? sourceRootItem, sourceRootItem, child)
                 .Concat(new[] { new EqualItems { Source = sourceRootItem, Dest = child } })
