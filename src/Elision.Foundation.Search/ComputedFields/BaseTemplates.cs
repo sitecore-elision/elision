@@ -18,7 +18,7 @@ namespace Elision.Foundation.Search.ComputedFields
 
             baseTemplates.AddRange(GetBaseTemplateIds(indexItem.Template));
 
-            return baseTemplates.Distinct().ToArray();
+            return baseTemplates.Distinct();
         }
 
         protected virtual IEnumerable<ID> GetBaseTemplateIds(TemplateItem template)
