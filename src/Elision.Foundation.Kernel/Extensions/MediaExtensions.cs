@@ -1,5 +1,4 @@
-﻿using System;
-using Sitecore;
+﻿using Sitecore;
 using Sitecore.Data.Fields;
 using Sitecore.Resources.Media;
 
@@ -10,7 +9,7 @@ namespace Elision.Foundation.Kernel
         public static string ImageUrl(this ImageField imageField, int? width = null, int? height = null)
         {
             if (imageField?.MediaItem == null)
-                throw new ArgumentNullException(nameof(imageField));
+                return string.Empty;
 
             var options = MediaUrlOptions.Empty;
             int parsedInt;
@@ -31,7 +30,7 @@ namespace Elision.Foundation.Kernel
         public static string ImageUrl(this ImageField imageField, MediaUrlOptions options)
         {
             if (imageField?.MediaItem == null)
-                throw new ArgumentNullException(nameof(imageField));
+                return string.Empty;
 
             return options == null ? imageField.ImageUrl() : HashingUtils.ProtectAssetUrl(MediaManager.GetMediaUrl(imageField.MediaItem, options));
         }
@@ -39,7 +38,7 @@ namespace Elision.Foundation.Kernel
         public static bool IsChecked(this Field checkboxField)
         {
             if (checkboxField == null)
-                throw new ArgumentNullException(nameof(checkboxField));
+                return false;
 
             return MainUtil.GetBool(checkboxField.Value, false);
         }
