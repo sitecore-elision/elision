@@ -13,20 +13,12 @@ namespace Elision.Foundation.PlaceholderSettings.Rules.PlaceholderSettings
     {
         public GetPlaceholderRenderingsArgs Args { get; set; }
 
-        public string PlaceholderKeyPath { get { return Args.PlaceholderKey; } }
-        public string PlaceholderKey
-        {
-            get { return Args.PlaceholderKey.Split(new[] {'/'}, StringSplitOptions.RemoveEmptyEntries).Last(); }
-        }
-        public string FullUniquePlaceholderKey
-        {
-            get
-            {
-                return Args.CustomData.ContainsKey("DynamicPlaceholderKey")
-                           ? Args.CustomData["DynamicPlaceholderKey"] as string
-                           : Args.PlaceholderKey;
-            }
-        }
+        public string PlaceholderKeyPath => Args.PlaceholderKey;
+        public string PlaceholderKey => Args.PlaceholderKey.Split(new[] {'/'}, StringSplitOptions.RemoveEmptyEntries).Last();
+
+        public string FullUniquePlaceholderKey => Args.CustomData.ContainsKey("DynamicPlaceholderKey")
+            ? Args.CustomData["DynamicPlaceholderKey"] as string
+            : Args.PlaceholderKey;
 
         private DeviceItem _device;
         public DeviceItem Device
@@ -56,7 +48,7 @@ namespace Elision.Foundation.PlaceholderSettings.Rules.PlaceholderSettings
                 }
                 catch (Exception ex)
                 {
-                    Log.Error(string.Format("Failed to parse page designing layout definition \"{0}\"", layoutString), ex, this);
+                    Log.Error($"Failed to parse page designing layout definition \"{layoutString}\"", ex, this);
                 }
             }
             return Item.Visualization.GetRenderings(Device, false);
