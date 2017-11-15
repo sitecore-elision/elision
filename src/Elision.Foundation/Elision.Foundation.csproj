@@ -132,8 +132,15 @@
     <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.LayoutRenderings.config" />
     <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.SiteResources.config" />
     <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.Search.config" />
+    <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\128x128\elision.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\16x16\elision.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\256x256\elision.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\32x32\elision.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\48x48\elision.png" />
+    <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\64x64\elision.png" />
     <None Include="Elision.Foundation.nuspec.beta" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
+    <Content Include="sitecore\shell\Themes\Standard\Elision.Foundation.zip" />
     <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\128x128\map-geolocation-marker.png" />
     <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\128x128\map-geolocation-pin.png" />
     <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\16x16\map-geolocation-marker.png" />
@@ -164,7 +171,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\zElision.Foundation\Readme.txt" />
-    <Content Include="sitecore\shell\Themes\Standard\Elision.Foundation.zip" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

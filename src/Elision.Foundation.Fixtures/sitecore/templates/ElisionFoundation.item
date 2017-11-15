@@ -11,16 +11,23 @@ templatekey: Template Folder
 created: 20160525T001414Z
 
 ----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 36
+
+Elision.Foundation/32x32/elision.png
+----field----
 field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
 name: __Sortorder
 key: __sortorder
-content-length: 3
+content-length: 2
 
-300
+50
 ----version----
 language: en
 version: 1
-revision: 3ffc15d7-e079-41ce-9057-1e2e21dcdb0c
+revision: ba01f1a5-ed6a-41ed-80e4-2883c332c63c
 
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
@@ -49,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-3ffc15d7-e079-41ce-9057-1e2e21dcdb0c
+ba01f1a5-ed6a-41ed-80e4-2883c332c63c
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170206T150933Z
+20171113T214225Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
