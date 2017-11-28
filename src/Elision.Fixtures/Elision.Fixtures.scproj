@@ -73,11 +73,12 @@
     <NuGetRequireLicenseAcceptance>False</NuGetRequireLicenseAcceptance>
     <NuGetDependencies />
     <PackageName>Elision</PackageName>
-    <PackageAuthor>PatrickDelancy</PackageAuthor>
-    <PackagePublisher>PatrickDelancy</PackagePublisher>
+    <PackageAuthor>Jeffrey Rondeau</PackageAuthor>
+    <PackagePublisher>Jeffrey Rondeau</PackagePublisher>
     <PackageVersion>1.0.0.0</PackageVersion>
     <PackageReadme />
-    <SitecoreAssemblyPath>..\packages\Sitecore81Deploy.8.1.0\lib\net45</SitecoreAssemblyPath>
+    <SitecoreAssemblyPath>
+    </SitecoreAssemblyPath>
     <GeneratePackage>True</GeneratePackage>
     <SeperateFilesAndItems>False</SeperateFilesAndItems>
     <PackageExcludeCode>False</PackageExcludeCode>
