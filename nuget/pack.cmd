@@ -1,1 +1,0 @@
-FOR /F "usebackq" %%i IN (`dir /b *.nuspec`) DO nuget pack %%i
