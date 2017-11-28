@@ -92,6 +92,9 @@
     </AssemblyAttributes>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Elision.Core\Elision.Core.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
     <ProjectReference Include="..\Elision\Elision.csproj">
       <Project>{92f04e4f-92c3-4e91-b619-405ed4800920}</Project>
       <Name>Elision</Name>
