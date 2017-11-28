@@ -43,10 +43,6 @@
       <HintPath>..\packages\FluentAssertions.4.6.3\lib\net45\FluentAssertions.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Lucene.Net, Version=3.0.3.0, Culture=neutral, PublicKeyToken=85089178b9ac3181, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Deploy.8.1.0\lib\net45\Lucene.Net.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
       <Private>True</Private>
@@ -56,43 +52,31 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Analytics, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Deploy.8.1.0\lib\net45\Sitecore.Analytics.dll</HintPath>
+      <HintPath>..\packages\Sitecore.Analytics.NoReferences.8.1.160519\lib\NET45\Sitecore.Analytics.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Kernel, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Kernel.8.1.0\lib\net45\Sitecore.Kernel.dll</HintPath>
+      <HintPath>..\packages\Sitecore.Kernel.NoReferences.8.1.160519\lib\NET45\Sitecore.Kernel.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Logging, Version=1.2.0.30715, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Deploy.8.1.0\lib\net45\Sitecore.Logging.dll</HintPath>
+      <HintPath>..\packages\Sitecore.Logging.NoReferences.8.1.160519\lib\NET45\Sitecore.Logging.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Mvc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Mvc.8.1.0\lib\net45\Sitecore.Mvc.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Sitecore.Mvc.Analytics, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Mvc.8.1.0\lib\net45\Sitecore.Mvc.Analytics.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Sitecore.Mvc.ExperienceEditor, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Mvc.8.1.0\lib\net45\Sitecore.Mvc.ExperienceEditor.dll</HintPath>
+      <HintPath>..\packages\Sitecore.Mvc.NoReferences.8.1.160519\lib\NET45\Sitecore.Mvc.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="sitecore.nexus, Version=1.0.0.4407, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Deploy.8.1.0\lib\net45\sitecore.nexus.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Sitecore.Speak.Mvc, Version=2.0.812.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Mvc.8.1.0\lib\net45\Sitecore.Speak.Mvc.dll</HintPath>
+      <HintPath>..\packages\sitecore.nexus.NoReferences.8.1.160519\lib\NET45\sitecore.nexus.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Update, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Deploy.8.1.0\lib\net45\Sitecore.Update.dll</HintPath>
+      <HintPath>..\packages\Sitecore.Update.NoReferences.8.1.160519\lib\NET45\Sitecore.Update.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Zip, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Deploy.8.1.0\lib\net45\Sitecore.Zip.dll</HintPath>
+      <HintPath>..\packages\Sitecore.Zip.NoReferences.8.1.160519\lib\NET45\Sitecore.Zip.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />

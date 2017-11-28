@@ -12,6 +12,7 @@ using Sitecore.Diagnostics;
 using Sitecore.Events;
 using Sitecore.Globalization;
 using Sitecore.Web.UI.Sheer;
+using Constants = Sitecore.Buckets.Util.Constants;
 
 namespace Elision.UpdateReferences
 {
@@ -56,8 +57,8 @@ namespace Elision.UpdateReferences
                 }
                 else if (parent.Access.CanCreate())
                 {
-                    Log.Audit(this, "Duplicate item: {0}", new string[1] { AuditFormatter.FormatItem(sourceItem) });
-                    var bucketItemOrSiteRoot = ItemExtensions.GetParentBucketItemOrSiteRoot(sourceItem);
+                    Log.Audit(this, "Duplicate item: {0}", AuditFormatter.FormatItem(sourceItem));
+                    var bucketItemOrSiteRoot = sourceItem.GetParentBucketItemOrSiteRoot();
                     if (BucketManager.IsBucket(bucketItemOrSiteRoot) && BucketManager.IsBucketable(sourceItem))
                     {
                         if (!EventDisabler.IsActive)
@@ -105,16 +106,16 @@ namespace Elision.UpdateReferences
         {
             if (item != null)
             {
-                if (item.Fields[Sitecore.Buckets.Util.Constants.IsBucket] != null)
-                    return item.Fields[Sitecore.Buckets.Util.Constants.BucketableField].Value.Equals("1");
+                if (item.Fields[Constants.IsBucket] != null)
+                    return item.Fields[Constants.BucketableField].Value.Equals("1");
                 if (item.Paths.FullPath.StartsWith("/sitecore/templates"))
                 {
                     TemplateItem templateItem1 = item.Children[0] != null ? item.Children[0].Template : null;
                     if (templateItem1 != null)
                     {
                         TemplateItem templateItem2 = new TemplateItem(templateItem1);
-                        if (templateItem1.StandardValues != null && templateItem2.StandardValues[Sitecore.Buckets.Util.Constants.BucketableField] != null)
-                            return templateItem2.StandardValues[Sitecore.Buckets.Util.Constants.BucketableField].Equals("1");
+                        if (templateItem1.StandardValues != null && templateItem2.StandardValues[Constants.BucketableField] != null)
+                            return templateItem2.StandardValues[Constants.BucketableField].Equals("1");
                     }
                 }
             }

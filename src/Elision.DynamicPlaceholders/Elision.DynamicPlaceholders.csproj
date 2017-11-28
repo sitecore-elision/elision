@@ -35,55 +35,27 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Buckets, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Client.8.1.0\lib\net45\Sitecore.Buckets.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Sitecore.Buckets.Client, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Client.8.1.0\lib\net45\Sitecore.Buckets.Client.dll</HintPath>
+      <HintPath>..\packages\Sitecore.Buckets.NoReferences.8.1.160519\lib\NET45\Sitecore.Buckets.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Client, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Client.8.1.0\lib\net45\Sitecore.Client.dll</HintPath>
+      <HintPath>..\packages\Sitecore.Client.NoReferences.8.1.160519\lib\NET45\Sitecore.Client.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.ExperienceEditor, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Client.8.1.0\lib\net45\Sitecore.ExperienceEditor.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Sitecore.ExperienceEditor.Speak, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Client.8.1.0\lib\net45\Sitecore.ExperienceEditor.Speak.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Sitecore.ExperienceEditor.Speak.Ribbon, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Client.8.1.0\lib\net45\Sitecore.ExperienceEditor.Speak.Ribbon.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Sitecore.ExperienceExplorer.Business, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Client.8.1.0\lib\net45\Sitecore.ExperienceExplorer.Business.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Sitecore.ExperienceExplorer.Web, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Client.8.1.0\lib\net45\Sitecore.ExperienceExplorer.Web.dll</HintPath>
+      <HintPath>..\packages\Sitecore.ExperienceEditor.NoReferences.8.1.160519\lib\NET45\Sitecore.ExperienceEditor.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Kernel, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Kernel.8.1.0\lib\net45\Sitecore.Kernel.dll</HintPath>
+      <HintPath>..\packages\Sitecore.Kernel.NoReferences.8.1.160519\lib\NET45\Sitecore.Kernel.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Mvc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Mvc.8.1.0\lib\net45\Sitecore.Mvc.dll</HintPath>
+      <HintPath>..\packages\Sitecore.Mvc.NoReferences.8.1.160519\lib\NET45\Sitecore.Mvc.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Mvc.Analytics, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Mvc.8.1.0\lib\net45\Sitecore.Mvc.Analytics.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Sitecore.Mvc.ExperienceEditor, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Mvc.8.1.0\lib\net45\Sitecore.Mvc.ExperienceEditor.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Sitecore.Speak.Mvc, Version=2.0.812.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore81Mvc.8.1.0\lib\net45\Sitecore.Speak.Mvc.dll</HintPath>
+      <HintPath>..\packages\Sitecore.Mvc.Analytics.NoReferences.8.1.160519\lib\NET45\Sitecore.Mvc.Analytics.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
