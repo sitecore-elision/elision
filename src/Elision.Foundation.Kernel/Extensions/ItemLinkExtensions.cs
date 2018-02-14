@@ -124,13 +124,13 @@ namespace Elision.Foundation.Kernel
         public static string LinkFieldDescription(this Item item, ID fieldId)
         {
             XmlField field = item?.Fields?[fieldId];
-            return field?.GetAttribute("description");
+            return field?.GetAttribute("text");
         }
 
         public static string LinkFieldDescription(this Item item, string fieldName)
         {
             XmlField field = item?.Fields?[fieldName];
-            return field?.GetAttribute("description");
+            return field?.GetAttribute("text");
         }
     }
 }
