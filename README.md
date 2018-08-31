@@ -9,4 +9,5 @@
 
 
 
-- master: N/A
+- master: [![Build status](https://ci.appveyor.com/api/projects/status/v83wr4k4wnor3y6d?svg=true)](https://ci.appveyor.com/project/SitecoreElision/elision-uvb8t)
+
