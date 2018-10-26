@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {49E26BA2-82B9-4200-A59D-C88982DB9F41}
+database: master
+path: /sitecore/templates/Branches/Elision/ElisionFoundation/Theme/$name/Scripts
+parent: {E5170085-875C-45CD-8044-C9B9A414533B}
+name: Scripts
+master: {00000000-0000-0000-0000-000000000000}
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
+created: 20160525T001426Z
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 29
+
+Applications/32x32/scroll.png
+----field----
+field: {9C6106EA-7A5A-48E2-8CAD-F0F693B1E2D4}
+name: __Read Only
+key: __read only
+content-length: 1
+
+1
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 77
+
+{9D560638-C289-4C6F-ADF2-06760928ED55}|{06234046-5BC2-4457-87C2-6B09EBB797D3}
+----version----
+language: en
+version: 1
+revision: f4b09cc8-5bfe-4eef-8301-da0c2adf7ffe
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150819T030045Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f4b09cc8-5bfe-4eef-8301-da0c2adf7ffe
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150908T185026Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
