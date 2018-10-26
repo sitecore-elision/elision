@@ -245,6 +245,10 @@
       <Project>{d0f6210b-ff18-45c1-966a-d74c43a414d7}</Project>
       <Name>Elision.Foundation.TabbedRenderingSelector</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.Tasks\Elision.Foundation.Tasks.csproj">
+      <Project>{4950243d-b9e3-4260-88d0-1d700ff664c3}</Project>
+      <Name>Elision.Foundation.Tasks</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Elision.Foundation.Themes\Elision.Foundation.Themes.csproj">
       <Project>{0b5fdd45-e009-4ee7-8496-3c5e1f4a90ad}</Project>
       <Name>Elision.Foundation.Themes</Name>
