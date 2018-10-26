@@ -83,8 +83,25 @@ namespace Elision.Foundation.Kernel
             if (field == null)
                 return string.Empty;
 
-            var linkUrl = new LinkUrl();
-            return linkUrl.GetUrl(item, fieldId.ToString());
+            var lf = (LinkField) field;
+            switch (lf.LinkType.ToLower())
+            {
+                case "internal":
+                    // Use LinkMananger for internal links, if link is not empty
+                    return lf.TargetItem != null ? LinkManager.GetItemUrl(lf.TargetItem) : string.Empty;
+                case "media":
+                    // Use MediaManager for media links, if link is not empty
+                    return lf.TargetItem != null ? MediaManager.GetMediaUrl(lf.TargetItem) : string.Empty;
+                case "anchor":
+                    // Prefix anchor link with # if link if not empty
+                    return !string.IsNullOrEmpty(lf.Anchor) ? "#" + lf.Anchor : string.Empty;
+                case "external":
+                case "mailto":
+                case "javascript":
+                    return lf.Url;
+                default:
+                    return lf.Url;
+            }
         }
 
         public static string LinkFieldUrl(this Item item, string fieldName)
@@ -93,8 +110,25 @@ namespace Elision.Foundation.Kernel
             if (field == null)
                 return string.Empty;
 
-            var linkUrl = new LinkUrl();
-            return linkUrl.GetUrl(item, fieldName.ToString());
+            var lf = (LinkField)field;
+            switch (lf.LinkType.ToLower())
+            {
+                case "internal":
+                    // Use LinkMananger for internal links, if link is not empty
+                    return lf.TargetItem != null ? LinkManager.GetItemUrl(lf.TargetItem) : string.Empty;
+                case "media":
+                    // Use MediaManager for media links, if link is not empty
+                    return lf.TargetItem != null ? MediaManager.GetMediaUrl(lf.TargetItem) : string.Empty;
+                case "anchor":
+                    // Prefix anchor link with # if link if not empty
+                    return !string.IsNullOrEmpty(lf.Anchor) ? "#" + lf.Anchor : string.Empty;
+                case "external":
+                case "mailto":
+                case "javascript":
+                    return lf.Url;
+                default:
+                    return lf.Url;
+            }
         }
 
         public static string LinkFieldTarget(this Item item, ID fieldId)
