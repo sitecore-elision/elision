@@ -82,7 +82,7 @@
     <SitecoreAssemblyPath>
     </SitecoreAssemblyPath>
     <GeneratePackage>True</GeneratePackage>
-    <SeperateFilesAndItems>True</SeperateFilesAndItems>
+    <SeperateFilesAndItems>False</SeperateFilesAndItems>
     <PackageExcludeCode>False</PackageExcludeCode>
     <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
     <EnableValidations>False</EnableValidations>

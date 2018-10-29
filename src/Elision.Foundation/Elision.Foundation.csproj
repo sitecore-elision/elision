@@ -111,30 +111,30 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Elision.Foundation\~Elision.Foundation.config" />
-    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.CompatibleRenderings.config" />
-    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.DynamicPlaceholders.config" />
-    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.FieldTokens.config">
+    <Content Include="App_Config\Include\Foundation\Elision.Foundation\~Elision.Foundation.config" />
+    <Content Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.CompatibleRenderings.config" />
+    <Content Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.DynamicPlaceholders.config" />
+    <Content Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.FieldTokens.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.FieldVisibility.config" />
-    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.RegisterDependencies.config" />
-    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.LookupSourceItems.config" />
-    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.Mvc.config" />
-    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.Mvc.ValueProvider.config" />
-    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.PlaceholderSettings.config" />
-    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.FieldEditor.config" />
-    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.Themes.config" />
-    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.Themes.Areas.config">
+    <Content Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.FieldVisibility.config" />
+    <Content Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.RegisterDependencies.config" />
+    <Content Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.LookupSourceItems.config" />
+    <Content Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.Mvc.config" />
+    <Content Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.Mvc.ValueProvider.config" />
+    <Content Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.PlaceholderSettings.config" />
+    <Content Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.FieldEditor.config" />
+    <Content Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.Themes.config" />
+    <Content Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.Themes.Areas.config">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="sitecore\shell\override\SelectRendering.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="sitecore modules\Elision.Foundation\ExperienceEditor\Commands\LaunchFieldEditor.js" />
-    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.LayoutRenderings.config" />
-    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.SiteResources.config" />
-    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.Search.config" />
+    <Content Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.LayoutRenderings.config" />
+    <Content Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.SiteResources.config" />
+    <Content Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.Search.config" />
     <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\128x128\elision.png" />
     <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\16x16\elision.png" />
     <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\256x256\elision.png" />
@@ -156,9 +156,9 @@
     <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\48x48\map-geolocation-pin.png" />
     <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\64x64\map-geolocation-marker.png" />
     <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\64x64\map-geolocation-pin.png" />
-    <None Include="App_Config\Include\Elision.Foundation\Elision.Foundation.UpdateReferences.config" />
-    <Content Include="App_Config\Include\Elision.Foundation\Elision.Foundation.WebEditState.config" />
-    <Content Include="App_Config\Include\zElision.Foundation\Elision.Foundation.Publishing.config">
+    <None Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.UpdateReferences.config" />
+    <Content Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.WebEditState.config" />
+    <Content Include="App_Config\Include\Foundation\zElision.Foundation\Elision.Foundation.Publishing.config">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Areas\Elision\Views\web.config">
@@ -173,7 +173,7 @@
     <Content Include="Areas\Elision\Views\Resource\Head.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\zElision.Foundation\Readme.txt" />
+    <Content Include="App_Config\Include\Foundation\zElision.Foundation\Readme.txt" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
