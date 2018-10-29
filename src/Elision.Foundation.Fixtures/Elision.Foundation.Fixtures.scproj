@@ -58,7 +58,7 @@
     <NuGetGenerateNuGetPackage>True</NuGetGenerateNuGetPackage>
     <NuGetExePath>..\.nuget</NuGetExePath>
     <NuGetSummary />
-    <NuGetDescription>TDS Foundation Layer Item Fixtures for Sitecore Development Accelerator Framework.  Compatible with Sitecore 8.2 Update 2.</NuGetDescription>
+    <NuGetDescription>TDS Foundation Layer Item Fixtures for Sitecore Development Accelerator Framework.  Compatible with Sitecore 9.</NuGetDescription>
     <NuGetTitle>Elision.Foundation TDS Fixtures</NuGetTitle>
     <NuGetVersion>0.0.1</NuGetVersion>
     <NuGetPackageId>Sitecore.Elision.Foundation.Fixtures</NuGetPackageId>
@@ -70,7 +70,7 @@
     <NuGetIconUrl />
     <NuGetProjectUrl>https://github.com/sitecore-elision/elision</NuGetProjectUrl>
     <NuGetTags>sitecore elision foundation</NuGetTags>
-    <NuGetReleaseNotes>Compatible with Sitecore 8.2 Update 2.</NuGetReleaseNotes>
+    <NuGetReleaseNotes>Compatible with Sitecore 9.</NuGetReleaseNotes>
     <NuGetLanguage />
     <NuGetRequireLicenseAcceptance>False</NuGetRequireLicenseAcceptance>
     <NuGetDependencies />
@@ -82,7 +82,7 @@
     <SitecoreAssemblyPath>
     </SitecoreAssemblyPath>
     <GeneratePackage>True</GeneratePackage>
-    <SeperateFilesAndItems>False</SeperateFilesAndItems>
+    <SeperateFilesAndItems>True</SeperateFilesAndItems>
     <PackageExcludeCode>False</PackageExcludeCode>
     <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
     <EnableValidations>False</EnableValidations>
@@ -707,28 +707,6 @@
     <SitecoreItem Include="sitecore\templates\Branches\Elision\ElisionFoundation\Theme\%2524name\Stylesheets.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>DeployOnce</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Branches\ElisionFoundation.item" />
-    <SitecoreItem Include="sitecore\templates\Branches\ElisionFoundation\Theme.item" />
-    <SitecoreItem Include="sitecore\templates\Branches\ElisionFoundation\Theme\%2524name.item">
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Branches\ElisionFoundation\Theme\%2524name\Color Schemes.item">
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Branches\ElisionFoundation\Theme\%2524name\Responsive Image Profiles.item">
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Branches\ElisionFoundation\Theme\%2524name\Scripts.item">
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Branches\ElisionFoundation\Theme\%2524name\Stylesheets.item">
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\templates\Elision.item">
       <ItemDeployment>DeployOnce</ItemDeployment>
