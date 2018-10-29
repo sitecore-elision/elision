@@ -708,6 +708,8 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>DeployOnce</ItemDeployment>
     </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Branches\ElisionFoundation.item" />
+    <SitecoreItem Include="sitecore\templates\Branches\ElisionFoundation\Theme.item" />
     <SitecoreItem Include="sitecore\templates\Branches\ElisionFoundation\Theme\%2524name.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
