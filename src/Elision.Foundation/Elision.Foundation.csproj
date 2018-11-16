@@ -134,7 +134,8 @@
     <Content Include="sitecore modules\Elision.Foundation\ExperienceEditor\Commands\LaunchFieldEditor.js" />
     <Content Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.LayoutRenderings.config" />
     <Content Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.SiteResources.config" />
-    <Content Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.Search.config" />
+    <None Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.Search.Lucene.config.disabled" />
+    <Content Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.Search.Solr.config" />
     <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\128x128\elision.png" />
     <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\16x16\elision.png" />
     <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\256x256\elision.png" />

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/" xmlns:search="http://www.sitecore.net/xmlconfig/search/" xmlns:role="http://www.sitecore.net/xmlconfig/role/">
+  <sitecore role:require="Standalone or ContentManagement or ContentDelivery" search:require="lucene">
+    <contentSearch>
+
+      <indexConfigurations>
+        <defaultLuceneIndexConfiguration type="Sitecore.ContentSearch.LuceneProvider.LuceneIndexConfiguration, Sitecore.ContentSearch.LuceneProvider">
+          <documentOptions type="Sitecore.ContentSearch.LuceneProvider.LuceneDocumentBuilderOptions, Sitecore.ContentSearch.LuceneProvider">
+
+            <fields hint="raw:AddComputedIndexField">
+              <field fieldName="urllink">
+                <patch:delete />
+              </field>
+              <field fieldName="urllink"                        >Elision.Foundation.Search.ComputedFields.UrlLink, Elision.Foundation.Search</field>
+              <field fieldName="_basetemplates"                 >Elision.Foundation.Search.ComputedFields.BaseTemplates, Elision.Foundation.Search</field>
+              <field fieldName="_haspresentation"               >Elision.Foundation.Search.ComputedFields.HasPresentation, Elision.Foundation.Search</field>              
+            </fields>
+
+          </documentOptions>          
+        </defaultLuceneIndexConfiguration>
+      </indexConfigurations>
+    </contentSearch>    
+  </sitecore>
+</configuration>
