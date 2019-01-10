@@ -16,15 +16,15 @@ namespace Elision.Foundation.PlaceholderSettings.Rules.PlaceholderSettings
         public string PlaceholderKeyPath => Args.PlaceholderKey;
         public string PlaceholderKey => Args.PlaceholderKey.Split(new[] {'/'}, StringSplitOptions.RemoveEmptyEntries).Last();
 
-        public string FullUniquePlaceholderKey => Args.CustomData.ContainsKey("DynamicPlaceholderKey")
-            ? Args.CustomData["DynamicPlaceholderKey"] as string
-            : Args.PlaceholderKey;
+        public string FullPlaceholderKey => Args.CustomData.ContainsKey("fullPlaceholderKey")
+            ? (string) Args.CustomData["fullPlaceholderKey"]
+            : PlaceholderKey;       
 
         private DeviceItem _device;
         public DeviceItem Device
         {
-            get { return _device ?? (_device = Args.ContentDatabase.GetItem(Args.DeviceId)); }
-            set { _device = value; }
+            get => _device ?? (_device = Args.ContentDatabase.GetItem(Args.DeviceId));
+            set => _device = value;
         }
 
         public PlaceholderSettingsRuleContext(GetPlaceholderRenderingsArgs args, Item contextItem)

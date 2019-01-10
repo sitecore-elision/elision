@@ -67,7 +67,7 @@
     <NuGetCopyright />
     <NuGetLicenseUrl>
     </NuGetLicenseUrl>
-    <NuGetIconUrl />
+    <NuGetIconUrl>https://image.ibb.co/ihBV7Q/Elision_Logo.png</NuGetIconUrl>
     <NuGetProjectUrl>https://github.com/sitecore-elision/elision</NuGetProjectUrl>
     <NuGetTags>sitecore elision foundation</NuGetTags>
     <NuGetReleaseNotes>Compatible with Sitecore 9.</NuGetReleaseNotes>

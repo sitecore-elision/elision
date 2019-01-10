@@ -76,6 +76,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pipelines\GetChromeData\GetPlaceholderChromeData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Pipelines\GetPlaceholderRenderings\RunPlaceholderSettingsRules.cs" />
     <Compile Include="Rules\PlaceholderSettings\AddRenderingAction.cs" />

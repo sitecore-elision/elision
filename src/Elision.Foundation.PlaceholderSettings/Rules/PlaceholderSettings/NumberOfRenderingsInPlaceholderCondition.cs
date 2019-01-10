@@ -14,11 +14,11 @@ namespace Elision.Foundation.PlaceholderSettings.Rules.PlaceholderSettings
             var renderingCount = renderings
                 .Count(
                     x =>
-                    x.Placeholder.Equals(ruleContext.FullUniquePlaceholderKey,
+                    x.Placeholder.Equals(ruleContext.FullPlaceholderKey ?? ruleContext.PlaceholderKey,
                                             StringComparison.InvariantCultureIgnoreCase));
 
             var result = Compare(renderingCount);
-            Log.Debug(string.Format("Found {0} matching renderings out of {1} total. Returning comparison result {2}.", renderingCount, renderings.Count(), result));
+            Log.Debug($"Found {renderingCount} matching renderings out of {renderings.Length} total. Returning comparison result {result}.");
             return result;
         }
     }
