@@ -157,7 +157,7 @@
     <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\48x48\map-geolocation-pin.png" />
     <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\64x64\map-geolocation-marker.png" />
     <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\64x64\map-geolocation-pin.png" />
-    <None Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.UpdateReferences.config" />
+    <Content Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.UpdateReferences.config" />
     <Content Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.WebEditState.config" />
     <Content Include="App_Config\Include\Foundation\zElision.Foundation\Elision.Foundation.Publishing.config">
       <SubType>Designer</SubType>
