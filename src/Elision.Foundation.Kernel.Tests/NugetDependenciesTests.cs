@@ -58,7 +58,7 @@ namespace Elision.Foundation.Kernel.Tests
         private static IEnumerable<string> GetAllPackagesConfigFiles()
         {
             var files = Directory
-                .GetFiles(@"..\..\..\..\src\", @"packages.config", SearchOption.AllDirectories)
+                .GetFiles(Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\..")), @"packages.config", SearchOption.AllDirectories)
                 .ToArray();
 
             if (files.Length == 0)

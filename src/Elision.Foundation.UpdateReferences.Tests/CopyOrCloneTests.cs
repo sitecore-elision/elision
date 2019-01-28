@@ -1,4 +1,6 @@
 using System.Collections.Specialized;
+using System.Configuration;
+using System.IO;
 using FluentAssertions;
 using NUnit.Framework;
 using Sitecore;

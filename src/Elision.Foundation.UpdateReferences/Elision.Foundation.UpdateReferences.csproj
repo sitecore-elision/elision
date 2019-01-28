@@ -76,6 +76,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Elision.Foundation.Kernel\Elision.Foundation.Kernel.csproj">
+      <Project>{c2ad100d-a982-4029-87d9-91eb0aeced81}</Project>
+      <Name>Elision.Foundation.Kernel</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

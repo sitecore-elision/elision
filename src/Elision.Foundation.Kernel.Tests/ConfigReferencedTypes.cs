@@ -1,13 +1,11 @@
-﻿using System;
+﻿using NUnit.Framework;
+using Sitecore.Mvc.Helpers;
+using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using System.Reflection;
 using System.Text.RegularExpressions;
 using System.Xml;
-using NUnit.Framework;
-using Sitecore.Mvc.Helpers;
 
 namespace Elision.Foundation.Kernel.Tests
 {
@@ -44,6 +42,7 @@ namespace Elision.Foundation.Kernel.Tests
                     try
                     {
                         var typeInfo = TypeHelper.GetType(typeName);
+                        //var service = ServiceLocator.ServiceProvider.GetService(typeof(IMyService))
                         if (typeInfo == null)
                             issues[file].Add(node.OuterXml);
                         else if (System.Diagnostics.Debugger.IsAttached)
@@ -67,7 +66,10 @@ namespace Elision.Foundation.Kernel.Tests
             if (!TypeHelper.LooksLikeTypeName(typeName))
                 typeName = node?.Attributes?["ref"] == null ? "" : node.Attributes["ref"].Value;
             if (!TypeHelper.LooksLikeTypeName(typeName))
+            {
                 typeName = node?.InnerText;
+            }
+
             if (!TypeHelper.LooksLikeTypeName(typeName))
                 return null;
             if (string.IsNullOrWhiteSpace(typeName) || typeName.StartsWith("Sitecore") || typeName.StartsWith("System") ||
@@ -91,7 +93,7 @@ namespace Elision.Foundation.Kernel.Tests
             var match = new Regex(@"\\App_Config\\", RegexOptions.Compiled | RegexOptions.IgnoreCase);
             var exclude = new Regex(@"\\(bin|obj)\\", RegexOptions.Compiled | RegexOptions.IgnoreCase);
             var files = Directory
-                .GetFiles(@"..\..\..\..\src\", @"*.config", SearchOption.AllDirectories)
+                .GetFiles(Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\..")), @"*.config", SearchOption.AllDirectories)
                 .Where(x => match.IsMatch(x))
                 .Where(x => !exclude.IsMatch(x))
                 .ToArray();
