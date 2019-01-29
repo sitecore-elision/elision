@@ -22,7 +22,7 @@
     <LegacyFileReplacement>false</LegacyFileReplacement>
     <AssemblyName>Elision.Foundation.Core</AssemblyName>
     <Name>Elision.Foundation.Core</Name>
-    <RootNamespace>Elision.Foundation.Core</RootNamespace>
+    <RootNamespace>Elision.Foundation.Core</RootNamespace> 
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <ManageRoles>False</ManageRoles>

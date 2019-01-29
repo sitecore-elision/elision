@@ -21,7 +21,7 @@
     <RootNamespace>Elision.Fixtures</RootNamespace>
     <EnableCodeGeneration>True</EnableCodeGeneration>
     <ManageRoles>False</ManageRoles>
-    <SitecoreDatabase>master</SitecoreDatabase>
+    <SitecoreDatabase>master</SitecoreDatabase> 
     <AssemblyStatus>Include</AssemblyStatus>
     <FieldsForCodeGen>Title,Blob,Shared,Unversioned,Default value,Validation,ValidationText,__Long description,__Short description,__Display name,__Hidden,__Read Only,__Sortorder</FieldsForCodeGen>
     <CodeGenTargetProject>Elision.Foundation.Kernel</CodeGenTargetProject>
