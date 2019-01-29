@@ -1,7 +1,9 @@
 ﻿using System.Collections.Specialized;
 using FluentAssertions;
 using NUnit.Framework;
+using Sitecore;
 using Sitecore.Data;
+using Sitecore.Data.Items;
 using Sitecore.FakeDb;
 using Sitecore.Web.UI.Sheer;
 
@@ -26,6 +28,7 @@ namespace Elision.Foundation.UpdateReferences.Tests
             using (GetFakeDb())
             {
                 var db = Sitecore.Context.Database;
+                SetupContextDevice(db);
                 var page1 = db.GetItem("/sitecore/content/home/page1");
 
                 var processor = new DuplicateItem(new TreeReferenceUpdater());
@@ -44,6 +47,12 @@ namespace Elision.Foundation.UpdateReferences.Tests
             }
         }
 
+        private static void SetupContextDevice(Database db)
+        {
+            var device = db.GetItem("/sitecore/content/home/device");
+            Context.Device = new DeviceItem(device);
+        }
+
         private static Db GetFakeDb()
         {
             var childPage1 = new DbItem("child1");
@@ -57,8 +66,11 @@ namespace Elision.Foundation.UpdateReferences.Tests
                                 {
                                     new DbField("Link") {Value = childPage1.ID.ToString()},
                                     new DbField("HomePage") {Value = homeId.ToString()},
+                                    new DbField(ID.Parse("{E18F4BC6-46A2-4842-898B-B6613733F06F}")) {Value = ""},
+                                    new DbField(DeviceFieldIDs.Default) {Value = ""},
                                     childPage1
                                 },
+                            new DbItem("device", ID.NewID, TemplateIDs.Device)
                         }
                 };
         }

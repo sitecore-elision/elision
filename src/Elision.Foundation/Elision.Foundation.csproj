@@ -100,7 +100,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\Foundation\Elision.Foundation\~Elision.Foundation.config" />
-    <Content Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.CompatibleRenderings.config" />
+    <Content Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.CompatibleRenderings.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.FieldTokens.config">
       <SubType>Designer</SubType>
     </Content>
@@ -174,17 +176,65 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Elision.Foundation.CompatibleRenderings\Elision.Foundation.CompatibleRenderings.csproj">
+      <Project>{b26c2f5a-69f5-4167-97e7-0e02c4178e5a}</Project>
+      <Name>Elision.Foundation.CompatibleRenderings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.FieldEditor\Elision.Foundation.FieldEditor.csproj">
+      <Project>{3fb8e9f9-5d4b-45e2-a5db-6cef0988db44}</Project>
+      <Name>Elision.Foundation.FieldEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.FieldTokens\Elision.Foundation.FieldTokens.csproj">
+      <Project>{95a7196c-70d7-47fe-a2a6-d803bc7b49bd}</Project>
+      <Name>Elision.Foundation.FieldTokens</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.FieldVisibility\Elision.Foundation.FieldVisibility.csproj">
+      <Project>{460caf21-9886-4109-a5a5-1d8d4228b1d9}</Project>
+      <Name>Elision.Foundation.FieldVisibility</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Elision.Foundation.Kernel\Elision.Foundation.Kernel.csproj">
       <Project>{c2ad100d-a982-4029-87d9-91eb0aeced81}</Project>
       <Name>Elision.Foundation.Kernel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.LayoutRenderings\Elision.Foundation.LayoutRenderings.csproj">
+      <Project>{0f97d507-cecd-48c4-8141-fe5ca2552330}</Project>
+      <Name>Elision.Foundation.LayoutRenderings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.LookupSourceItems\Elision.Foundation.LookupSourceItems.csproj">
+      <Project>{3d3a28bb-e9eb-4feb-b4f9-219d88ccede7}</Project>
+      <Name>Elision.Foundation.LookupSourceItems</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.Mvc\Elision.Foundation.Mvc.csproj">
+      <Project>{a74b7b03-5736-4767-906c-4ae78d284334}</Project>
+      <Name>Elision.Foundation.Mvc</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.PlaceholderSettings\Elision.Foundation.PlaceholderSettings.csproj">
+      <Project>{d2e69327-5f3a-4219-95b7-7bcc61d3c00b}</Project>
+      <Name>Elision.Foundation.PlaceholderSettings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.Publishing\Elision.Foundation.Publishing.csproj">
+      <Project>{ca14c57f-f221-4c36-a355-cb642179a570}</Project>
+      <Name>Elision.Foundation.Publishing</Name>
     </ProjectReference>
     <ProjectReference Include="..\Elision.Foundation.Rules\Elision.Foundation.Rules.csproj">
       <Project>{104f9aef-a043-46c9-a4ee-05b3691390d2}</Project>
       <Name>Elision.Foundation.Rules</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.Search\Elision.Foundation.Search.csproj">
+      <Project>{f1befdf3-9b49-4f31-8792-74e578171d23}</Project>
+      <Name>Elision.Foundation.Search</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Elision.Foundation.SiteResources\Elision.Foundation.SiteResources.csproj">
       <Project>{d98dd28b-0ffa-4290-b125-56c654cc0328}</Project>
       <Name>Elision.Foundation.SiteResources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.TabbedRenderingSelector\Elision.Foundation.TabbedRenderingSelector.csproj">
+      <Project>{d0f6210b-ff18-45c1-966a-d74c43a414d7}</Project>
+      <Name>Elision.Foundation.TabbedRenderingSelector</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.Tasks\Elision.Foundation.Tasks.csproj">
+      <Project>{4950243d-b9e3-4260-88d0-1d700ff664c3}</Project>
+      <Name>Elision.Foundation.Tasks</Name>
     </ProjectReference>
     <ProjectReference Include="..\Elision.Foundation.Themes\Elision.Foundation.Themes.csproj">
       <Project>{0b5fdd45-e009-4ee7-8496-3c5e1f4a90ad}</Project>
