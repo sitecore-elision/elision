@@ -24,7 +24,7 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize> 
+    <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
@@ -120,7 +120,6 @@
   <ItemGroup>
     <Compile Include="AddPlaceholderWrapper.cs" />
     <Compile Include="AddRenderingWrapper.cs" />
-    <Compile Include="App_Start\RazorGeneratorMvcStart.cs" />
     <Compile Include="CheckFieldWebEdit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebEditStateSwitcher.cs" />
