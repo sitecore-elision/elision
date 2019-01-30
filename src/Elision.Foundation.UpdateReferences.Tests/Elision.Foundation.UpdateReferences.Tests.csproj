@@ -171,6 +171,7 @@
   <ItemGroup>
     <Compile Include="CopyOrCloneTests.cs" />
     <Compile Include="DuplicateItemTests.cs" />
+    <Compile Include="NunitSetup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReferenceUpdaterTests.cs" />
   </ItemGroup>

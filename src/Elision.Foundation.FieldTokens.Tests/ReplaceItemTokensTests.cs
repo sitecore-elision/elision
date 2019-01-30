@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using Elision.Foundation.FieldTokens.Pipelines.ReplaceFieldValueTokens;
 using FluentAssertions;
 using NUnit.Framework;
@@ -10,7 +11,7 @@ namespace Elision.Foundation.FieldTokens.Tests
 {
     [TestFixture]
     public class ReplaceItemTokensTests
-    {
+    {      
         [Test]
         public void RetrievesCreatedValue()
         {

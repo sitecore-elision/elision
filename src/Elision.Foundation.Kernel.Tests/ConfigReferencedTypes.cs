@@ -58,7 +58,7 @@ namespace Elision.Foundation.Kernel.Tests
         //    if (issues.Any(x => x.Value.Any()))
         //        Assert.Fail("Failed to find the type definitions for these types. Make sure the test project references (CopyLocal=True) all necessary Sitecore Dlls that contain all base types used.\r\n\r\n"
         //                    + string.Join("\r\n\r\n", issues.Where(x => x.Value.Any()).Select(x => x.Key + "\r\n\r\n" + string.Join("\r\n", x.Value))));
-        //}        
+        //}
 
         private static string GetTypeRefFromNode(XmlNode node)
         {
