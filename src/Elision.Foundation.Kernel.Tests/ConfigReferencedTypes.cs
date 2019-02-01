@@ -12,53 +12,53 @@ namespace Elision.Foundation.Kernel.Tests
     [TestFixture]
     public class ConfigReferencedTypes
     {
-        //[Test]
-        //public void AllReferencedTypesExist()
-        //{
-        //    //get reference to all config files in the main web project
-        //    //find all nodes that reference a type
-        //    //try to retrieve the type definition to make sure it exists
+        [Test]
+        public void AllReferencedTypesExist()
+        {
+            //get reference to all config files in the main web project
+            //find all nodes that reference a type
+            //try to retrieve the type definition to make sure it exists
 
-        //    var issues = new Dictionary<string, List<string>>();
+            var issues = new Dictionary<string, List<string>>();
 
-        //    var files = GetAllConfigFiles();
-        //    foreach (var file in files)
-        //    {
-        //        issues.Add(file, new List<string>());
+            var files = GetAllConfigFiles();
+            foreach (var file in files)
+            {
+                issues.Add(file, new List<string>());
 
-        //        var nodesWithTypes = GetNodesToCheckForTypeRefs(file);
-        //        if (nodesWithTypes == null || nodesWithTypes.Count == 0)
-        //        {
-        //            Console.WriteLine("WARNING: No type references found in {0}", file);
-        //            continue;
-        //        }
+                var nodesWithTypes = GetNodesToCheckForTypeRefs(file);
+                if (nodesWithTypes == null || nodesWithTypes.Count == 0)
+                {
+                    Console.WriteLine("WARNING: No type references found in {0}", file);
+                    continue;
+                }
 
-        //        foreach (var node in nodesWithTypes.Cast<XmlNode>())
-        //        {
-        //            var typeName = GetTypeRefFromNode(node);
-        //            if (string.IsNullOrWhiteSpace(typeName))
-        //                continue;
+                foreach (var node in nodesWithTypes.Cast<XmlNode>())
+                {
+                    var typeName = GetTypeRefFromNode(node);
+                    if (string.IsNullOrWhiteSpace(typeName))
+                        continue;
 
-        //            try
-        //            {
-        //                var typeInfo = TypeHelper.GetType(typeName);
-        //                //var service = ServiceLocator.ServiceProvider.GetService(typeof(IMyService))
-        //                if (typeInfo == null)
-        //                    issues[file].Add(node.OuterXml);
-        //                else if (System.Diagnostics.Debugger.IsAttached)
-        //                    Console.WriteLine("INFO: Type resolved \"{0}\"", typeInfo.AssemblyQualifiedName);
-        //            }
-        //            catch (Exception ex)
-        //            {
-        //                issues[file].Add(node.OuterXml + "\r\nERROR: " + ex.Message);
-        //            }
-        //        }
-        //    }
+                    try
+                    {
+                        var typeInfo = TypeHelper.GetType(typeName);
+                        //var service = ServiceLocator.ServiceProvider.GetService(typeof(IMyService))
+                        if (typeInfo == null)
+                            issues[file].Add(node.OuterXml);
+                        else if (System.Diagnostics.Debugger.IsAttached)
+                            Console.WriteLine("INFO: Type resolved \"{0}\"", typeInfo.AssemblyQualifiedName);
+                    }
+                    catch (Exception ex)
+                    {
+                        issues[file].Add(node.OuterXml + "\r\nERROR: " + ex.Message);
+                    }
+                }
+            }
 
-        //    if (issues.Any(x => x.Value.Any()))
-        //        Assert.Fail("Failed to find the type definitions for these types. Make sure the test project references (CopyLocal=True) all necessary Sitecore Dlls that contain all base types used.\r\n\r\n"
-        //                    + string.Join("\r\n\r\n", issues.Where(x => x.Value.Any()).Select(x => x.Key + "\r\n\r\n" + string.Join("\r\n", x.Value))));
-        //}
+            if (issues.Any(x => x.Value.Any()))
+                Assert.Fail("Failed to find the type definitions for these types. Make sure the test project references (CopyLocal=True) all necessary Sitecore Dlls that contain all base types used.\r\n\r\n"
+                            + string.Join("\r\n\r\n", issues.Where(x => x.Value.Any()).Select(x => x.Key + "\r\n\r\n" + string.Join("\r\n", x.Value))));
+        }
 
         private static string GetTypeRefFromNode(XmlNode node)
         {

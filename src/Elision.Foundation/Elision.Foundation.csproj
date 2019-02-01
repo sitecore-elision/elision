@@ -244,6 +244,10 @@
       <Project>{a8626a79-e6aa-4625-a8e1-1a0569604a7b}</Project>
       <Name>Elision.Foundation.UpdateReferences</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Elision.Foundation.WebEditState\Elision.Foundation.WebEditState.csproj">
+      <Project>{8a11eef3-1f17-4226-a685-5d1a3998c792}</Project>
+      <Name>Elision.Foundation.WebEditState</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>
