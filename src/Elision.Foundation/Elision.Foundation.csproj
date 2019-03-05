@@ -73,8 +73,8 @@
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web.Mvc, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
+    <Reference Include="System.Web.Mvc, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.6\lib\net45\System.Web.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.dll</HintPath>
@@ -113,6 +113,7 @@
     <Content Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.SiteResources.config" />
     <None Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.Search.Lucene.config.disabled" />
     <Content Include="App_Config\Include\Foundation\Elision.Foundation\Elision.Foundation.Search.Solr.config" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\128x128\elision.png" />
     <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\16x16\elision.png" />
     <None Include="sitecore\shell\Themes\Standard\Elision.Foundation\256x256\elision.png" />
