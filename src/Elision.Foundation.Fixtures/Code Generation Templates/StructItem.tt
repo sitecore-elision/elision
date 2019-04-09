@@ -15,7 +15,7 @@
 	parameter name="DefaultNamespace" type="System.String" #><#
 
 SitecoreTemplate template = Model as SitecoreTemplate;
-if (Model.Path.StartsWith("/sitecore/system/Settings/Elision/ElisionFoundation/Option Lists") && Model.TemplateName != "Folder") {
+if (Model.Path.StartsWith("/sitecore/system/Settings/Foundation/Elision/Option Lists") && Model.TemplateName != "Folder") {
 #>
 
 namespace <#= GetNamespace(DefaultNamespace, Model) #>
