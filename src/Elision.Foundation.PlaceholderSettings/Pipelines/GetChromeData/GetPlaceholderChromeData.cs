@@ -45,17 +45,17 @@ namespace Elision.Foundation.PlaceholderSettings.Pipelines.GetChromeData
                     ? placeholderRenderingsArgs.PlaceholderRenderings.Select(i => i.ID.ToShortID().ToString()).ToList()
                     : new List<string>();
 
-                //if (args.ChromeData.Custom.ContainsKey("allowedRenderings"))
-                //{
-                //    var valueList = args.ChromeData.Custom.Where(x => x.Key.Equals("allowedRenderings")).Select(x => x.Value).ToList();
-                //    valueList.Add(getRenderingList);
-                //    args.ChromeData.Custom["allowedRenderings"] = valueList;
+                if (args.ChromeData.Custom.ContainsKey("allowedRenderings"))
+                {
+                    var valueList = args.ChromeData.Custom.Where(x => x.Key.Equals("allowedRenderings")).Select(x => x.Value).ToList();
+                    valueList.Add(getRenderingList);
+                    args.ChromeData.Custom["allowedRenderings"] = valueList;
 
-                //}
-                //else
-                //{
+                }
+                else
+                {
                     args.ChromeData.Custom.Add("allowedRenderings", getRenderingList);
-                //}
+                }
                 placeholderItem = Client.Page.GetPlaceholderItem(placeholderRenderingsArgs.PlaceholderKey, args.Item.Database, layout);
                 args.ChromeData.DisplayName = placeholderItem == null ? StringUtil.GetLastPart(placeholderRenderingsArgs.PlaceholderKey, '/', placeholderRenderingsArgs.PlaceholderKey) : HttpUtility.HtmlEncode(placeholderItem.DisplayName);
                 if (placeholderItem != null && !string.IsNullOrEmpty(placeholderItem.Appearance.ShortDescription))
@@ -69,14 +69,14 @@ namespace Elision.Foundation.PlaceholderSettings.Pipelines.GetChromeData
 
             var isEditable = (placeholderItem == null || placeholderItem["Editable"] == "1") && Settings.WebEdit.PlaceholdersEditableWithoutSettings | hasPlaceholderSettings;
 
-            //if (args.ChromeData.Custom.ContainsKey("editable"))
-            //{
-            //    args.ChromeData.Custom["editable"] = isEditable.ToString().ToLowerInvariant();
-            //}
-            //else
-            //{
+            if (args.ChromeData.Custom.ContainsKey("editable"))
+            {
+                args.ChromeData.Custom["editable"] = isEditable.ToString().ToLowerInvariant();
+            }
+            else
+            {
                 args.ChromeData.Custom.Add("editable", isEditable.ToString().ToLowerInvariant());
-            //}
+            }
         }
     }
 }
