@@ -77,8 +77,16 @@ namespace Elision.Foundation.Kernel
             return linkField?.TargetItem;
         }
 
-        public static string LinkFieldUrl(this Item item, ID fieldId, bool includeServerUrl = false)
+        public static string LinkFieldUrl(this Item item, ID fieldId, UrlOptions urlOptions = null)
         {
+            if (urlOptions == null)
+            {
+                urlOptions = (UrlOptions) UrlOptions.DefaultOptions.Clone();
+                urlOptions.AlwaysIncludeServerUrl = false;
+                urlOptions.LanguageEmbedding = LanguageEmbedding.Never;
+                urlOptions.LowercaseUrls = true;
+            }
+
             var field = item?.Fields?[fieldId];
             if (field == null)
                 return string.Empty;
@@ -88,10 +96,10 @@ namespace Elision.Foundation.Kernel
             {
                 case "internal":
                     // Use LinkMananger for internal links, if link is not empty
-                    return lf.TargetItem != null ? LinkManager.GetItemUrl(lf.TargetItem, new UrlOptions{AlwaysIncludeServerUrl = includeServerUrl}) : string.Empty;
+                    return lf.TargetItem != null ? LinkManager.GetItemUrl(lf.TargetItem, urlOptions) : string.Empty;
                 case "media":
                     // Use MediaManager for media links, if link is not empty
-                    return lf.TargetItem != null ? MediaManager.GetMediaUrl(lf.TargetItem, new MediaUrlOptions{AlwaysIncludeServerUrl = includeServerUrl}) : string.Empty;
+                    return lf.TargetItem != null ? MediaManager.GetMediaUrl(lf.TargetItem, new MediaUrlOptions{AlwaysIncludeServerUrl = false}) : string.Empty;
                 case "anchor":
                     // Prefix anchor link with # if link if not empty
                     return !string.IsNullOrEmpty(lf.Anchor) ? "#" + lf.Anchor : string.Empty;
@@ -104,12 +112,12 @@ namespace Elision.Foundation.Kernel
             }
         }
 
-        public static string LinkFieldUrl(this Item item, string fieldName, bool includeServerUrl = false)
+        public static string LinkFieldUrl(this Item item, string fieldName, UrlOptions urlOptions = null)
         {
             var field = item?.Fields?[fieldName];
             return field == null
                 ? string.Empty
-                : LinkFieldUrl(item, field.ID, includeServerUrl);
+                : LinkFieldUrl(item, field.ID, urlOptions);
         }
 
         public static string LinkFieldTarget(this Item item, ID fieldId)
